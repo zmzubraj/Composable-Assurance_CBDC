@@ -1,5 +1,5 @@
 GITHUB REPOSITORY URL: https://github.com/zmzubraj/composable-assurance-cbdc
-REPOSITORY VISIBILITY: PRIVATE STAGING PENDING EXPLICIT PUBLIC-RELEASE APPROVAL
+REPOSITORY VISIBILITY: PUBLIC OWNER-AUTHORIZED RESEARCH RELEASE (30 AUGUST 2026)
 ARCHIVAL DOI: TO BE ASSIGNED BEFORE SUBMISSION
 
 Artifact title: Composable Assurance for Sovereign Digital Currency: Reproducibility Artifact
@@ -10,7 +10,7 @@ Code and repository tooling licence: MIT
 Manuscript and figure content licence: author confirmation pending; see 10_Working_Draft_v8/artifact_v8/CONTENT_LICENSE.md
 
 Deposit procedure:
-1. Review the private staging repository for publication-sensitive material.
+1. Review the public repository for publication-sensitive material before any archival deposit.
 2. Confirm the manuscript/figure content licence and public visibility.
 3. Create a versioned release matching the final submitted artifact.
 4. Archive the approved release in Zenodo, Figshare or an institutional repository.

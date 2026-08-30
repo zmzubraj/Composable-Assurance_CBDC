@@ -7,6 +7,12 @@ This repository preserves the complete research and publication package for:
 Author: **Zubaer Mahmood Zubraj**  
 ORCID: [0009-0004-3251-3385](https://orcid.org/0009-0004-3251-3385)
 
+Repository owner and public-release authority: **Zubaer Mahmood Zubraj**
+([`@zmzubraj`](https://github.com/zmzubraj)). The owner authorized this
+repository to remain publicly accessible on 30 August 2026. That decision
+authorizes public hosting; it does not imply journal submission, peer review,
+institutional endorsement, or acceptance.
+
 The repository contains the preserved v7 submission package, the journal-neutral v8 author draft, a reversible provisional JFMI adaptation, source figures, machine-readable results, a bounded local research prototype, tests, provenance records, and the schema-v4 research-case audit trail.
 
 ## Start here
@@ -31,14 +37,26 @@ These are bounded mechanical and developmental checks. They are not peer review,
 ## Repository and licensing status
 
 - Canonical GitHub location: <https://github.com/zmzubraj/composable-assurance-cbdc>
-- Initial repository visibility: **private staging**, pending an explicit public-release decision
+- Repository visibility: **public, owner-authorized research release**
+- Manuscript status: **journal-neutral author draft v8; not submitted and not peer reviewed**
+- Canonical research phase: `INTAKE`; novelty `UNRESOLVED`; solution viability
+  `ASSERTED_ONLY`; acceptance readiness `NOT_ASSESSABLE`
 - Software and repository tooling: MIT License; see [`LICENSE`](LICENSE)
 - Manuscript and original-figure content: proposed CC BY 4.0, but author confirmation remains required; see [`10_Working_Draft_v8/artifact_v8/CONTENT_LICENSE.md`](10_Working_Draft_v8/artifact_v8/CONTENT_LICENSE.md)
 - Third-party source materials retain their original terms and are not relicensed by this repository
 - Archival DOI: not yet assigned
 
+```mermaid
+flowchart LR
+    A[Public owner-authorized repository] --> B[Reproducible author draft v8]
+    B --> C{Independent novelty and scientific gates}
+    C -->|Open| D[Not submitted / not peer reviewed]
+    C -->|Future verified pass| E[Venue and accountable-author review]
+    E --> F[Possible submission]
+```
+
 ## Submission gates
 
-The final journal, affiliation, postal address, corresponding-author designation, conflict statement, AI-use wording, public visibility, content licence, DOI/archival deposit, portal preview, and final submission remain accountable-human gates. JFMI is only a provisional trial target.
+The final journal, affiliation, postal address, corresponding-author designation, conflict statement, AI-use wording, content licence, DOI/archival deposit, portal preview, and final submission remain accountable-human gates. Public visibility is resolved; JFMI is only a provisional trial target.
 
 `09_Internal_Validation_Not_Submitted/Plagiarism_Check.pdf` is an internal preflight and is not a certified iThenticate/Turnitin report. Internal validation files should not be submitted to a journal unless specifically requested and reviewed.
