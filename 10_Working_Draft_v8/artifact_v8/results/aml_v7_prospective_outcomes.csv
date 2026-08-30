@@ -1,0 +1,7 @@
+outcome_layer,registered_measure,independent_owner,cadence
+Alert quality,"precision, typology coverage, evidence sufficiency",model validation team,monthly
+Investigation,"time to disposition, escalation, repeat-alert rate",PIP investigators,quarterly
+Reporting,"SAR/STR quality, FIU feedback and timeliness",FIU and supervisors,quarterly
+Disruption,"holds, restraint, recovery and network dismantling",FIU/law enforcement,annual
+Harm and fairness,"false account restrictions, complaints and subgroup disparity",consumer protection/privacy authority,quarterly
+Governance,"drift, override, retraining and model-change approvals",model-risk committee,continuous

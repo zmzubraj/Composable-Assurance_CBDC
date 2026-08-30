@@ -1,0 +1,38 @@
+{
+  "prototype": "eleven TCP services: seven evidence-validating Byzantine quorum nodes, two durable sovereign monetary ledgers, and two PIP policy services",
+  "decision_protocol": "two-phase per-transaction quorum certificate: 5-of-7 PREPARE votes followed by 5-of-7 COMMIT votes; honest nodes persist one decision per transaction before signing",
+  "fault_model": "asynchronous message reordering and crash/restart in the prototype; certificate safety for at most two equivocating signing keys; not a complete general-purpose BFT state-machine-replication implementation",
+  "network": "single host with 5/28/48 ms region-delay emulation and 12 concurrent clients",
+  "completed_cross_border_transfers": 84,
+  "fx": "unequal currency legs, signed quote, fee, expiry, and exact amount binding",
+  "latency_ms": {
+    "p50": 393.58537499902013,
+    "p95": 404.8526767501244,
+    "p99": 404.93326693187555,
+    "mean": 382.91650991241113
+  },
+  "two_honest_nodes_unavailable_transaction_ms": 113.87820800155168,
+  "ledger_restart_ms": 0.4975830015609972,
+  "restart_delivery_succeeded": true,
+  "duplicate_finalization_idempotent": true,
+  "mismatched_quote_rejected": true,
+  "stale_compliance_rejected": true,
+  "conflicting_abort_prepare_votes_after_commit": 2,
+  "conflicting_abort_quorum_obtained": false,
+  "ledger_A_invariant": {
+    "issued": 3500000,
+    "holdings_plus_escrow": 3500000,
+    "supply_ok": true,
+    "reserve_plus_issued": 12000000,
+    "liability_composition_ok": true
+  },
+  "ledger_B_invariant": {
+    "issued": 3500000,
+    "holdings_plus_escrow": 3500000,
+    "supply_ok": true,
+    "reserve_plus_issued": 12000000,
+    "liability_composition_ok": true
+  },
+  "split_finality_observed": 0,
+  "evidence_boundary": "The prototype validates signed payment intent, unequal FX quote, both compliance authorizations and both final prepare receipts before a decision vote. It tests concurrency, two-node outage, ledger restart, duplicate delivery, stale policy, mismatched amounts and two compromised signing nodes. It is not certified-HSM, physical multi-region, independent-audit or national-scale evidence."
+}

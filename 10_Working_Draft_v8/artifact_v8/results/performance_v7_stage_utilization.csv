@@ -1,0 +1,36 @@
+scenario,stage,servers,mean_wait_ms,p99_wait_ms,utilization_est
+TIPS-reference steady,API and authentication,16,0.0,0.0,0.05625
+TIPS-reference steady,Policy and sanctions fast path,24,0.0,0.0,0.075
+TIPS-reference steady,HSM signature verification,16,0.0,0.0,0.035
+TIPS-reference steady,Monetary-state transition,24,0.0,0.0,0.051666666666666666
+TIPS-reference steady,Durable audit append,16,0.0,0.0,0.045
+FuSSE-reference steady,API and authentication,16,9.055234976000726e-07,0.0,0.28125
+FuSSE-reference steady,Policy and sanctions fast path,24,2.60684658239705e-05,0.0,0.375
+FuSSE-reference steady,HSM signature verification,16,0.0045323496184030134,0.1777396487011984,0.17500000000000002
+FuSSE-reference steady,Monetary-state transition,24,0.00014745335251807826,0.0,0.25833333333333336
+FuSSE-reference steady,Durable audit append,16,0.023424710134233577,0.5245513693939509,0.22499999999999998
+FuSSE-reference burst,API and authentication,16,5.846184739841069e-06,0.0,0.28125
+FuSSE-reference burst,Policy and sanctions fast path,24,0.0006316170320118055,0.0,0.375
+FuSSE-reference burst,HSM signature verification,16,0.012567150551531155,0.37364879655044003,0.17500000000000002
+FuSSE-reference burst,Monetary-state transition,24,0.0011700750607320073,0.02387856427140117,0.25833333333333336
+FuSSE-reference burst,Durable audit append,16,0.040143418771419956,0.6733472326363004,0.22499999999999998
+10k with one region unavailable,API and authentication,10,0.0019329400461645726,0.07270477789440122,0.45
+10k with one region unavailable,Policy and sanctions fast path,16,0.019467463815675226,0.44350292078732423,0.5625
+10k with one region unavailable,HSM signature verification,10,0.08435653822793238,0.8279451737513456,0.28
+10k with one region unavailable,Monetary-state transition,16,0.010107777533379842,0.2619233968004409,0.3875
+10k with one region unavailable,Durable audit append,10,0.15471990413463224,1.0090648474453447,0.36
+10k with HSM service doubled,API and authentication,16,5.884091310320593e-07,0.0,0.28125
+10k with HSM service doubled,Policy and sanctions fast path,24,4.8471282252749714e-05,0.0,0.375
+10k with HSM service doubled,HSM signature verification,16,0.02637124316043691,0.5518613206335843,0.35000000000000003
+10k with HSM service doubled,Monetary-state transition,24,0.0001404315427779649,0.0,0.25833333333333336
+10k with HSM service doubled,Durable audit append,16,0.02512143940616023,0.5244961278017168,0.22499999999999998
+20k qualification stress,API and authentication,16,0.0036215606115113813,0.11323686432933486,0.5625
+20k qualification stress,Policy and sanctions fast path,24,0.18030656707409926,1.5283311901992371,0.75
+20k qualification stress,HSM signature verification,16,0.12498546340894705,0.7924365919284693,0.35000000000000003
+20k qualification stress,Monetary-state transition,24,0.04703910031718326,0.48962877454363724,0.5166666666666667
+20k qualification stress,Durable audit append,16,0.2208576458219381,1.0140196754730546,0.44999999999999996
+40k overload control with region loss,API and authentication,10,2620.8419543221908,5145.1953883819315,1.8
+40k overload control with region loss,Policy and sanctions fast path,16,1610.158565526893,3220.104066178031,2.25
+40k overload control with region loss,HSM signature verification,10,0.327409603435744,1.0978576152863975,1.12
+40k overload control with region loss,Monetary-state transition,16,0.1390423424447045,0.7535904655255447,1.55
+40k overload control with region loss,Durable audit append,10,0.5040883625259803,1.4141283657253823,1.44

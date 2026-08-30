@@ -1,0 +1,39 @@
+{
+  "nodes": 7,
+  "byzantine_keys": 2,
+  "quorum": 5,
+  "honest_one_decision_lock": true,
+  "reachable_states": 2013,
+  "transition_edges": 19480,
+  "terminal_states": 0,
+  "conflicting_certificate_violations": 0,
+  "split_finality_violations": 0,
+  "commit_without_certificate_violations": 0,
+  "abort_without_certificate_violations": 0,
+  "example_commit_trace": [
+    "prepare_0_COMMIT",
+    "prepare_2_COMMIT",
+    "prepare_3_COMMIT",
+    "prepare_4_COMMIT",
+    "commitvote_0_COMMIT",
+    "commitvote_3_COMMIT",
+    "commitvote_4_COMMIT",
+    "cert_COMMIT",
+    "ledgerA_commit",
+    "ledgerB_commit"
+  ],
+  "example_abort_trace": [
+    "prepare_0_ABORT",
+    "prepare_1_ABORT",
+    "prepare_2_ABORT",
+    "prepare_3_COMMIT",
+    "prepare_4_COMMIT",
+    "commitvote_0_ABORT",
+    "commitvote_1_ABORT",
+    "commitvote_2_ABORT",
+    "cert_ABORT",
+    "ledgerA_abort",
+    "ledgerB_abort"
+  ],
+  "proof_boundary": "Exhaustive abstract model assumes at most two Byzantine signing keys, honest durable one-decision locks, signature unforgeability and correct ledger certificate verification. It does not model cryptographic side channels, key recovery, dynamic membership or denial-of-service liveness."
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-08-29",
+  "target_journal": "Journal of Financial Market Infrastructures",
+  "target_status": "PROVISIONAL_NOT_CONFIRMED",
+  "article_type": "research paper",
+  "submission_stage": "initial submission preparation",
+  "official_requirements_url": "https://www.risk.net/static/risk-journals-submission-guidelines",
+  "submission_ready": false,
+  "author_deferred_manual_entry_on_2026_08_29": [
+    "affiliation",
+    "full postal address",
+    "corresponding-author designation",
+    "conflict-of-interest statement",
+    "AI-use acknowledgement wording"
+  ],
+  "files": [
+    {
+      "role": "blinded main PDF",
+      "path": "output/jfmi_provisional/Composable_Assurance_CBDC_JFMI_Blinded_Manuscript_v8.pdf",
+      "official_requirement": "required",
+      "identity_class": "blinded",
+      "status": "READY_MECHANICALLY"
+    },
+    {
+      "role": "blinded source DOCX",
+      "path": "output/jfmi_provisional/Composable_Assurance_CBDC_JFMI_Blinded_Manuscript_v8.docx",
+      "official_requirement": "source file prepared; portal timing to confirm",
+      "identity_class": "blinded",
+      "status": "READY_MECHANICALLY"
+    },
+    {
+      "role": "separate title page",
+      "path": "output/jfmi_provisional/Composable_Assurance_CBDC_JFMI_Title_Page_TEMPLATE_v8.pdf",
+      "official_requirement": "required",
+      "identity_class": "identified",
+      "status": "PARTIAL_AUTHOR_FIELDS_OPEN"
+    },
+    {
+      "role": "figure and table legends",
+      "path": "output/jfmi_provisional/Composable_Assurance_CBDC_JFMI_Figure_Table_Legends_v8.pdf",
+      "official_requirement": "required",
+      "identity_class": "blinded",
+      "status": "READY_MECHANICALLY"
+    },
+    {
+      "role": "editable figures",
+      "path": "output/jfmi_provisional/editable_figures",
+      "official_requirement": "required as separate numbered editable vector files",
+      "identity_class": "blinded",
+      "status": "READY_16_SVG_FILES"
+    },
+    {
+      "role": "cover letter",
+      "path": "output/jfmi_provisional/Composable_Assurance_CBDC_JFMI_Cover_Letter_TEMPLATE_v8.pdf",
+      "official_requirement": "not listed as mandatory in the checked instructions",
+      "identity_class": "identified",
+      "status": "OPTIONAL_TEMPLATE_WITH_OPEN_GATES"
+    },
+    {
+      "role": "code and data supplement",
+      "path": ".",
+      "official_requirement": "optional supplementary material",
+      "identity_class": "identified metadata",
+      "status": "LOCAL_READY_PUBLIC_DEPOSIT_AND_DOI_OPEN"
+    }
+  ],
+  "open_human_gates": [
+    "final target journal",
+    "affiliation",
+    "full postal address",
+    "corresponding-author designation",
+    "conflict-of-interest statement",
+    "truthful AI-use acknowledgement approval",
+    "public repository URL",
+    "DOI or Zenodo deposit",
+    "manuscript and figure content-licence decision",
+    "final rendered portal preview",
+    "accountable-human submission approval"
+  ]
+}

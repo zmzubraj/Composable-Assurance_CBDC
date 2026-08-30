@@ -1,0 +1,6 @@
+case,pass,expected,computed
+aggregate_direct,True,[2],[2]
+indirect_chain,True,"[1, 2]","[1, 2]"
+direct_plus_indirect,True,"[1, 2]","[1, 2]"
+below_threshold,True,[],[]
+control_not_ownership,True,[],[]

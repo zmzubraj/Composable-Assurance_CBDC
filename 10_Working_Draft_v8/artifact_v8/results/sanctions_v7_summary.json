@@ -1,0 +1,18 @@
+{
+  "official_records_indexed": 19178,
+  "official_aliases_indexed": 20010,
+  "total_queries": 4920,
+  "test_queries": 1725,
+  "balanced_threshold": 0.7313416708354177,
+  "balanced_recall": 0.8738461538461538,
+  "balanced_fpr": 0.0035714285714285713,
+  "balanced_benchmark_precision": 0.9826989619377162,
+  "test_pr_auc": 0.9691360233741124,
+  "test_roc_auc": 0.9899054945054946,
+  "brier_score": 0.03973705444294576,
+  "expected_calibration_error_10bin": 0.05923009400387295,
+  "positive_candidate_recall": 0.9907692307692307,
+  "ownership_monotonicity_properties_passed": 500,
+  "ownership_properties_tested": 500,
+  "claim_boundary": "Official OFAC list snapshot and aliases with entity-disjoint positive splits, generated multilingual legitimate and near-match negatives, calibrated policy frontier and prevalence-adjusted workload. Operational certification requires real customer distributions, independent multilingual adjudication, live ownership data and institution-specific legal review."
+}

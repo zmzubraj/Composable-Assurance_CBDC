@@ -1,0 +1,13 @@
+profile,attacker,split,auc_mean,auc_min,auc_max
+relay_standardized,compromised_pip,independent_generator,0.76650234375,0.7615609375000001,0.77144375
+relay_standardized,compromised_pip,unseen_users,0.9308726562499999,0.9239687499999999,0.9377765625
+relay_standardized,network,independent_generator,0.74077578125,0.7362328125,0.74531875
+relay_standardized,network,unseen_users,0.92605625,0.917434375,0.934678125
+rotation_only,compromised_pip,independent_generator,0.949775,0.9480859375,0.9514640624999999
+rotation_only,compromised_pip,unseen_users,0.9914414062499999,0.99066875,0.9922140624999999
+rotation_only,network,independent_generator,0.94975234375,0.94879375,0.9507109375
+rotation_only,network,unseen_users,0.9915867187499998,0.9907093749999999,0.9924640624999999
+shielded_batched,compromised_pip,independent_generator,0.6545218749999999,0.6475656249999999,0.6614781249999999
+shielded_batched,compromised_pip,unseen_users,0.8468093750000001,0.8343578125,0.8592609375000001
+shielded_batched,network,independent_generator,0.60525703125,0.59503125,0.6154828124999999
+shielded_batched,network,unseen_users,0.82984140625,0.8134453125000001,0.8462375

@@ -1,0 +1,12 @@
+holding_limit_eur,inside_ecb_assessed_range,distance_from_bis_point_eur,gross_exposure_share_300m_full,passes_5pct_exposure_cap,passes_10pct_exposure_cap
+500.0,True,1250.0,0.015211512522126235,True,True
+750.0,True,1000.0,0.022817268783189352,True,True
+1000.0,True,750.0,0.03042302504425247,True,True
+1250.0,True,500.0,0.03802878130531559,True,True
+1500.0,True,250.0,0.045634537566378704,True,True
+1750.0,True,0.0,0.053240293827441824,False,True
+2000.0,True,250.0,0.06084605008850494,False,True
+2250.0,True,500.0,0.06845180634956806,False,True
+2500.0,True,750.0,0.07605756261063118,False,True
+2750.0,True,1000.0,0.08366331887169429,False,True
+3000.0,True,1250.0,0.09126907513275741,False,True

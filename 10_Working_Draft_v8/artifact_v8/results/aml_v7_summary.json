@@ -1,0 +1,13 @@
+{
+  "independent_graphs": 16,
+  "generator_families": 4,
+  "mean_pr_auc_delta": 0.057974398015910485,
+  "bootstrap_95_ci": [
+    0.020839029221426986,
+    0.09251556388173299
+  ],
+  "wilcoxon_two_sided_p": 0.013092041015625,
+  "sign_test_two_sided_p": 0.076812744140625,
+  "positive_effect_graphs": 12,
+  "claim_boundary": "Predictive synthetic benchmark evidence. FATF effectiveness requires prospective investigator, FIU, supervisory, disruption and harm outcomes on governed jurisdictional data."
+}

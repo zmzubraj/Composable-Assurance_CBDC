@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Cite the manuscript and the immutable artifact commit."
+title: "Composable Assurance for Sovereign Digital Currency: Reproducibility Artifact"
+type: software
+authors:
+  - family-names: "Zubraj"
+    given-names: "Zubaer Mahmood"
+    orcid: "https://orcid.org/0009-0004-3251-3385"
+    email: "zmzubraj@gmail.com"
+version: "8.0.0"
+date-released: "2026-08-29"
+abstract: "Protocol, privacy, differential-privacy, AML/CFT, sanctions and economic-policy and national-scale qualification experiments supporting a composable-assurance CBDC manuscript."
+license: MIT
+repository-code: "Immutable git bundle included in repository/; public repository and DOI to be assigned at deposit."

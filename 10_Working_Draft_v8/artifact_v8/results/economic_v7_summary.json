@@ -1,0 +1,12 @@
+{
+  "method": "partial identification plus constrained robust policy selection",
+  "publicly_assessed_range_eur": [
+    500,
+    3000
+  ],
+  "published_structural_point_eur": 1750,
+  "universal_optimum_identified": false,
+  "example_5pct_exposure_ceiling_300m_full_eur": 1643.4920566666667,
+  "policy_conclusion": "Public evidence determines a feasible candidate set, not a universal point. A jurisdiction selects and updates H, flow limits and remuneration using predeclared stability, utility, inclusion and distributional constraints with local microdata.",
+  "claim_boundary": "Official public anchors and transparent accounting only; no new causal demand, welfare or bank-run estimate."
+}

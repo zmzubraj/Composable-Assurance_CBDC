@@ -1,0 +1,20 @@
+{
+  "ofac_records_indexed": 19178,
+  "official_aliases_indexed": 20010,
+  "positive_entities_train_cal_test": [
+    180,
+    60,
+    60
+  ],
+  "total_queries": 4920,
+  "test_queries": 1725,
+  "threshold_selected_on_calibration": 0.7313751263902932,
+  "test_precision": 0.9826989619377162,
+  "test_recall": 0.8738461538461538,
+  "test_false_positive_rate": 0.0035714285714285713,
+  "test_pr_auc": 0.9691360233741124,
+  "test_roc_auc": 0.9899054945054946,
+  "positive_candidate_recall": 0.9907692307692307,
+  "ownership_rule_cases_passed": true,
+  "claim_boundary": "Full official OFAC legacy list snapshot indexed; entity-disjoint positive splits and multilingual generated customer/hard-negative stress queries. Operational validation still requires real customer distributions, licensed transliteration, analyst adjudication, list-governance audit, and live beneficial-ownership data."
+}

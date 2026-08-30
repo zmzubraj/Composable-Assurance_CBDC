@@ -1,0 +1,10 @@
+{
+  "model": "open-loop Markov-modulated tandem-queue digital twin with explicit service-demand and regional-delay assumptions",
+  "scenarios": 7,
+  "all_domestic_slo_pass": false,
+  "all_cross_border_slo_pass": true,
+  "worst_domestic_p99_ms": 8432.220293145741,
+  "worst_cross_border_p99_ms": 480.890001477112,
+  "national_scale_demonstrated": false,
+  "claim_boundary": "Scenario model and qualification design only. A national claim requires physical multi-region execution, certified HSMs, production persistence, real PIP workloads, sustained open-loop load, fault injection, RTO/RPO measurement and independent audit."
+}
