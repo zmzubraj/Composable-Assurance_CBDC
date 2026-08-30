@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "cutoff": "2026-08-29",
+  "seeds": [
+    {
+      "seed_id": "CEV2022",
+      "doi": "10.1109/ACCESS.2022.3183092",
+      "openalex_id": "W4285238892",
+      "captured_backward_openalex_records": 26,
+      "captured_backward_crossref_references": 48,
+      "captured_forward_openalex_records": 24
+    },
+    {
+      "seed_id": "SSRN539",
+      "doi": "10.2139/ssrn.5394110",
+      "openalex_id": "W4413502560",
+      "captured_backward_openalex_records": 0,
+      "captured_backward_crossref_references": 8,
+      "captured_forward_openalex_records": 0
+    }
+  ],
+  "normalized_deduplicated_rows": 79,
+  "decision_counts": [
+    {
+      "seed_id": "CEV2022",
+      "direction": "backward",
+      "decision": "CONTEXTUAL_REFERENCE",
+      "count": 13
+    },
+    {
+      "seed_id": "CEV2022",
+      "direction": "backward",
+      "decision": "RETAIN_CBDC_PREDECESSOR",
+      "count": 23
+    },
+    {
+      "seed_id": "CEV2022",
+      "direction": "backward",
+      "decision": "RETAIN_TECHNICAL_FOUNDATION",
+      "count": 12
+    },
+    {
+      "seed_id": "CEV2022",
+      "direction": "forward",
+      "decision": "EXCLUDE_NON_CBDC_CITATION",
+      "count": 12
+    },
+    {
+      "seed_id": "CEV2022",
+      "direction": "forward",
+      "decision": "RETAIN_CBDC_CITATION",
+      "count": 11
+    },
+    {
+      "seed_id": "SSRN539",
+      "direction": "backward",
+      "decision": "CONTEXTUAL_REFERENCE",
+      "count": 5
+    },
+    {
+      "seed_id": "SSRN539",
+      "direction": "backward",
+      "decision": "RETAIN_CBDC_PREDECESSOR",
+      "count": 3
+    }
+  ],
+  "input_manifest": [
+    {
+      "path": "citation-chains/cev-2022/crossref-work.json",
+      "bytes": 8438,
+      "sha256": "114858a27376b644f14a5841e707811f04445ab78811737034c85ff1fa8eec5e"
+    },
+    {
+      "path": "citation-chains/cev-2022/openalex-backward.json",
+      "bytes": 431305,
+      "sha256": "b14858be7f434bbc502a74dce3704029ac4cd197722956070ba2db4ed59f2a47"
+    },
+    {
+      "path": "citation-chains/cev-2022/openalex-forward.json",
+      "bytes": 380681,
+      "sha256": "7edc1e3c8b9278c4cfcc835e556d0c00a4580a5bff2a2725625c12fc8fc17780"
+    },
+    {
+      "path": "citation-chains/cev-2022/openalex-work.json",
+      "bytes": 14346,
+      "sha256": "4a1ccaf6e6efe5ccf7e80ada1994cc3ce5848613e9646a281d67f37860c055d8"
+    },
+    {
+      "path": "citation-chains/ssrn-5394110/crossref-work.json",
+      "bytes": 2479,
+      "sha256": "369fedcd64f03a0c19cd99b7af99eff587d52ebe3273c86206ac3c9afc2822d4"
+    },
+    {
+      "path": "citation-chains/ssrn-5394110/openalex-work.json",
+      "bytes": 8583,
+      "sha256": "04f8cebe5cc37b6d006776050b2b460ed16bea31fb12c1822a974598b260a5ed"
+    }
+  ],
+  "scientific_verification_performed": false,
+  "independent_challenge_performed": false,
+  "novelty_verdict": "UNRESOLVED",
+  "limitations": [
+    "OpenAlex returned 26 of 35 CEV referenced-work identifiers with public metadata.",
+    "Crossref reference entries are variably structured and do not prove full-text claim support.",
+    "OpenAlex forward links include false-positive citations and are draft-screened by title only.",
+    "SSRN 5394110 has no OpenAlex citation links and no public abstract; its eight Crossref references do not substitute for the unavailable full text."
+  ]
+}

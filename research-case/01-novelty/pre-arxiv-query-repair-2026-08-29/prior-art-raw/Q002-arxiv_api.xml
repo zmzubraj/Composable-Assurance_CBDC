@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mwoip2uIhnx49+5NJRBThoK1t/c</id>
+  <title>arXiv Query: search_query=all:cross-border OR all:CBDC OR all:atomic OR all:settlement OR all:independent OR all:ledgers OR all:compliance OR all:certificate&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-08-28T23:09:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:cross-border+OR+(all:CBDC+OR+(all:atomic+OR+(all:settlement+OR+(all:independent+OR+(all:ledgers+OR+(all:compliance+OR+all:certificate))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>287281</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.08993v1</id>
+    <title>CBCMS: A Compliance Management System for Cross-Border Data Transfer</title>
+    <updated>2024-12-12T06:48:00Z</updated>
+    <link href="https://arxiv.org/abs/2412.08993v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.08993v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cross-border data transfer is vital for the digital economy by enabling data flow across different countries or regions. However, ensuring compliance with diverse data protection regulations during the transfer introduces significant complexities. Existing solutions either focus on a single legal framework or neglect real-time and concurrent processing demands, resulting in incomplete and inconsistent compliance management. To address this issue, we propose Cross-Border Compliance Management System (CBCMS), which not only enables the unified management of data processing policies across multiple jurisdictions to ensure compliance with various legal frameworks involved in cross-border data transfer, but also supports real-time and high-concurrency processing capabilities. We design Policy Definition Language (PDL) that supports the unified management of data processing policies, bridging the gap between natural language policies and machine-processable expressions, thereby allowing various legal frameworks to be seamlessly integrated into CBCMS. We present Compliance Policy Generation Model (CPGM), the core component of CBCMS, which generates compliant data processing policies with high accuracy, achieving up to 25.16% improvement in F1 score (reaching 97.32%) compared to rule-based baseline. CPGM achieves inference time in the order of milliseconds (6 to 13 ms), and keeps low latency even under high-load scenarios, demonstrating high real-time and concurrent performance. To our knowledge, CBCMS is the first system to support unified compliance management across jurisdictions while ensuring real-time and concurrent processing capabilities.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-12T06:48:00Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zhixian Zhuang</name>
+    </author>
+    <author>
+      <name>Xiaodong Lee</name>
+    </author>
+    <author>
+      <name>Jiuqi Wei</name>
+    </author>
+    <author>
+      <name>Yufan Fu</name>
+    </author>
+    <author>
+      <name>Aiyao Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.2313v2</id>
+    <title>Accelerated Thermalisation of 39K atoms in a Magnetic Trap with Superimposed Optical Potential</title>
+    <updated>2013-08-02T05:46:41Z</updated>
+    <link href="https://arxiv.org/abs/1305.2313v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.2313v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report the rapid accelerated thermalisation of Potassium 39 K atoms loaded in a magnetic trap, in the presence of a single dipole trap beam. More than an order of magnitude reduction in the thermalisation time, to less than a second, is observed with the focused off- resonant beam occupying only 0.01% of the volume of the magnetic trap. The cold atoms are loaded from a Magneto-Optical Trap(MOT) of 39 K that has gone through a compressed MOT and sub-Doppler cooling stage. The atoms are prepared in the magnetically stretched |F = 2, mF = 2&gt; state prior to loading into the hybrid trap. We also report a direct loading of 39 K atoms, prepared in the state |F = 1&gt;, into a single beam dipole trap.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-10T11:31:28Z</published>
+    <arxiv:comment>Submitted to Journal of Physics B: Atomic, Molecular and Optical Physics</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Journal of Physics B: Atomic, Molecular and Optical Physics 46 (2013) 155303</arxiv:journal_ref>
+    <author>
+      <name>Dipankar Nath</name>
+    </author>
+    <author>
+      <name>R Kollengode Easwaran</name>
+    </author>
+    <author>
+      <name>G. Rajalakshmi</name>
+    </author>
+    <author>
+      <name>C. S. Unnikrishnan</name>
+    </author>
+    <arxiv:doi>10.1088/0953-4075/46/15/155303</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0953-4075/46/15/155303" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.00649v2</id>
+    <title>Distributed Ledger Technology, Cyber-Physical Systems, and Social Compliance</title>
+    <updated>2018-10-20T21:59:11Z</updated>
+    <link href="https://arxiv.org/abs/1807.00649v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.00649v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper describes how Distributed Ledger Technologies can be used to design a class of cyber-physical systems, as well as to enforce social contracts and to orchestrate the behaviour of agents trying to access a shared resource. The first part of the paper analyses the advantages and disadvantages of using Distributed Ledger Technologies architectures to implement certain control systems in an Internet of Things (IoT) setting, and then focuses on a specific type of DLT based on a Directed Acyclic Graph. In this setting we propose a set of delay differential equations to describe the dynamical behaviour of the Tangle, an IoT-inspired Directed Acyclic Graph designed for the cryptocurrency IOTA. The second part proposes an application of Distributed Ledger Technologies as a mechanism for dynamic deposit pricing, wherein the deposit of digital currency is used to orchestrate access to a network of shared resources. The pricing signal is used as a mechanism to enforce the desired level of compliance according to a predetermined set of rules. After presenting an illustrative example, we analyze the control system and provide sufficient conditions for the stability of the network.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-02T13:23:58Z</published>
+    <arxiv:comment>This paper has been accepted for publication on the journal IEEE Access, with the title "Distributed Ledger Technology for Smart Cities, the Sharing Economy, and Social Compliance"</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Pietro Ferraro</name>
+    </author>
+    <author>
+      <name>Christopher King</name>
+    </author>
+    <author>
+      <name>Robert Shorten</name>
+    </author>
+    <arxiv:doi>10.1109/ACCESS.2018.2876766</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ACCESS.2018.2876766" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.11553v1</id>
+    <title>Stochastic Dynamics of Ripple XRP for Cross-Border Settlement Optimization</title>
+    <updated>2025-07-13T20:00:25Z</updated>
+    <link href="https://arxiv.org/abs/2507.11553v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.11553v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The feasibility of XRP as a liquidity medium in cross-border transactions is assessed in this paper using a thorough stochastic framework. We use simulations of settlement latency, regime-switching volatility, and jump-diffusion models. The models are calibrated using historical data from public exchanges and RippleNet corridors, and they assess FX dynamics, liquidity depth, and tail risks in real-world scenarios. The behavior of XRP differs significantly from the conventional GBM assumptions, according to the results, and stochastic volatility with regime awareness provides a reliable path to corridor optimization. Our empirical validation shows that adding volatility feedback and routing adjustments significantly increases remittance success rates.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-13T20:00:25Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Kiarash Firouzi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.16193v2</id>
+    <title>Cross-border Exchange of CBDCs using Layer-2 Blockchain</title>
+    <updated>2024-01-30T21:39:18Z</updated>
+    <link href="https://arxiv.org/abs/2312.16193v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.16193v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper proposes a novel multi-layer blockchain architecture for the cross-border trading of CBDCs. The permissioned layer-2, by relying on the public consensus of the underlying network, assures the security and integrity of the transactions and ensures interoperability with domestic CBDCs implementations. Multiple Layer-3s operate various Automated Market Makers (AMMs) and compete with each other for the lowest costs. To provide insights into the practical implications of the system, simulations of trading costs are conducted based on historical FX rates, with Project Mariana as a benchmark. The study shows that, even with liquidity fragmentation, a multi-layer and multi-AMM setup is more cost-efficient than a single AMM.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-22T15:10:57Z</published>
+    <arxiv:comment>This paper was presented at the Crypto Finance Conference (CfC) Academic Track 2024 in St. Moritz, Switzerland</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Krzysztof Gogol</name>
+    </author>
+    <author>
+      <name>Johnnatan Messias</name>
+    </author>
+    <author>
+      <name>Malte Schlosser</name>
+    </author>
+    <author>
+      <name>Benjamin Kraner</name>
+    </author>
+    <author>
+      <name>Claudio Tessone</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/9902072v1</id>
+    <title>Optical dipole traps for neutral atoms</title>
+    <updated>1999-02-24T17:34:15Z</updated>
+    <link href="https://arxiv.org/abs/physics/9902072v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/9902072v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The subject of this review are atom traps based on optical dipole forces in laser fields, along with their unique features as storage devices at ultralow energies. The basic physics of the dipole interaction is discussed, and the experimental background of dipole trapping experiments is explained. Specific trapping schemes and experiments are presented, where the wide range of applications of dipole traps is explored considering particular examples.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-02-24T17:34:15Z</published>
+    <arxiv:comment>Review Article, to appear in Advances in Atomic, Molecular and Optical Physics; REVTeX, 39 pages, 21 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Advances in Atomic, Molecular and Optical Physics Vol. 42, 95-170 (2000)</arxiv:journal_ref>
+    <author>
+      <name>Rudolf Grimm</name>
+    </author>
+    <author>
+      <name>Matthias Weidemüller</name>
+    </author>
+    <author>
+      <name>Yurii B. Ovchinnikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.02241v1</id>
+    <title>Shielded dumbbell L5 settlement</title>
+    <updated>2020-04-05T16:01:14Z</updated>
+    <link href="https://arxiv.org/abs/2004.02241v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.02241v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a two-sphere dumbbell configuration of a rotating settlement at Earth-Moon L5. The two-sphere configuration is chosen to minimize the radiation shielding mass which dominates the mass budget. The settlement has max 20 mSv/year radiation conditions and 1 g artificial gravity. If made for 200 people, it weighs 89000 tonnes and provides 60 m$^2$ of floorspace per person. The radiation shield is made of asteroid rock, augmented by a water layer with 2 % of the mass for neutron moderation, and a thin boron-10 layer for capturing the thermalized neutrons. We analyze the propulsion options for moving the material from asteroids to L5. The FFC Cambridge process can be used to extract oxygen from asteroid regolith. The oxygen is then used as Electric Propulsion propellant. One can also find a water-bearing asteroid and use water for the same purpose. If one wants to avoid propellant extraction, one can use a fleet of electric sails. The settlers fund their project by producing and selling new settlements by zero-delay teleoperation in the nearby robotic factory which they own. The economic case looks promising if LEO launch costs drop below $\sim$ \$300/kg.</summary>
+    <category term="physics.pop-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-05T16:01:14Z</published>
+    <arxiv:comment>11 pages, 4 figures, 9 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.pop-ph"/>
+    <arxiv:journal_ref>NSS Space Settlement Journal, Issue 4, 2020</arxiv:journal_ref>
+    <author>
+      <name>Pekka Janhunen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.00913v1</id>
+    <title>Minimalist Compliance Control</title>
+    <updated>2026-03-01T04:25:54Z</updated>
+    <link href="https://arxiv.org/abs/2603.00913v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.00913v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Compliance control is essential for safe physical interaction, yet its adoption is limited by hardware requirements such as force torque sensors. While recent reinforcement learning approaches aim to bypass these constraints, they often suffer from sim-to-real gaps, lack safety guarantees, and add system complexity. We propose Minimalist Compliance Control, which enables compliant behavior using only motor current or voltage signals readily available in modern servos and quasi-direct-drive motors, without force sensors, current control, or learning. External wrenches are estimated from actuator signals and Jacobians and incorporated into a task-space admittance controller, preserving sufficient force measurement accuracy for stable and responsive compliance control. Our method is embodiment-agnostic and plug-and-play with diverse high-level planners. We validate our approach on a robot arm, a dexterous hand, and two humanoid robots across multiple contact-rich tasks, using vision-language models, imitation learning, and model-based planning. The results demonstrate robust, safe, and compliant interaction across embodiments and planning paradigms.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-01T04:25:54Z</published>
+    <arxiv:comment>Project website: https://minimalist-compliance-control.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Haochen Shi</name>
+    </author>
+    <author>
+      <name>Songbo Hu</name>
+    </author>
+    <author>
+      <name>Yifan Hou</name>
+    </author>
+    <author>
+      <name>Weizhuo Wang</name>
+    </author>
+    <author>
+      <name>Karen Liu</name>
+    </author>
+    <author>
+      <name>Shuran Song</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.03270v1</id>
+    <title>DLT Compliance Reporting</title>
+    <updated>2022-05-31T11:19:15Z</updated>
+    <link href="https://arxiv.org/abs/2206.03270v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.03270v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The IS discourse on the potential of distributed ledger technology (DLT) in the financial services has grown at a tremendous pace in recent years. Yet, little has been said about the related implications for the costly and highly regulated process of compliance reporting. Working with a group of representatives from industry and regulatory authorities, we employ the design science research methodology (DSR) in the design, development, and evaluation of an artefact, enabling the automated collection and enrichment of transactional data. Our findings indicate that DLT may facilitate the automation of key compliance processes through the implementation of a "pull-model", in which regulators can access compliance data in near real-time to stage aggregate exposures at the supranational level. Generalizing our preliminary results, we present four propositions on the implications of DLT in compliance. The findings contribute new practical insights on the topic of compliance to the growing IS discourse on DLT.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-31T11:19:15Z</published>
+    <arxiv:comment>Regulatory reporting, DLT, Compliance, Blockchain, Governance, 3 lines of defense, DSR, Design Science Research, EU supervisory data strategy, supervision</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Henrik Axelsen</name>
+    </author>
+    <author>
+      <name>Johannes Rude Jensen</name>
+    </author>
+    <author>
+      <name>Omri Ross</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.10620v1</id>
+    <title>Sequential compliance decisions of firms on cross-border data flows: An institutionally anchored decision support system</title>
+    <updated>2026-07-12T07:36:12Z</updated>
+    <link href="https://arxiv.org/abs/2607.10620v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.10620v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The economic value of data arises from its flow across organizations and national borders. Yet increasingly stringent data governance regimes are turning cross-border transfer into an institutionally constrained sequential decision, in which firms repeatedly weigh compliance costs against the value of data flows. From the perspective of a data-exporting firm, this paper develops an institutionally anchored decision support system. It converts regulatory rules into a computable minimal compliance mapping and models the firm's weekly decisions as a finite-horizon Markov decision process (MDP), with compliance represented as a hard constraint rather than a penalty term. The resulting problem is solved using masked deep reinforcement learning, while counterfactual path advantages provide interpretable signals to support the firm's cross-border data flow decisions. Experiments show that the policies learned within the system outperform the baselines considered and deliver interpretable, auditable decision support. Local processing concentrates in states where the business value of small lawful transfers does not cover their compliance costs, and the localization boundary shifts systematically as the regime tightens. Credential acquisition is front-loaded within the compliance year, and shallow decision trees reproduce the policy's decisions with high fidelity. Treating the persistent-friction weight as a continuous representation of regulatory strictness further reveals an absorb-then-adjust pattern, in which expected rewards decline before observable behavior changes, implying that assessments based only on behavioral indicators may understate the burden already borne by firms. Moreover, the system is not tied to any specific regulation and can be transferred to other jurisdictions and rule-based compliance problems.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-12T07:36:12Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Yuepeng Zhou</name>
+    </author>
+    <author>
+      <name>Dongchi Xing</name>
+    </author>
+    <author>
+      <name>Li Xiong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.25469v1</id>
+    <title>Balancing Compliance and Privacy in Offline CBDC Transactions Using a Secure Element-based System</title>
+    <updated>2025-09-29T20:19:31Z</updated>
+    <link href="https://arxiv.org/abs/2509.25469v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.25469v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Blockchain technology has spawned a vast ecosystem of digital currencies with Central Bank Digital Currencies (CBDCs) -- digital forms of fiat currency -- being one of them. An important feature of digital currencies is facilitating transactions without network connectivity, which can enhance the scalability of cryptocurrencies and the privacy of CBDC users. However, in the case of CBDCs, this characteristic also introduces new regulatory challenges, particularly when it comes to applying established Anti-Money Laundering and Countering the Financing of Terrorism (AML/CFT) frameworks. This paper introduces a prototype for offline digital currency payments, equally applicable to cryptocurrencies and CBDCs, that leverages Secure Elements and digital credentials to address the tension of offline payment support with regulatory compliance. Performance evaluation results suggest that the prototype can be flexibly adapted to different regulatory environments, with a transaction latency comparable to real-life commercial payment systems. Furthermore, we conceptualize how the integration of Zero-Knowledge Proofs into our design could accommodate various tiers of enhanced privacy protection.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-29T20:19:31Z</published>
+    <arxiv:comment>9 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Panagiotis Michalopoulos</name>
+    </author>
+    <author>
+      <name>Anthony Mack</name>
+    </author>
+    <author>
+      <name>Cameron Clark</name>
+    </author>
+    <author>
+      <name>Linus Chen</name>
+    </author>
+    <author>
+      <name>Johannes Sedlmeir</name>
+    </author>
+    <author>
+      <name>Andreas Veneris</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.03775v1</id>
+    <title>Tactics for Internal Compliance: A Literature Review</title>
+    <updated>2020-08-09T17:56:17Z</updated>
+    <link href="https://arxiv.org/abs/2008.03775v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.03775v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Compliance of organizations with internal and external norms is a highly relevant topic for both practitioners and academics nowadays. However, the substantive, elementary compliance tactics that organizations can use for achieving internal compliance have been described in a fragmented manner and in the literatures of distinct academic disciplines. Using a multidisciplinary structured literature review of 134 publications, this study offers three contributions. First, we present a typology of 45 compliance tactics, which constitutes a comprehensive and rich overview of elementary ways for bringing the organization into compliance. Secondly, we provide an overview of fundamental concepts in the theory of compliance, which forms the basis for the framework we developed for positioning compliance tactics and for analyzing or developing compliance strategies. Thirdly, we present insights for moving from compliance tactics to compliance strategies. In the process, and using the multidisciplinary literature review to take a bird's-eye view, we demonstrate that compliance strategies need to be regarded as a richer concept than perceived hitherto. We also show that opportunities for innovation exist.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-09T17:56:17Z</published>
+    <arxiv:comment>47 pages (excl. references), 4 figures, 4 tables. Chapter of 'Project Compliance with Enterprise Architecture' (ISBN 978-90-393-5834-4)</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Ralph Foorthuis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.16893v1</id>
+    <title>CBDC-AquaSphere: Interoperable Central Bank Digital Currency Built on Trusted Computing and Blockchain</title>
+    <updated>2023-05-26T12:54:00Z</updated>
+    <link href="https://arxiv.org/abs/2305.16893v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.16893v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The adoption of decentralized, tamper-proof ledger systems is paving the way for new applications and opportunities in different contexts. While most research aims to improve their scalability, privacy, and governance issues, interoperability has received less attention. Executing transactions across various blockchains is notably instrumental in unlocking the potential of novel applications, particularly in the financial sector, where their potential would otherwise be significantly diminished. Therefore, interoperable ledgers are crucial to ensure the expansion and further adoption of such a technology in various contexts.
+  In this paper, we present a protocol that uses a combination of trusted execution environment (TEE) and blockchains to enable interoperability over independent semi-centralized CBDC ledgers, guaranteeing the atomicity of inter-bank transfers. Our interoperability protocol uses a custom adaptation of atomic swap protocol and is executed by any pair of CBDC instances to realize a one-way transfer. It ensures features such as atomicity, verifiability, correctness, censorship resistance, and privacy while offering high scalability in terms of the number of CBDC instances. Our approach enables to possible deployment scenarios that can be combined: (1) CBDC instances represent central banks of multiple countries, and (2) CBDC instances represent the set of retail banks and a paramount central bank of a single country. We provide a detailed description of our protocol as well as an extensive analysis of its benefits, features, and security.
+  In this WIP paper, we made a proof-of-concept implementation and made a partial evaluation, while the more extensive evaluation will be made in our future work.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-26T12:54:00Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Ivan Homoliak</name>
+    </author>
+    <author>
+      <name>Martin Perešíni</name>
+    </author>
+    <author>
+      <name>Patrik Holop</name>
+    </author>
+    <author>
+      <name>Jakub Handzuš</name>
+    </author>
+    <author>
+      <name>Fran Casino</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.03396v3</id>
+    <title>Certificate Games and Consequences for the Classical Adversary Bound</title>
+    <updated>2025-03-10T20:14:40Z</updated>
+    <link href="https://arxiv.org/abs/2211.03396v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.03396v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce and study Certificate Game complexity, a measure of complexity based on the probability of winning a game where two players are given inputs with different function values and are asked to output some index $i$ such that $x_i\neq y_i$, in a zero-communication setting.
+  We study four versions of certificate games, namely private coin, public coin, shared entanglement and non-signaling games. The public-coin variant of certificate games gives a new characterization of the classical adversary bound, a lower bound on randomized query complexity which was introduced as a classical version of the quantum (non-negative) quantum adversary bound.
+  We show that complexity in the public coin model (therefore also the classical adversary) is bounded above by certificate complexity, as well as by expectational certificate complexity and sabotage complexity. On the other hand, it is bounded below by fractional and randomized certificate complexity.
+  The quantum measure reveals an interesting and surprising difference between classical and quantum query models: the quantum certificate game complexity can be quadratically larger than quantum query complexity. We use non-signaling, a notion from quantum information, to give a lower bound of $n$ on the quantum certificate game complexity of the OR function, whose quantum query complexity is $Θ(\sqrt{n})$, then go on to show that this ``non-signaling bottleneck'' applies to all functions with high sensitivity, block sensitivity, fractional block sensitivity, as well as classical adversary. This implies the collapse of all models of certificate games, except private randomness, to the classical adversary bound.
+  We consider the single-bit version of certificate games, where the inputs of the two players are restricted to having Hamming distance 1, and give a new characterization of sensitivity and spectral sensitivity.</summary>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-07T09:55:52Z</published>
+    <arxiv:comment>38 pages, 1 figure, ITCS2023 Major update to the paper previously entitled Certificate Games. Additional author: Mika Göös</arxiv:comment>
+    <arxiv:primary_category term="cs.CC"/>
+    <author>
+      <name>Sourav Chakraborty</name>
+    </author>
+    <author>
+      <name>Anna Gál</name>
+    </author>
+    <author>
+      <name>Mika Göös</name>
+    </author>
+    <author>
+      <name>Sophie Laplante</name>
+    </author>
+    <author>
+      <name>Rajat Mittal</name>
+    </author>
+    <author>
+      <name>Anupa Sunny</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.07297v1</id>
+    <title>Automating the GDPR Compliance Assessment for Cross-border Personal Data Transfers in Android Applications</title>
+    <updated>2021-03-12T14:13:26Z</updated>
+    <link href="https://arxiv.org/abs/2103.07297v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.07297v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The General Data Protection Regulation (GDPR) aims to ensure that all personal data processing activities are fair and transparent for the European Union (EU) citizens, regardless of whether these are carried out within the EU or anywhere else. To this end, it sets strict requirements to transfer personal data outside the EU. However, checking these requirements is a daunting task for supervisory authorities, particularly in the mobile app domain due to the huge number of apps available and their dynamic nature. In this paper, we propose a fully automated method to assess the compliance of mobile apps with the GDPR requirements for cross-border personal data transfers. We have applied the method to the top-free 10,080 apps from the Google Play Store. The results reveal that there is still a very significant gap between what app providers and third-party recipients do in practice and what is intended by the GDPR. A substantial 56% of analysed apps are potentially non-compliant with the GDPR cross-border transfer requirements.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-12T14:13:26Z</published>
+    <arxiv:comment>Author's copy of the submitted manuscript</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Danny S. Guamán</name>
+    </author>
+    <author>
+      <name>Xavier Ferrer</name>
+    </author>
+    <author>
+      <name>Jose M. del Alamo</name>
+    </author>
+    <author>
+      <name>Jose Such</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.20760v1</id>
+    <title>Privacy-Preserving Compliance on Public Ledgers via Selective Disclosure Authorization Schemes</title>
+    <updated>2026-06-18T09:38:13Z</updated>
+    <link href="https://arxiv.org/abs/2606.20760v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.20760v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Public distributed ledgers enforce integrity through radical transparency, creating tension with data minimization principles required for regulatory compliance. While Zero-Knowledge Proofs (ZKPs) offer a theoretical privacy solution, existing constructions often overlook adversarial constraints in smart contract environments. Specifically, the asynchronous decoupling of off-chain proof generation from on-chain submission introduces front-running and proof-reuse risks in public mempools. In this work, we formalize Selective Disclosure Authorization Schemes (SDAS), a cryptographic primitive for granular and revocable compliance checks on public ledgers without revealing the underlying witness. We define a security model for SDAS, introducing Ledger-Bound Attribute Unlinkability and Context-Aware Sender Binding to capture how valid proofs remain bound to their intended authorization context. To validate sender binding, we present ZK-Compliance, an Ethereum-based instantiation that operationalizes a user-controlled "Grant, Verify, Revoke" lifecycle. We implement the sender-binding component using a 14-constraint Circom circuit that anchors the zero-knowledge proof to the executing on-chain sender address. Our Sepolia evaluation confirms practical viability: browser-based proof generation executes in under 200 ms, and on-chain verification costs 240,512 gas, neutralizing proof reuse by different callers while preserving strict attribute privacy.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-18T09:38:13Z</published>
+    <arxiv:comment>Accepted to SECRYPT 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Supriya Khadka</name>
+    </author>
+    <author>
+      <name>Sanchari Das</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0006286v1</id>
+    <title>Theoretical Calculations of Atomic Data for Spectroscopy</title>
+    <updated>2000-06-20T21:26:56Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0006286v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0006286v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Several different approximations and techniques have been developed for the calculation of atomic structure, ionization, and excitation of atoms and ions. These techniques have been used to compute large amounts of spectroscopic data of various levels of accuracy. This paper presents a review of these theoretical methods to help non-experts in atomic physics to better understand the qualities and limitations of various data sources and assess how reliable are spectral models based on those data.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-06-20T21:26:56Z</published>
+    <arxiv:comment>workshop on "Atomic Data Needs for X-ray Astronomy". December 1999, NASA Goddard Space Flight Center http://heasarc.gsfc.nasa.gov/docs/heasarc/atomic</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>in "Atomic Data Needs for X-ray Astronomy" 2000. M.A. Bautista, T.R. Kallman, A.K. Pradhan (eds.)</arxiv:journal_ref>
+    <author>
+      <name>Manuel A. Bautista</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0512061v1</id>
+    <title>Electronic excitations in atomic clusters: beyond dipole plasmon</title>
+    <updated>2005-12-07T19:24:36Z</updated>
+    <link href="https://arxiv.org/abs/physics/0512061v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0512061v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Multipole electron modes beyond the Mie plasmon in atomic clusters are investigated within the time-dependent local density approximation theory (TDLDA). We consider the origin of the modes, their connection with basic cluster properties and possible routes of experimental observation. Particular attention is paid to infrared magnetic orbital modes, scissors and twist, and electric quadrupole mode. The scissors and twist modes determine orbital magnetism of clusters while the electric quadrupole mode provides direct access to the single electron spectra of the cluster. We examine two-photon processes (Raman scattering, stimulated emission pumping and stimulated adiabatic Raman passage) as the most promising tools for experimental investigation of the modes.</summary>
+    <category term="physics.atm-clus" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-12-07T19:24:36Z</published>
+    <arxiv:comment>37 pages, 15 figures. To be published as a chapter in the book "Atomic and Molecular clusters: New research", Nova Science Publisher (NY)</arxiv:comment>
+    <arxiv:primary_category term="physics.atm-clus"/>
+    <arxiv:journal_ref>Chapter 7 in the book "Atomic and Molecular Cluster Research", pp.277-306 (2006) Nova Science Publisher, NY, Ed. Y.L. Ping, INBN:1-59454-864-1</arxiv:journal_ref>
+    <author>
+      <name>V. O. Nesterenko</name>
+    </author>
+    <author>
+      <name>P. -G. Reinhard</name>
+    </author>
+    <author>
+      <name>W. Kleinig</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.09808v3</id>
+    <title>Natural illumination solution for rotating space settlements</title>
+    <updated>2019-08-12T09:44:44Z</updated>
+    <link href="https://arxiv.org/abs/1806.09808v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.09808v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cylindrical kilometre-scale artificial gravity space settlements were proposed by Gerard O'Neill in the 1970s. The early concept had two oppositely rotating cylinders and moving mirrors to simulate the diurnal cycle. Later, the Kalpana One concept exhibited passively stable rotation and no large moving parts. Here we propose and analyse a specific light transfer solution for Kalpana One type settlements. Our proposed solution is technically reliable because it avoids large moving parts that could be single failure points. The scheme has an array of cylindrical paraboloid concentrators in the outer wall and semi-toroidal reflectors at the equator which distribute the concentrated sunlight onto the living surface. The living cylinder is divided into a number of $\varphi$-sections (valleys) that are in different phases of the diurnal and seasonal cycles. To reduce the mass of nitrogen needed, a shallow atmosphere is used which is contained by a pressure-tight transparent roof. The only moving parts needed are local blinders installed below the roof of each valley. We also find that settlements of this class have a natural location at the equator where one can build multi-storey urban blocks. The location is optimal from the mass distribution (rotational stability) point of view. If maximally built, the amount of urban floorspace per person becomes large, up to 25,000 m$^2$, which is an order of magnitude larger than the food-producing rural biosphere area per person. Large urban floorspace area per person may increase the material standard of living much beyond Earth while increasing the total mass per person relatively little.</summary>
+    <category term="physics.pop-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-26T06:40:56Z</published>
+    <arxiv:comment>Missing *10^3 in mass density fixed in Appendix A, 13 pages, 8 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.pop-ph"/>
+    <arxiv:journal_ref>NSS Space Settlement Journal, Issue 4, September 2018</arxiv:journal_ref>
+    <author>
+      <name>Pekka Janhunen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.13767v1</id>
+    <title>Making AI Compliance Evidence Machine-Readable</title>
+    <updated>2026-04-15T11:51:54Z</updated>
+    <link href="https://arxiv.org/abs/2604.13767v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.13767v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI Assurance -- producing the machine-readable evidence required to demonstrate compliance with AI governance frameworks -- has mature policy scaffolding but lacks the infrastructure to operationalize it. Organizations building high-risk AI systems under the EU AI Act face a gap: frameworks such as the EU AI Act, ISO/IEC 42001, and NIST AI RMF specify what to assure but provide no executable format for how. This paper proposes OSCAL -- the NIST standard adopted for FedRAMP cybersecurity compliance -- as a candidate interchange format for AI governance, complementing rather than replacing the emerging JTC21 standards stack. We define 16 property extensions covering lifecycle phases, enforcement semantics, risk traceability, and risk-acceptance justification, and present a three-layer Compliance-as-Code architecture (policy, evidence, enforcement) that generates assurance evidence as a byproduct of model training. The SDK produces native OSCAL Assessment Results validated against the NIST JSON schema. We test the approach on two Annex III high-risk systems: a credit scoring model and a medical imaging segmentation system. The architecture and reference implementation are open-source under Apache 2.0.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-15T11:51:54Z</published>
+    <arxiv:comment>9 pages, 2 figures, 3 tables. Submitted to IEEE Computer, Special Issue on AI Governance and Compliance</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Rodrigo Cilla Ugarte</name>
+    </author>
+    <author>
+      <name>Miguel Ángel Patricio Guisado</name>
+    </author>
+    <author>
+      <name>Antonio Berlanga de Jesús</name>
+    </author>
+    <author>
+      <name>José Manuel Molina López</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1107.4218v1</id>
+    <title>The settlement of Madagascar: what dialects and languages can tell</title>
+    <updated>2011-07-21T10:02:31Z</updated>
+    <link href="https://arxiv.org/abs/1107.4218v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1107.4218v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The dialects of Madagascar belong to the Greater Barito East group of the Austronesian family and it is widely accepted that the Island was colonized by Indonesian sailors after a maritime trek which probably took place around 650 CE. The language most closely related to Malagasy dialects is Maanyan but also Malay is strongly related especially for what concerns navigation terms. Since the Maanyan Dayaks live along the Barito river in Kalimantan (Borneo) and they do not possess the necessary skill for long maritime navigation, probably they were brought as subordinates by Malay sailors.
+  In a recent paper we compared 23 different Malagasy dialects in order to determine the time and the landing area of the first colonization. In this research we use new data and new methods to confirm that the landing took place on the south-east coast of the Island. Furthermore, we are able to state here that it is unlikely that there were multiple settlements and, therefore, colonization consisted in a single founding event.
+  To reach our goal we find out the internal kinship relations among all the 23 Malagasy dialects and we also find out the different kinship degrees of the 23 dialects versus Malay and Maanyan. The method used is an automated version of the lexicostatistic approach. The data concerning Madagascar were collected by the author at the beginning of 2010 and consist of Swadesh lists of 200 items for 23 dialects covering all areas of the Island. The lists for Maanyan and Malay were obtained from published datasets integrated by author's interviews.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-07-21T10:02:31Z</published>
+    <arxiv:comment>We find out the area and the modalities of the settlement of Madagascar by Indonesian colonizers around 650 CE. Results are obtained comparing 23 Malagasy dialects with Malay and Maanyan languages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Maurizio Serva</name>
+    </author>
+    <arxiv:doi>10.1371/journal.pone.0030666</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1371/journal.pone.0030666" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1310.3829v2</id>
+    <title>Three interacting atoms in a one-dimensional trap: A benchmark system for computational approaches</title>
+    <updated>2014-01-31T13:34:27Z</updated>
+    <link href="https://arxiv.org/abs/1310.3829v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1310.3829v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We provide an accurate calculation of the energy spectrum of three atoms interacting through a contact force in a one-dimensional harmonic trap, considering both spinful fermions and spinless bosons. We use fermionic energies as a benchmark for exact-diagonalization technique (also known as full configuration interaction), which is found to slowly converge in the case of strong interatomic attraction.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-10-14T20:00:05Z</published>
+    <arxiv:comment>To appear in Journal of Physics B: Atomic, Molecular and Optical Physics</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Journal of Physics B: Atomic, Molecular and Optical Physics 47, 065303 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Pino D'Amico</name>
+    </author>
+    <author>
+      <name>Massimo Rontani</name>
+    </author>
+    <arxiv:doi>10.1088/0953-4075/47/6/065303</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0953-4075/47/6/065303" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0609259v1</id>
+    <title>Dual-species quantum degeneracy of potassium-40 and rubidium-87 on an atom chip</title>
+    <updated>2006-09-11T19:04:22Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0609259v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0609259v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this article we review our recent experiments with a 40K-87Rb mixture. We demonstrate rapid sympathetic cooling of a 40K-87Rb mixture to dual quantum degeneracy on an atom chip. We also provide details on efficient BEC production, species-selective magnetic confinement, and progress toward integration of an optical lattice with an atom chip. The efficiency of our evaporation allows us to reach dual degeneracy after just 6 s of evaporation - more rapidly than in conventional magnetic traps. When optimizing evaporative cooling for efficient evaporation of 87Rb alone we achieve BEC after just 4 s of evaporation and an 8 s total cycle time.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-09-11T19:04:22Z</published>
+    <arxiv:comment>8 pages, 4 figures. To be published in the Proceedings of the 20th International Conference on Atomic Physics, 2006 (Innsbruck, Austria)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Atomic Physics 20, 241-249 (2006)</arxiv:journal_ref>
+    <author>
+      <name>M. H. T. Extavour</name>
+    </author>
+    <author>
+      <name>L. J. LeBlanc</name>
+    </author>
+    <author>
+      <name>T. Schumm</name>
+    </author>
+    <author>
+      <name>B. Cieslak</name>
+    </author>
+    <author>
+      <name>S. Myrskog</name>
+    </author>
+    <author>
+      <name>A. Stummer</name>
+    </author>
+    <author>
+      <name>S. Aubin</name>
+    </author>
+    <author>
+      <name>J. H. Thywissen</name>
+    </author>
+    <arxiv:doi>10.1063/1.2400654</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.2400654" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.12718v1</id>
+    <title>Compliance Generation for Privacy Documents under GDPR: A Roadmap for Implementing Automation and Machine Learning</title>
+    <updated>2020-12-23T14:46:51Z</updated>
+    <link href="https://arxiv.org/abs/2012.12718v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.12718v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most prominent research today addresses compliance with data protection laws through consumer-centric and public-regulatory approaches. We shift this perspective with the Privatech project to focus on corporations and law firms as agents of compliance. To comply with data protection laws, data processors must implement accountability measures to assess and document compliance in relation to both privacy documents and privacy practices. In this paper, we survey, on the one hand, current research on GDPR automation, and on the other hand, the operational challenges corporations face to comply with GDPR, and that may benefit from new forms of automation. We attempt to bridge the gap. We provide a roadmap for compliance assessment and generation by identifying compliance issues, breaking them down into tasks that can be addressed through machine learning and automation, and providing notes about related developments in the Privatech project.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-23T14:46:51Z</published>
+    <arxiv:comment>14 pages, The paper was presented at GDPR Compliance Theories, Techniques, Tools a Workshop of JURIX 2019. Universidad Politécnica de Madrid, Madrid, Spain, 11 December 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>David Restrepo Amariles</name>
+    </author>
+    <author>
+      <name>Aurore Clément Troussel</name>
+    </author>
+    <author>
+      <name>Rajaa El Hamdani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.07063v1</id>
+    <title>Hardening X.509 Certificate Issuance using Distributed Ledger Technology</title>
+    <updated>2020-04-15T12:48:27Z</updated>
+    <link href="https://arxiv.org/abs/2004.07063v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.07063v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The security of cryptographic communication protocols that use X.509 certificates depends on the correctness of those certificates. This paper proposes a system that helps to ensure the correct operation of an X.509 certification authority and its registration authorities. We achieve this goal by enforcing a policy-defined, multi-party validation and authorization workflow of certificate signing requests. Besides, our system offers full accountability for this workflow for forensic purposes. As a foundation for our implementation, we leverage the distributed ledger and smart contract framework Hyperledger Fabric. Our implementation inherits the strong tamper-resistance of Fabric which strengthens the integrity of the computer processes that enforce the validation and authorization of the certificate signing request, and of the metadata collected during certificate issuance.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-15T12:48:27Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Holger Kinkelin</name>
+    </author>
+    <author>
+      <name>Richard von Seck</name>
+    </author>
+    <author>
+      <name>Christoph Rudolf</name>
+    </author>
+    <author>
+      <name>Georg Carle</name>
+    </author>
+  </entry>
+</feed>

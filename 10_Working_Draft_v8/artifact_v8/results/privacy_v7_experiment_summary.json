@@ -1,0 +1,11 @@
+{
+  "profiles": 3,
+  "attackers": 2,
+  "candidate_sizes": [
+    100,
+    1000,
+    3000
+  ],
+  "seeds": 2,
+  "claim_boundary": "Synthetic learned-attacker evidence only; governed real multi-PIP traces and independent red-team replication remain required."
+}

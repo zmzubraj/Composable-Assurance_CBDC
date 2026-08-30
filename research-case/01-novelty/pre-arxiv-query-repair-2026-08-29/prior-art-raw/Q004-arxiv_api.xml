@@ -1,0 +1,578 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nMc1LVvGszmEyg+umMG0PNHUO6w</id>
+  <title>arXiv Query: search_query=all:CBDC OR all:holding OR all:limits OR all:scalability OR all:operational OR all:resilience OR all:qualification OR all:pilot&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-08-28T23:09:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:CBDC+OR+(all:holding+OR+(all:limits+OR+(all:scalability+OR+(all:operational+OR+(all:resilience+OR+(all:qualification+OR+all:pilot))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>788886</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.08064v7</id>
+    <title>On the Operational Resilience of CBDC: Threats and Prospects of Formal Validation for Offline Payments</title>
+    <updated>2026-06-30T14:16:07Z</updated>
+    <link href="https://arxiv.org/abs/2508.08064v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.08064v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Information and communication technologies are by now employed in most human activities, including economics and finance. Modern computers have reached an extraordinary power in terms of information processing, storage, retrieval, and transmission. However, several results of theoretical computer science imply the impossibility of certifying software quality in general. With the exception of safety-critical systems, this has primarily concerned information processed by confined systems, with limited socio-economic consequences. In the emerging era of technologies for exchanging tokenized assets and digital money over the Internet, such as in particular central bank digital currency (CBDC), even a minor bug could trigger a financial collapse. Although the aforementioned impossibility results cannot be overcome in an absolute sense, there exist formal methods that can provide correctness assertions for software system models under suitable conditions. We advocate their use to validate the operational resilience of software infrastructures for CBDC by framing the offline payment problem, organizing its threat landscape, and outlining a formal methods methodology, illustrated by a minimal proof of concept, that we argue should underpin CBDC design and deployment.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-11T15:08:35Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Marco Bernardo</name>
+    </author>
+    <author>
+      <name>Federico Calandra</name>
+    </author>
+    <author>
+      <name>Andrea Esposito</name>
+    </author>
+    <author>
+      <name>Francesco Fabris</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1608.02877v2</id>
+    <title>Propagation of chaos for Hölder continuous interaction kernels via Glivenko-Cantelli</title>
+    <updated>2016-12-07T22:20:29Z</updated>
+    <link href="https://arxiv.org/abs/1608.02877v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.02877v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a new technique for establishing quantitative propagation of chaos for systems of interacting particles. Using this technique we prove propagation of chaos for diffusing particles whose interaction kernel is merely Hölder continuous, even at long ranges. Moreover, we do not require specially prepared initial data. On the way, we establish a law of large numbers for SDEs that holds over a class of vector fields simultaneously. The proofs bring together ideas from empirical process theory and stochastic flows.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-08-09T17:25:22Z</published>
+    <arxiv:comment>47 pages; corrected minimal Hölder exponent for second order case; fixed typos</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Thomas Holding</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.17371v2</id>
+    <title>A Review of Urban Resilience Frameworks: Transferring Knowledge to Enhance Pandemic Resilience</title>
+    <updated>2026-01-12T17:10:30Z</updated>
+    <link href="https://arxiv.org/abs/2503.17371v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.17371v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Urbanization is rapidly increasing, with urban populations expected to grow significantly by 2050, particularly in developing regions. This expansion brings challenges related to chronic stresses and acute shocks, such as the COVID-19 pandemic, which has underscored the critical role of urban form in a city's capacity to manage public health crises. Despite the heightened interest in urban resilience, research examining the relationship between urban morphology and pandemic resilience remains limited, often focusing solely on density and its effect on disease transmission. This work aims to address this gap by evaluating existing frameworks that analyze the relationship between urban resilience and urban form. By critically reviewing these frameworks, with a particular emphasis on theoretical and quantitative approaches, this study seeks to transfer the knowledge gained to better understand the relationship between pandemic resilience and urban morphology. The work also links theoretical ideas with quantitative frameworks, offering a cohesive analysis. The anticipated novelty of this study lies in its comprehensive assessment of urban resilience frameworks and the identification of the current gaps in integrating resilience to pandemic thinking into urban planning and design. The goal is not only to enhance the understanding of urban resilience but also to offer practical guidance for developing more adaptive and effective frameworks for assessing resilience to pandemics in urban environments, thereby preparing cities to better withstand and recover from future crises.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-11T21:59:42Z</published>
+    <arxiv:comment>Urban resilience, urban form, pandemic resilience, COVID-19, urban planning, analysis frameworks</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Yue Sun</name>
+    </author>
+    <author>
+      <name>Ryan Weightman</name>
+    </author>
+    <author>
+      <name>Anye Shi</name>
+    </author>
+    <author>
+      <name>Timur Dogan</name>
+    </author>
+    <author>
+      <name>Samitha Samaranayake</name>
+    </author>
+    <arxiv:doi>10.3934/urs.2025014</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3934/urs.2025014" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.05403v1</id>
+    <title>The trouble with pilot-wave theory: a critical evaluation</title>
+    <updated>2024-08-10T01:45:59Z</updated>
+    <link href="https://arxiv.org/abs/2408.05403v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.05403v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Objections to pilot-wave theory frequently come in three mutually-contradictory categories: that the theory is too bizarrely different from ordinary physics, that the theory is not radically different enough, and that the physics of pilot-wave theory is after all just the same as quantum physics. After a brief review of pilot-wave theory, we critically evaluate these objections. We show how the radical nature of pilot-wave theory is often misunderstood or overlooked. We highlight the novelty of its dynamics, and clarify its implications for our understanding of measurement, as well as discussing the status of Lorentz invariance, conservation laws, and the Born rule. We examine Einstein's early work on pilot-wave theory and argue that he turned away from it for reasons which are no longer compelling. We urge that the theory be understood on its own terms, as a generalised nonequilibrium theory empirically distinct from quantum mechanics, with all its potentially revolutionary implications.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-10T01:45:59Z</published>
+    <arxiv:comment>37 pages. To appear in: Guiding Waves in Quantum Mechanics: 100 Years of de Broglie-Bohm Pilot-Wave Theory, A. Oldofredi (ed.), Oxford: Oxford University Press</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Guiding Waves in Quantum Mechanics: One Hundred Years of de Broglie-Bohm Pilot-Wave Theory, ed. A. Oldofredi (Oxford University Press, Oxford, 2025), pp. 67-100</arxiv:journal_ref>
+    <author>
+      <name>Antony Valentini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.14962v2</id>
+    <title>Chaos Engineering for Enhanced Resilience of Cyber-Physical Systems</title>
+    <updated>2021-09-28T08:22:15Z</updated>
+    <link href="https://arxiv.org/abs/2106.14962v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.14962v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cyber-physical systems (CPS) incorporate the complex and large-scale engineered systems behind critical infrastructure operations, such as water distribution networks, energy delivery systems, healthcare services, manufacturing systems, and transportation networks. Industrial CPS in particular need to simultaneously satisfy requirements of available, secure, safe and reliable system operation against diverse threats, in an adaptive and sustainable way. These adverse events can be of accidental or malicious nature and may include natural disasters, hardware or software faults, cyberattacks, or even infrastructure design and implementation faults. They may drastically affect the results of CPS algorithms and mechanisms, and subsequently the operations of industrial control systems (ICS) deployed in those critical infrastructures. Such a demanding combination of properties and threats calls for resilience-enhancement methodologies and techniques, working in real-time operation. However, the analysis of CPS resilience is a difficult task as it involves evaluation of various interdependent layers with heterogeneous computing equipment, physical components, network technologies, and data analytics. In this paper, we apply the principles of chaos engineering (CE) to industrial CPS, in order to demonstrate the benefits of such practices on system resilience. The systemic uncertainty of adverse events can be tamed by applying runtime CE-based analyses to CPS in production, in order to predict environment changes and thus apply mitigation measures limiting the range and severity of the event, and minimizing its blast radius.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-28T20:02:10Z</published>
+    <arxiv:comment>2021 Resilience Week (RWS)</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Charalambos Konstantinou</name>
+    </author>
+    <author>
+      <name>George Stergiopoulos</name>
+    </author>
+    <author>
+      <name>Masood Parvania</name>
+    </author>
+    <author>
+      <name>Paulo Esteves-Verissimo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.13384v4</id>
+    <title>CBDC Stress Test in a Dual-Currency Setting</title>
+    <updated>2025-12-13T16:34:30Z</updated>
+    <link href="https://arxiv.org/abs/2511.13384v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.13384v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study explores the potential impact of introducing a Central Bank Digital Currency (CBDC) on financial stability in an emerging dual-currency economy (Romania), where the domestic currency (RON) coexists with the euro. It develops an integrated analytical framework combining econometrics, machine learning, and behavioural modelling. CBDC adoption probabilities are estimated using XGBoost and logistic regression models trained on behavioural and macro-financial indicators rather than survey data. Liquidity stress simulations assess how banks would respond to deposit withdrawals resulting from CBDC adoption, while VAR, MSVAR, and SVAR models capture the macro-financial transmission of liquidity shocks into credit contraction and changes in monetary conditions. The findings indicate that CBDC uptake (co-circulating Digital RON and Digital EUR) would be moderate at issuance, amounting to around EUR 1 billion, primarily driven by digital readiness and trust in the central bank. The study concludes that a non-remunerated, capped CBDC, designed primarily as a means of payment rather than a store of value, can be introduced without compromising financial stability. In dual currency economies, differentiated holding limits for domestic and foreign digital currencies (e.g., Digital RON versus Digital Euro) are crucial to prevent uncontrolled euroisation and preserve monetary sovereignty. A prudent design with moderate caps, non remuneration, and macroprudential coordination can transform CBDC into a digital liquidity buffer and a complementary monetary policy instrument that enhances resilience and inclusion rather than destabilising the financial system.</summary>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.OT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-17T13:55:02Z</published>
+    <arxiv:comment>724 pages, including annexes; most figures and tables included; if not, then referenced</arxiv:comment>
+    <arxiv:primary_category term="q-fin.GN"/>
+    <author>
+      <name>Catalin Dumitrescu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.03979v1</id>
+    <title>On the Selection of Loss Severity Distributions to Model Operational Risk</title>
+    <updated>2021-07-08T17:15:41Z</updated>
+    <link href="https://arxiv.org/abs/2107.03979v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.03979v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accurate modeling of operational risk is important for a bank and the finance industry as a whole to prepare for potentially catastrophic losses. One approach to modeling operational is the loss distribution approach, which requires a bank to group operational losses into risk categories and select a loss frequency and severity distribution for each category. This approach estimates the annual operational loss distribution, and a bank must set aside capital, called regulatory capital, equal to the 0.999 quantile of this estimated distribution. In practice, this approach may produce unstable regulatory capital calculations from year-to-year as selected loss severity distribution families change. This paper presents truncation probability estimates for loss severity data and a consistent quantile scoring function on annual loss data as useful severity distribution selection criteria that may lead to more stable regulatory capital. Additionally, the Sinh-arcSinh distribution is another flexible candidate family for modeling loss severities that can be easily estimated using the maximum likelihood approach. Finally, we recommend that loss frequencies below the minimum reporting threshold be collected so that loss severity data can be treated as censored data.</summary>
+    <category term="q-fin.RM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-08T17:15:41Z</published>
+    <arxiv:comment>Submitted to Journal of Operational Risk on October 19, 2018; Accepted May 2, 2019</arxiv:comment>
+    <arxiv:primary_category term="q-fin.RM"/>
+    <arxiv:journal_ref>Journal of Operational Risk, 14(3):73-94 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Daniel Hadley</name>
+    </author>
+    <author>
+      <name>Harry Joe</name>
+    </author>
+    <author>
+      <name>Natalia Nolde</name>
+    </author>
+    <arxiv:doi>10.21314/JOP.2019.229</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.21314/JOP.2019.229" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.08146v1</id>
+    <title>Mapping Disruption Sources in the Power Grid and Implications for Resilience</title>
+    <updated>2022-07-17T11:42:34Z</updated>
+    <link href="https://arxiv.org/abs/2207.08146v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.08146v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Developing models and metrics that can address resilience against disruptions is vital to ensure power grid reliability and that adequate recovery and adaptation mechanisms are in place. In this paper, we propose a novel disruption mapping approach and apply it to the publicly available U.S. Department of Energy DOE-417 Electric Emergency and Disturbance Report to holistically analyze the origin of anomalous events and their propagation through the cyber, physical and human domains. We show that capturing the disruption process onset has implications for quantifying, mitigating, and reporting power grid resilience.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-17T11:42:34Z</published>
+    <arxiv:comment>power grid, resilience, disruption, reliability</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Maureen S. Golan</name>
+    </author>
+    <author>
+      <name>Javad Mohammadi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.20219v1</id>
+    <title>Advanced Resilience Planning for Distribution Systems</title>
+    <updated>2024-09-30T11:56:33Z</updated>
+    <link href="https://arxiv.org/abs/2409.20219v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.20219v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Climate change has led to an increase in the frequency and severity of extreme weather events, posing significant challenges for power distribution systems. In response, this work presents a planning approach in order to enhance the resilience of distribution systems against climatic hazards. The framework systematically addresses uncertainties during extreme events, including weather variability and line damage. Key strategies include line hardening, backup diesel generators, and sectionalizers to strengthen resilience. We model spatio-temporal dynamics and costs through a hybrid model integrating stochastic processes with deterministic elements. A two-stage stochastic mixed-integer linear approach is developed to optimize resilience investments against load loss, generator operations, and repairs. Case studies on the IEEE 15-bus benchmark system and a realistic distribution grid model in Riyadh, Saudi Arabia demonstrate enhanced system robustness as well as cost efficiency of 10% and 15%, respectively.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-30T11:56:33Z</published>
+    <arxiv:comment>CIRED Chicago Workshop 2024: Resilience of Electric Distribution Systems</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Ahmad Bin Afzal</name>
+    </author>
+    <author>
+      <name>Nabil Mohammed</name>
+    </author>
+    <author>
+      <name>Shehab Ahmed</name>
+    </author>
+    <author>
+      <name>Charalambos Konstantinou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.13187v2</id>
+    <title>Cooperative Resilience in Artificial Intelligence Multiagent Systems</title>
+    <updated>2024-09-24T17:13:07Z</updated>
+    <link href="https://arxiv.org/abs/2409.13187v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.13187v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Resilience refers to the ability of systems to withstand, adapt to, and recover from disruptive events. While studies on resilience have attracted significant attention across various research domains, the precise definition of this concept within the field of cooperative artificial intelligence remains unclear. This paper addresses this gap by proposing a clear definition of `cooperative resilience' and outlining a methodology for its quantitative measurement. The methodology is validated in an environment with RL-based and LLM-augmented autonomous agents, subjected to environmental changes and the introduction of agents with unsustainable behaviors. These events are parameterized to create various scenarios for measuring cooperative resilience. The results highlight the crucial role of resilience metrics in analyzing how the collective system prepares for, resists, recovers from, sustains well-being, and transforms in the face of disruptions. These findings provide foundational insights into the definition, measurement, and preliminary analysis of cooperative resilience, offering significant implications for the broader field of AI. Moreover, the methodology and metrics developed here can be adapted to a wide range of AI applications, enhancing the reliability and effectiveness of AI in dynamic and unpredictable environments.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-20T03:28:48Z</published>
+    <arxiv:comment>Supplementary material in https://github.com/mavivi95/resilience/blob/main/Supplementary_File.pdf</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Manuela Chacon-Chamorro</name>
+    </author>
+    <author>
+      <name>Luis Felipe Giraldo</name>
+    </author>
+    <author>
+      <name>Nicanor Quijano</name>
+    </author>
+    <author>
+      <name>Vicente Vargas-Panesso</name>
+    </author>
+    <author>
+      <name>César González</name>
+    </author>
+    <author>
+      <name>Juan Sebastián Pinzón</name>
+    </author>
+    <author>
+      <name>Rubén Manrique</name>
+    </author>
+    <author>
+      <name>Manuel Ríos</name>
+    </author>
+    <author>
+      <name>Yesid Fonseca</name>
+    </author>
+    <author>
+      <name>Daniel Gómez-Barrera</name>
+    </author>
+    <author>
+      <name>Mónica Perdomo-Pérez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.06291v3</id>
+    <title>Resilience Analysis for Competing Populations</title>
+    <updated>2019-05-09T11:56:00Z</updated>
+    <link href="https://arxiv.org/abs/1903.06291v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.06291v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ecological resilience refers to the ability of a system to retain its state when subject to state variables perturbations or parameter changes. While understanding and quantifying resilience is crucial to anticipate the possible regime shifts, characterizing the influence of the system parameters on resilience is the first step towards controlling the system to avoid undesirable critical transitions. In this paper, we apply tools of qualitative theory of differential equations to study the resilience of competing populations as modeled by the classical Lotka-Volterra system. Within the high interspecific competition regime, such model exhibits bistability, and the boundary between the basins of attraction corresponding to exclusive survival of each population is the stable manifold of a saddle-point. Studying such manifold and its behavior in terms of the model parameters, we characterized the populations resilience: while increasing competitiveness leads to higher resilience, it is not always the case with respect to reproduction. Within a pioneering context where both populations initiate with few individuals, increasing reproduction leads to an increase in resilience; however, within an environment previously dominated by one population and then invaded by the other, an increase in resilience is obtained by decreasing the reproduction rate. Besides providing interesting insights for the dynamics of competing population, this work brings near to each other the theoretical concepts of ecological resilience and the mathematical methods of differential equations and stimulates the development and application of new mathematical tools for ecological resilience.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-14T22:50:21Z</published>
+    <arxiv:comment>Key-words: Nonlinear dynamics, invariant manifolds, basins of attraction, biological invasions, ecological resilience</arxiv:comment>
+    <arxiv:primary_category term="math.DS"/>
+    <author>
+      <name>Artur César Fassoni</name>
+    </author>
+    <author>
+      <name>Denis de Carvalho Braga</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.1977v2</id>
+    <title>Fixpoint &amp; Proof-theoretic Semantics for CLP with Qualification and Proximity</title>
+    <updated>2011-01-14T14:21:03Z</updated>
+    <link href="https://arxiv.org/abs/1009.1977v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.1977v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Uncertainty in Logic Programming has been investigated during the last decades, dealing with various extensions of the classical LP paradigm and different applications. Existing proposals rely on different approaches, such as clause annotations based on uncertain truth values, qualification values as a generalization of uncertain truth values, and unification based on proximity relations. On the other hand, the CLP scheme has established itself as a powerful extension of LP that supports efficient computation over specialized domains while keeping a clean declarative semantics. In this report we propose a new scheme SQCLP designed as an extension of CLP that supports qualification values and proximity relations. We show that several previous proposals can be viewed as particular cases of the new scheme, obtained by partial instantiation. We present a declarative semantics for SQCLP that is based on observables, providing fixpoint and proof-theoretical characterizations of least program models as well as an implementation-independent notion of goal solutions.</summary>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-10T10:42:09Z</published>
+    <arxiv:comment>47 pages, 2 figures, extended version with full proofs of A Declarative Semantics for CLP with Qualification and Proximity (arXiv:1007.3629). Theory and Practice of Logic Programming, 26th Int'l. Conference on Logic Programming (ICLP'10) Special Issue, 10(4-6):627-642, 2010. Revised definition 2.10, theorem 2.1 &amp; proposition 2.2, results unchanged</arxiv:comment>
+    <arxiv:primary_category term="cs.LO"/>
+    <author>
+      <name>Mario Rodríguez-Artalejo</name>
+    </author>
+    <author>
+      <name>Carlos A. Romero-Díaz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.08508v1</id>
+    <title>Economics of Resilient Cloud Services</title>
+    <updated>2016-07-28T15:47:43Z</updated>
+    <link href="https://arxiv.org/abs/1607.08508v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.08508v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Computer systems today must meet and maintain service availability, performance, and security requirements. Each of these demands requires redundancy and some form of isolation. When service requirements are implemented separately, the system architecture cannot easily share common components of redundancy and isolation. We will present these service traits collectively as cyber resilience with a system called Self Cleansing Intrusion Tolerance or SCIT. Further, we will demonstrate that SCIT provides an effective resilient cloud implementation making cost effective utilization of cloud excess capacity and economies of scale. Lastly, we will introduce the notion of serverless applications utilizing AWS Lambda and how a stateless architecture can drastically reduce operational costs by utilizing cloud function services.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-28T15:47:43Z</published>
+    <arxiv:comment>To appear in 1st IEEE International Workshop on Cyber Resilience Economics, August 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Brandon Wagner</name>
+    </author>
+    <author>
+      <name>Arun Sood</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.21587v1</id>
+    <title>Resilient Radio Access Networks: AI and the Unknown Unknowns</title>
+    <updated>2025-10-24T15:54:14Z</updated>
+    <link href="https://arxiv.org/abs/2510.21587v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.21587v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>5G networks offer exceptional reliability and availability, ensuring consistent performance and user satisfaction. Yet they might still fail when confronted with the unexpected. A resilient system is able to adapt to real-world complexity, including operating conditions completely unanticipated during system design. This makes resilience a vital attribute for communication systems that must sustain service in scenarios where models are absent or too intricate to provide statistical guarantees. Such considerations indicate that artifical intelligence (AI) will play a major role in delivering resilience. In this paper, we examine the challenges of designing AIs for resilient radio access networks, especially with respect to unanticipated and rare disruptions. Our theoretical results indicate strong limitations of current statistical learning methods for resilience and suggest connections to online learning and causal inference.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-24T15:54:14Z</published>
+    <arxiv:comment>Accepted for presentation at 2025 IEEE Globecom Workshop on Resilience in Next-Generation Wireless Communication Networks</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Bho Matthiesen</name>
+    </author>
+    <author>
+      <name>Armin Dekorsy</name>
+    </author>
+    <author>
+      <name>Petar Popovski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1404.0103v1</id>
+    <title>Comparative Resilience Notions and Vertex Attack Tolerance of Scale-Free Networks</title>
+    <updated>2014-04-01T01:55:33Z</updated>
+    <link href="https://arxiv.org/abs/1404.0103v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1404.0103v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We are concerned with an appropriate mathematical measure of resilience in the face of targeted node attacks for arbitrary degree networks, and subsequently comparing the resilience of different scale-free network models with the proposed measure. We strongly motivate our resilience measure termed \emph{vertex attack tolerance} (VAT), which is denoted mathematically as $τ(G) = \min_{S \subset V} \frac{|S|}{|V-S-C_{max}(V-S)|+1}$, where $C_{max}(V-S)$ is the largest connected component in $V-S$. We attempt a thorough comparison of VAT with several existing resilience notions: conductance, vertex expansion, integrity, toughness, tenacity and scattering number. Our comparisons indicate that for artbitrary degree distributions VAT is the only measure that fully captures both the major \emph{bottlenecks} of a network and the resulting \emph{component size distribution} upon targeted node attacks (both captured in a manner proportional to the size of the attack set). For the case of $d$-regular graphs, we prove that $τ(G) \le dΦ(G)$, where $Φ(G)$ is the conductance of the graph $G$. Conductance and expansion are well-studied measures of robustness and bottlenecks in the case of regular graphs but fail to capture resilience in the case of highly heterogeneous degree graphs. Regarding comparison of different scale-free graph models, our experimental results indicate that PLOD graphs with degree distributions identical to BA graphs of the same size exhibit consistently better vertex attack tolerance than the BA type graphs, although both graph types appear asymptotically resilient for BA generative parameter $m = 2$. BA graphs with $m = 1$ also appear to lack resilience, not only exhibiting very low VAT values, but also great transparency in the identification of the vulnerable node sets, namely the hubs, consistent with well known previous work.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-04-01T01:55:33Z</published>
+    <arxiv:comment>keywords: scale-free, conductance, resilience, vertex attack tolerance</arxiv:comment>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>John Matta</name>
+    </author>
+    <author>
+      <name>Jeffrey Borwey</name>
+    </author>
+    <author>
+      <name>Gunes Ercal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.10298v1</id>
+    <title>Enhancing Resilience of Power Systems against Typhoon Threats: A Hybrid Data-Model Driven Approach</title>
+    <updated>2024-06-13T14:18:45Z</updated>
+    <link href="https://arxiv.org/abs/2406.10298v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.10298v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This chapter addresses the increasing vulnerability of coastal regions to typhoons and the consequent power outages, emphasizing the critical role of power transmission systems in disaster resilience. It introduces a framework for assessing and enhancing the resilience of these systems against typhoon impacts. The approach integrates a hybrid-driven model for system failure analysis and resilience assessment, employing both data-driven and model-driven techniques. It includes a unique method to identify system vulnerabilities and optimal strategies for resilience enhancement, considering cost-effectiveness. The efficacy of this method is demonstrated through simulations on the IEEE RTS-79 system under realistic typhoon scenarios, showcasing its potential to guide planners in making informed decisions for disaster resilience.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-13T14:18:45Z</published>
+    <arxiv:comment>Accepted in 'Design for Reliability and Resilience of Power Systems,' Elsevier</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <arxiv:journal_ref>Artificial Intelligence for Reliability and Maintainability of Energy Systems 2025 (ISBN: 978-0-443-24722-4)</arxiv:journal_ref>
+    <author>
+      <name>Yang Li</name>
+    </author>
+    <arxiv:doi>10.1016/B978-0-443-24722-4.00001-X</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/B978-0-443-24722-4.00001-X" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.07117v3</id>
+    <title>PILOT: A Pre-Trained Model-Based Continual Learning Toolbox</title>
+    <updated>2025-03-08T08:26:47Z</updated>
+    <link href="https://arxiv.org/abs/2309.07117v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.07117v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While traditional machine learning can effectively tackle a wide range of problems, it primarily operates within a closed-world setting, which presents limitations when dealing with streaming data. As a solution, incremental learning emerges to address real-world scenarios involving new data's arrival. Recently, pre-training has made significant advancements and garnered the attention of numerous researchers. The strong performance of these pre-trained models (PTMs) presents a promising avenue for developing continual learning algorithms that can effectively adapt to real-world scenarios. Consequently, exploring the utilization of PTMs in incremental learning has become essential. This paper introduces a pre-trained model-based continual learning toolbox known as PILOT. On the one hand, PILOT implements some state-of-the-art class-incremental learning algorithms based on pre-trained models, such as L2P, DualPrompt, and CODA-Prompt. On the other hand, PILOT also fits typical class-incremental learning algorithms (e.g., DER, FOSTER, and MEMO) within the context of pre-trained models to evaluate their effectiveness.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-13T17:55:11Z</published>
+    <arxiv:comment>Accepted to SCIENCE CHINA Information Sciences. Code is available at https://github.com/sun-hailong/LAMDA-PILOT</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hai-Long Sun</name>
+    </author>
+    <author>
+      <name>Da-Wei Zhou</name>
+    </author>
+    <author>
+      <name>De-Chuan Zhan</name>
+    </author>
+    <author>
+      <name>Han-Jia Ye</name>
+    </author>
+    <arxiv:doi>10.1007/s11432-024-4276-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11432-024-4276-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.07731v1</id>
+    <title>Measuring network resilience through connection patterns</title>
+    <updated>2018-08-23T12:58:04Z</updated>
+    <link href="https://arxiv.org/abs/1808.07731v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.07731v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Networks are at the core of modeling many engineering contexts, mainly in the case of infrastructures and communication systems. The resilience of a network, which is the property of the system capable of absorbing external shocks, is then of paramount relevance in the applications. This paper deals with this topic by advancing a theoretical proposal for measuring the resilience of a network. The proposal is based on the study of the shocks propagation along the patterns of connections among nodes. The theoretical model is tested on the real-world instances of two important airport systems in the US air traffic network; Illinois (including the hub of Chicago) and New York states (with JFK airport).</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-23T12:58:04Z</published>
+    <arxiv:comment>Keywords: networks; resilience; paths; weighted arcs; air traffic systems</arxiv:comment>
+    <arxiv:primary_category term="cs.SI"/>
+    <arxiv:journal_ref>Reliability Engineering and System Safety, 2019</arxiv:journal_ref>
+    <author>
+      <name>Roy Cerqueti</name>
+    </author>
+    <author>
+      <name>Giovanna Ferraro</name>
+    </author>
+    <author>
+      <name>Antonio Iovanella</name>
+    </author>
+    <arxiv:doi>10.1016/j.ress.2019.03.030</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ress.2019.03.030" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.02852v1</id>
+    <title>Fundamental Concepts of Cyber Resilience: Introduction and Overview</title>
+    <updated>2018-06-07T18:21:07Z</updated>
+    <link href="https://arxiv.org/abs/1806.02852v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.02852v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given the rapid evolution of threats to cyber systems, new management approaches are needed that address risk across all interdependent domains (i.e., physical, information, cognitive, and social) of cyber systems. Further, the traditional approach of hardening of cyber systems against identified threats has proven to be impossible. Therefore, in the same way that biological systems develop immunity as a way to respond to infections and other attacks, so too must cyber systems adapt to ever-changing threats that continue to attack vital system functions, and to bounce back from the effects of the attacks. Here, we explain the basic concepts of resilience in the context of systems, discuss related properties, and make business case of cyber resilience. We also offer a brief summary of ways to assess cyber resilience of a system, and approaches to improving cyber resilience.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-07T18:21:07Z</published>
+    <arxiv:comment>This is a preprint version of a chapter that appears in the book "Cyber Resilience of Systems and Networks," Springer 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Igor Linkov</name>
+    </author>
+    <author>
+      <name>Alexander Kott</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.08335v1</id>
+    <title>Enhancing Cyber-Resilience in Self-Healing Cyber-Physical Systems with Implicit Guarantees</title>
+    <updated>2023-05-15T04:02:03Z</updated>
+    <link href="https://arxiv.org/abs/2305.08335v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.08335v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-Healing Cyber-Physical Systems (SH-CPS) effectively recover from system perceived failures without human intervention. They ensure a level of resilience and tolerance to unforeseen situations that arise from intrinsic system and component degradation, errors, or malicious attacks. Implicit redundancy can be exploited in SH-CPS to structurally adapt without the need to explicitly duplicate components. However, implicitly redundant components do not guarantee the same level of dependability as the primary component used to provide for a given function. Additional processes are needed to restore critical system functionalities as desired. This work introduces implicit guarantees to ensure the dependability of implicitly redundant components and processes. Implicit guarantees can be obtained through inheritance and decomposition. Therefore, a level of dependability can be guaranteed in SH-CPS after adaptation and recovery while complying with requirements. We demonstrate compliance with the requirement guarantees while ensuring resilience in SH-CPS.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-15T04:02:03Z</published>
+    <arxiv:comment>IEEE Cyber Security and Resilience Conference 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Randolph Loh</name>
+    </author>
+    <author>
+      <name>Vrizlynn L. L. Thing</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.03789v2</id>
+    <title>Self-exciting price impact via negative resilience in stochastic order books</title>
+    <updated>2022-07-22T16:31:01Z</updated>
+    <link href="https://arxiv.org/abs/2112.03789v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.03789v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most of the existing literature on optimal trade execution in limit order book models assumes that resilience is positive. But negative resilience also has a natural interpretation, as it models self-exciting behaviour of the price impact, where trading activities of the large investor stimulate other market participants to trade in the same direction. In the paper we discuss several new qualitative effects on optimal trade execution that arise when we allow resilience to take negative values. We do this in a framework where both market depth and resilience are stochastic processes.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-07T16:04:13Z</published>
+    <arxiv:comment>27 pages; title of first version: On effects of negative resilience on optimal trade execution in stochastic order books</arxiv:comment>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Julia Ackermann</name>
+    </author>
+    <author>
+      <name>Thomas Kruse</name>
+    </author>
+    <author>
+      <name>Mikhail Urusov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.14231v1</id>
+    <title>The Vaccine Supply Chain: A Call for Resilience Analytics to Support COVID-19 Vaccine Production and Distribution</title>
+    <updated>2020-11-28T23:22:01Z</updated>
+    <link href="https://arxiv.org/abs/2011.14231v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.14231v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The COVID19 pandemic has highlighted the lack of resilience in supply chains, as global networks fail from disruptions at single nodes and connections. Through an overview of the existing vaccine and pharmaceutical supply chain publications focusing on resilience, as well as recent papers reporting modeling of resilience in supply chains across multiple fields, we find that models for supply chain resilience are few and most of them are focused on individual dimensions of resilience rather than on comprehensive strategy necessary for scaling up vaccine production and distribution in emergency settings. We find that COVID19 resulted in a wave of interest to supply chain resilience, but publications from 2020 are narrow in focus and largely qualitative in nature; evidence-based models and measures are rare. Further, publications often focus exclusively on specific portions of the specific supply chain of interest, excluding associated supporting networks, such as transportation, social and command and control (C2) necessary for vaccine production and equitable distribution. This lack of network analysis is a major gap in the literature that needs to be bridged in order to create methods of real-time analysis and decision tools for the COVID19 vaccine supply chain. We conclude that a comprehensive, quantitative approach to network resilience that encompasses the supply chain in the context of other social and physical networks is needed in order to address the emerging challenges of a large-scale COVID-19 vaccination program. We further find that the COVID-19 pandemic underscores the necessity of positioning supply chain resilience within a multi-network context and formally incorporating temporal dimensions into analysis through the NAS definition of resilience, plan, absorb, recover, adapt, to ensure essential needs are met across all dimensions of society.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-28T23:22:01Z</published>
+    <arxiv:comment>in Trump, B., Keenan, J., Linkov, I. "COVID-19: ystemic Risk and Resilience" Springer (in press)</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Maureen S. Golan</name>
+    </author>
+    <author>
+      <name>Benjamin D. Trump</name>
+    </author>
+    <author>
+      <name>Jeffrey C. Cegan</name>
+    </author>
+    <author>
+      <name>Igor Linkov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.03046v1</id>
+    <title>Uniqueness and stability for the Vlasov-Poisson system with spatial density in Orlicz spaces</title>
+    <updated>2017-03-08T21:49:39Z</updated>
+    <link href="https://arxiv.org/abs/1703.03046v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.03046v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we establish uniqueness of the solution of the Vlasov-Poisson system with spatial density belonging to a certain class of Orlicz spaces. This extends the uniqueness result of Loeper (which holds for uniformly bounded density) and the uniqueness result of the second author. Uniqueness is a direct consequence of our main result, which provides a quantitative stability estimate for the Wasserstein distance between two weak solutions with spatial density in such Orlicz spaces, in the spirit of Dobrushin's proof of stability for mean-field PDEs. Our proofs are built on the second-order structure of the underlying characteristic system associated to the equation.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-08T21:49:39Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Thomas Holding</name>
+    </author>
+    <author>
+      <name>Evelyne Miot</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.16893v1</id>
+    <title>CBDC-AquaSphere: Interoperable Central Bank Digital Currency Built on Trusted Computing and Blockchain</title>
+    <updated>2023-05-26T12:54:00Z</updated>
+    <link href="https://arxiv.org/abs/2305.16893v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.16893v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The adoption of decentralized, tamper-proof ledger systems is paving the way for new applications and opportunities in different contexts. While most research aims to improve their scalability, privacy, and governance issues, interoperability has received less attention. Executing transactions across various blockchains is notably instrumental in unlocking the potential of novel applications, particularly in the financial sector, where their potential would otherwise be significantly diminished. Therefore, interoperable ledgers are crucial to ensure the expansion and further adoption of such a technology in various contexts.
+  In this paper, we present a protocol that uses a combination of trusted execution environment (TEE) and blockchains to enable interoperability over independent semi-centralized CBDC ledgers, guaranteeing the atomicity of inter-bank transfers. Our interoperability protocol uses a custom adaptation of atomic swap protocol and is executed by any pair of CBDC instances to realize a one-way transfer. It ensures features such as atomicity, verifiability, correctness, censorship resistance, and privacy while offering high scalability in terms of the number of CBDC instances. Our approach enables to possible deployment scenarios that can be combined: (1) CBDC instances represent central banks of multiple countries, and (2) CBDC instances represent the set of retail banks and a paramount central bank of a single country. We provide a detailed description of our protocol as well as an extensive analysis of its benefits, features, and security.
+  In this WIP paper, we made a proof-of-concept implementation and made a partial evaluation, while the more extensive evaluation will be made in our future work.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-26T12:54:00Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Ivan Homoliak</name>
+    </author>
+    <author>
+      <name>Martin Perešíni</name>
+    </author>
+    <author>
+      <name>Patrik Holop</name>
+    </author>
+    <author>
+      <name>Jakub Handzuš</name>
+    </author>
+    <author>
+      <name>Fran Casino</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.10964v1</id>
+    <title>Graph Signal Processing for Infrastructure Resilience: Suitability and Future Directions</title>
+    <updated>2020-07-21T17:31:18Z</updated>
+    <link href="https://arxiv.org/abs/2007.10964v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.10964v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph signal processing (GSP) is an emerging field developed for analyzing signals defined on irregular spatial structures modeled as graphs. Given the considerable literature regarding the resilience of infrastructure networks using graph theory, it is not surprising that a number of applications of GSP can be found in the resilience domain. GSP techniques assume that the choice of graphical Fourier transform (GFT) imparts a particular spectral structure on the signal of interest. We assess a number of power distribution systems with respect to metrics of signal structure and identify several correlates to system properties and further demonstrate how these metrics relate to performance of some GSP techniques. We also discuss the feasibility of a data-driven approach that improves these metrics and apply it to a water distribution scenario. Overall, we find that many of the candidate systems analyzed are properly structured in the chosen GFT basis and amenable to GSP techniques, but identify considerable variability and nuance that merits future investigation.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-21T17:31:18Z</published>
+    <arxiv:comment>7 pages, 6 figures. Submitted to Resilience Week 2020</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Kevin Schultz</name>
+    </author>
+    <author>
+      <name>Marisel Villafane-Delgado</name>
+    </author>
+    <author>
+      <name>Elizabeth P. Reilly</name>
+    </author>
+    <author>
+      <name>Grace M. Hwang</name>
+    </author>
+    <author>
+      <name>Anshu Saksena</name>
+    </author>
+  </entry>
+</feed>

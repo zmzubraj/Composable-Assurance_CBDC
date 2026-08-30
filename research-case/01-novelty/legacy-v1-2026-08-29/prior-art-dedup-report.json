@@ -1,0 +1,5062 @@
+{
+  "schema_version": 1,
+  "input_records": 256,
+  "unique_records": 229,
+  "duplicate_records": 25,
+  "duplicates": [
+    {
+      "key": "doi:10.48550/arxiv.2109.12194",
+      "kept_source": "OpenAlex",
+      "duplicate_source": "OpenAlex",
+      "title": "Universal Payment Channels: An Interoperability Platform for Digital Currencies"
+    },
+    {
+      "key": "doi:10.3386/w27634",
+      "kept_source": "OpenAlex",
+      "duplicate_source": "OpenAlex",
+      "title": "Design Choices for Central Bank Digital Currency: Policy and Technical Considerations"
+    },
+    {
+      "key": "doi:10.1109/tnsm.2025.3575367",
+      "kept_source": "OpenAlex",
+      "duplicate_source": "OpenAlex",
+      "title": "Privacy and Compliance Design Options in Offline Central Bank Digital Currencies"
+    },
+    {
+      "key": "doi:10.3389/fbloc.2019.00028",
+      "kept_source": "OpenAlex",
+      "duplicate_source": "OpenAlex",
+      "title": "Self-Sovereign Identity in a Globalized World: Credentials-Based Identity Systems as a Driver for Economic Inclusion"
+    },
+    {
+      "key": "doi:10.2139/ssrn.4394190",
+      "kept_source": "Crossref",
+      "duplicate_source": "Crossref",
+      "title": "Money Laundering and the Privacy Design of Central Bank Digital Currency"
+    },
+    {
+      "key": "doi:10.2139/ssrn.4792946",
+      "kept_source": "Crossref",
+      "duplicate_source": "Crossref",
+      "title": "Central Bank Digital Currency, Privacy, and Welfare"
+    },
+    {
+      "key": "doi:10.5220/0012308600003648",
+      "kept_source": "Crossref",
+      "duplicate_source": "Crossref",
+      "title": "KAIME: Central Bank Digital Currency with Realistic and Modular Privacy"
+    },
+    {
+      "key": "doi:10.2139/ssrn.3787088",
+      "kept_source": "Crossref",
+      "duplicate_source": "Crossref",
+      "title": "Central Bank Digital Currency with Asymmetric Privacy"
+    },
+    {
+      "key": "doi:10.2139/ssrn.5016148",
+      "kept_source": "Crossref",
+      "duplicate_source": "Crossref",
+      "title": "Information, Consumer Privacy, and Central Bank Digital Currency"
+    },
+    {
+      "key": "doi:10.38105/spr.j0hildxtyi",
+      "kept_source": "Crossref",
+      "duplicate_source": "Crossref",
+      "title": "AML by design: Designing a central bank digital currency to stifle money laundering"
+    },
+    {
+      "key": "doi:10.2139/ssrn.3965050",
+      "kept_source": "Crossref",
+      "duplicate_source": "Crossref",
+      "title": "How to issue a privacy-preserving central bank digital currency"
+    },
+    {
+      "key": "doi:10.2139/ssrn.5566398",
+      "kept_source": "Crossref",
+      "duplicate_source": "Crossref",
+      "title": "Optimal Privacy Protection in Central Bank Digital Currency"
+    },
+    {
+      "key": "doi:10.1007/978-3-031-80957-6_9",
+      "kept_source": "Crossref",
+      "duplicate_source": "Crossref",
+      "title": "Anti-Money Laundering (AML) Implications of Central Bank Digital Currencies (CBDC)"
+    },
+    {
+      "key": "doi:10.1596/36765",
+      "kept_source": "Crossref",
+      "duplicate_source": "Crossref",
+      "title": "Central Bank Digital Currency"
+    },
+    {
+      "key": "doi:10.1596/36766",
+      "kept_source": "Crossref",
+      "duplicate_source": "Crossref",
+      "title": "Central Bank Digital Currency"
+    },
+    {
+      "key": "doi:10.1007/978-3-031-44738-9_8",
+      "kept_source": "Crossref",
+      "duplicate_source": "Crossref",
+      "title": "Economic Implications of Central Bank Digital Currency"
+    },
+    {
+      "key": "doi:10.1007/978-3-031-44738-9_1",
+      "kept_source": "Crossref",
+      "duplicate_source": "Crossref",
+      "title": "Terminology and Motives for Central Bank Digital Currency"
+    },
+    {
+      "key": "doi:10.1787/82237955-en",
+      "kept_source": "OpenAlex",
+      "duplicate_source": "OpenAlex",
+      "title": "Financial markets, insurance and pensions 2020"
+    },
+    {
+      "key": "doi:10.47473/2020rmm0136",
+      "kept_source": "OpenAlex",
+      "duplicate_source": "OpenAlex",
+      "title": "A method for classifying blockchains and crypto-assets using 'switching circuits\u2019"
+    },
+    {
+      "key": "doi:10.1016/j.clsr.2023.105831",
+      "kept_source": "OpenAlex",
+      "duplicate_source": "OpenAlex",
+      "title": "The role of private and public regulation in the case study of crypto-assets: The Italian move towards participatory regulation"
+    },
+    {
+      "key": "doi:10.1787/c033401a-en",
+      "kept_source": "OpenAlex",
+      "duplicate_source": "OpenAlex",
+      "title": "Understanding the tokenisation of assets in financial markets"
+    },
+    {
+      "key": "doi:10.2139/ssrn.5394110",
+      "kept_source": "Crossref",
+      "duplicate_source": "Crossref",
+      "title": "CBDC Cross-Border Settlement Prototype: Programmable Compliance for Cross-Border CBDC Settlement Using ISO 20022 and FATF Travel Rule Automation"
+    },
+    {
+      "key": "doi:10.2139/ssrn.4721913",
+      "kept_source": "Crossref",
+      "duplicate_source": "Crossref",
+      "title": "CBDC and the Operational Framework of Monetary Policy"
+    },
+    {
+      "key": "doi:10.2139/ssrn.6867444",
+      "kept_source": "Crossref",
+      "duplicate_source": "Crossref",
+      "title": "CBDC Pilot and Banks' Non-Performing Loans: Evidence from China"
+    },
+    {
+      "key": "doi:10.58532/nbennurampo7",
+      "kept_source": "Crossref",
+      "duplicate_source": "Crossref",
+      "title": "CROSS-BORDER CBDC &amp; INTEROPERABILITY: CROSS-BORDER PAYMENTS &amp; MULTIPLE CBDC SYSTEMS (MCBDC)"
+    }
+  ],
+  "normalized_records": [
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.6816418",
+      "doi": "10.2139/ssrn.6816418",
+      "title": "A Machine Learning Framework for Human Capital-Based Mortgage Qualification: Evidence from U.S. Immigrant Borrower Cohorts",
+      "year": 2026,
+      "authors": [
+        "Amir Hasan Khan"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.6816418",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W7128681996",
+      "doi": "10.70470/shifra/2026/001",
+      "title": "A Survey on Securing Smart Finance using Artificial Intelligence and Blockchain",
+      "year": 2026,
+      "authors": [
+        "Guma Ali",
+        "Otim Emmanuel",
+        "Maad M. Mijwil",
+        "Bosco Apparatus Buruga",
+        "Aida Vafae Eslahi",
+        "Ioannis Adamopoulos"
+      ],
+      "container": "Shifra.",
+      "type": "article",
+      "url": "https://doi.org/10.70470/shifra/2026/001",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W7160705139",
+      "doi": "10.51583/ijltemas.2026.150400076",
+      "title": "Architecting Trust: An Analytical Overview of Blockchain Fundamentals and Real-World Applications",
+      "year": 2026,
+      "authors": [
+        "Jeewesh Kumar Jha",
+        "Gurjeet Singh",
+        "Sudhir Pathak"
+      ],
+      "container": "International Journal of Latest Technology in Engineering Management & Applied Science",
+      "type": "article",
+      "url": "https://doi.org/10.51583/ijltemas.2026.150400076",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.6462678",
+      "doi": "10.2139/ssrn.6462678",
+      "title": "Asymmetric Resilience and the Transition to Multipolar Security Architecture: Focus on CBDC Interoperability for BRICS 2026",
+      "year": 2026,
+      "authors": [
+        "Mir Aamir"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.6462678",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.3390/blockchains4030012",
+      "doi": "10.3390/blockchains4030012",
+      "title": "Blockchain-Enabled Central Bank Digital Currency: Technological Architecture, Privacy, and Institutional Design",
+      "year": 2026,
+      "authors": [
+        "Hu Bitai",
+        "Valery Khvatov",
+        "Egor Savkov",
+        "Aleksandr V. Bogdanov"
+      ],
+      "container": "Blockchains",
+      "type": "journal-article",
+      "url": "https://doi.org/10.3390/blockchains4030012",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.7117550",
+      "doi": "10.2139/ssrn.7117550",
+      "title": "Bounding a Digital Run: Realized Stablecoin Runs and CBDC Holding Limits for the Digital Euro",
+      "year": 2026,
+      "authors": [
+        "Seungju Lee",
+        "Jaewook Lee"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.7117550",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.6882704",
+      "doi": "10.2139/ssrn.6882704",
+      "title": "Bridging the Scalability Gap in Digital Servitization: Asset Decoupling, Operational Integration, and the Limits of Service-Led Growth",
+      "year": 2026,
+      "authors": [
+        "Mustafa Seref Akin"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.6882704",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.6867444",
+      "doi": "10.2139/ssrn.6867444",
+      "title": "CBDC Pilot and Banks' Non-Performing Loans: Evidence from China",
+      "year": 2026,
+      "authors": [
+        "Muhammad Umar"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.6867444",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale",
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.4779520",
+      "doi": "10.2139/ssrn.4779520",
+      "title": "Central Bank Digital Currency (CBDC), Bank Deposits, and Digital Payments: First Evidence from a Live Retail CBDC",
+      "year": 2026,
+      "authors": [
+        "Marco Di Maggio",
+        "Pulak Ghosh",
+        "Soumya Ghosh",
+        "Nishant Vats",
+        "Andrew Wu"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.4779520",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.7301398",
+      "doi": "10.2139/ssrn.7301398",
+      "title": "Central Bank Digital Currency (CBDC), Bank Deposits, and Digital Payments: First Evidence from a Live Retail CBDC",
+      "year": 2026,
+      "authors": [
+        "Marco Di Maggio",
+        "Pulak Ghosh",
+        "Soumya Ghosh",
+        "Nishant Vats",
+        "Andrew Wu"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.7301398",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W7128361419",
+      "doi": "10.1186/s40854-025-00848-y",
+      "title": "Digital assets: risks, regulations, mitigation",
+      "year": 2026,
+      "authors": [
+        "Huei-Wen Teng",
+        "Wolfgang Karl H\u00e4rdle",
+        "Joerg Osterrieder",
+        "Daniel Traian Pele",
+        "Lennart John Baals",
+        "Vassilios G. Papavassiliou",
+        "Karolina Bolesta",
+        "Audrius Kaba\u0161inskas",
+        "Olivija Filipovska",
+        "Nikolaos S. Thomaidis",
+        "Alexios-Ioannis Moukas",
+        "Sam Goundar",
+        "Jamal Abdul Nasir",
+        "Abraham Itzhak Weinberg",
+        "Veni Arakelian",
+        "Ciprian-Octavian Truic\u0103",
+        "Mutlu Akar",
+        "Esra Kabaklarl\u0131",
+        "Elena\u2010Simona Apostol",
+        "Maria Iannario",
+        "Barbara B\u0119dowska-S\u00f3jka",
+        "Hanna Krist\u00edn Skaftad\u00f3ttir",
+        "\u00d6zg\u00fcr Y\u0131ld\u0131r\u0131m",
+        "Albulena Shala",
+        "Galena Pisoni",
+        "Ioana Florina Coita",
+        "Szabolcs Korba",
+        "Christian M. Hafner",
+        "Peter Schwendner",
+        "B\u00e1lint Moln\u00e1r",
+        "Elda Xhumari"
+      ],
+      "container": "Financial Innovation",
+      "type": "article",
+      "url": "https://doi.org/10.1186/s40854-025-00848-y",
+      "cited_by_count": 3,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.6676567",
+      "doi": "10.2139/ssrn.6676567",
+      "title": "Digital Co-Governance: A Multi-CBDC and AI Architecture for Cross\u2011Border Payments Beyond Dollar Dominance",
+      "year": 2026,
+      "authors": [
+        "Naijia WAN",
+        "CHEN Xiao"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.6676567",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.6817840",
+      "doi": "10.2139/ssrn.6817840",
+      "title": "Entity Continuous Awareness (ECA): A Model-Agnostic, Sector-Agnostic Operational Context Architecture for Long-Running Autonomous Agents",
+      "year": 2026,
+      "authors": [
+        "Nasser Alshahrani"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.6817840",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.6246658",
+      "doi": "10.2139/ssrn.6246658",
+      "title": "Essentialist Architecture for Domain-Agnostic Legal Reasoning",
+      "year": 2026,
+      "authors": [
+        "Arta Wildeboer"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.6246658",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W7167703468",
+      "doi": "10.54033/stebook.978-65-83309-69-3_10",
+      "title": "FINANCIAL PERFORMANCE OF COLOMBIA'S LARGEST CABLE TV COMPANY",
+      "year": 2026,
+      "authors": [
+        "Jorge Alberto Rivera Godoy"
+      ],
+      "container": "Editora Studies Publica\u00e7\u00f5es eBooks",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.54033/stebook.978-65-83309-69-3_10",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W7133130606",
+      "doi": "10.3390/info17030235",
+      "title": "Global Adoption and Impact of Blockchain Technology in Government: Enhancing Transparency, Efficiency, and Trust in Public Services",
+      "year": 2026,
+      "authors": [
+        "Khaled Almiani",
+        "Shaher Bano Mirza",
+        "Nur Siyam",
+        "Shaikha Ali Al-Jaziri",
+        "Omar Alqaryouti",
+        "Camille Zufferey"
+      ],
+      "container": "Information",
+      "type": "article",
+      "url": "https://doi.org/10.3390/info17030235",
+      "cited_by_count": 2,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1109/tc.2026.3699633",
+      "doi": "10.1109/tc.2026.3699633",
+      "title": "Hybrid Relay Architecture: A Decentralized and Semantically-Agnostic Interoperability Framework for Blockchain",
+      "year": 2026,
+      "authors": [
+        "Liyuan Ma",
+        "Sheng Chen",
+        "Yiran Lv",
+        "Boyue Luan",
+        "Xiulong Liu",
+        "Keqiu Li"
+      ],
+      "container": "IEEE Transactions on Computers",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1109/tc.2026.3699633",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W7124990010",
+      "doi": "10.13134/979-12-5977-542-9",
+      "title": "Il valore del dissenso. Riflessioni con Vincenzo Zeno-Zencovich. Vol I",
+      "year": 2026,
+      "authors": [
+        "Andrea Zoppini",
+        "Elise Poillot",
+        "Francesco Cardarelli",
+        "Giorgio Resta",
+        "Salvatore Sica",
+        "Tommaso Edoardo Frosini"
+      ],
+      "container": "Iris (Roma Tre University)",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.13134/979-12-5977-542-9",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.6707038",
+      "doi": "10.2139/ssrn.6707038",
+      "title": "Luxembourg and the Wholesale Digital Euro: Mapping the Gaps, Assessing the Opportunities, and a Proposed Framework for Cross-Border CBDC Interoperability Use Cases.",
+      "year": 2026,
+      "authors": [
+        "Mir Aamir"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.6707038",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.21203/rs.3.rs-10813996/v1",
+      "doi": "10.21203/rs.3.rs-10813996/v1",
+      "title": "OmniGuard V2X: A Hybrid-Security Prototype Framework with Assumption-Aware Validation for Smart Vehicle Systems",
+      "year": 2026,
+      "authors": [
+        "Md Shahanur Islam Shagor"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.21203/rs.3.rs-10813996/v1",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.21956/openreseurope.23646.r74140",
+      "doi": "10.21956/openreseurope.23646.r74140",
+      "title": "Peer Review Report For: From prototype to deployment: An EU-centric lifecycle framework for law enforcement AI [version 1; peer review: 1 approved]",
+      "year": 2026,
+      "authors": [],
+      "container": null,
+      "type": "peer-review",
+      "url": "https://doi.org/10.21956/openreseurope.23646.r74140",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.21956/openreseurope.23646.r73556",
+      "doi": "10.21956/openreseurope.23646.r73556",
+      "title": "Peer Review Report For: From prototype to deployment: An EU-centric lifecycle framework for law enforcement AI [version 1; peer review: 2 approved]",
+      "year": 2026,
+      "authors": [],
+      "container": null,
+      "type": "peer-review",
+      "url": "https://doi.org/10.21956/openreseurope.23646.r73556",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W7140105092",
+      "doi": "10.1007/978-3-032-11001-5_8",
+      "title": "Principle 2 Definitions",
+      "year": 2026,
+      "authors": [
+        "Carmen Pastor Sempere"
+      ],
+      "container": "Law, governance and technology series",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/978-3-032-11001-5_8",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.5220/0015159500004103",
+      "doi": "10.5220/0015159500004103",
+      "title": "Privacy-Preserving Compliance on Public Ledgers via Selective Disclosure Authorization Schemes",
+      "year": 2026,
+      "authors": [
+        "Supriya Khadka",
+        "Sanchari Das"
+      ],
+      "container": "Proceedings of the 23rd International Conference on Security and Cryptography",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.5220/0015159500004103",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W7167705020",
+      "doi": "10.3390/electronics15142990",
+      "title": "Privacy-Preserving Transaction Admission with Warrant-Based Trace Recovery for Regulated Cryptocurrency Transactions",
+      "year": 2026,
+      "authors": [
+        "Yiyin Zhang",
+        "Jiwu Jing",
+        "Yue Wang",
+        "Chunjing Kou"
+      ],
+      "container": "Electronics",
+      "type": "article",
+      "url": "https://doi.org/10.3390/electronics15142990",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.6501398",
+      "doi": "10.2139/ssrn.6501398",
+      "title": "Project Dunbar and the Future of Multi-CBDC Architecture",
+      "year": 2026,
+      "authors": [
+        "Mariam H.Eram"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.6501398",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.7061098",
+      "doi": "10.2139/ssrn.7061098",
+      "title": "Shifting Paradigms in Cross-Border Service Exports: Legal Compliance and GST Registration Thresholds for Independent Consultants in India",
+      "year": 2026,
+      "authors": [
+        "Avijit Mukherjee"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.7061098",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.7057658",
+      "doi": "10.2139/ssrn.7057658",
+      "title": "Sovereign Asset Tokenization and Federated Cross-Border Securities Settlement",
+      "year": 2026,
+      "authors": [
+        "Zelias Bray"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.7057658",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.6029594",
+      "doi": "10.2139/ssrn.6029594",
+      "title": "The Glass Border: Behavioral Risk and Forensic Realities in U.S.-Mexico Cross-Border Compliance",
+      "year": 2026,
+      "authors": [
+        "Julian Rodriguez"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.6029594",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.6232900",
+      "doi": "10.2139/ssrn.6232900",
+      "title": "The Gold Bridge Protocol: Neutral Cross-Border CBDC Settlement via Tokenised Gold",
+      "year": 2026,
+      "authors": [
+        "Antonio Lopez Hernandez"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.6232900",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.7190878",
+      "doi": "10.2139/ssrn.7190878",
+      "title": "The Home Making Paradigm: A Conceptual Framework with Prototype Validation",
+      "year": 2026,
+      "authors": [
+        "Kevin Brooks"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.7190878",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.31235/osf.io/qcuvm_v2",
+      "doi": "10.31235/osf.io/qcuvm_v2",
+      "title": "The Logic of Interoperability: Anticipatory Alignment, Infrastructural Lock-in and New Zealand\u2019s Integration with Palantir",
+      "year": 2026,
+      "authors": [
+        "Robert-John Broughton"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.31235/osf.io/qcuvm_v2",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.6163688",
+      "doi": "10.2139/ssrn.6163688",
+      "title": "When Do Interbank Market Asymmetries Disappear? Evidence from CBDC Models",
+      "year": 2026,
+      "authors": [
+        "Adiya Bayarmaa",
+        "Yuan Dong"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.6163688",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.47576/2949-1916.2026.5.5.011",
+      "doi": "10.47576/2949-1916.2026.5.5.011",
+      "title": "\u0421\u0440\u0430\u0432\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0437 \u043c\u0443\u043b\u044c\u0442\u0438-\u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c CBDC \u0438 \u0438\u0445 \u0432\u043b\u0438\u044f\u043d\u0438\u0435 \u043d\u0430 \u0442\u0440\u0430\u043d\u0441\u0433\u0440\u0430\u043d\u0438\u0447\u043d\u044b\u0435 \u043f\u043b\u0430\u0442\u0435\u0436\u043d\u044b\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+      "year": 2026,
+      "authors": [
+        "\u041c.\u041a. \u041a\u0432\u0430\u043c\u0438\u0431\u0443\u043e\u0440",
+        "\u0422.\u0410. \u0413\u043e\u0440\u0431\u0430\u0447\u0435\u0432\u0430"
+      ],
+      "container": "Regional and Branch Economy",
+      "type": "journal-article",
+      "url": "https://doi.org/10.47576/2949-1916.2026.5.5.011",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4412813095",
+      "doi": "10.36227/techrxiv.175393423.36882276/v1",
+      "title": "A Policy-Driven Ecosystem for an Indonesian Rupiah Stablecoin",
+      "year": 2025,
+      "authors": [
+        "Thomas Hardjono",
+        "Richard Wiputra"
+      ],
+      "container": null,
+      "type": "preprint",
+      "url": "https://doi.org/10.36227/techrxiv.175393423.36882276/v1",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4412796128",
+      "doi": "10.19044/esj.2025.v21n19p17",
+      "title": "A Quantum-Safe, Interoperable, and Decentralized Payment Infrastructure for the Post-Classical Era as a Strategic Framework for Secure Global Transactions",
+      "year": 2025,
+      "authors": [
+        "Marilia Coser Mansur"
+      ],
+      "container": "European Scientific Journal ESJ",
+      "type": "article",
+      "url": "https://doi.org/10.19044/esj.2025.v21n19p17",
+      "cited_by_count": 2,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4414396465",
+      "doi": "10.31449/inf.v49i33.7990",
+      "title": "A Systematic Review of Security Innovations in Decentralized Finance (DeFi) Using Blockchain Technology",
+      "year": 2025,
+      "authors": [
+        "Chnar Mohammed Kareem",
+        "Ahmed Chalak Shakir"
+      ],
+      "container": "Informatica",
+      "type": "review",
+      "url": "https://doi.org/10.31449/inf.v49i33.7990",
+      "cited_by_count": 2,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1007/978-3-031-80957-6_9",
+      "doi": "10.1007/978-3-031-80957-6_9",
+      "title": "Anti-Money Laundering (AML) Implications of Central Bank Digital Currencies (CBDC)",
+      "year": 2025,
+      "authors": [
+        "Andrea Minto"
+      ],
+      "container": "EBI Studies in Banking and Capital Markets Law",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/978-3-031-80957-6_9",
+      "cited_by_count": 2,
+      "query_ids": [
+        "Q1_joint_assurance",
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4406695548",
+      "doi": "10.4324/9781003568797",
+      "title": "Blockchain Technology in Project Finance",
+      "year": 2025,
+      "authors": [
+        "Witold Srokosz",
+        "Pawe\u0142 Lenio",
+        "Grzegorz Sobiecki"
+      ],
+      "container": null,
+      "type": "book",
+      "url": "https://doi.org/10.4324/9781003568797",
+      "cited_by_count": 4,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W7116343522",
+      "doi": "10.36227/techrxiv.176617589.93522339/v1",
+      "title": "Blockchain Technology: A Comprehensive Review of Architecture, Consensus Mechanisms, Security, Scalability Solutions, and Real-World Applications for Distributed Systems",
+      "year": 2025,
+      "authors": [
+        "Janaka Ishan Senarathna"
+      ],
+      "container": null,
+      "type": "preprint",
+      "url": "https://doi.org/10.36227/techrxiv.176617589.93522339/v1",
+      "cited_by_count": 2,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1016/j.intfin.2025.102161",
+      "doi": "10.1016/j.intfin.2025.102161",
+      "title": "Cash or Cache? Distributional and business cycle implications of CBDC holding limits",
+      "year": 2025,
+      "authors": [
+        "Jana Anjali Magin",
+        "Ulrike Neyer",
+        "Daniel Stempel"
+      ],
+      "container": "Journal of International Financial Markets, Institutions and Money",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.intfin.2025.102161",
+      "cited_by_count": 5,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.5394110",
+      "doi": "10.2139/ssrn.5394110",
+      "title": "CBDC Cross-Border Settlement Prototype: Programmable Compliance for Cross-Border CBDC Settlement Using ISO 20022 and FATF Travel Rule Automation",
+      "year": 2025,
+      "authors": [
+        "Muhammad Anus"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.5394110",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity",
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.58532/nbennurampo3",
+      "doi": "10.58532/nbennurampo3",
+      "title": "CBDC DESIGN &amp; ARCHITECTURE",
+      "year": 2025,
+      "authors": [
+        "Sashikant Panda",
+        "Prof. Ashutosh Priya"
+      ],
+      "container": "IIP Series",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.58532/nbennurampo3",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.58532/nbennurampo6",
+      "doi": "10.58532/nbennurampo6",
+      "title": "CBDC INTEROPERABILITY WITH EXISTING FINANCIAL INFRASTRUCTURE",
+      "year": 2025,
+      "authors": [
+        "Sashikant Panda",
+        "Prof. Ashutosh Priya"
+      ],
+      "container": "IIP Series",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.58532/nbennurampo6",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.5116512",
+      "doi": "10.2139/ssrn.5116512",
+      "title": "CBDC Settlement: Implications for Money Creation and Maturity Transformation",
+      "year": 2025,
+      "authors": [
+        "Francesca Carapella"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.5116512",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W7115402716",
+      "doi": null,
+      "title": "Central bank digital currencies and their implications for monetary policy and financial stability",
+      "year": 2025,
+      "authors": [
+        "Kokalj, Barbara"
+      ],
+      "container": "Repository of the University of Primorsk (University of Primorska)",
+      "type": "dissertation",
+      "url": "https://openalex.org/W7115402716",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.7249/rra2952-1",
+      "doi": "10.7249/rra2952-1",
+      "title": "Central Bank Digital Currency Design Choices and Effect on Law Enforcement",
+      "year": 2025,
+      "authors": [],
+      "container": null,
+      "type": "edited-book",
+      "url": "https://doi.org/10.7249/rra2952-1",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.7249/pea2952-1",
+      "doi": "10.7249/pea2952-1",
+      "title": "Central Bank Digital Currency Design Choices and Effect on Law Enforcement: Key Insights",
+      "year": 2025,
+      "authors": [],
+      "container": null,
+      "type": "edited-book",
+      "url": "https://doi.org/10.7249/pea2952-1",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4413959781",
+      "doi": "10.64252/8y2mm374",
+      "title": "Comparative Analysis Of Global Central Bank Digital Currency (CBDC) Projects",
+      "year": 2025,
+      "authors": [
+        "Zoya Husain",
+        "Ritu Alawa"
+      ],
+      "container": "International Journal of Environmental Sciences",
+      "type": "article",
+      "url": "https://doi.org/10.64252/8y2mm374",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.58532/nbennurampo7",
+      "doi": "10.58532/nbennurampo7",
+      "title": "CROSS-BORDER CBDC &amp; INTEROPERABILITY: CROSS-BORDER PAYMENTS &amp; MULTIPLE CBDC SYSTEMS (MCBDC)",
+      "year": 2025,
+      "authors": [
+        "Sashikant Panda",
+        "Prof. Ashutosh Priya"
+      ],
+      "container": "IIP Series",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.58532/nbennurampo7",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity",
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.22541/au.175873362.28991390/v2",
+      "doi": "10.22541/au.175873362.28991390/v2",
+      "title": "Digital Gold-Backed Regional/Trading Bloc Settlement Framework:\u00a0An Alternative Cross-Border Settlement for Developing and Underdeveloped Economies",
+      "year": 2025,
+      "authors": [
+        "Christopher Soans"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.22541/au.175873362.28991390/v2",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.22541/au.175873362.28991390/v1",
+      "doi": "10.22541/au.175873362.28991390/v1",
+      "title": "Digital Gold-Backed Regional/Trading Bloc Settlement Framework:\u00a0An Alternative Cross-Border Settlement for Developing and Underdeveloped Economies",
+      "year": 2025,
+      "authors": [
+        "Christopher Soans"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.22541/au.175873362.28991390/v1",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4416226677",
+      "doi": "10.3390/ijfs13040217",
+      "title": "Digital Regulatory Governance: The Role of RegTech and SupTech in Transforming Financial Oversight and Administrative Capacity",
+      "year": 2025,
+      "authors": [
+        "Niloufar Bagherifam",
+        "sajjad naghdi",
+        "Vahid Ahmadian",
+        "Alireza Fazlzadeh",
+        "Milad Baghalzadeh Shishehgarkhaneh"
+      ],
+      "container": "International Journal of Financial Studies",
+      "type": "article",
+      "url": "https://doi.org/10.3390/ijfs13040217",
+      "cited_by_count": 21,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.36227/techrxiv.175022064.47828583/v1",
+      "doi": "10.36227/techrxiv.175022064.47828583/v1",
+      "title": "Digital Yuan Cross-Border Pilot: Blockchain and AI Integration in China's CBDC Infrastructure (2021-2024)",
+      "year": 2025,
+      "authors": [
+        "Yudai Du"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.36227/techrxiv.175022064.47828583/v1",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4406975702",
+      "doi": "10.48550/arxiv.2501.17732",
+      "title": "Gateways for Institutional-Grade Commerce and Interoperability of Digital Assets",
+      "year": 2025,
+      "authors": [
+        "Rafael Belchior",
+        "Thomas Hardjono",
+        "Alex Chiriac",
+        "Venkatraman Ranakrishna"
+      ],
+      "container": "arXiv (Cornell University)",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2501.17732",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4416910163",
+      "doi": "10.54660/.ijmrge.2025.6.6.820-834",
+      "title": "Global Standardization Model for Next-Generation Blockchain Interoperability in Payment Systems",
+      "year": 2025,
+      "authors": [
+        "Olawole Akomolafe",
+        "Babajide Oluwaseun Olaogun",
+        "Michael Olumuyiwa Adesuyi",
+        "Victor Ukara Ndukwe",
+        "Joy Kweku Sakyi"
+      ],
+      "container": "International Journal of Multidisciplinary Research and Growth Evaluation",
+      "type": "article",
+      "url": "https://doi.org/10.54660/.ijmrge.2025.6.6.820-834",
+      "cited_by_count": 5,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4406239667",
+      "doi": "10.1007/978-3-031-74889-9",
+      "title": "Governance and Control of Data and Digital Economy in the European Single Market",
+      "year": 2025,
+      "authors": [
+        "Carmen Pastor Sempere"
+      ],
+      "container": "Law, governance and technology series",
+      "type": "book",
+      "url": "https://doi.org/10.1007/978-3-031-74889-9",
+      "cited_by_count": 6,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1080/07366981.2025.2588946",
+      "doi": "10.1080/07366981.2025.2588946",
+      "title": "How does India\u2019s digital rupee project stack up against international efforts? Assessing on the basis of CBDC interoperability",
+      "year": 2025,
+      "authors": [
+        "Debarshi Ghosh",
+        "Shinu Vig"
+      ],
+      "container": "EDPACS",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1080/07366981.2025.2588946",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.5220/0013562300003979",
+      "doi": "10.5220/0013562300003979",
+      "title": "How to Design a Public Key Infrastructure for a Central Bank Digital Currency",
+      "year": 2025,
+      "authors": [
+        "Makan Rafiee",
+        "Lars Hupel"
+      ],
+      "container": "Proceedings of the 22nd International Conference on Security and Cryptography",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.5220/0013562300003979",
+      "cited_by_count": 2,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W7115185199",
+      "doi": "10.33545/26175754.2025.v8.i2k.637",
+      "title": "Integrating digital asset platforms into AML frameworks: Balancing innovation, inclusion, and financial integrity",
+      "year": 2025,
+      "authors": [
+        "Oladapo Olatinsu"
+      ],
+      "container": "International Journal of Research in Finance and Management",
+      "type": "article",
+      "url": "https://doi.org/10.33545/26175754.2025.v8.i2k.637",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.5592771",
+      "doi": "10.2139/ssrn.5592771",
+      "title": "Integrating MLOps Lifecycle into CI/CD Pipelines for Enhanced AI Model Deployment: An Empirical Validation Framework",
+      "year": 2025,
+      "authors": [
+        "Nishanth Prakash",
+        "Amruta Desai"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.5592771",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.23939/tt2025.02.001",
+      "doi": "10.23939/tt2025.02.001",
+      "title": "Justification of architecture for intelligent agnostic multimodal transportation",
+      "year": 2025,
+      "authors": [
+        "",
+        "Klaus Serny"
+      ],
+      "container": "Transport technologies",
+      "type": "journal-article",
+      "url": "https://doi.org/10.23939/tt2025.02.001",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4406391444",
+      "doi": "10.1787/866c5c44-en",
+      "title": "Mapping Ukraine\u2019s Financial Markets and Corporate Governance Framework for a Sustainable Recovery",
+      "year": 2025,
+      "authors": [
+        "OECD"
+      ],
+      "container": null,
+      "type": "book",
+      "url": "https://doi.org/10.1787/866c5c44-en",
+      "cited_by_count": 12,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4411730532",
+      "doi": "10.55248/gengpi.6.0625.22103",
+      "title": "Multi-Agent AI Systems for Secure, Transparent, and Compliant Fraud Surveillance in Cross-Border FinTech Operations",
+      "year": 2025,
+      "authors": [
+        "Joshua Seyi Ibitoye"
+      ],
+      "container": "International Journal of Research Publication and Reviews",
+      "type": "article",
+      "url": "https://doi.org/10.55248/gengpi.6.0625.22103",
+      "cited_by_count": 3,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4416645893",
+      "doi": "10.48550/arxiv.2508.08064",
+      "title": "On the Operational Resilience of CBDC: Threats and Prospects of Formal Validation for Offline Payments",
+      "year": 2025,
+      "authors": [
+        "Marco Bernardo",
+        "Federico Calandra",
+        "Andrea Esposito",
+        "Francesco Fabris"
+      ],
+      "container": "arXiv (Cornell University)",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2508.08064",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.5566398",
+      "doi": "10.2139/ssrn.5566398",
+      "title": "Optimal Privacy Protection in Central Bank Digital Currency",
+      "year": 2025,
+      "authors": [
+        "Chaofeng Bao",
+        "Eric Chiang",
+        "Hao Sun",
+        "Buyuan Yang"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.5566398",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q1_joint_assurance",
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4410886881",
+      "doi": "10.1109/tnsm.2025.3575367",
+      "title": "Privacy and Compliance Design Options in Offline Central Bank Digital Currencies",
+      "year": 2025,
+      "authors": [
+        "Panagiotis Michalopoulos",
+        "Odunayo Olowookere",
+        "Nadia Pocher",
+        "Johannes Sedlmeir",
+        "Andreas Veneris",
+        "Poonam Puri"
+      ],
+      "container": "IEEE Transactions on Network and Service Management",
+      "type": "article",
+      "url": "https://doi.org/10.1109/tnsm.2025.3575367",
+      "cited_by_count": 7,
+      "query_ids": [
+        "Q2_cross_border_atomicity",
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.5711402",
+      "doi": "10.2139/ssrn.5711402",
+      "title": "Protecting Digital Sovereignty: Protocol-Level GDPR Enforcement as Foundation for Secure CBDC Architecture",
+      "year": 2025,
+      "authors": [
+        "Sangam Das"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.5711402",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.5318801",
+      "doi": "10.2139/ssrn.5318801",
+      "title": "Reducing Cross-Border Settlement Frictions Through Grmtmaos",
+      "year": 2025,
+      "authors": [
+        "Takashi Matsubara"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.5318801",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4413895026",
+      "doi": "10.1080/2833115x.2025.2539714",
+      "title": "Reshaping state-finance-tech nexus through central bank digital currencies: the case of the mBridge project",
+      "year": 2025,
+      "authors": [
+        "Junbo Chu",
+        "Cheng Fang",
+        "Karen P.Y. Lai"
+      ],
+      "container": "Finance and Space",
+      "type": "article",
+      "url": "https://doi.org/10.1080/2833115x.2025.2539714",
+      "cited_by_count": 7,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4406239639",
+      "doi": "10.1007/978-3-031-74889-9_15",
+      "title": "The Digital Euro Package: From Legal Tender to Payment Services Providers",
+      "year": 2025,
+      "authors": [
+        "Filippo Zatti",
+        "Rosa Giovanna Barresi"
+      ],
+      "container": "Law, governance and technology series",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/978-3-031-74889-9_15",
+      "cited_by_count": 4,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4416206471",
+      "doi": "10.59324/stss.2025.2(11).13",
+      "title": "The Paradox of Decentralization: NFTs, Platform Capitalism and the Tokenized Knowledge Economy",
+      "year": 2025,
+      "authors": [
+        "Giovanni Vindigni"
+      ],
+      "container": "Scientia. Technology, science and society.",
+      "type": "article",
+      "url": "https://doi.org/10.59324/stss.2025.2(11).13",
+      "cited_by_count": 2,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4411976657",
+      "doi": "10.3390/bdcc9070178",
+      "title": "Toward the Mass Adoption of Blockchain: Cross-Industry Insights from DeFi, Gaming, and Data Analytics",
+      "year": 2025,
+      "authors": [
+        "Shezon Saleem Mohammed Abdul",
+        "Anup Shrestha",
+        "Jianming Yong"
+      ],
+      "container": "Big Data and Cognitive Computing",
+      "type": "article",
+      "url": "https://doi.org/10.3390/bdcc9070178",
+      "cited_by_count": 7,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1049/gtd2.13298",
+      "doi": "10.1049/gtd2.13298",
+      "title": "Towards HVDC interoperability\u2014Vendor agnostic control architecture and quantifying domain of operating point",
+      "year": 2025,
+      "authors": [
+        "Dong Chen",
+        "Pimonpan Phurappa",
+        "Benjamin Marshall",
+        "Adam Scott",
+        "Callum Henderson"
+      ],
+      "container": "IET Generation, Transmission &amp; Distribution",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1049/gtd2.13298",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4410915794",
+      "doi": "10.32628/ijsrset241482",
+      "title": "A Conceptual Framework for AI-Enhanced Investment Decision-Making in Venture Capital: Unlocking Opportunities in Emerging Markets",
+      "year": 2024,
+      "authors": [
+        "Ademola Adewuyi",
+        "Ayodeji Ajuwon",
+        "Tolulope Joyce Oladuji",
+        "Abiola Oyeronke Akintobi"
+      ],
+      "container": "International Journal of Scientific Research in Science Engineering and Technology",
+      "type": "article",
+      "url": "https://doi.org/10.32628/ijsrset241482",
+      "cited_by_count": 3,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4409364352",
+      "doi": "10.54660/ijsser.2024.3.1.365-386",
+      "title": "A Digital Resilience Model for Enhancing Operational Stability in Financial and Compliance-Driven Sectors",
+      "year": 2024,
+      "authors": [
+        "Oluchukwu Modesta Oluoha",
+        "Abisola Odeshina",
+        "Oluwatosin Reis",
+        "Friday Okpeke",
+        "Verlinda Attipoe",
+        "Omamode Henry Orieno"
+      ],
+      "container": "International Journal of Social Science Exceptional Research",
+      "type": "article",
+      "url": "https://doi.org/10.54660/ijsser.2024.3.1.365-386",
+      "cited_by_count": 8,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4396555568",
+      "doi": "10.47473/2020rmm0136",
+      "title": "A method for classifying blockchains and crypto-assets using 'switching circuits\u2019",
+      "year": 2024,
+      "authors": [
+        "Bank of Italy",
+        "Carlo Gola",
+        "Guido Befani",
+        "Patrizio Fiorenza",
+        "Bank of Italy",
+        "Lorenzo Lesina",
+        "Bank of Italy"
+      ],
+      "container": "Risk Management Magazine",
+      "type": "article",
+      "url": "https://doi.org/10.47473/2020rmm0136",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q2_cross_border_atomicity",
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4409694962",
+      "doi": "10.62225/2583049x.2024.4.6.4101",
+      "title": "Advances in Public-Private Partnerships for Strengthening National Financial Governance and Crisis Response Systems",
+      "year": 2024,
+      "authors": [
+        "Comfort Iyabode Lawal",
+        "Solomon Christopher Friday",
+        "Damilola Christiana Ayodeji",
+        "Adedamola Sobowale"
+      ],
+      "container": "International Journal of Advanced Multidisciplinary Research and Studies",
+      "type": "article",
+      "url": "https://doi.org/10.62225/2583049x.2024.4.6.4101",
+      "cited_by_count": 9,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.4761233",
+      "doi": "10.2139/ssrn.4761233",
+      "title": "Bank Profitability and Central Bank Digital Currency",
+      "year": 2024,
+      "authors": [
+        "Mario Bellia",
+        "Ludovic Cal\u00e8s"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.4761233",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4413018996",
+      "doi": "10.32628/cseit24113368",
+      "title": "Blockchain Based Compliance Auditing For GRC Integration in Hybrid Cloud IT Governance Frameworks",
+      "year": 2024,
+      "authors": [
+        "Ugoaghalam Uche James"
+      ],
+      "container": "International Journal of Scientific Research in Computer Science Engineering and Information Technology",
+      "type": "article",
+      "url": "https://doi.org/10.32628/cseit24113368",
+      "cited_by_count": 5,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4410047170",
+      "doi": "10.62225/2583049x.2024.4.6.4157",
+      "title": "Building Scalable Blockchain Applications: A Framework for Leveraging Solidity and AWS Lambda in Real-World Asset Tokenization",
+      "year": 2024,
+      "authors": [
+        "Grace Omotunde Osho",
+        "Damodar Bihani",
+        "Andrew Ifesinachi Daraojimba",
+        "Julius Olatunde Omisola",
+        "Bright Chibunna Ubamadu",
+        "Emmanuel Augustine Etukudoh"
+      ],
+      "container": "International Journal of Advanced Multidisciplinary Research and Studies",
+      "type": "article",
+      "url": "https://doi.org/10.62225/2583049x.2024.4.6.4157",
+      "cited_by_count": 4,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.4914202",
+      "doi": "10.2139/ssrn.4914202",
+      "title": "Cash or Cache? Distributional and Business Cycle Implications of Cbdc Holding Limits",
+      "year": 2024,
+      "authors": [
+        "Daniel Stempel",
+        "Ulrike Neyer",
+        "Jana Anjali Magin"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.4914202",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.4721913",
+      "doi": "10.2139/ssrn.4721913",
+      "title": "CBDC and the Operational Framework of Monetary Policy",
+      "year": 2024,
+      "authors": [
+        "Jorge Abad",
+        "Galo Nu\u00f1o",
+        "Carlos Thomas"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.4721913",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale",
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.4833933",
+      "doi": "10.2139/ssrn.4833933",
+      "title": "Central Bank Digital Currency (CBDC), Bank Deposits, and Digital Payments: First Evidence from a Live Retail CBDC",
+      "year": 2024,
+      "authors": [
+        "Marco Di Maggio",
+        "Pulak Ghosh",
+        "Soumya Ghosh",
+        "Andrew Wu"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.4833933",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1108/978-1-83797-130-520241014",
+      "doi": "10.1108/978-1-83797-130-520241014",
+      "title": "Central Bank Digital Currency (CBDC): Concepts, Wholesale and Cross-Border CBDC",
+      "year": 2024,
+      "authors": [
+        "Thammarak Moenjak"
+      ],
+      "container": "Central Banking at the Frontier",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1108/978-1-83797-130-520241014",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.4686662",
+      "doi": "10.2139/ssrn.4686662",
+      "title": "Central Bank Digital Currency in Azerbaijan",
+      "year": 2024,
+      "authors": [
+        "Leyla Mammadli"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.4686662",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.4792946",
+      "doi": "10.2139/ssrn.4792946",
+      "title": "Central Bank Digital Currency, Privacy, and Welfare",
+      "year": 2024,
+      "authors": [
+        "Seungduck Lee"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.4792946",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q1_joint_assurance",
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4396692413",
+      "doi": "10.2139/ssrn.4770513",
+      "title": "Compliance Design Options for Offline CBDCs: Balancing Privacy and AML/CFT",
+      "year": 2024,
+      "authors": [
+        "Panagiotis Michalopoulos",
+        "Odunayo Olowookere",
+        "Nadia Pocher",
+        "Johannes Sedlmeir",
+        "Andreas Veneris",
+        "Poonam Puri"
+      ],
+      "container": "SSRN Electronic Journal",
+      "type": "preprint",
+      "url": "https://doi.org/10.2139/ssrn.4770513",
+      "cited_by_count": 3,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.5089/9798400286995.063",
+      "doi": "10.5089/9798400286995.063",
+      "title": "Cyber Resilience of the Central Bank Digital Currency Ecosystem",
+      "year": 2024,
+      "authors": [
+        "Arvinder Bharath",
+        "Anca Paduraru",
+        "Tamas Gaidosch"
+      ],
+      "container": "Fintech Notes",
+      "type": "journal-article",
+      "url": "https://doi.org/10.5089/9798400286995.063",
+      "cited_by_count": 6,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.17485/ijst/v17i14.3193",
+      "doi": "10.17485/ijst/v17i14.3193",
+      "title": "Database Privacy: Design of User Privacy Preserving Central Bank Digital Currency: A Case of Tanzania",
+      "year": 2024,
+      "authors": [
+        "",
+        "Godbless G Minja",
+        "Devotha G Nyambo",
+        "Anael E Sam"
+      ],
+      "container": "Indian Journal Of Science And Technology",
+      "type": "journal-article",
+      "url": "https://doi.org/10.17485/ijst/v17i14.3193",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.5220/0012577900003693",
+      "doi": "10.5220/0012577900003693",
+      "title": "Facilitating Competence-Oriented Qualification in New Work: Evaluation of a Platform Prototype",
+      "year": 2024,
+      "authors": [
+        "Alexander Clauss"
+      ],
+      "container": "Proceedings of the 16th International Conference on Computer Supported Education",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.5220/0012577900003693",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.5016148",
+      "doi": "10.2139/ssrn.5016148",
+      "title": "Information, Consumer Privacy, and Central Bank Digital Currency",
+      "year": 2024,
+      "authors": [
+        "Kee-Youn Kang",
+        "Zijian Wang"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.5016148",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q1_joint_assurance",
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1596/41812",
+      "doi": "10.1596/41812",
+      "title": "Interoperability Between Central Bank Digital Currency Systems and Fast Payment Systems: A Technical Perspective",
+      "year": 2024,
+      "authors": [
+        ""
+      ],
+      "container": null,
+      "type": "book",
+      "url": "https://doi.org/10.1596/41812",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.5220/0012308600003648",
+      "doi": "10.5220/0012308600003648",
+      "title": "KAIME: Central Bank Digital Currency with Realistic and Modular Privacy",
+      "year": 2024,
+      "authors": [
+        "Ali Dogan",
+        "Kemal Bicakci"
+      ],
+      "container": "Proceedings of the 10th International Conference on Information Systems Security and Privacy",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.5220/0012308600003648",
+      "cited_by_count": 6,
+      "query_ids": [
+        "Q1_joint_assurance",
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.4984785",
+      "doi": "10.2139/ssrn.4984785",
+      "title": "Know Your (Holding) Limits: Cbdc, Financial Stability and Central Bank Reliance",
+      "year": 2024,
+      "authors": [
+        "Oscar Soons",
+        "Barbara Meller"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.4984785",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4406300771",
+      "doi": "10.46763/bssr24242407b",
+      "title": "NAVIGATING THE FUTURE OF EU\u2019S DIGITAL FINANCE AND OPEN FINANCIAL STRATEGIC AUTONOMY THROUGH STRATEGIC REGULATORY MANAGEMENT",
+      "year": 2024,
+      "authors": [
+        "Ivana Bajaki\u0107"
+      ],
+      "container": "Balkan Social Science Review",
+      "type": "article",
+      "url": "https://doi.org/10.46763/bssr24242407b",
+      "cited_by_count": 3,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.4793196",
+      "doi": "10.2139/ssrn.4793196",
+      "title": "Optimal Design of Central Bank Digital Currency",
+      "year": 2024,
+      "authors": [
+        "Yanjie (Leon) Cui",
+        "Stella Huangfu"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.4793196",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.3917/rfe.238.0187",
+      "doi": "10.3917/rfe.238.0187",
+      "title": "Privacy and Retail Central Bank Digital Currency",
+      "year": 2024,
+      "authors": [
+        "Jonas Gross",
+        "John Kiff"
+      ],
+      "container": "Revue fran\u00e7aise d'\u00e9conomie",
+      "type": "journal-article",
+      "url": "https://doi.org/10.3917/rfe.238.0187",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4416570530",
+      "doi": "10.38124/ijsrmt.v3i1.1010",
+      "title": "Project Management at the Intersection of Technology and Business: Lessons from Large-Scale IT Solution Deployments",
+      "year": 2024,
+      "authors": [
+        "Chinenye Blessing Onyekaonwu",
+        "Amina Catherine Peter- Anyebe"
+      ],
+      "container": "International Journal of Scientific Research and Modern Technology.",
+      "type": "article",
+      "url": "https://doi.org/10.38124/ijsrmt.v3i1.1010",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.69554/rszj2071",
+      "doi": "10.69554/rszj2071",
+      "title": "Settlement of digital assets and wholesale CBDC : Solutions and interoperability approaches explored by the ECB",
+      "year": 2024,
+      "authors": [
+        "Maja Schwarz"
+      ],
+      "container": "Journal of Securities Operations &amp; Custody",
+      "type": "journal-article",
+      "url": "https://doi.org/10.69554/rszj2071",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4394924531",
+      "doi": "10.1002/spy2.401",
+      "title": "Systematic review: Comparing zk\u2010SNARK, zk\u2010STARK, and bulletproof protocols for privacy\u2010preserving authentication",
+      "year": 2024,
+      "authors": [
+        "Bjorn Oude Roelink",
+        "Mohammed El\u2010Hajj",
+        "Dipti Kapoor Sarmah"
+      ],
+      "container": "Security and Privacy",
+      "type": "review",
+      "url": "https://doi.org/10.1002/spy2.401",
+      "cited_by_count": 54,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4400396808",
+      "doi": "10.1080/20421338.2024.2353934",
+      "title": "The democratization of digital currency in Nigeria: A sentiment analysis of eNaira app usability",
+      "year": 2024,
+      "authors": [
+        "Sunday Adewale Olaleye",
+        "Kwami Ahiabenu",
+        "Olugbenga Ayo Ojubanire"
+      ],
+      "container": "African Journal of Science Technology Innovation and Development",
+      "type": "article",
+      "url": "https://doi.org/10.1080/20421338.2024.2353934",
+      "cited_by_count": 8,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4400597344",
+      "doi": "10.37934/araset.46.2.188212",
+      "title": "The Inclusive Innovation of Blockchain in Securities Issuance: Reduced Inequalities of Investors",
+      "year": 2024,
+      "authors": [
+        "Poh Soon Joseph Ng",
+        "Xing Zhang",
+        "Lianyi Fu",
+        "Ye Li",
+        "Koo Yuen Phan"
+      ],
+      "container": "Journal of Advanced Research in Applied Sciences and Engineering Technology",
+      "type": "article",
+      "url": "https://doi.org/10.37934/araset.46.2.188212",
+      "cited_by_count": 4,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2307/jj.4688123.11",
+      "doi": "10.2307/jj.4688123.11",
+      "title": "APPENDIX 2:",
+      "year": 2023,
+      "authors": [],
+      "container": "Central Bank Digital Currencies",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.2307/jj.4688123.11",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1201/9781003344575-18",
+      "doi": "10.1201/9781003344575-18",
+      "title": "Automation Management Techniques",
+      "year": 2023,
+      "authors": [
+        "Steve Swauger"
+      ],
+      "container": "Master Airline Pilot",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1201/9781003344575-18",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.4493875",
+      "doi": "10.2139/ssrn.4493875",
+      "title": "Bank Profitability and Central Bank Digital Currency",
+      "year": 2023,
+      "authors": [
+        "Mario Bellia",
+        "Ludovic Cal\u00e8s"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.4493875",
+      "cited_by_count": 2,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4385463828",
+      "doi": "10.5089/9798400249020.002",
+      "title": "Brazil",
+      "year": 2023,
+      "authors": [
+        "International Monetary Fund. Western Hemisphere Dept."
+      ],
+      "container": "IMF Staff Country Reports",
+      "type": "article",
+      "url": "https://doi.org/10.5089/9798400249020.002",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4360985261",
+      "doi": "10.36227/techrxiv.21809430.v2",
+      "title": "CBDC bridging between Hyperledger Fabric and permissioned EVM-based blockchains",
+      "year": 2023,
+      "authors": [
+        "Andr\u00e9 Augusto",
+        "Rafael Belchior",
+        "Andr\u00e9 Vasconcelos",
+        "Imre Kocsis",
+        "G\u00f6nczy L\u00e1szl\u00f3",
+        "Miguel Correia"
+      ],
+      "container": null,
+      "type": "preprint",
+      "url": "https://doi.org/10.36227/techrxiv.21809430.v2",
+      "cited_by_count": 12,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4313892677",
+      "doi": "10.36227/techrxiv.21809430.v1",
+      "title": "CBDC bridging between Hyperledger Fabric and permissioned EVM-based blockchains",
+      "year": 2023,
+      "authors": [
+        "Andr\u00e9 Augusto",
+        "Rafael Belchior",
+        "Andr\u00e9 Vasconcelos",
+        "Imre Kocsis",
+        "G\u00f6nczy L\u00e1szl\u00f3",
+        "Miguel Correia"
+      ],
+      "container": null,
+      "type": "preprint",
+      "url": "https://doi.org/10.36227/techrxiv.21809430.v1",
+      "cited_by_count": 3,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4388225947",
+      "doi": "10.36862/eiz-619",
+      "title": "Central Bank Digital Currencies (CBDCs) - Proceedings of a Colloquium",
+      "year": 2023,
+      "authors": [
+        "Christian Hofmann",
+        "Thomas Moser",
+        "Dirk Niepelt",
+        "Rolf H. Weber",
+        "Chiara Zilioli"
+      ],
+      "container": null,
+      "type": "book",
+      "url": "https://doi.org/10.36862/eiz-619",
+      "cited_by_count": 4,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4383225110",
+      "doi": "10.1787/f3e70f1f-en",
+      "title": "Central Bank Digital Currencies (CBDCs) and democratic values",
+      "year": 2023,
+      "authors": [
+        "OECD"
+      ],
+      "container": "OECD business and finance policy papers",
+      "type": "report",
+      "url": "https://doi.org/10.1787/f3e70f1f-en",
+      "cited_by_count": 7,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1201/9781003344575-19",
+      "doi": "10.1201/9781003344575-19",
+      "title": "Communications Techniques",
+      "year": 2023,
+      "authors": [
+        "Steve Swauger"
+      ],
+      "container": "Master Airline Pilot",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1201/9781003344575-19",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1201/9781003344575-4",
+      "doi": "10.1201/9781003344575-4",
+      "title": "Complexity",
+      "year": 2023,
+      "authors": [
+        "Steve Swauger"
+      ],
+      "container": "Master Airline Pilot",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1201/9781003344575-4",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1201/9781003344575-20",
+      "doi": "10.1201/9781003344575-20",
+      "title": "CRM Techniques",
+      "year": 2023,
+      "authors": [
+        "Steve Swauger"
+      ],
+      "container": "Master Airline Pilot",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1201/9781003344575-20",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4386590040",
+      "doi": "10.17016/feds.2023.059",
+      "title": "Data Privacy for Digital Asset Systems",
+      "year": 2023,
+      "authors": [
+        "Jillian Mascelli"
+      ],
+      "container": "Finance and Economics Discussion Series",
+      "type": "article",
+      "url": "https://doi.org/10.17016/feds.2023.059",
+      "cited_by_count": 5,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1201/9781003344575-5",
+      "doi": "10.1201/9781003344575-5",
+      "title": "Decision Making",
+      "year": 2023,
+      "authors": [
+        "Steve Swauger"
+      ],
+      "container": "Master Airline Pilot",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1201/9781003344575-5",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1201/9781003344575-13",
+      "doi": "10.1201/9781003344575-13",
+      "title": "Decision-Making Techniques",
+      "year": 2023,
+      "authors": [
+        "Steve Swauger"
+      ],
+      "container": "Master Airline Pilot",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1201/9781003344575-13",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4318824278",
+      "doi": "10.32388/csttyq.3",
+      "title": "Digitalization, Emerging Technologies, and Financial Stability: Challenges and Opportunities for the Indonesian Banking Sector and Beyond. Muyanja Ssenyonga Jameaba",
+      "year": 2023,
+      "authors": [
+        "Muyanja-Ssenyonga Jameaba"
+      ],
+      "container": null,
+      "type": "preprint",
+      "url": "https://doi.org/10.32388/csttyq.3",
+      "cited_by_count": 5,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1201/9781003344575-8",
+      "doi": "10.1201/9781003344575-8",
+      "title": "Distraction",
+      "year": 2023,
+      "authors": [
+        "Steve Swauger"
+      ],
+      "container": "Master Airline Pilot",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1201/9781003344575-8",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1007/978-3-031-44738-9_8",
+      "doi": "10.1007/978-3-031-44738-9_8",
+      "title": "Economic Implications of Central Bank Digital Currency",
+      "year": 2023,
+      "authors": [
+        "Leo Kriese"
+      ],
+      "container": "Central Bank Digital Currency",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/978-3-031-44738-9_8",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q1_joint_assurance",
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1201/9781003344575-7",
+      "doi": "10.1201/9781003344575-7",
+      "title": "Error",
+      "year": 2023,
+      "authors": [
+        "Steve Swauger"
+      ],
+      "container": "Master Airline Pilot",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1201/9781003344575-7",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W7197992844",
+      "doi": null,
+      "title": "European dimensions of sustainabl\u0435 development",
+      "year": 2023,
+      "authors": [
+        "National University of Food Technologies"
+      ],
+      "container": "Institutional Repository of National University of Food Technologies",
+      "type": "book",
+      "url": "https://openalex.org/W7197992844",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4409834520",
+      "doi": "10.38124/ijsrmt.v2i11.447",
+      "title": "Exploring Cross-Border Digital Assets Flows and Central Bank Digital Currency Risks to Capital Markets Financial Stability",
+      "year": 2023,
+      "authors": [
+        "Kehinde Abiodun",
+        "Uchenna Obiageli Ogbuonyalu",
+        "Selorm Dzamefe",
+        "Ezeh Nwakaego Vera",
+        "Adewale Oyinlola",
+        "Igba Emmanuel"
+      ],
+      "container": "International Journal of Scientific Research and Modern Technology.",
+      "type": "article",
+      "url": "https://doi.org/10.38124/ijsrmt.v2i11.447",
+      "cited_by_count": 22,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4385423083",
+      "doi": "10.3390/fi15080256",
+      "title": "Features and Scope of Regulatory Technologies: Challenges and Opportunities with Industrial Internet of Things",
+      "year": 2023,
+      "authors": [
+        "Jinying Li",
+        "Ananda Maiti",
+        "Jiangang Fei"
+      ],
+      "container": "Future Internet",
+      "type": "article",
+      "url": "https://doi.org/10.3390/fi15080256",
+      "cited_by_count": 44,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.69554/mbdj6710",
+      "doi": "10.69554/mbdj6710",
+      "title": "Interoperability aspects of central bank digital currency across ecosystems and borders",
+      "year": 2023,
+      "authors": [
+        "Lars Hupel"
+      ],
+      "container": "Journal of Payments Strategy &amp; Systems",
+      "type": "journal-article",
+      "url": "https://doi.org/10.69554/mbdj6710",
+      "cited_by_count": 5,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.55277/researchhub.tvhs7h13",
+      "doi": "10.55277/researchhub.tvhs7h13",
+      "title": "Interoperability between public blockchains and the digital real (Brazil\u00b4s CBDC)",
+      "year": 2023,
+      "authors": [
+        "Edmilson Rodrigues do Nascimento Junior"
+      ],
+      "container": null,
+      "type": "report",
+      "url": "https://doi.org/10.55277/researchhub.tvhs7h13",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.4394322",
+      "doi": "10.2139/ssrn.4394322",
+      "title": "Know Your (Holding) Limits: CBDC, Financial Stability and Central Bank Reliance",
+      "year": 2023,
+      "authors": [
+        "Barbara Meller",
+        "Oscar Soons"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.4394322",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.4543369",
+      "doi": "10.2139/ssrn.4543369",
+      "title": "Know Your (Holding) Limits: CBDC, Financial Stability and Central Bank Reliance",
+      "year": 2023,
+      "authors": [
+        "Barbara Meller",
+        "Oscar Soons"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.4543369",
+      "cited_by_count": 10,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4367321497",
+      "doi": "10.5089/9798400240409.001",
+      "title": "Leveraging Anti-money Laundering Measures to Improve Tax Compliance and Help Mobilize Domestic Revenues",
+      "year": 2023,
+      "authors": [
+        "Emmanuel Mathias",
+        "Adrian Wardzynski"
+      ],
+      "container": "IMF Working Paper",
+      "type": "article",
+      "url": "https://doi.org/10.5089/9798400240409.001",
+      "cited_by_count": 12,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1201/9781003344575",
+      "doi": "10.1201/9781003344575",
+      "title": "Master Airline Pilot",
+      "year": 2023,
+      "authors": [
+        "Steve Swauger"
+      ],
+      "container": null,
+      "type": "monograph",
+      "url": "https://doi.org/10.1201/9781003344575",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.4394190",
+      "doi": "10.2139/ssrn.4394190",
+      "title": "Money Laundering and the Privacy Design of Central Bank Digital Currency",
+      "year": 2023,
+      "authors": [
+        "Zijian Wang"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.4394190",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q1_joint_assurance",
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1016/j.red.2023.06.004",
+      "doi": "10.1016/j.red.2023.06.004",
+      "title": "Money laundering and the privacy design of central bank digital currency",
+      "year": 2023,
+      "authors": [
+        "Zijian Wang"
+      ],
+      "container": "Review of Economic Dynamics",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.red.2023.06.004",
+      "cited_by_count": 18,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4389678480",
+      "doi": "10.5089/9798400262012.002",
+      "title": "Namibia",
+      "year": 2023,
+      "authors": [
+        "International Monetary Fund. African Dept."
+      ],
+      "container": "IMF Staff Country Reports",
+      "type": "article",
+      "url": "https://doi.org/10.5089/9798400262012.002",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4388093245",
+      "doi": "10.48550/arxiv.2310.19201",
+      "title": "Open Problems in DAOs",
+      "year": 2023,
+      "authors": [
+        "Joshua Tan",
+        "Tara Merk",
+        "Sarah Hubbard",
+        "Eliza R. Oak",
+        "Rong, Helena",
+        "Pirovich, Joni",
+        "Ellie Rennie",
+        "Hoefer, Rolf",
+        "Michael Zargham",
+        "Jason Potts",
+        "Chris Berg",
+        "Reuben Youngblom",
+        "Primavera De Filippi",
+        "Seth Frey",
+        "Jeff Strnad",
+        "Morshed Mannan",
+        "Kelsie Nabben",
+        "Silke Noa Elrifai",
+        "Hartnell, Jake",
+        "Benjamin Mako Hill",
+        "Tobin South",
+        "Thomas, Ryan L.",
+        "Dotan, Jonathan",
+        "Spring, Ariana",
+        "Alexia Maddox",
+        "W.C. Lim",
+        "Owocki, Kevin",
+        "Ari Juels",
+        "Dan Boneh"
+      ],
+      "container": "arXiv (Cornell University)",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2310.19201",
+      "cited_by_count": 11,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.4321306",
+      "doi": "10.2139/ssrn.4321306",
+      "title": "Optimal Central Bank Digital Currency (CBDC) Design for Emerging Economies",
+      "year": 2023,
+      "authors": [
+        "Ferry Syarifuddin"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.4321306",
+      "cited_by_count": 3,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4380537028",
+      "doi": "10.5089/9798400243905.002",
+      "title": "People\u2019s Republic of China\u2014Hong Kong Special Administrative Region",
+      "year": 2023,
+      "authors": [
+        "International Monetary Fund. Asia and Pacific Dept"
+      ],
+      "container": "IMF Staff Country Reports",
+      "type": "article",
+      "url": "https://doi.org/10.5089/9798400243905.002",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.4366778",
+      "doi": "10.2139/ssrn.4366778",
+      "title": "Policy Design of Retail Central Bank Digital Currencies: Embedding AML/CFT Compliance",
+      "year": 2023,
+      "authors": [
+        "Michi Kakebayashi",
+        "Gerard P. Presto",
+        "Tomonori Yuyama",
+        "Shin\u2019ichiro Matsuo"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.4366778",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1201/9781003344575-30",
+      "doi": "10.1201/9781003344575-30",
+      "title": "Professional Attributes",
+      "year": 2023,
+      "authors": [
+        "Steve Swauger"
+      ],
+      "container": "Master Airline Pilot",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1201/9781003344575-30",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1201/9781003344575-3",
+      "doi": "10.1201/9781003344575-3",
+      "title": "Risk Management",
+      "year": 2023,
+      "authors": [
+        "Steve Swauger"
+      ],
+      "container": "Master Airline Pilot",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1201/9781003344575-3",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1201/9781003344575-9",
+      "doi": "10.1201/9781003344575-9",
+      "title": "Safety",
+      "year": 2023,
+      "authors": [
+        "Steve Swauger"
+      ],
+      "container": "Master Airline Pilot",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1201/9781003344575-9",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1201/9781003344575-6",
+      "doi": "10.1201/9781003344575-6",
+      "title": "Situational Awareness",
+      "year": 2023,
+      "authors": [
+        "Steve Swauger"
+      ],
+      "container": "Master Airline Pilot",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1201/9781003344575-6",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4381687235",
+      "doi": "10.5089/9798400245046.001",
+      "title": "Some Lessons from Asian E-Money Schemes for the Adoption of Central Bank Digital Currency",
+      "year": 2023,
+      "authors": [
+        "Tong Sun",
+        "Ryan Rizaldy"
+      ],
+      "container": "IMF Working Paper",
+      "type": "article",
+      "url": "https://doi.org/10.5089/9798400245046.001",
+      "cited_by_count": 4,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.4324/9781003340454-10",
+      "doi": "10.4324/9781003340454-10",
+      "title": "Sustainability, Public Security, and Privacy Concerns Regarding Central Bank Digital Currency (CBDC)",
+      "year": 2023,
+      "authors": [
+        "Robert Rybski"
+      ],
+      "container": "Digital Transformation and the Economics of Banking",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.4324/9781003340454-10",
+      "cited_by_count": 6,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4362503210",
+      "doi": "10.1007/978-3-031-23194-0_7",
+      "title": "Swiss National Bank and Swiss Franc\u2019s Role in Global Financial Markets",
+      "year": 2023,
+      "authors": [
+        "Henri B. Meier",
+        "John E. Marthinsen",
+        "Pascal Gantenbein",
+        "Samuel S. Weber"
+      ],
+      "container": null,
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/978-3-031-23194-0_7",
+      "cited_by_count": 2,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1007/978-3-031-44738-9_1",
+      "doi": "10.1007/978-3-031-44738-9_1",
+      "title": "Terminology and Motives for Central Bank Digital Currency",
+      "year": 2023,
+      "authors": [
+        "Leo Kriese"
+      ],
+      "container": "Central Bank Digital Currency",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/978-3-031-44738-9_1",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q1_joint_assurance",
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4364355576",
+      "doi": "10.1111/rego.12520",
+      "title": "The future of the international financial system: The emerging CBDC network and its impact on regulation",
+      "year": 2023,
+      "authors": [
+        "Heng Wang",
+        "Simin Gao"
+      ],
+      "container": "Regulation & Governance",
+      "type": "article",
+      "url": "https://doi.org/10.1111/rego.12520",
+      "cited_by_count": 33,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.4375091",
+      "doi": "10.2139/ssrn.4375091",
+      "title": "The Interpretation of CBDC within an Endogenous Money Framework",
+      "year": 2023,
+      "authors": [
+        "Samuele Bibi",
+        "Rosa Canelli"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.4375091",
+      "cited_by_count": 2,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4379135257",
+      "doi": "10.1016/j.clsr.2023.105831",
+      "title": "The role of private and public regulation in the case study of crypto-assets: The Italian move towards participatory regulation",
+      "year": 2023,
+      "authors": [
+        "Marco Cappai"
+      ],
+      "container": "Computer law & security review",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.clsr.2023.105831",
+      "cited_by_count": 28,
+      "query_ids": [
+        "Q4_policy_scale",
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1201/9781003344575-10",
+      "doi": "10.1201/9781003344575-10",
+      "title": "Time",
+      "year": 2023,
+      "authors": [
+        "Steve Swauger"
+      ],
+      "container": "Master Airline Pilot",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1201/9781003344575-10",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1201/9781003344575-15",
+      "doi": "10.1201/9781003344575-15",
+      "title": "Time Management Techniques",
+      "year": 2023,
+      "authors": [
+        "Steve Swauger"
+      ],
+      "container": "Master Airline Pilot",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1201/9781003344575-15",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1108/s1569-37592023000111c008",
+      "doi": "10.1108/s1569-37592023000111c008",
+      "title": "Using Central Bank Digital Currency to Achieve the Sustainable Development Goals",
+      "year": 2023,
+      "authors": [
+        "Peterson K. Ozili"
+      ],
+      "container": "Digital Transformation, Strategic Resilience, Cyber Security and Risk Management",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1108/s1569-37592023000111c008",
+      "cited_by_count": 10,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1017/9781788216333.009",
+      "doi": "10.1017/9781788216333.009",
+      "title": "Wholesale CBDC: cross-border examples",
+      "year": 2023,
+      "authors": [],
+      "container": "Central Bank Digital Currencies",
+      "type": "other",
+      "url": "https://doi.org/10.1017/9781788216333.009",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.33516/maj.v58i1.55-57p",
+      "doi": "10.33516/maj.v58i1.55-57p",
+      "title": "\u201cCBDC-Cross Border Payments\u201d",
+      "year": 2023,
+      "authors": [
+        "Debaraja Sahu"
+      ],
+      "container": "The Management Accountant Journal",
+      "type": "journal-article",
+      "url": "https://doi.org/10.33516/maj.v58i1.55-57p",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4309715781",
+      "doi": "10.5089/9798400224188.001",
+      "title": "A Multi-Currency Exchange and Contracting Platform",
+      "year": 2022,
+      "authors": [
+        "Tobias Adrian",
+        "Federico Grinberg",
+        "Tommaso Mancini Griffoli",
+        "Robert M. Townsend",
+        "Nicolas X. Zhang"
+      ],
+      "container": "IMF Working Paper",
+      "type": "article",
+      "url": "https://doi.org/10.5089/9798400224188.001",
+      "cited_by_count": 19,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.38105/spr.j0hildxtyi",
+      "doi": "10.38105/spr.j0hildxtyi",
+      "title": "AML by design: Designing a central bank digital currency to stifle money laundering",
+      "year": 2022,
+      "authors": [
+        "Robert Z. Mahari",
+        "Thomas Hardjono",
+        "Alex Pentland"
+      ],
+      "container": "MIT Science Policy Review",
+      "type": "journal-article",
+      "url": "https://doi.org/10.38105/spr.j0hildxtyi",
+      "cited_by_count": 8,
+      "query_ids": [
+        "Q1_joint_assurance",
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.4324/9781003266921-23",
+      "doi": "10.4324/9781003266921-23",
+      "title": "Application of Multi-CBDC Bridge in Cross-Border Payments",
+      "year": 2022,
+      "authors": [
+        "Zhong Xu",
+        "Chuanwei Zou"
+      ],
+      "container": "Fintech",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.4324/9781003266921-23",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.4251613",
+      "doi": "10.2139/ssrn.4251613",
+      "title": "Central Bank Digital Currency Towards A Composable Standards-Based Implementation",
+      "year": 2022,
+      "authors": [
+        "Vipin Bharathan",
+        "Manivannan Pillai"
+      ],
+      "container": "SSRN Electronic Journal",
+      "type": "journal-article",
+      "url": "https://doi.org/10.2139/ssrn.4251613",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4225302210",
+      "doi": "10.3386/w30006",
+      "title": "Cryptocurrencies and Decentralized Finance (DeFi)",
+      "year": 2022,
+      "authors": [
+        "Igor Makarov",
+        "Antoinette Schoar"
+      ],
+      "container": "National Bureau of Economic Research",
+      "type": "report",
+      "url": "https://doi.org/10.3386/w30006",
+      "cited_by_count": 157,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1007/978-981-19-3242-7_9",
+      "doi": "10.1007/978-981-19-3242-7_9",
+      "title": "Digital Platforms for Cross-Border Settlement of CBDC",
+      "year": 2022,
+      "authors": [
+        "Maxim I. Inozemtsev",
+        "Artyom V. Nektov"
+      ],
+      "container": "The Platform Economy",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/978-981-19-3242-7_9",
+      "cited_by_count": 6,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4313328444",
+      "doi": "10.32388/csttyq.2",
+      "title": "Digitalization, Emerging Technologies, and Financial Stability: Challenges and Opportunities for the Indonesian Banking Industry and Beyond",
+      "year": 2022,
+      "authors": [
+        "Muyanja-Ssenyonga Jameaba"
+      ],
+      "container": null,
+      "type": "preprint",
+      "url": "https://doi.org/10.32388/csttyq.2",
+      "cited_by_count": 11,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4319348721",
+      "doi": "10.30709/eucrim-2022-018",
+      "title": "Disciplinary Sanctions against Judges: Punitive but not Criminal for the Strasbourg Court - Pragmatism or another Twist towards Further Confusion in Applying the Engel Criteria?",
+      "year": 2022,
+      "authors": [
+        "Lorena Bachmaier"
+      ],
+      "container": "eucrim \u2013 The European Criminal Law Associations Forum",
+      "type": "article",
+      "url": "https://doi.org/10.30709/eucrim-2022-018",
+      "cited_by_count": 3,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.21799/frbp.wp.2022.12",
+      "doi": "10.21799/frbp.wp.2022.12",
+      "title": "Fintech, Cryptocurrencies, and CBDC: Financial Structural Transformation in China",
+      "year": 2022,
+      "authors": [
+        "Franklin Allen",
+        "Xian Gu",
+        "Julapa Jagtiani"
+      ],
+      "container": "Working paper (Federal Reserve Bank of Philadelphia)",
+      "type": "report",
+      "url": "https://doi.org/10.21799/frbp.wp.2022.12",
+      "cited_by_count": 2,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4312394183",
+      "doi": "10.1007/978-3-031-07535-3",
+      "title": "Handbook on Blockchain",
+      "year": 2022,
+      "authors": [
+        "Duc A. Tran",
+        "My T. Thai",
+        "Bhaskar Krishnamachari"
+      ],
+      "container": "Springer optimization and its applications",
+      "type": "book",
+      "url": "https://doi.org/10.1007/978-3-031-07535-3",
+      "cited_by_count": 9,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.22617/tcs220357-2",
+      "doi": "10.22617/tcs220357-2",
+      "title": "Local Currency Collateral for Cross-Border Financial Transactions",
+      "year": 2022,
+      "authors": [
+        ""
+      ],
+      "container": null,
+      "type": "report",
+      "url": "https://doi.org/10.22617/tcs220357-2",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4413296275",
+      "doi": "10.54660/.jfmr.2022.3.1.567-578",
+      "title": "Operationalizing Analytics to Improve Strategic Planning: A Business Intelligence Case Study in Digital Finance",
+      "year": 2022,
+      "authors": [
+        "Damilola Christiana Ayodeji",
+        "Oyetunji Oladimeji",
+        "Joshua Oluwagbenga Ajayi",
+        "Ayorinde Olayiwola Akindemowo",
+        "Bukky Okojie Eboseremen",
+        "Ehimah Obuse",
+        "Adegbola Oluwole Ogedengbe",
+        "Eseoghene Daniel Erigha"
+      ],
+      "container": "Journal of Frontiers in Multidisciplinary Research",
+      "type": "article",
+      "url": "https://doi.org/10.54660/.jfmr.2022.3.1.567-578",
+      "cited_by_count": 25,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4308642090",
+      "doi": "10.1145/3548606.3560707",
+      "title": "PEReDi",
+      "year": 2022,
+      "authors": [
+        "Aggelos Kiayias",
+        "Markulf Kohlweiss",
+        "Amirreza Sarencheh"
+      ],
+      "container": "Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3548606.3560707",
+      "cited_by_count": 41,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4281567872",
+      "doi": "10.5089/9798400208232.002",
+      "title": "Peru: 2022 Article IV Consultation-Press Release; Staff Report; and Statement by the Executive Director for Peru",
+      "year": 2022,
+      "authors": [
+        "International Monetary Fund. Western Hemisphere Dept."
+      ],
+      "container": "IMF Staff Country Reports",
+      "type": "article",
+      "url": "https://doi.org/10.5089/9798400208232.002",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4409600038",
+      "doi": "10.38124/ijsrmt.v1i12.436",
+      "title": "Strategic Financial Intelligence: Using Machine Learning to Inform Partnership Driven Growth in Global Payment Networks",
+      "year": 2022,
+      "authors": [
+        "Abhishek Dodda"
+      ],
+      "container": "International Journal of Scientific Research and Modern Technology.",
+      "type": "article",
+      "url": "https://doi.org/10.38124/ijsrmt.v1i12.436",
+      "cited_by_count": 41,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4297513587",
+      "doi": "10.5089/9798400218583.002",
+      "title": "Thailand",
+      "year": 2022,
+      "authors": [
+        "International Monetary Fund. Asia and Pacific Dept"
+      ],
+      "container": "IMF Staff Country Reports",
+      "type": "article",
+      "url": "https://doi.org/10.5089/9798400218583.002",
+      "cited_by_count": 4,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.4337/9781785365300.00034",
+      "doi": "10.4337/9781785365300.00034",
+      "title": "THE EUROPEAN CERTIFICATE OF SUCCESSION: REDRESS PROCEDURE AND SUSPENSION OF THE EFFECTS OF THE CERTIFICATE",
+      "year": 2022,
+      "authors": [
+        "Carlo Alberto Marcoz"
+      ],
+      "container": "EU Cross-Border Succession Law",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.4337/9781785365300.00034",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4214691052",
+      "doi": "10.1007/978-981-16-7830-1",
+      "title": "The Future of Financial Systems in the Digital Age",
+      "year": 2022,
+      "authors": [
+        "Heckel, Markus 1978-",
+        "Waldenberger, Franz 1961-"
+      ],
+      "container": "Perspectives in law, business and innovation",
+      "type": "book",
+      "url": "https://doi.org/10.1007/978-981-16-7830-1",
+      "cited_by_count": 14,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1109/cloudcontinuum57429.2022.00003",
+      "doi": "10.1109/cloudcontinuum57429.2022.00003",
+      "title": "The IEEE 2302\u20132021 Standard on Intercloud Interoperability and Federation: Seamless Cloud-agnostic Interoperability Management for Resource Discovery, Access and Trust",
+      "year": 2022,
+      "authors": [
+        "Craig A. Lee",
+        "Robert Bohn",
+        "Martial Michel"
+      ],
+      "container": "2022 Cloud Continuum",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1109/cloudcontinuum57429.2022.00003",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4300164163",
+      "doi": "10.1007/978-3-030-95108-5_8",
+      "title": "Tokenization and Regulatory Compliance for Art and Collectibles Markets: From Regulators\u2019 Demands for Transparency to Investors\u2019 Demands for Privacy",
+      "year": 2022,
+      "authors": [
+        "Tom Barbereau",
+        "Johannes Sedlmeir",
+        "Reilly Smethurst",
+        "Gilbert Fridgen",
+        "Alexander Rieger"
+      ],
+      "container": "Technology, work and globalization",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/978-3-030-95108-5_8",
+      "cited_by_count": 13,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4312435350",
+      "doi": "10.30709/eucrim-2022-017",
+      "title": "Use of Administrative Evidence in Criminal Proceedings in Austria",
+      "year": 2022,
+      "authors": [
+        "Daniel Gilhofer"
+      ],
+      "container": "eucrim \u2013 The European Criminal Law Associations Forum",
+      "type": "article",
+      "url": "https://doi.org/10.30709/eucrim-2022-017",
+      "cited_by_count": 7,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W3029616339",
+      "doi": "10.1145/3471140",
+      "title": "A Survey on Blockchain Interoperability: Past, Present, and Future Trends",
+      "year": 2021,
+      "authors": [
+        "Rafael Belchior",
+        "Andr\u00e9 Vasconcelos",
+        "S\u00e9rgio Guerreiro",
+        "Miguel Correia"
+      ],
+      "container": "ACM Computing Surveys",
+      "type": "article",
+      "url": "https://doi.org/10.1145/3471140",
+      "cited_by_count": 96,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4400154793",
+      "doi": "10.1787/98e761e7-en",
+      "title": "Artificial Intelligence, Machine Learning and Big Data in Finance",
+      "year": 2021,
+      "authors": [
+        "OECD"
+      ],
+      "container": "OECD eBooks",
+      "type": "book",
+      "url": "https://doi.org/10.1787/98e761e7-en",
+      "cited_by_count": 47,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W3096676007",
+      "doi": "10.6028/nist.ir.8301",
+      "title": "Blockchain networks :",
+      "year": 2021,
+      "authors": [
+        "Lo\u00efc Lesavre",
+        "Priam Varin",
+        "Dylan Yaga"
+      ],
+      "container": null,
+      "type": "report",
+      "url": "https://doi.org/10.6028/nist.ir.8301",
+      "cited_by_count": 10,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1596/36765",
+      "doi": "10.1596/36765",
+      "title": "Central Bank Digital Currency",
+      "year": 2021,
+      "authors": [
+        ""
+      ],
+      "container": null,
+      "type": "book",
+      "url": "https://doi.org/10.1596/36765",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q1_joint_assurance",
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1596/36766",
+      "doi": "10.1596/36766",
+      "title": "Central Bank Digital Currency",
+      "year": 2021,
+      "authors": [
+        ""
+      ],
+      "container": null,
+      "type": "book",
+      "url": "https://doi.org/10.1596/36766",
+      "cited_by_count": 2,
+      "query_ids": [
+        "Q1_joint_assurance",
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.3787088",
+      "doi": "10.2139/ssrn.3787088",
+      "title": "Central Bank Digital Currency with Asymmetric Privacy",
+      "year": 2021,
+      "authors": [
+        "Katrin Tinn",
+        "Christophe Dubach"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.3787088",
+      "cited_by_count": 10,
+      "query_ids": [
+        "Q1_joint_assurance",
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4254161028",
+      "doi": "10.5089/9781513582344.001",
+      "title": "Central Bank Risk Management, Fintech, and Cybersecurity",
+      "year": 2021,
+      "authors": [
+        "Ashraf Khan",
+        "Majid Malaika"
+      ],
+      "container": "IMF Working Paper",
+      "type": "article",
+      "url": "https://doi.org/10.5089/9781513582344.001",
+      "cited_by_count": 29,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4210414016",
+      "doi": "10.2139/ssrn.4026279",
+      "title": "Central Bank Risk Management, Fintech, and Cybersecurity",
+      "year": 2021,
+      "authors": [
+        "Ashraf Khan",
+        "Majid Malaika"
+      ],
+      "container": "SSRN Electronic Journal",
+      "type": "preprint",
+      "url": "https://doi.org/10.2139/ssrn.4026279",
+      "cited_by_count": 7,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4412516669",
+      "doi": "10.54660/.ijfmr.2021.2.1.346-358",
+      "title": "Digital Currencies and Monetary Policy: Implications for Central Banks in Africa",
+      "year": 2021,
+      "authors": [
+        "Opeyemi Morenike Filani",
+        "Okeoghene Elebe",
+        "Chikaome Chimara Imediegwu",
+        "Adeola Okesiji",
+        "Odunayo Oyasiji"
+      ],
+      "container": "Journal of Frontiers in Multidisciplinary Research",
+      "type": "article",
+      "url": "https://doi.org/10.54660/.ijfmr.2021.2.1.346-358",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4400155312",
+      "doi": "10.1787/dad32d34-en",
+      "title": "Digitalisation and Finance in Asia",
+      "year": 2021,
+      "authors": [
+        "OECD"
+      ],
+      "container": "OECD eBooks",
+      "type": "book",
+      "url": "https://doi.org/10.1787/dad32d34-en",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4246701070",
+      "doi": "10.5089/9781513592237.001",
+      "title": "Fintech and Financial Inclusion in Latin America and the Caribbean",
+      "year": 2021,
+      "authors": [
+        "Dmitry Gershenson",
+        "Fr\u00e9d\u00e9ric Lambert",
+        "Luis Herrera",
+        "Grey Ramos",
+        "Marina Rousset",
+        "Jos\u00e9 Antonio Mart\u00ednez Torres"
+      ],
+      "container": "IMF Working Paper",
+      "type": "article",
+      "url": "https://doi.org/10.5089/9781513592237.001",
+      "cited_by_count": 23,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4200284128",
+      "doi": "10.5089/9781513597751.002",
+      "title": "Georgia: 2021 Article IV Consultation-Press Release; Staff Report; and Statement by the Executive Director for Georgia",
+      "year": 2021,
+      "authors": [
+        "International Monetary Fund. Middle East and Central Asia Dept."
+      ],
+      "container": "IMF Staff Country Reports",
+      "type": "article",
+      "url": "https://doi.org/10.5089/9781513597751.002",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.3965050",
+      "doi": "10.2139/ssrn.3965050",
+      "title": "How to issue a privacy-preserving central bank digital currency",
+      "year": 2021,
+      "authors": [
+        "Christian Grothoff",
+        "Thomas Moser"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.3965050",
+      "cited_by_count": 9,
+      "query_ids": [
+        "Q1_joint_assurance",
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.3951322",
+      "doi": "10.2139/ssrn.3951322",
+      "title": "International Law Settlement of Territorial and Cross-border Disputes",
+      "year": 2021,
+      "authors": [
+        "Anna Kukushkina"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.3951322",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4205445873",
+      "doi": "10.5089/9781513566184.002",
+      "title": "People\u2019s Republic of China",
+      "year": 2021,
+      "authors": [
+        "International Monetary Fund. Asia and Pacific Dept"
+      ],
+      "container": "IMF Staff Country Reports",
+      "type": "article",
+      "url": "https://doi.org/10.5089/9781513566184.002",
+      "cited_by_count": 8,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1007/978-3-030-90202-5_10",
+      "doi": "10.1007/978-3-030-90202-5_10",
+      "title": "Performance Validation of the Silicon-Based Calorimeter Prototype",
+      "year": 2021,
+      "authors": [
+        "Thorben Quast"
+      ],
+      "container": "Springer Theses",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/978-3-030-90202-5_10",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4251241846",
+      "doi": "10.1109/tnsm.2021.3136984",
+      "title": "Privacy and Transparency in CBDCs: A Regulation-by-Design AML/CFT Scheme",
+      "year": 2021,
+      "authors": [
+        "Nadia Pocher",
+        "Andreas Veneris"
+      ],
+      "container": "IEEE Transactions on Network and Service Management",
+      "type": "article",
+      "url": "https://doi.org/10.1109/tnsm.2021.3136984",
+      "cited_by_count": 62,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W3161610010",
+      "doi": "10.2139/ssrn.3759144",
+      "title": "Privacy and Transparency in CBDCs: A Regulation-by-Design AML/CFT Scheme",
+      "year": 2021,
+      "authors": [
+        "Nadia Pocher",
+        "Andreas Veneris"
+      ],
+      "container": "SSRN Electronic Journal",
+      "type": "preprint",
+      "url": "https://doi.org/10.2139/ssrn.3759144",
+      "cited_by_count": 17,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W3177297672",
+      "doi": "10.1109/icbc51069.2021.9461090",
+      "title": "Privacy and Transparency in CBDCs: A Regulation-by-Design AML/CFT Scheme",
+      "year": 2021,
+      "authors": [
+        "Nadia Pocher",
+        "Andreas Veneris"
+      ],
+      "container": "2021 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/icbc51069.2021.9461090",
+      "cited_by_count": 13,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2172/1825310",
+      "doi": "10.2172/1825310",
+      "title": "STATUS OF PIP-II 650 MHZ PROTOTYPE DRESSED CAVITY QUALIFICATION",
+      "year": 2021,
+      "authors": [
+        "",
+        "D. Bice"
+      ],
+      "container": "STATUS OF PIP-II 650 MHZ PROTOTYPE DRESSED CAVITY QUALIFICATION",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.2172/1825310",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.3755573",
+      "doi": "10.2139/ssrn.3755573",
+      "title": "Tax Compliance, Payment Choice, and Central Bank Digital Currency",
+      "year": 2021,
+      "authors": [
+        "Zijian Wang"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.3755573",
+      "cited_by_count": 10,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4288791756",
+      "doi": "10.1787/c033401a-en",
+      "title": "Understanding the tokenisation of assets in financial markets",
+      "year": 2021,
+      "authors": [
+        "Iota Kaousar Nassr"
+      ],
+      "container": "OECD going digital toolkit notes",
+      "type": "report",
+      "url": "https://doi.org/10.1787/c033401a-en",
+      "cited_by_count": 13,
+      "query_ids": [
+        "Q4_policy_scale",
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4286963136",
+      "doi": "10.48550/arxiv.2109.12194",
+      "title": "Universal Payment Channels: An Interoperability Platform for Digital\\n Currencies",
+      "year": 2021,
+      "authors": [
+        "Mihai Christodorescu",
+        "Erin English",
+        "Wanyun Catherine Gu",
+        "David Kreissman",
+        "Ranjit Kumaresan",
+        "Mohsen Minaei",
+        "Srinivasan Raghuraman",
+        "Cuy Sheffield",
+        "Arjuna Wijeyekoon",
+        "Mahdi Zamani"
+      ],
+      "container": "arXiv (Cornell University)",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2109.12194",
+      "cited_by_count": 2,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4287774586",
+      "doi": "10.48550/arxiv.2005.14282",
+      "title": "A Survey on Blockchain Interoperability: Past, Present, and Future\\n Trends",
+      "year": 2020,
+      "authors": [
+        "Rafael Belchior",
+        "Andr\u00e9 Vasconcelos",
+        "S\u00e9rgio Guerreiro",
+        "Miguel Correia"
+      ],
+      "container": "arXiv (Cornell University)",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2005.14282",
+      "cited_by_count": 5,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4255533925",
+      "doi": "10.6028/nist.ir.8301-draft",
+      "title": "Blockchain Networks:",
+      "year": 2020,
+      "authors": [
+        "Lo\u00efc Lesavre",
+        "Priam Varin",
+        "Dylan Yaga"
+      ],
+      "container": null,
+      "type": "preprint",
+      "url": "https://doi.org/10.6028/nist.ir.8301-draft",
+      "cited_by_count": 8,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W3047794938",
+      "doi": "10.3386/w27634",
+      "title": "Design Choices for Central Bank Digital Currency: Policy and Technical Considerations",
+      "year": 2020,
+      "authors": [
+        "Sarah E. Allen",
+        "Sr\u0111jan \u010capkun",
+        "Ittay Eyal",
+        "Giulia Fanti",
+        "Bryan Ford",
+        "James Grimmelmann",
+        "Ari Juels",
+        "Kari Kostiainen",
+        "Sarah Meiklejohn",
+        "Andrew Miller",
+        "Eswar Prasad",
+        "Karl W\u00fcst",
+        "Fan Zhang"
+      ],
+      "container": "National Bureau of Economic Research",
+      "type": "report",
+      "url": "https://doi.org/10.3386/w27634",
+      "cited_by_count": 150,
+      "query_ids": [
+        "Q2_cross_border_atomicity",
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W4400154113",
+      "doi": "10.1787/82237955-en",
+      "title": "Financial markets, insurance and pensions 2020",
+      "year": 2020,
+      "authors": [
+        "OECD"
+      ],
+      "container": "OECD eBooks",
+      "type": "book",
+      "url": "https://doi.org/10.1787/82237955-en",
+      "cited_by_count": 4,
+      "query_ids": [
+        "Q2_cross_border_atomicity",
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W3005127326",
+      "doi": "10.1186/s40854-020-0172-y",
+      "title": "Privacy-preserving analytics for the securitization market: a zero-knowledge distributed ledger technology application",
+      "year": 2020,
+      "authors": [
+        "Sophie Meralli"
+      ],
+      "container": "Financial Innovation",
+      "type": "article",
+      "url": "https://doi.org/10.1186/s40854-020-0172-y",
+      "cited_by_count": 18,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W3003033094",
+      "doi": "10.3389/fbloc.2019.00028",
+      "title": "Self-Sovereign Identity in a Globalized World: Credentials-Based Identity Systems as a Driver for Economic Inclusion",
+      "year": 2020,
+      "authors": [
+        "Fennie Wang",
+        "Primavera De Filippi"
+      ],
+      "container": "Frontiers in Blockchain",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fbloc.2019.00028",
+      "cited_by_count": 140,
+      "query_ids": [
+        "Q1_joint_assurance",
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W2999044884",
+      "doi": "10.2139/ssrn.3513422",
+      "title": "Tiered CBDC and the Financial System",
+      "year": 2020,
+      "authors": [
+        "Ulrich Bindseil"
+      ],
+      "container": "SSRN Electronic Journal",
+      "type": "preprint",
+      "url": "https://doi.org/10.2139/ssrn.3513422",
+      "cited_by_count": 235,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2307/j.ctv9hvqz9",
+      "doi": "10.2307/j.ctv9hvqz9",
+      "title": "Cross-Border Commemorations",
+      "year": 2019,
+      "authors": [
+        "ADAM HJORTH\u00c9N"
+      ],
+      "container": null,
+      "type": "monograph",
+      "url": "https://doi.org/10.2307/j.ctv9hvqz9",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1115/detc2019-97952",
+      "doi": "10.1115/detc2019-97952",
+      "title": "Modeling, Validation and Prototype Development of Electric Sail Tether Deployment Systems for CubeSats",
+      "year": 2019,
+      "authors": [
+        "Benjamin E. Hargis",
+        "Benjamin F. Brandt",
+        "Stephen L. Canfield",
+        "Michael Tinker"
+      ],
+      "container": "Volume 5A: 43rd Mechanisms and Robotics Conference",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1115/detc2019-97952",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W3013756342",
+      "doi": null,
+      "title": "The GNU Taler system : practical and provably secure electronic payments",
+      "year": 2019,
+      "authors": [
+        "Florian Dold"
+      ],
+      "container": "HAL (Le Centre pour la Communication Scientifique Directe)",
+      "type": "dissertation",
+      "url": "https://openalex.org/W3013756342",
+      "cited_by_count": 3,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.59490/abe.2019.13.4159",
+      "doi": "10.59490/abe.2019.13.4159",
+      "title": "Using focus groups data to finalize the Archetypes",
+      "year": 2019,
+      "authors": [
+        "Marco Antonio ORTIZ SANCHEZ",
+        "Dong Hyun Kim",
+        "Philomena M. Bluyssen"
+      ],
+      "container": "Architecture and the Built Environment",
+      "type": "journal-article",
+      "url": "https://doi.org/10.59490/abe.2019.13.4159",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W2897433711",
+      "doi": "10.18517/ijaseit.8.4-2.6838",
+      "title": "Blockchain Technology the Identity Management and Authentication Service Disruptor: A Survey",
+      "year": 2018,
+      "authors": [
+        "Shu Yun Lim",
+        "Pascal Tankam Fotsing",
+        "Abdullah Almasri",
+        "Omar Musa",
+        "Miss Laiha Mat Kiah",
+        "Tan Fong Ang",
+        "Reza Ismail"
+      ],
+      "container": "International Journal on Advanced Science Engineering and Information Technology",
+      "type": "article",
+      "url": "https://doi.org/10.18517/ijaseit.8.4-2.6838",
+      "cited_by_count": 168,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1093/tandt/ttw239",
+      "doi": "10.1093/tandt/ttw239",
+      "title": "Step Advanced Certificate in Cross-Border Estates",
+      "year": 2017,
+      "authors": [],
+      "container": "Trusts &amp; Trustees",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1093/tandt/ttw239",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "OpenAlex",
+      "id": "https://openalex.org/W2408435428",
+      "doi": null,
+      "title": "Corporate Governance in an Era of Compliance",
+      "year": 2016,
+      "authors": [
+        "Sean J. Griffith"
+      ],
+      "container": "The William & Mary Law School Scholarship Repository (William & Mary)",
+      "type": "article",
+      "url": "https://openalex.org/W2408435428",
+      "cited_by_count": 75,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.4018/978-1-4666-9845-1.ch020",
+      "doi": "10.4018/978-1-4666-9845-1.ch020",
+      "title": "Research and Design of Geospatial Metadata Deployment Prototype System Based on PHP Framework",
+      "year": 2016,
+      "authors": [
+        "Li Zhang"
+      ],
+      "container": "Geospatial Research",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.4018/978-1-4666-9845-1.ch020",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2139/ssrn.2335449",
+      "doi": "10.2139/ssrn.2335449",
+      "title": "Cross-Border Trade Settlement in Renminbi  - Risks, Implications and Prospects",
+      "year": 2013,
+      "authors": [
+        "Shen Wei"
+      ],
+      "container": null,
+      "type": "posted-content",
+      "url": "https://doi.org/10.2139/ssrn.2335449",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q2_cross_border_atomicity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.3109/9780849382680-22",
+      "doi": "10.3109/9780849382680-22",
+      "title": "Appendix D",
+      "year": 2007,
+      "authors": [],
+      "container": "Validation and Qualification in Analytical Laboratories, Second Edition",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.3109/9780849382680-22",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.3109/9780849382680-5",
+      "doi": "10.3109/9780849382680-5",
+      "title": "Terminology and Validation Overview",
+      "year": 2007,
+      "authors": [],
+      "container": "Validation and Qualification in Analytical Laboratories",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.3109/9780849382680-5",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.3109/9780849382680-13",
+      "doi": "10.3109/9780849382680-13",
+      "title": "Validation of Analytical Methods",
+      "year": 2007,
+      "authors": [],
+      "container": "Validation and Qualification in Analytical Laboratories",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.3109/9780849382680-13",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.2172/974884",
+      "doi": "10.2172/974884",
+      "title": "Telemedicine system interoperability architecture: concept description and architecture overview.",
+      "year": 2004,
+      "authors": [
+        ""
+      ],
+      "container": null,
+      "type": "report",
+      "url": "https://doi.org/10.2172/974884",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.21236/ada467957",
+      "doi": "10.21236/ada467957",
+      "title": "Toward an Interoperability Architecture",
+      "year": 2001,
+      "authors": [
+        "Rex Buddenberg"
+      ],
+      "container": null,
+      "type": "report",
+      "url": "https://doi.org/10.21236/ada467957",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1007/s007690050156",
+      "doi": "10.1007/s007690050156",
+      "title": "Selecting parameters and limits for equipment operational qualification",
+      "year": 1997,
+      "authors": [
+        "L. Huber",
+        "Lou Welebob"
+      ],
+      "container": "Accreditation and Quality Assurance",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s007690050156",
+      "cited_by_count": 6,
+      "query_ids": [
+        "Q4_policy_scale"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.5204/thesis.eprints.246083",
+      "doi": "10.5204/thesis.eprints.246083",
+      "title": "Central Bank Digital Currency (CBDC) in Australia: Motivations, design, implementation challenges, and public adoption",
+      "year": null,
+      "authors": [
+        "",
+        "Simeon Lawson"
+      ],
+      "container": null,
+      "type": "dissertation",
+      "url": "https://doi.org/10.5204/thesis.eprints.246083",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q3_privacy_integrity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.5089/9798400238277.001.a001",
+      "doi": "10.5089/9798400238277.001.a001",
+      "title": "Central Bank Digital Currency and Financial Inclusion",
+      "year": null,
+      "authors": [
+        "Brandon Tan"
+      ],
+      "container": null,
+      "type": "component",
+      "url": "https://doi.org/10.5089/9798400238277.001.a001",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1007/978-1-84800-221-0_48",
+      "doi": "10.1007/978-1-84800-221-0_48",
+      "title": "Enterprise Architecture: A Service Interoperability Analysis Framework",
+      "year": null,
+      "authors": [
+        "J. Ullberg",
+        "R. Lagerstr\u00f6m",
+        "P. Johnson"
+      ],
+      "container": "Enterprise Interoperability III",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/978-1-84800-221-0_48",
+      "cited_by_count": 2,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.7717/peerj-cs.578/fig-3",
+      "doi": "10.7717/peerj-cs.578/fig-3",
+      "title": "Figure 3: (A) Prototype model (B) Model deployment inside paddy field.",
+      "year": null,
+      "authors": [],
+      "container": null,
+      "type": "component",
+      "url": "https://doi.org/10.7717/peerj-cs.578/fig-3",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.7717/peerj-cs.3833/fig-5",
+      "doi": "10.7717/peerj-cs.3833/fig-5",
+      "title": "Figure 5: Multi-phase development, security validation, and FPGA deployment workflow of the proposed 4D-HCR-AES framework.",
+      "year": null,
+      "authors": [],
+      "container": null,
+      "type": "component",
+      "url": "https://doi.org/10.7717/peerj-cs.3833/fig-5",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.3403/30402112u",
+      "doi": "10.3403/30402112u",
+      "title": "Health Informatics - Interoperability and integration reference architecture - Model and framework",
+      "year": null,
+      "authors": [],
+      "container": null,
+      "type": "standard",
+      "url": "https://doi.org/10.3403/30402112u",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.3403/30402112",
+      "doi": "10.3403/30402112",
+      "title": "Health Informatics - Interoperability and integration reference architecture - Model and framework",
+      "year": null,
+      "authors": [],
+      "container": null,
+      "type": "standard",
+      "url": "https://doi.org/10.3403/30402112",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.1109/tc.2026.3699633/mm1",
+      "doi": "10.1109/tc.2026.3699633/mm1",
+      "title": "Hybrid Relay Architecture: A Decentralized and Semantically-agnostic Interoperability Framework for Blockchain_supp1-3699633.pdf",
+      "year": null,
+      "authors": [
+        "Sheng Chen"
+      ],
+      "container": null,
+      "type": "component",
+      "url": "https://doi.org/10.1109/tc.2026.3699633/mm1",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q6_architecture_agnostic"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.5089/9798229030977.063.a001",
+      "doi": "10.5089/9798229030977.063.a001",
+      "title": "Payment Resilience in Fragile and Conflict-Affected States: Lessons for Central Bank Digital Currency (CBDC)",
+      "year": null,
+      "authors": [
+        "Majid Malaika",
+        "Gabriel Soderberg",
+        "Kateryna Zhabska"
+      ],
+      "container": null,
+      "type": "component",
+      "url": "https://doi.org/10.5089/9798229030977.063.a001",
+      "cited_by_count": 1,
+      "query_ids": [
+        "Q1_joint_assurance"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    },
+    {
+      "source": "Crossref",
+      "id": "10.7717/peerj-cs.3996/table-2",
+      "doi": "10.7717/peerj-cs.3996/table-2",
+      "title": "Table 2: Experts and their influence in the CBDC blockchain evaluation MCGDM framework.",
+      "year": null,
+      "authors": [],
+      "container": null,
+      "type": "component",
+      "url": "https://doi.org/10.7717/peerj-cs.3996/table-2",
+      "cited_by_count": 0,
+      "query_ids": [
+        "Q5_evidence_maturity"
+      ],
+      "retrieved_from": [
+        "Crossref"
+      ]
+    }
+  ]
+}

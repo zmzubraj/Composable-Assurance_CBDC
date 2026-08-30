@@ -1,0 +1,39 @@
+{
+  "status": "PASS_WITH_AUTHOR_GATES",
+  "journal": "Journal of Financial Market Infrastructures",
+  "journal_status": "PROVISIONAL_TRIAL_TARGET_NOT_CONFIRMED",
+  "official_requirements_checked_on": "2026-08-29",
+  "official_requirements_url": "https://www.risk.net/static/risk-journals-submission-guidelines",
+  "blinded_docx": "output/jfmi_provisional/Composable_Assurance_CBDC_JFMI_Blinded_Manuscript_v8.docx",
+  "blinded_pdf": "output/jfmi_provisional/Composable_Assurance_CBDC_JFMI_Blinded_Manuscript_v8.pdf",
+  "title_page_template": "output/jfmi_provisional/Composable_Assurance_CBDC_JFMI_Title_Page_TEMPLATE_v8.docx",
+  "optional_cover_letter_template": "output/jfmi_provisional/Composable_Assurance_CBDC_JFMI_Cover_Letter_TEMPLATE_v8.docx",
+  "submission_inventory": "docs/JFMI_SUBMISSION_INVENTORY_V8.json",
+  "abstract_words": 185,
+  "keyword_count": 6,
+  "key_message_lengths": [
+    76,
+    75,
+    76,
+    77
+  ],
+  "author_date_citations": 44,
+  "apa_references": 44,
+  "main_text_words_including_table_text": 5355,
+  "figures": 16,
+  "tables": 22,
+  "editable_svg_figures": 16,
+  "blinded_identity_check": "PASS",
+  "deferred_reviewer_requirement_absent": true,
+  "unresolved_title_page_fields": 4,
+  "submission_blockers": [
+    "final journal confirmation",
+    "affiliation and postal address",
+    "corresponding-author designation",
+    "conflict-of-interest declaration approval",
+    "AI-use disclosure approval",
+    "public repository URL and DOI/Zenodo deposit",
+    "manuscript and figure content-licence decision",
+    "accountable human portal review and submission approval"
+  ]
+}

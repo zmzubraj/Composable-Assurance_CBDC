@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/aCA4bmFCHPpmprXrkL1zE6PPAgI</id>
+  <title>arXiv Query: search_query=all:"central bank digital currency" AND (all:"cross-border" OR all:interoperability) AND (all:atomic OR all:settlement OR all:certificate OR all:ledger)&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-08-28T23:23:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22central+bank+digital+currency%22+AND+((all:%22cross-border%22+OR+all:interoperability)+AND+(all:atomic+OR+(all:settlement+OR+(all:certificate+OR+all:ledger))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.08880v1</id>
+    <title>Central Bank Digital Currencies: A Survey</title>
+    <updated>2025-07-10T08:51:48Z</updated>
+    <link href="https://arxiv.org/abs/2507.08880v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.08880v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the advancement of digital payment technologies, central banks worldwide have increasingly begun to explore the implementation of Central Bank Digital Currencies (CBDCs). This paper presents a comprehensive review of the latest developments in CBDC system design and implementation. By analyzing 135 research papers published between 2018 and 2025, the study provides an in-depth examination of CBDC design taxonomy and ecosystem frameworks. Grounded in the CBDC Design Pyramid, the paper refines and expands key architectural elements by thoroughly investigating innovations in ledger technologies, the selection of consensus mechanisms, and challenges associated with offline payments and digital wallet integration. Furthermore, it conceptualizes a CBDC ecosystem. A detailed comparative analysis of 26 existing CBDC systems is conducted across four dimensions: system architecture, ledger technology, access model, and application domain. The findings reveal that the most common configuration consists of a two-tier architecture, distributed ledger technology (DLT), and a token-based access model. However, no dominant trend has emerged regarding application domains. Notably, recent research shows a growing focus on leveraging CBDCs for cross-border payments to resolve inefficiencies and structural delays in current systems. Finally, the paper offers several forward-looking recommendations for future research.</summary>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-10T08:51:48Z</published>
+    <arxiv:comment>49 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="econ.GN"/>
+    <author>
+      <name>Qifeng Tang</name>
+    </author>
+    <author>
+      <name>Yain-Whar Si</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.16893v1</id>
+    <title>CBDC-AquaSphere: Interoperable Central Bank Digital Currency Built on Trusted Computing and Blockchain</title>
+    <updated>2023-05-26T12:54:00Z</updated>
+    <link href="https://arxiv.org/abs/2305.16893v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.16893v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The adoption of decentralized, tamper-proof ledger systems is paving the way for new applications and opportunities in different contexts. While most research aims to improve their scalability, privacy, and governance issues, interoperability has received less attention. Executing transactions across various blockchains is notably instrumental in unlocking the potential of novel applications, particularly in the financial sector, where their potential would otherwise be significantly diminished. Therefore, interoperable ledgers are crucial to ensure the expansion and further adoption of such a technology in various contexts.
+  In this paper, we present a protocol that uses a combination of trusted execution environment (TEE) and blockchains to enable interoperability over independent semi-centralized CBDC ledgers, guaranteeing the atomicity of inter-bank transfers. Our interoperability protocol uses a custom adaptation of atomic swap protocol and is executed by any pair of CBDC instances to realize a one-way transfer. It ensures features such as atomicity, verifiability, correctness, censorship resistance, and privacy while offering high scalability in terms of the number of CBDC instances. Our approach enables to possible deployment scenarios that can be combined: (1) CBDC instances represent central banks of multiple countries, and (2) CBDC instances represent the set of retail banks and a paramount central bank of a single country. We provide a detailed description of our protocol as well as an extensive analysis of its benefits, features, and security.
+  In this WIP paper, we made a proof-of-concept implementation and made a partial evaluation, while the more extensive evaluation will be made in our future work.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-26T12:54:00Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Ivan Homoliak</name>
+    </author>
+    <author>
+      <name>Martin Perešíni</name>
+    </author>
+    <author>
+      <name>Patrik Holop</name>
+    </author>
+    <author>
+      <name>Jakub Handzuš</name>
+    </author>
+    <author>
+      <name>Fran Casino</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.12194v2</id>
+    <title>Universal Payment Channels: An Interoperability Platform for Digital Currencies</title>
+    <updated>2021-09-29T03:50:00Z</updated>
+    <link href="https://arxiv.org/abs/2109.12194v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.12194v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the innovation of distributed ledger technology (DLT), often known as blockchain technology, there has been significant growth of digital tokens in the form of cryptocurrencies, stablecoins, and central bank digital currencies. As the number of DLT networks increases, each with varying design characteristics, the likelihood that transacting parties are on the same network decreases. Thus, it is crucial to facilitate payments that are universal across networks, scalable to massive loads, and highly available. We envision a future payment network that may be built on top of DLT networks without being subject to their limitations on interoperability, scalability, and availability faced by DLT payment solutions today. Specifically, we propose a hub-and-spoke payment route, referred to here as Universal Payment Channels (UPC), that can be used to support digital token transfers of funds across different networks through payment channels. We further discuss the potential use cases of the UPC technology to support, and not complicate, an already robust digital payment ecosystem. Finally, through the paper, we share some future directions of the UPC technology.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-24T21:01:01Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Mihai Christodorescu</name>
+    </author>
+    <author>
+      <name>Erin English</name>
+    </author>
+    <author>
+      <name>Wanyun Catherine Gu</name>
+    </author>
+    <author>
+      <name>David Kreissman</name>
+    </author>
+    <author>
+      <name>Ranjit Kumaresan</name>
+    </author>
+    <author>
+      <name>Mohsen Minaei</name>
+    </author>
+    <author>
+      <name>Srinivasan Raghuraman</name>
+    </author>
+    <author>
+      <name>Cuy Sheffield</name>
+    </author>
+    <author>
+      <name>Arjuna Wijeyekoon</name>
+    </author>
+    <author>
+      <name>Mahdi Zamani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.09811v1</id>
+    <title>A Framework for Digital Currencies for Financial Inclusion in Latin America and the Caribbean</title>
+    <updated>2024-01-18T09:05:14Z</updated>
+    <link href="https://arxiv.org/abs/2401.09811v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.09811v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This research aims to provide a framework to assess the contribution of digital currencies to promote financial inclusion, based on a diagnosis of the landscape of financial inclusion and domestic and cross-border payments in Latin America and the Caribbean. It also provides insights from central banks in the region on key aspects regarding a possible implementation of central bank digital currencies. Findings show that although digital currencies development is at an early stage, a well-designed system could reduce the cost of domestic and cross-border payments, improve the settlement of transactions to achieve real-time payments, expand the accessibility of central bank money, incorporate programmable payments and achieve system performance demands.</summary>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-18T09:05:14Z</published>
+    <arxiv:comment>32 pages, 7 figures, 3 tables and 3 boxes</arxiv:comment>
+    <arxiv:primary_category term="econ.GN"/>
+    <author>
+      <name>Gabriel Bizama</name>
+    </author>
+    <author>
+      <name>Alexander Wu</name>
+    </author>
+    <author>
+      <name>Bernardo Paniagua</name>
+    </author>
+    <author>
+      <name>Max Mitre</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.12196v1</id>
+    <title>Automated Market-Making for Fiat Currencies</title>
+    <updated>2021-09-24T21:05:32Z</updated>
+    <link href="https://arxiv.org/abs/2109.12196v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.12196v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an automated market-making (AMM) cross-settlement mechanism for digital assets on interoperable blockchains, focusing on central bank digital currencies (CBDCs) and stable coins. We develop an innovative approach for generating fair exchange rates for on-chain assets consistent with traditional off-chain markets. We illustrate the efficacy of our approach on realized FX rates for G-10 currencies.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-24T21:05:32Z</published>
+    <arxiv:comment>16 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Alex Lipton</name>
+    </author>
+    <author>
+      <name>Artur Sepp</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.13213v1</id>
+    <title>Towards Secure Decentralized Applications and Consensus Protocols in Blockchains (on Selfish Mining, Undercutting Attacks, DAG-Based Blockchains, E-Voting, Cryptocurrency Wallets, Secure-Logging, and CBDC)</title>
+    <updated>2025-12-15T11:26:43Z</updated>
+    <link href="https://arxiv.org/abs/2512.13213v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.13213v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rise of cryptocurrencies, many new applications built on decentralized blockchains have emerged. Blockchains are full-stack distributed systems where multiple sub-systems interact. While many deployed blockchains and decentralized applications need better scalability and performance, security is also critical. Due to their complexity, assessing blockchain and DAPP security requires a more holistic view than for traditional distributed or centralized systems.
+  In this thesis, we summarize our contributions to blockchain and decentralized application security. We propose a security reference architecture to support standardized vulnerability and threat analysis. We study consensus security in single-chain Proof-of-Work blockchains, including resistance to selfish mining, undercutting, and greedy transaction selection, as well as related issues in DAG-based systems. We contribute to wallet security with a new classification of authentication schemes and a two-factor method based on One-Time Passwords. We advance e-voting with a practical boardroom voting protocol, extend it to a scalable version for millions of participants while preserving security and privacy, and introduce a repetitive voting framework that enables vote changes between elections while avoiding peak-end effects. Finally, we improve secure logging using blockchains and trusted computing through a centralized ledger that guarantees non-equivocation, integrity, and censorship evidence, then build on it to propose an interoperability protocol for central bank digital currencies that ensures atomic transfers.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T11:26:43Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ivan Homoliak</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.10200v1</id>
+    <title>Privacy-Enhancing Technologies for Financial Data Sharing</title>
+    <updated>2023-06-16T22:35:08Z</updated>
+    <link href="https://arxiv.org/abs/2306.10200v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.10200v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Today, financial institutions (FIs) store and share consumers' financial data for various reasons such as offering loans, processing payments, and protecting against fraud and financial crime. Such sharing of sensitive data have been subject to data breaches in the past decade.
+  While some regulations (e.g., GDPR, FCRA, and CCPA) help to prevent institutions from freely sharing clients' sensitive information, some regulations (e.g., BSA 1970) require FIs to share certain financial data with government agencies to combat financial crime. This creates an inherent tension between the privacy and the integrity of financial transactions. In the past decade, significant progress has been made in building efficient privacy-enhancing technologies that allow computer systems and networks to validate encrypted data automatically.
+  In this paper, we investigate some of these technologies to identify the benefits and limitations of each, in particular, for use in data sharing among FIs. As a case study, we look into the emerging area of Central Bank Digital Currencies (CBDCs) and how privacy-enhancing technologies can be integrated into the CBDC architecture. Our study, however, is not limited to CBDCs and can be applied to other financial scenarios with tokenized bank deposits such as cross-border payments, real-time settlements, and card payments.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-16T22:35:08Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Panagiotis Chatzigiannis</name>
+    </author>
+    <author>
+      <name>Wanyun Catherine Gu</name>
+    </author>
+    <author>
+      <name>Srinivasan Raghuraman</name>
+    </author>
+    <author>
+      <name>Peter Rindal</name>
+    </author>
+    <author>
+      <name>Mahdi Zamani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.10678v1</id>
+    <title>IT Strategic alignment in the decentralized finance (DeFi): CBDC and digital currencies</title>
+    <updated>2024-05-17T10:19:20Z</updated>
+    <link href="https://arxiv.org/abs/2405.10678v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.10678v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cryptocurrency can be understood as a digital asset transacted among participants in the crypto economy. Every cryptocurrency must have an associated Blockchain. Blockchain is a Distributed Ledger Technology (DLT) which supports cryptocurrencies, this may be considered as the most promising disruptive technology in the industry 4.0 context. Decentralized finance (DeFi) is a Blockchain-based financial infrastructure, the term generally refers to an open, permissionless, and highly interoperable protocol stack built on public smart contract platforms, such as the Ethereum Blockchain. It replicates existing financial services in a more open and transparent way. DeFi does not rely on intermediaries and centralized institutions. Instead, it is based on open protocols and decentralized applications (Dapps). Considering that there are many digital coins, stablecoins and central bank digital currencies (CBDCs), these currencies should interact among each other sometime. For this interaction the Information Technology elements play an important whole as enablers and IT strategic alignment. This paper considers the strategic alignment model proposed by Henderson and Venkatraman (1993) and Luftman (1996). This paper seeks to answer two main questions 1) What are the common IT elements in the DeFi? And 2) How the elements connect to the IT strategic alignment in DeFi? Through a Systematic Literature Review (SLR). Results point out that there are many IT elements already mentioned by literature, however there is a lack in the literature about the connection between IT elements and IT strategic alignment in a Decentralized Finance (DeFi) architectural network. After final considerations, limitations and future research agenda are presented. Keywords: IT Strategic alignment, Decentralized Finance (DeFi), Cryptocurrency, Digital Economy.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-17T10:19:20Z</published>
+    <arxiv:comment>Keywords: IT Strategic alignment, Decentralized Finance (DeFi), Cryptocurrency, Digital Economy</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Carlos Alberto Durigan Junior</name>
+    </author>
+    <author>
+      <name>Fernando Jose Barbin Laurindo</name>
+    </author>
+  </entry>
+</feed>

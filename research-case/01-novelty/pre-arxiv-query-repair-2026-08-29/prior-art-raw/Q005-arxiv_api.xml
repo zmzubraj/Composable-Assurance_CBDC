@@ -1,0 +1,692 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XyErNzqWobcC19NlViSVcvz70iQ</id>
+  <title>arXiv Query: search_query=all:CBDC OR all:evidence OR all:qualification OR all:framework OR all:prototype OR all:deployment OR all:validation&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-08-28T23:09:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:CBDC+OR+(all:evidence+OR+(all:qualification+OR+(all:framework+OR+(all:prototype+OR+(all:deployment+OR+all:validation)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>650537</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2607.29089v1</id>
+    <title>The Deployment Wall: A Diagnostic Framework and Instrument for Enterprise AI in the Deployment Era</title>
+    <updated>2026-07-31T07:16:38Z</updated>
+    <link href="https://arxiv.org/abs/2607.29089v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.29089v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Enterprise investment in generative artificial intelligence (AI) tripled in a single year to roughly US$37 billion, yet independent field research finds that about 95% of enterprise generative-AI pilots deliver no measurable profit-and-loss impact. We argue that the dominant explanation--that models are not yet capable enough--is mistaken, and that enterprise AI has entered a Deployment Era in which advantage derives not from model intelligence but from the removal of the organizational and architectural friction that prevents a capable model from reaching production. Building on the software-engineering literature on technical debt and machine-learning deployment, and on a structured synthesis of independent field studies, we make the diagnosis operational. We introduce three linked constructs and one measurement instrument: the Deployment Wall, a six-stage value-leak model that mechanically reproduces observed survival rates; the Seam Index, a reproducible 0-12 diagnostic that scores any platform by how many of six recurring friction "seams" it removes natively rather than leaving to the adopter; and Deployment Debt, a construct that reframes unresolved friction as a compounding, quantifiable liability. We specify a scoring protocol with evidence anchors so the instrument can be applied consistently, illustrate it on a worked platform-selection example, and derive six falsifiable propositions with a research agenda for validation. The framework converts an eight-figure platform decision from a benchmark comparison into an architecture comparison.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-31T07:16:38Z</published>
+    <arxiv:comment>19 pages, 6 figures, 8 tables. Introduces the Deployment Wall framework, the Seam Index diagnostic instrument (with an evidence-anchored scoring protocol), and the Deployment Debt construct; includes six falsifiable propositions and a research agenda</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Fabricio F. Costa</name>
+      <arxiv:affiliation>HCLTech</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.27827v1</id>
+    <title>Operational AI Deployment Assurance: Governance-State Orchestration Under Threshold-Sensitive Deployment Conditions -- A Governance Framework for High-Stakes AI Systems</title>
+    <updated>2026-05-27T01:33:40Z</updated>
+    <link href="https://arxiv.org/abs/2605.27827v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.27827v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI governance frameworks increasingly emphasize fairness, transparency, accountability, and lifecycle risk management in high-stakes domains. However, many current approaches remain observational, relying on static metric reporting, post-hoc auditing, and monitoring dashboards without directly governing deployment readiness, remediation progression, escalation states, or assurance-driven deployment control. This paper introduces Operational AI Deployment Assurance (OADA), a governance framework for translating fairness disagreement, subgroup instability, threshold sensitivity, remediation outcomes, and operational uncertainty into deployment-oriented assurance decisions. Building on prior work on the Fairness Disagreement Index (FDI) and FairRisk-FDI, OADA reframes governance uncertainty as an operational concern within AI deployment pipelines rather than a byproduct of metric disagreement. The framework introduces Deployment Assurance Scores, Deployment Readiness Classifications, Threshold Stability Zones, Governance Escalation States, and remediation-aware assurance progression. These constructs support lifecycle-oriented governance decisions across high-stakes settings by connecting evaluation outputs to deployment-state interpretation, reassessment, escalation, and operational control. Through deployment-oriented evaluation across facial recognition systems, with discussion extended to healthcare AI as a representative high-stakes domain, the paper demonstrates how systems may appear acceptable under isolated fairness or performance metrics while still exhibiting instability that affects deployment readiness. The proposed framework positions operational deployment assurance as a governance layer between evaluation and real-world AI deployment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-27T01:33:40Z</published>
+    <arxiv:comment>13 pages, 3 figures, governance-oriented framework for operational AI deployment assurance in high-stakes systems</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Khalid Adnan Alsayed</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.16218v1</id>
+    <title>A Fuzzy Logic Framework for Community-Aware Crime Hotspot Detection: Prototype Application Architecture and Exploratory Validation for an Urban Computing Platform</title>
+    <updated>2026-06-12T01:31:19Z</updated>
+    <link href="https://arxiv.org/abs/2607.16218v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.16218v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Urban crime prevention is a persistent socio-technical challenge for municipalities, law enforcement agencies, and citizens. Traditional reporting and response processes often rely on delayed incident reports and reactive resource allocation, while community-level signals and ambiguous early-warning indicators may remain underused. This paper reframes an Urban Computing seminar project into a fuzzy logic-based framework for community-aware urban crime hotspot detection and real-time notification. The proposed platform combines citizen reports, historical crime data, contextual urban indicators, and configurable fuzzy rules to estimate localized risk levels and support targeted awareness notifications. Unlike binary classification approaches, fuzzy logic can represent partial risk, uncertainty, and incomplete information, making it suitable for urban environments where risk is gradual and context-dependent. The paper presents the system architecture, fuzzy risk model, notification workflow, privacy safeguards, and exploratory validation with 25 participants. The evaluation focuses on perceived usefulness, notification relevance, usability, trust, privacy concerns, multilingual accessibility, and acceptance of community reporting. The findings suggest that such a platform may improve situational awareness, support reporting and planning discussions, and help address weak points in existing urban safety workflows, while not yet constituting evidence of deployed crime reduction or real-world predictive accuracy. The contribution is a responsible, human-centered framework for future research on fuzzy logic, urban computing, and community-aware crime prevention systems.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-12T01:31:19Z</published>
+    <arxiv:comment>12 pages, 6 tables, 1 figure. Framework paper with Python prototype and exploratory validation with 25 participants</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Ariton Verush</name>
+    </author>
+    <author>
+      <name>Vaibhav Motwani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.11886v1</id>
+    <title>Towards Virtual Qualification in Nuclear Fusion: Demonstrating Probabilistic Model Validation on a High Heat Flux Component</title>
+    <updated>2026-05-12T10:01:06Z</updated>
+    <link href="https://arxiv.org/abs/2605.11886v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.11886v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Qualification of components operating in future fusion power plants will be heavily reliant on simulations of component behaviour. The lack of representative test environments for many aspects of the expected operating environment will necessitate full or partial virtual qualification of components. The cornerstone of virtual qualification is credible validation of the simulation models on which it relies. In this work, we present a probabilistic model validation framework that forms the basis for implementation of virtual qualification in fusion. We demonstrate our framework on a representative component; a high heat flux heat sink subject to a tightly coupled multi-physics loading. We perform data-rich, optimised experiments, in which we implement high fidelity diagnostics and rigorously quantify aleatoric and epistemic uncertainty on all measurements. Our simulation approach efficiently samples input uncertainty distributions to predict probability boxes describing component response, using a statistical surrogate to replicate behaviour of the finite element model we wish to validate. We then used a novel implementation of the modified area validation metric to quantify the model form error of the finite element model, isolating it from the aleatoric and epistemic experimental uncertainty. We discuss the contribution of our validation approach towards virtual qualification, and the benefits of the risk-based decision-making it facilitates. The experimental, simulation, and validation datasets are published as a benchmark of a probabilistic validation approach for fusion, and for use in development of new model validation methodologies.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-12T10:01:06Z</published>
+    <arxiv:comment>This is a pre-peer-reviewed version of the manuscript. 23 pages, 21 figures. Submitted to ASME Journal of Verification, Validation and Uncertainty Quantification (JVVUQ). Open dataset available here: https://doi.org/10.14468/7zzp-ny48</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>J. T. Horne-Jones</name>
+    </author>
+    <author>
+      <name>M. Baxter</name>
+    </author>
+    <author>
+      <name>A. Tayeb</name>
+    </author>
+    <author>
+      <name>L. Fletcher</name>
+    </author>
+    <author>
+      <name>J. Paterson</name>
+    </author>
+    <author>
+      <name>S. Biggs-Fox</name>
+    </author>
+    <author>
+      <name>A. Harte</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.08064v7</id>
+    <title>On the Operational Resilience of CBDC: Threats and Prospects of Formal Validation for Offline Payments</title>
+    <updated>2026-06-30T14:16:07Z</updated>
+    <link href="https://arxiv.org/abs/2508.08064v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.08064v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Information and communication technologies are by now employed in most human activities, including economics and finance. Modern computers have reached an extraordinary power in terms of information processing, storage, retrieval, and transmission. However, several results of theoretical computer science imply the impossibility of certifying software quality in general. With the exception of safety-critical systems, this has primarily concerned information processed by confined systems, with limited socio-economic consequences. In the emerging era of technologies for exchanging tokenized assets and digital money over the Internet, such as in particular central bank digital currency (CBDC), even a minor bug could trigger a financial collapse. Although the aforementioned impossibility results cannot be overcome in an absolute sense, there exist formal methods that can provide correctness assertions for software system models under suitable conditions. We advocate their use to validate the operational resilience of software infrastructures for CBDC by framing the offline payment problem, organizing its threat landscape, and outlining a formal methods methodology, illustrated by a minimal proof of concept, that we argue should underpin CBDC design and deployment.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-11T15:08:35Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Marco Bernardo</name>
+    </author>
+    <author>
+      <name>Federico Calandra</name>
+    </author>
+    <author>
+      <name>Andrea Esposito</name>
+    </author>
+    <author>
+      <name>Francesco Fabris</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.1977v2</id>
+    <title>Fixpoint &amp; Proof-theoretic Semantics for CLP with Qualification and Proximity</title>
+    <updated>2011-01-14T14:21:03Z</updated>
+    <link href="https://arxiv.org/abs/1009.1977v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.1977v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Uncertainty in Logic Programming has been investigated during the last decades, dealing with various extensions of the classical LP paradigm and different applications. Existing proposals rely on different approaches, such as clause annotations based on uncertain truth values, qualification values as a generalization of uncertain truth values, and unification based on proximity relations. On the other hand, the CLP scheme has established itself as a powerful extension of LP that supports efficient computation over specialized domains while keeping a clean declarative semantics. In this report we propose a new scheme SQCLP designed as an extension of CLP that supports qualification values and proximity relations. We show that several previous proposals can be viewed as particular cases of the new scheme, obtained by partial instantiation. We present a declarative semantics for SQCLP that is based on observables, providing fixpoint and proof-theoretical characterizations of least program models as well as an implementation-independent notion of goal solutions.</summary>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-10T10:42:09Z</published>
+    <arxiv:comment>47 pages, 2 figures, extended version with full proofs of A Declarative Semantics for CLP with Qualification and Proximity (arXiv:1007.3629). Theory and Practice of Logic Programming, 26th Int'l. Conference on Logic Programming (ICLP'10) Special Issue, 10(4-6):627-642, 2010. Revised definition 2.10, theorem 2.1 &amp; proposition 2.2, results unchanged</arxiv:comment>
+    <arxiv:primary_category term="cs.LO"/>
+    <author>
+      <name>Mario Rodríguez-Artalejo</name>
+    </author>
+    <author>
+      <name>Carlos A. Romero-Díaz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.01006v4</id>
+    <title>GaNDLF: A Generally Nuanced Deep Learning Framework for Scalable End-to-End Clinical Workflows in Medical Imaging</title>
+    <updated>2023-05-16T12:49:04Z</updated>
+    <link href="https://arxiv.org/abs/2103.01006v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.01006v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep Learning (DL) has the potential to optimize machine learning in both the scientific and clinical communities. However, greater expertise is required to develop DL algorithms, and the variability of implementations hinders their reproducibility, translation, and deployment. Here we present the community-driven Generally Nuanced Deep Learning Framework (GaNDLF), with the goal of lowering these barriers. GaNDLF makes the mechanism of DL development, training, and inference more stable, reproducible, interpretable, and scalable, without requiring an extensive technical background. GaNDLF aims to provide an end-to-end solution for all DL-related tasks in computational precision medicine. We demonstrate the ability of GaNDLF to analyze both radiology and histology images, with built-in support for k-fold cross-validation, data augmentation, multiple modalities and output classes. Our quantitative performance evaluation on numerous use cases, anatomies, and computational tasks supports GaNDLF as a robust application framework for deployment in clinical workflows.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-26T02:24:52Z</published>
+    <arxiv:comment>Deep Learning, Framework, Segmentation, Regression, Classification, Cross-validation, Data augmentation, Deployment, Clinical, Workflows</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Commun Eng 2, 23 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Sarthak Pati</name>
+    </author>
+    <author>
+      <name>Siddhesh P. Thakur</name>
+    </author>
+    <author>
+      <name>İbrahim Ethem Hamamcı</name>
+    </author>
+    <author>
+      <name>Ujjwal Baid</name>
+    </author>
+    <author>
+      <name>Bhakti Baheti</name>
+    </author>
+    <author>
+      <name>Megh Bhalerao</name>
+    </author>
+    <author>
+      <name>Orhun Güley</name>
+    </author>
+    <author>
+      <name>Sofia Mouchtaris</name>
+    </author>
+    <author>
+      <name>David Lang</name>
+    </author>
+    <author>
+      <name>Spyridon Thermos</name>
+    </author>
+    <author>
+      <name>Karol Gotkowski</name>
+    </author>
+    <author>
+      <name>Camila González</name>
+    </author>
+    <author>
+      <name>Caleb Grenko</name>
+    </author>
+    <author>
+      <name>Alexander Getka</name>
+    </author>
+    <author>
+      <name>Brandon Edwards</name>
+    </author>
+    <author>
+      <name>Micah Sheller</name>
+    </author>
+    <author>
+      <name>Junwen Wu</name>
+    </author>
+    <author>
+      <name>Deepthi Karkada</name>
+    </author>
+    <author>
+      <name>Ravi Panchumarthy</name>
+    </author>
+    <author>
+      <name>Vinayak Ahluwalia</name>
+    </author>
+    <author>
+      <name>Chunrui Zou</name>
+    </author>
+    <author>
+      <name>Vishnu Bashyam</name>
+    </author>
+    <author>
+      <name>Yuemeng Li</name>
+    </author>
+    <author>
+      <name>Babak Haghighi</name>
+    </author>
+    <author>
+      <name>Rhea Chitalia</name>
+    </author>
+    <author>
+      <name>Shahira Abousamra</name>
+    </author>
+    <author>
+      <name>Tahsin M. Kurc</name>
+    </author>
+    <author>
+      <name>Aimilia Gastounioti</name>
+    </author>
+    <author>
+      <name>Sezgin Er</name>
+    </author>
+    <author>
+      <name>Mark Bergman</name>
+    </author>
+    <author>
+      <name>Joel H. Saltz</name>
+    </author>
+    <author>
+      <name>Yong Fan</name>
+    </author>
+    <author>
+      <name>Prashant Shah</name>
+    </author>
+    <author>
+      <name>Anirban Mukhopadhyay</name>
+    </author>
+    <author>
+      <name>Sotirios A. Tsaftaris</name>
+    </author>
+    <author>
+      <name>Bjoern Menze</name>
+    </author>
+    <author>
+      <name>Christos Davatzikos</name>
+    </author>
+    <author>
+      <name>Despina Kontos</name>
+    </author>
+    <author>
+      <name>Alexandros Karargyris</name>
+    </author>
+    <author>
+      <name>Renato Umeton</name>
+    </author>
+    <author>
+      <name>Peter Mattson</name>
+    </author>
+    <author>
+      <name>Spyridon Bakas</name>
+    </author>
+    <arxiv:doi>10.1038/s44172-023-00066-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s44172-023-00066-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.15820v1</id>
+    <title>QuantumPhaseNet: A Gauge-Covariant Geometric and Quantum-Spectral Theory of Semantic Concept Hierarchies with Prototype Validation of a Classical Quantum-Inspired Model</title>
+    <updated>2026-08-16T15:52:50Z</updated>
+    <link href="https://arxiv.org/abs/2608.15820v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.15820v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present QuantumPhaseNet, a gauge-covariant geometric and quantum-spectral extension of Transformer representations. Context-dependent semantic states are modeled as complex amplitudes; a covariant phase rate induces a semantic wavelength used as a proxy for conceptual scale; and low-frequency graph modes define a document-level discourse direction. The theoretical part establishes local gauge invariance, unitarity of the quantum block, boundedness and conditional stability of WavePhase Attention, and a calibratable hallucination-risk formulation. We also implemented a fully offline Validation Studio for the classical quantum-inspired pipeline in Section 14.1 and evaluated the five research questions in Section 16.1 on its built-in synthetic setting (n=240, observation noise 0.22, circuit noise 0.08, five seeds). RQ1 yielded a wavelength-hierarchy Spearman correlation of 0.852 versus 0.707 for the baseline, 87.3% direction accuracy, and AUC 0.953. RQ2 achieved discourse alignment 0.933 versus 0.589 and 41.2 versus 16.2 paragraphs before drift. RQ3 achieved AUROC 0.881 versus cosine 0.765 and phase-shuffle 0.536. RQ4 achieved error-detection AUROC 0.854 versus entropy 0.634, with Brier 0.150 and ECE 0.098. RQ5 did not show quantum advantage: target probability and end-to-end cost efficiency were 25.5% and 0.107, compared with 70.7% and 0.707 for the Chebyshev classical approximation. These results provide initial synthetic evidence for the classical quantum-inspired components, but not external validity or unconditional quantum speedup.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-16T15:52:50Z</published>
+    <arxiv:comment>[PAGES] pages, 8 figures, 4 tables. Extends arXiv:2602.14419 (WavePhaseNet). Includes prototype validation with an offline Validation Studio; RQ5 reports a negative result for quantum advantage</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Kiyotaka Kasubuchi</name>
+    </author>
+    <author>
+      <name>Kazuo Fukiya</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.13384v4</id>
+    <title>CBDC Stress Test in a Dual-Currency Setting</title>
+    <updated>2025-12-13T16:34:30Z</updated>
+    <link href="https://arxiv.org/abs/2511.13384v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.13384v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study explores the potential impact of introducing a Central Bank Digital Currency (CBDC) on financial stability in an emerging dual-currency economy (Romania), where the domestic currency (RON) coexists with the euro. It develops an integrated analytical framework combining econometrics, machine learning, and behavioural modelling. CBDC adoption probabilities are estimated using XGBoost and logistic regression models trained on behavioural and macro-financial indicators rather than survey data. Liquidity stress simulations assess how banks would respond to deposit withdrawals resulting from CBDC adoption, while VAR, MSVAR, and SVAR models capture the macro-financial transmission of liquidity shocks into credit contraction and changes in monetary conditions. The findings indicate that CBDC uptake (co-circulating Digital RON and Digital EUR) would be moderate at issuance, amounting to around EUR 1 billion, primarily driven by digital readiness and trust in the central bank. The study concludes that a non-remunerated, capped CBDC, designed primarily as a means of payment rather than a store of value, can be introduced without compromising financial stability. In dual currency economies, differentiated holding limits for domestic and foreign digital currencies (e.g., Digital RON versus Digital Euro) are crucial to prevent uncontrolled euroisation and preserve monetary sovereignty. A prudent design with moderate caps, non remuneration, and macroprudential coordination can transform CBDC into a digital liquidity buffer and a complementary monetary policy instrument that enhances resilience and inclusion rather than destabilising the financial system.</summary>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.OT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-17T13:55:02Z</published>
+    <arxiv:comment>724 pages, including annexes; most figures and tables included; if not, then referenced</arxiv:comment>
+    <arxiv:primary_category term="q-fin.GN"/>
+    <author>
+      <name>Catalin Dumitrescu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.05010v1</id>
+    <title>Prototype Completion for Few-Shot Learning</title>
+    <updated>2021-08-11T03:44:00Z</updated>
+    <link href="https://arxiv.org/abs/2108.05010v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.05010v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Few-shot learning aims to recognize novel classes with few examples. Pre-training based methods effectively tackle the problem by pre-training a feature extractor and then fine-tuning it through the nearest centroid based meta-learning. However, results show that the fine-tuning step makes marginal improvements. In this paper, 1) we figure out the reason, i.e., in the pre-trained feature space, the base classes already form compact clusters while novel classes spread as groups with large variances, which implies that fine-tuning feature extractor is less meaningful; 2) instead of fine-tuning feature extractor, we focus on estimating more representative prototypes. Consequently, we propose a novel prototype completion based meta-learning framework. This framework first introduces primitive knowledge (i.e., class-level part or attribute annotations) and extracts representative features for seen attributes as priors. Second, a part/attribute transfer network is designed to learn to infer the representative features for unseen attributes as supplementary priors. Finally, a prototype completion network is devised to learn to complete prototypes with these priors. Moreover, to avoid the prototype completion error, we further develop a Gaussian based prototype fusion strategy that fuses the mean-based and completed prototypes by exploiting the unlabeled samples. Extensive experiments show that our method: (i) obtains more accurate prototypes; (ii) achieves superior performance on both inductive and transductive FSL settings.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-11T03:44:00Z</published>
+    <arxiv:comment>Extended version of 'Prototype Completion with Primitive Knowledge for Few-Shot Learning' in CVPR2021. arXiv admin note: substantial text overlap with arXiv:2009.04960</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Baoquan Zhang</name>
+    </author>
+    <author>
+      <name>Xutao Li</name>
+    </author>
+    <author>
+      <name>Yunming Ye</name>
+    </author>
+    <author>
+      <name>Shanshan Feng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.15674v2</id>
+    <title>Theoretical Foundations of Latent Posterior Factors: Formal Guarantees for Multi-Evidence Reasoning</title>
+    <updated>2026-03-18T11:30:23Z</updated>
+    <link href="https://arxiv.org/abs/2603.15674v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.15674v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a complete theoretical characterization of Latent Posterior Factors (LPF), a principled framework for aggregating multiple heterogeneous evidence items in probabilistic prediction tasks. Multi-evidence reasoning arises pervasively in high-stakes domains including healthcare diagnosis, financial risk assessment, legal case analysis, and regulatory compliance, yet existing approaches either lack formal guarantees or fail to handle multi-evidence scenarios architecturally. LPF encodes each evidence item into a Gaussian latent posterior via a variational autoencoder, converting posteriors to soft factors through Monte Carlo marginalization, and aggregating factors via exact Sum-Product Network inference (LPF-SPN) or a learned neural aggregator (LPF-Learned).
+  We prove seven formal guarantees spanning the key desiderata for trustworthy AI: Calibration Preservation (ECE &lt;= epsilon + C/sqrt(K_eff)); Monte Carlo Error decaying as O(1/sqrt(M)); a non-vacuous PAC-Bayes bound with train-test gap of 0.0085 at N=4200; operation within 1.12x of the information-theoretic lower bound; graceful degradation as O(epsilon*delta*sqrt(K)) under corruption, maintaining 88% performance with half of evidence adversarially replaced; O(1/sqrt(K)) calibration decay with R^2=0.849; and exact epistemic-aleatoric uncertainty decomposition with error below 0.002%. All theorems are empirically validated on controlled datasets spanning up to 4,200 training examples. Our theoretical framework establishes LPF as a foundation for trustworthy multi-evidence AI in safety-critical applications.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-13T17:44:14Z</published>
+    <arxiv:comment>30 pages, 8 figures, 10 tables. Theoretical characterization of the Latent Posterior Factors (LPF) framework for multi-evidence probabilistic reasoning, with formal guarantees and empirical validation</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Aliyu Agboola Alege</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1006.4549v1</id>
+    <title>A Flexible and Secure Deployment Framework for Distributed Applications</title>
+    <updated>2010-06-23T15:07:26Z</updated>
+    <link href="https://arxiv.org/abs/1006.4549v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1006.4549v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper describes an implemented system which is designed to support the deployment of applications offering distributed services, comprising a number of distributed components. This is achieved by creating high level placement and topology descriptions which drive tools that deploy applications consisting of components running on multiple hosts. The system addresses issues of heterogeneity by providing abstractions over host-specific attributes yielding a homogeneous run-time environment into which components may be deployed. The run-time environments provide secure binding mechanisms that permit deployed components to bind to stored data and services on the hosts on which they are running.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-06-23T15:07:26Z</published>
+    <arxiv:comment>2nd International Working Conference on Component Deployment (CD 2004), Edinburgh, Scotland</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Alan Dearle</name>
+    </author>
+    <author>
+      <name>Graham Kirby</name>
+    </author>
+    <author>
+      <name>Andrew McCarthy</name>
+    </author>
+    <author>
+      <name>Juan-Carlos Diaz y Carballo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.12259v1</id>
+    <title>Prototype Optimization with Neural ODE for Few-Shot Learning</title>
+    <updated>2024-11-19T06:17:25Z</updated>
+    <link href="https://arxiv.org/abs/2411.12259v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.12259v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Few-Shot Learning (FSL) is a challenging task, which aims to recognize novel classes with few examples. Pre-training based methods effectively tackle the problem by pre-training a feature extractor and then performing class prediction via a cosine classifier with mean-based prototypes. Nevertheless, due to the data scarcity, the mean-based prototypes are usually biased. In this paper, we attempt to diminish the prototype bias by regarding it as a prototype optimization problem. To this end, we propose a novel prototype optimization framework to rectify prototypes, i.e., introducing a meta-optimizer to optimize prototypes. Although the existing meta-optimizers can also be adapted to our framework, they all overlook a crucial gradient bias issue, i.e., the mean-based gradient estimation is also biased on sparse data. To address this issue, in this paper, we regard the gradient and its flow as meta-knowledge and then propose a novel Neural Ordinary Differential Equation (ODE)-based meta-optimizer to optimize prototypes, called MetaNODE. Although MetaNODE has shown superior performance, it suffers from a huge computational burden. To further improve its computation efficiency, we conduct a detailed analysis on MetaNODE and then design an effective and efficient MetaNODE extension version (called E2MetaNODE). It consists of two novel modules: E2GradNet and E2Solver, which aim to estimate accurate gradient flows and solve optimal prototypes in an effective and efficient manner, respectively. Extensive experiments show that 1) our methods achieve superior performance over previous FSL methods and 2) our E2MetaNODE significantly improves computation efficiency meanwhile without performance degradation.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-19T06:17:25Z</published>
+    <arxiv:comment>An extended version of metanode: prototype optimization as a neural ode for few-shot learning. arXiv admin note: text overlap with arXiv:2103.14341</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Baoquan Zhang</name>
+    </author>
+    <author>
+      <name>Shanshan Feng</name>
+    </author>
+    <author>
+      <name>Bingqi Shan</name>
+    </author>
+    <author>
+      <name>Xutao Li</name>
+    </author>
+    <author>
+      <name>Yunming Ye</name>
+    </author>
+    <author>
+      <name>Yew-Soon Ong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.16893v1</id>
+    <title>CBDC-AquaSphere: Interoperable Central Bank Digital Currency Built on Trusted Computing and Blockchain</title>
+    <updated>2023-05-26T12:54:00Z</updated>
+    <link href="https://arxiv.org/abs/2305.16893v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.16893v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The adoption of decentralized, tamper-proof ledger systems is paving the way for new applications and opportunities in different contexts. While most research aims to improve their scalability, privacy, and governance issues, interoperability has received less attention. Executing transactions across various blockchains is notably instrumental in unlocking the potential of novel applications, particularly in the financial sector, where their potential would otherwise be significantly diminished. Therefore, interoperable ledgers are crucial to ensure the expansion and further adoption of such a technology in various contexts.
+  In this paper, we present a protocol that uses a combination of trusted execution environment (TEE) and blockchains to enable interoperability over independent semi-centralized CBDC ledgers, guaranteeing the atomicity of inter-bank transfers. Our interoperability protocol uses a custom adaptation of atomic swap protocol and is executed by any pair of CBDC instances to realize a one-way transfer. It ensures features such as atomicity, verifiability, correctness, censorship resistance, and privacy while offering high scalability in terms of the number of CBDC instances. Our approach enables to possible deployment scenarios that can be combined: (1) CBDC instances represent central banks of multiple countries, and (2) CBDC instances represent the set of retail banks and a paramount central bank of a single country. We provide a detailed description of our protocol as well as an extensive analysis of its benefits, features, and security.
+  In this WIP paper, we made a proof-of-concept implementation and made a partial evaluation, while the more extensive evaluation will be made in our future work.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-26T12:54:00Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Ivan Homoliak</name>
+    </author>
+    <author>
+      <name>Martin Perešíni</name>
+    </author>
+    <author>
+      <name>Patrik Holop</name>
+    </author>
+    <author>
+      <name>Jakub Handzuš</name>
+    </author>
+    <author>
+      <name>Fran Casino</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.25469v1</id>
+    <title>Balancing Compliance and Privacy in Offline CBDC Transactions Using a Secure Element-based System</title>
+    <updated>2025-09-29T20:19:31Z</updated>
+    <link href="https://arxiv.org/abs/2509.25469v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.25469v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Blockchain technology has spawned a vast ecosystem of digital currencies with Central Bank Digital Currencies (CBDCs) -- digital forms of fiat currency -- being one of them. An important feature of digital currencies is facilitating transactions without network connectivity, which can enhance the scalability of cryptocurrencies and the privacy of CBDC users. However, in the case of CBDCs, this characteristic also introduces new regulatory challenges, particularly when it comes to applying established Anti-Money Laundering and Countering the Financing of Terrorism (AML/CFT) frameworks. This paper introduces a prototype for offline digital currency payments, equally applicable to cryptocurrencies and CBDCs, that leverages Secure Elements and digital credentials to address the tension of offline payment support with regulatory compliance. Performance evaluation results suggest that the prototype can be flexibly adapted to different regulatory environments, with a transaction latency comparable to real-life commercial payment systems. Furthermore, we conceptualize how the integration of Zero-Knowledge Proofs into our design could accommodate various tiers of enhanced privacy protection.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-29T20:19:31Z</published>
+    <arxiv:comment>9 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Panagiotis Michalopoulos</name>
+    </author>
+    <author>
+      <name>Anthony Mack</name>
+    </author>
+    <author>
+      <name>Cameron Clark</name>
+    </author>
+    <author>
+      <name>Linus Chen</name>
+    </author>
+    <author>
+      <name>Johannes Sedlmeir</name>
+    </author>
+    <author>
+      <name>Andreas Veneris</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.14966v2</id>
+    <title>Deployment-Aware Controller and Control Architecture Co-Design via Mixed-Integer Output-Feedback SLS</title>
+    <updated>2026-08-16T15:07:07Z</updated>
+    <link href="https://arxiv.org/abs/2606.14966v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.14966v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study controller and control-architecture co-design for output-feedback systems under a hard budget. The architecture activates sensors and actuators and selects among directed communication-service options with specified delivery bounds and costs. Direct optimization over controller transfer matrices and discrete deployments is mixed-integer nonconvex; convex alternatives fix the architecture, use regularization, or impose a quadratically invariant (QI) controller-information pattern. We instead optimize finite impulse response (FIR) output-feedback system-level synthesis (OF-SLS) responses. Binary variables select devices and service options; cumulative binaries record whether the selected service can deliver by each FIR lag. Indicator constraints zero response coefficients that would require unavailable messages. For fixed device and OF-SLS realization-state locations, this yields an exact mixed-integer convex program (MICP) over finite service menus and deployment constraints. Every feasible response admits the standard OF-SLS implementation using only the selected devices and services. In a three-follower platoon, 2736 of 139,968 stabilizable and detectable deployments are QI-compatible. All three actuators are necessary, whereas intermediate-budget optima retain strict subsets of seven sensor packages. At a common budget, the best QI design has 3.86 times the performance loss of the co-design optimum relative to the dense deployment.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-12T21:33:50Z</published>
+    <arxiv:comment>6 pages, 1 figure. Revised version with a corrected deployment model and recomputed numerical validation</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Chenchen Zhou</name>
+    </author>
+    <author>
+      <name>Jose Matias</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.07692v3</id>
+    <title>Extending the European Competence Framework for Quantum Technologies: new proficiency triangle and qualification profiles</title>
+    <updated>2024-12-17T11:02:25Z</updated>
+    <link href="https://arxiv.org/abs/2410.07692v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.07692v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the increasing industrial relevance of quantum technologies (QTs), a new quantum workforce with special qualification will be needed. Building this workforce requires educational efforts, ranging from short term training to degree programs. In order to plan, map and compare such efforts, personal qualifications or job requirements, standardization is necessary. The European Competence Framework for Quantum Technologies (CFQT) provides a common language for QT education. The 2024 update to version~2.5 extends it by the new proficiency triangle and qualification profiles: The proficiency triangle proposes six proficiency levels for three proficiency areas, specifying knowledge and skills for each level. Nine qualification profiles show prototypical qualifications or job roles relevant to the quantum industry, with the required proficiency, examples, and suggestions. This is an important step towards the standardization of QT education. The CFQT update is based on the results of an analysis of 34 interviews on industry needs. The initial findings from the interviews were complemented by iterative refinement and expert consultation.</summary>
+    <category term="physics.ed-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-10T08:02:54Z</published>
+    <arxiv:primary_category term="physics.ed-ph"/>
+    <arxiv:journal_ref>EPJ Quantum Technol. 12, 1 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Franziska Greinert</name>
+    </author>
+    <author>
+      <name>Simon Goorney</name>
+    </author>
+    <author>
+      <name>Dagmar Hilfert-Rüppell</name>
+    </author>
+    <author>
+      <name>Malte S. Ubben</name>
+    </author>
+    <author>
+      <name>Rainer Müller</name>
+    </author>
+    <arxiv:doi>10.1140/epjqt/s40507-024-00302-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjqt/s40507-024-00302-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1404.7763v2</id>
+    <title>Deployment Calculation and Analysis for a Fail-Operational Automotive Platform</title>
+    <updated>2014-05-07T22:03:19Z</updated>
+    <link href="https://arxiv.org/abs/1404.7763v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1404.7763v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In domains like automotive, safety-critical features are increasingly realized by software. Some features might even require fail-operational behavior, so that they must be provided even in the presence of random hardware failures. A new fault-tolerant SW/HW architecture for electric vehicles provides inherent safety capabilities that enable fail-operational features. In this paper we introduce a formal model of this architecture and an approach to calculate valid deployments of mixed-critical software-components to the execution nodes, while ensuring fail-operational behavior of certain components. Calculated redeployments cover the cases in which faulty execution nodes have to be isolated. This allows to formally analyze which set of features can be provided under decreasing available execution resources.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-04-30T15:35:15Z</published>
+    <arxiv:comment>EDCC-2014, EDSoS-2014, Fault-Tolerance, Fail-Operational, Deployment</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Klaus Becker</name>
+    </author>
+    <author>
+      <name>Bernhard Schatz</name>
+    </author>
+    <author>
+      <name>Christian Buckl</name>
+    </author>
+    <author>
+      <name>Michael Armbruster</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.05505v1</id>
+    <title>Rewiring Human Brain Networks via Lightweight Dynamic Connectivity Framework: An EEG-Based Stress Validation</title>
+    <updated>2025-10-17T13:21:48Z</updated>
+    <link href="https://arxiv.org/abs/2511.05505v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.05505v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, Electroencephalographic analysis has gained prominence in stress research when combined with AI and Machine Learning models for validation. In this study, a lightweight dynamic brain connectivity framework based on Time Varying Directed Transfer Function is proposed, where TV DTF features were validated through ML based stress classification. TV DTF estimates the directional information flow between brain regions across distinct EEG frequency bands, thereby capturing temporal and causal influences that are often overlooked by static functional connectivity measures. EEG recordings from the 32 channel SAM 40 dataset were employed, focusing on mental arithmetic task trials. The dynamic EEG-based TV-DTF features were validated through ML classifiers such as Support Vector Machine, Random Forest, Gradient Boosting, Adaptive Boosting, and Extreme Gradient Boosting. Experimental results show that alpha-TV-DTF provided the strongest discriminative power, with SVM achieving 89.73% accuracy in 3-class classification and with XGBoost achieving 93.69% accuracy in 2 class classification. Relative to absolute power and phase locking based functional connectivity features, alpha TV DTF and beta TV DTF achieved higher performance across the ML models, highlighting the advantages of dynamic over static measures. Feature importance analysis further highlighted dominant long-range frontal parietal and frontal occipital informational influences, emphasizing the regulatory role of frontal regions under stress. These findings validate the lightweight TV-DTF as a robust framework, revealing spatiotemporal brain dynamics and directional influences across different stress levels.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-17T13:21:48Z</published>
+    <arxiv:comment>21 pages, 21 figures, 6 tables, 50 references,</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <arxiv:journal_ref>2026. Reconfiguring brain networks via lightweight dynamic connectivity framework: An EEG-based stress validation. Computers in Biology and Medicine, 213, p.111801</arxiv:journal_ref>
+    <author>
+      <name>Sayantan Acharya</name>
+    </author>
+    <author>
+      <name>Abbas Khosravi</name>
+    </author>
+    <author>
+      <name>Douglas Creighton</name>
+    </author>
+    <author>
+      <name>Roohallah Alizadehsani</name>
+    </author>
+    <author>
+      <name>U. Rajendra Acharya</name>
+    </author>
+    <arxiv:doi>10.1016/j.compbiomed.2026.111801</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.compbiomed.2026.111801" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.18571v1</id>
+    <title>A Multi-Evidence Framework Rescues Low-Power Prognostic Signals and Rejects Statistical Artifacts in Cancer Genomics</title>
+    <updated>2025-10-21T12:27:18Z</updated>
+    <link href="https://arxiv.org/abs/2510.18571v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.18571v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivation: Standard genome-wide association studies in cancer genomics rely on statistical significance with multiple testing correction, but systematically fail in underpowered cohorts. In TCGA breast cancer (n=967, 133 deaths), low event rates (13.8%) create severe power limitations, producing false negatives for known drivers and false positives for large passenger genes. Results: We developed a five-criteria computational framework integrating causal inference (inverse probability weighting, doubly robust estimation) with orthogonal biological validation (expression, mutation patterns, literature evidence). Applied to TCGA-BRCA mortality analysis, standard Cox+FDR detected zero genes at FDR&lt;0.05, confirming complete failure in underpowered settings. Our framework correctly identified RYR2 -- a cardiac gene with no cancer function -- as a false positive despite nominal significance (p=0.024), while identifying KMT2C as a complex candidate requiring validation despite marginal significance (p=0.047, q=0.954). Power analysis revealed median power of 15.1% across genes, with KMT2C achieving only 29.8% power (HR=1.55), explaining borderline statistical significance despite strong biological evidence. The framework distinguished true signals from artifacts through mutation pattern analysis: RYR2 showed 29.8% silent mutations (passenger signature) with no hotspots, while KMT2C showed 6.7% silent mutations with 31.4% truncating variants (driver signature). This multi-evidence approach provides a template for analyzing underpowered cohorts, prioritizing biological interpretability over purely statistical significance.
+  Availability: All code and analysis pipelines available at github.com/akarlaraytu/causal-inference-for-cancer-genomics</summary>
+    <category term="q-bio.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-21T12:27:18Z</published>
+    <arxiv:comment>17 pages (main text), 4 figures (main text), 7 supplementary figures, 4 supplementary tables. Focuses on a computational framework using causal inference and biological validation for underpowered cancer genomic studies</arxiv:comment>
+    <arxiv:primary_category term="q-bio.GN"/>
+    <author>
+      <name>Gokturk Aytug Akarlar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.27720v1</id>
+    <title>Bayesian Deployment Approval for Learned Landing Controllers under Finite Rollout Validation</title>
+    <updated>2026-05-26T21:45:17Z</updated>
+    <link href="https://arxiv.org/abs/2605.27720v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.27720v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning and data-driven autonomous controllers are commonly evaluated using cumulative reward and empirical success frequency under finite simulation trajectories. However, such empirical metrics do not necessarily provide sufficient statistical evidence regarding deployment readiness under uncertainty. This work develops a Bayesian approval framework for learned autonomous landing controllers under finite rollout evidence. A probabilistic landing capability formulation is introduced based on touchdown safety satisfaction under uncertain operating conditions, while Bayesian posterior inference is used to quantify uncertainty regarding the true deployment capability of learned policies. Posterior approval probability and posterior deployment risk are further introduced for deployment-oriented evaluation, together with a sequential validation framework supporting approve/reject/continue decisions during progressive rollout testing. Simulation experiments using PPO and SAC controllers demonstrate that empirical success and reward optimization may produce overconfident deployment interpretation under limited validation evidence, whereas posterior approval inference provides a more uncertainty-calibrated assessment of deployment readiness. The proposed framework provides a practical statistical connection between conventional reinforcement-learning evaluation and deployment-oriented validation under uncertainty and may be generalized to broader classes of learned autonomous systems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-26T21:45:17Z</published>
+    <arxiv:comment>16 pages, 4 figures and 4 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Fei Jiang</name>
+    </author>
+    <author>
+      <name>Lei Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.21559v1</id>
+    <title>Evidence-State Reliability Under Controlled Degradation: Parser-Validity Divergence in a Multi-Stage LLM Pipeline</title>
+    <updated>2026-08-21T18:50:13Z</updated>
+    <link href="https://arxiv.org/abs/2608.21559v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.21559v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-stage LLM pipelines can remain structurally valid even when evidence available to downstream stages becomes incomplete, compressed, or conflicting. This paper introduces and operationalizes Evidence-State Reliability (ESR), an evaluation layer concerned with whether intermediate evidence remains sufficiently complete, grounded, internally consistent, and usable for a stage's assigned function. ESR is evaluated separately from parser validity, which measures structural conformance.
+  We evaluate the framework using GLM-5.2 on 60 sanitized base cases under four evidence conditions: clean, compressed-lossy, partial-dropout, and noisy-conflicting. Each condition was processed through decision, audit, and escalation stages. The design comprised 720 planned and ledgered calls, with 713 retained, sanitized execution rows.
+  Across nine matched degraded-minus-clean condition-stage comparisons, all operational stage-success estimates were negative, and all 95% bootstrap intervals remained below zero. All nine parser-validity point estimates were positive, although the three partial-dropout intervals included zero. Among parser-valid degraded audit outputs, degradation detection was 1.0 in each degraded condition, while false-assurance rates remained non-zero; among parser-valid degraded escalation outputs, recovery was 0.0 in every degraded condition.
+  The results show a bounded reliability-layer divergence in the evaluated pipeline: structural conformance can improve directionally while evidence-sensitive stage success deteriorates under the same controlled intervention. They also separate detection of degraded evidence from recovery. The conclusions are limited to the evaluated model configuration, pipeline design, selected sanitized cases, scoring procedure, and single scaled run.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-21T18:50:13Z</published>
+    <arxiv:comment>32 pages, 4 figures, 6 tables. Code and reproducibility materials: https://github.com/NaimurRahmanR/evidence-state-reliability</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Naimur Rahman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1007.5435v1</id>
+    <title>Generalized Qualification and Qualification Levels for Spectral Regularization Methods</title>
+    <updated>2010-07-25T22:10:18Z</updated>
+    <link href="https://arxiv.org/abs/1007.5435v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1007.5435v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The concept of qualification for spectral regularization methods for inverse ill-posed problems is strongly associated to the optimal order of convergence of the regularization error. In this article, the definition of qualification is extended and three different levels are introduced: weak, strong and optimal. It is shown that the weak qualification extends the definition introduced by Mathe and Pereverzev in 2003, mainly in the sense that the functions associated to orders of convergence and source sets need not be the same. It is shown that certain methods possessing infinite classical qualification, e.g. truncated singular value decomposition (TSVD), Landweber's method and Showalter's method, also have generalized qualification leading to an optimal order of convergence of the regularization error. Sufficient conditions for a SRM to have weak qualification are provided and necessary and sufficient conditions for a given order of convergence to be strong or optimal qualification are found. Examples of all three qualification levels are provided and the relationships between them as well as with the classical concept of qualification and the qualification introduced by Mathe and Perevezev are shown. In particular, spectral regularization methods having extended qualification in each one of the three levels and having zero or infinite classical qualification are presented. Finally several implications of this theory in the context of orders of convergence, converse results and maximal source sets for inverse ill-posed problems, are shown.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-07-25T22:10:18Z</published>
+    <arxiv:comment>20 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>J Optim Theory Appl (2009) 141: 547-567</arxiv:journal_ref>
+    <author>
+      <name>Terry Herdman</name>
+    </author>
+    <author>
+      <name>Ruben D. Spies</name>
+    </author>
+    <author>
+      <name>Karina G. Temperini</name>
+    </author>
+    <arxiv:doi>10.1007/s10957-008-9492-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10957-008-9492-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.29981v3</id>
+    <title>Aligning Validation with Deployment in Spatial Prediction: Target-Weighted Cross-Validation</title>
+    <updated>2026-05-21T15:41:19Z</updated>
+    <link href="https://arxiv.org/abs/2603.29981v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.29981v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reliable estimation of predictive performance is essential for spatial environmental modeling, where machine-learning models are used to generate maps from unevenly distributed observations. Standard cross-validation (CV) assumes that validation data are representative of prediction conditions across the target domain. In practice, this assumption is often violated due to preferential or clustered sampling, leading to biased performance and uncertainty estimates.
+  We introduce a deployment-oriented validation framework based on weighted CV that aligns validation tasks with the distribution of prediction tasks across a specified domain. The framework includes importance-weighted cross-validation (IWCV) and a calibration-based approach, Target-Weighted Cross-Validation (TWCV), which uses spatially meaningful task descriptors such as environmental covariates and prediction distance.
+  Simulation experiments show that conventional non-spatial and spatial CV strategies can exhibit substantial bias under realistic sampling designs, whereas weighted CV approaches substantially reduce this bias when validation tasks adequately cover the deployment-task space. A case study on mapping nitrogen dioxide (NO$_2$) concentrations across Germany demonstrates that standard CV can overestimate prediction error due to sampling bias, while weighted CV yields estimates more consistent with deployment conditions.
+  The framework separates validation task generation from risk estimation and provides a practical approach for improving performance assessment in spatial prediction settings where sample distributions differ from prediction domains.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-31T16:44:07Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alexander Brenning</name>
+    </author>
+    <author>
+      <name>Thomas Suesse</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0609119v2</id>
+    <title>Verification, Validation and Integrity of Distributed and Interchanged Rule Based Policies and Contracts in the Semantic Web</title>
+    <updated>2006-09-29T08:50:39Z</updated>
+    <link href="https://arxiv.org/abs/cs/0609119v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cs/0609119v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Rule-based policy and contract systems have rarely been studied in terms of their software engineering properties. This is a serious omission, because in rule-based policy or contract representation languages rules are being used as a declarative programming language to formalize real-world decision logic and create IS production systems upon. This paper adopts an SE methodology from extreme programming, namely test driven development, and discusses how it can be adapted to verification, validation and integrity testing (V&amp;V&amp;I) of policy and contract specifications. Since, the test-driven approach focuses on the behavioral aspects and the drawn conclusions instead of the structure of the rule base and the causes of faults, it is independent of the complexity of the rule language and the system under test and thus much easier to use and understand for the rule engineer and the user.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-09-21T11:50:24Z</published>
+    <arxiv:comment>A.Paschke: Verification, Validation, Integrity of Rule Based Policies and Contracts in the Semantic Web, 2nd International Semantic Web Policy Workshop (SWPW'06), Nov. 5-9, 2006, Athens, GA, USA</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>A.Paschke: Verification, Validation, Integrity of Rule Based Policies and Contracts in the Semantic Web, 2nd International Semantic Web Policy Workshop (SWPW'06), Nov. 5-9, 2006, Athens, GA, USA</arxiv:journal_ref>
+    <author>
+      <name>Adrian Paschke</name>
+    </author>
+  </entry>
+</feed>

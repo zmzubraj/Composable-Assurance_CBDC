@@ -1,0 +1,5 @@
+• Composes monetary accounting, privacy, financial integrity, economic safeguards and scale qualification across sovereign CBDC ledgers.
+• Uses evidence-bound PREPARE and COMMIT-or-ABORT certificates for bridge-free cross-border payment-versus-payment.
+• Quantifies residual metadata linkage and applies person-level differential privacy only to registered public statistics.
+• Evaluates AML/CFT and sanctions as calibrated decision-support systems with explicit effectiveness and analyst-workload gates.
+• Replaces universal holding-limit and hardware claims with partial identification and falsifiable national qualification.

@@ -1,0 +1,31 @@
+{
+  "status": "completed",
+  "lease_id": "LEASE-8992d61d1f34",
+  "worker_alias": "worker-6e526f2f66",
+  "executor_identity": "root-codex-current-thread",
+  "artifacts": [
+    "00-governance/intake-original.md",
+    "00-governance/intake.json",
+    "00-governance/program-charter.md",
+    "00-governance/decision-log.md",
+    "00-governance/study-profile.json",
+    "00-governance/egress-policy.json",
+    "00-governance/capability-preflight.json"
+  ],
+  "summary": "Integrated the user-confirmed six-field intake; resolved the study as a simulation/computational-methods research paper; recorded JFMI as a provisional trial target only; set a public-metadata-only egress boundary; capped claims at formal, simulated, or internal-prototype maturity; and preserved author identity, declarations, institutional authority, final venue, external validation, and submission as separate gates.",
+  "checks": [
+    "Canonical intake raw SHA-256 matches 1b00c7ec4ca6187b9fdd49d498081eab9d20178164d18fe01af3f4853e59560b",
+    "Study-profile required semantic fields are populated",
+    "Structural research-case checker passes at INTAKE",
+    "No human-participant, clinical, institutional-data, field-effectiveness, or national-deployment evidence is asserted"
+  ],
+  "objections": [
+    "The study-profile remains a DRAFT until an independently authorized signed verification event exists",
+    "JFMI remains provisional and may be replaced without mutating the journal-neutral master"
+  ],
+  "residual_risks": [
+    "Author identity and institutional submission authority are not yet bound",
+    "Funding, conflicts, AI-use disclosure, repository/DOI, final venue, and portal actions remain accountable-human gates",
+    "Novelty remains UNRESOLVED until reproducible prior-art search and challenge are completed"
+  ]
+}

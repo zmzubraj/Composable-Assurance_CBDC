@@ -1,0 +1,16 @@
+qualification_tps,stage,mean_service_ms,headroom,rho_max,minimum_parallel_units
+2000,API and authentication,0.45,2.0,0.6,3
+2000,Policy and sanctions fast path,0.9,2.0,0.6,6
+2000,HSM signature verification,0.28,2.0,0.6,2
+2000,Monetary-state transition,0.62,2.0,0.6,5
+2000,Durable audit append,0.36,2.0,0.6,3
+10000,API and authentication,0.45,2.0,0.6,15
+10000,Policy and sanctions fast path,0.9,2.0,0.6,30
+10000,HSM signature verification,0.28,2.0,0.6,10
+10000,Monetary-state transition,0.62,2.0,0.6,21
+10000,Durable audit append,0.36,2.0,0.6,12
+20000,API and authentication,0.45,2.0,0.6,30
+20000,Policy and sanctions fast path,0.9,2.0,0.6,60
+20000,HSM signature verification,0.28,2.0,0.6,19
+20000,Monetary-state transition,0.62,2.0,0.6,42
+20000,Durable audit append,0.36,2.0,0.6,24

@@ -1,0 +1,19 @@
+{
+  "privacy_unit": "person",
+  "adjacency": "add/remove one person",
+  "contribution_bound": "one count in at most three cells per registered release",
+  "l1_sensitivity": 3,
+  "observed_max_neighbor_l1_over_10000_tests": 3.0,
+  "mechanism": "Laplace with nonnegative post-processing",
+  "annual_release_count": 12,
+  "candidate_epsilon_totals": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "selected_example_epsilon_total": 4,
+  "selected_epsilon_per_release": 0.3333333333333333,
+  "privacy_budget_ledger_required": true,
+  "boundary": "Registered public histograms only; trusted-curator exposure, AML graph analytics, identity mappings and ad hoc queries are excluded."
+}

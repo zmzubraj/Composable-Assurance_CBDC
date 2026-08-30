@@ -1,0 +1,22 @@
+{
+  "status": "DRAFT_PRIMARY_SCREEN_COMPLETE",
+  "run_id": "composable-assurance-for-sovereign-digital-currency-20260828T215947Z-1b00c7ec-7b6613",
+  "unique_records": 282,
+  "abstracts_available": 207,
+  "decisions": {
+    "EXCLUDE_GENERIC_CBDC": 12,
+    "EXCLUDE_NO_C001_OVERLAP": 16,
+    "EXCLUDE_OUT_OF_SCOPE": 131,
+    "INCLUDE_FULL_TEXT": 82,
+    "PRIORITY_FULL_TEXT": 26,
+    "RETRIEVE_ABSTRACT_OR_FULL_TEXT": 15
+  },
+  "scientific_verification_performed": false,
+  "independent_challenge_performed": false,
+  "novelty_verdict": "UNRESOLVED",
+  "limitations": [
+    "Rule-based AI-assisted primary screen requires accountable verification",
+    "Included records still require full-text reconciliation",
+    "Citation chaining and independent search challenge remain incomplete"
+  ]
+}

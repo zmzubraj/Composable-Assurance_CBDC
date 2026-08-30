@@ -1,0 +1,762 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KHbvYFP3oUH9Fby25olzqxKOWfg</id>
+  <title>arXiv Query: search_query=all:CBDC OR all:architecture OR all:agnostic OR all:interoperability OR all:checkpoint OR all:reserve OR all:lock OR all:finalize&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-08-28T23:09:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:CBDC+OR+(all:architecture+OR+(all:agnostic+OR+(all:interoperability+OR+(all:checkpoint+OR+(all:reserve+OR+(all:lock+OR+all:finalize))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>414166</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2305.16893v1</id>
+    <title>CBDC-AquaSphere: Interoperable Central Bank Digital Currency Built on Trusted Computing and Blockchain</title>
+    <updated>2023-05-26T12:54:00Z</updated>
+    <link href="https://arxiv.org/abs/2305.16893v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.16893v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The adoption of decentralized, tamper-proof ledger systems is paving the way for new applications and opportunities in different contexts. While most research aims to improve their scalability, privacy, and governance issues, interoperability has received less attention. Executing transactions across various blockchains is notably instrumental in unlocking the potential of novel applications, particularly in the financial sector, where their potential would otherwise be significantly diminished. Therefore, interoperable ledgers are crucial to ensure the expansion and further adoption of such a technology in various contexts.
+  In this paper, we present a protocol that uses a combination of trusted execution environment (TEE) and blockchains to enable interoperability over independent semi-centralized CBDC ledgers, guaranteeing the atomicity of inter-bank transfers. Our interoperability protocol uses a custom adaptation of atomic swap protocol and is executed by any pair of CBDC instances to realize a one-way transfer. It ensures features such as atomicity, verifiability, correctness, censorship resistance, and privacy while offering high scalability in terms of the number of CBDC instances. Our approach enables to possible deployment scenarios that can be combined: (1) CBDC instances represent central banks of multiple countries, and (2) CBDC instances represent the set of retail banks and a paramount central bank of a single country. We provide a detailed description of our protocol as well as an extensive analysis of its benefits, features, and security.
+  In this WIP paper, we made a proof-of-concept implementation and made a partial evaluation, while the more extensive evaluation will be made in our future work.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-26T12:54:00Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Ivan Homoliak</name>
+    </author>
+    <author>
+      <name>Martin Perešíni</name>
+    </author>
+    <author>
+      <name>Patrik Holop</name>
+    </author>
+    <author>
+      <name>Jakub Handzuš</name>
+    </author>
+    <author>
+      <name>Fran Casino</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.00670v1</id>
+    <title>Phase-locking at low-level of quanta</title>
+    <updated>2015-10-02T18:13:08Z</updated>
+    <link href="https://arxiv.org/abs/1510.00670v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.00670v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We discuss phase-locking phenomena at low-level of quanta for parametrically driven nonlinear Kerr resonator (PDNR) in strong quantum regime. Oscillatory mode of PDNR is created in the process of a degenerate down-conversion of photons under interaction with a train of external Gaussian pulses. We calculate the Wigner functions of cavity mode showing two-fold symmetry in phase space and analyse formation of phase-locked states in the regular as well as the quantum chaotic regime.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-02T18:13:08Z</published>
+    <arxiv:comment>6 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 93, 043856 (2016)</arxiv:journal_ref>
+    <author>
+      <name>G. H. Hovsepyan</name>
+    </author>
+    <author>
+      <name>A. R. Shahinyan</name>
+    </author>
+    <author>
+      <name>Lock Yue Chew</name>
+    </author>
+    <author>
+      <name>G. Yu. Kryuchkyan</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.93.043856</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.93.043856" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.00804v2</id>
+    <title>Architectural Implications of Graph Neural Networks</title>
+    <updated>2021-12-24T14:59:46Z</updated>
+    <link href="https://arxiv.org/abs/2009.00804v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.00804v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph neural networks (GNN) represent an emerging line of deep learning models that operate on graph structures. It is becoming more and more popular due to its high accuracy achieved in many graph-related tasks. However, GNN is not as well understood in the system and architecture community as its counterparts such as multi-layer perceptrons and convolutional neural networks. This work tries to introduce the GNN to our community. In contrast to prior work that only presents characterizations of GCNs, our work covers a large portion of the varieties for GNN workloads based on a general GNN description framework. By constructing the models on top of two widely-used libraries, we characterize the GNN computation at inference stage concerning general-purpose and application-specific architectures and hope our work can foster more system and architecture research for GNNs.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-02T03:36:24Z</published>
+    <arxiv:comment>4 pages, published in IEEE Computer Architecture Letters (CAL) 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <arxiv:journal_ref>in IEEE Computer Architecture Letters, vol. 19, no. 1, pp. 59-62, 1 Jan.-June 2020</arxiv:journal_ref>
+    <author>
+      <name>Zhihui Zhang</name>
+    </author>
+    <author>
+      <name>Jingwen Leng</name>
+    </author>
+    <author>
+      <name>Lingxiao Ma</name>
+    </author>
+    <author>
+      <name>Youshan Miao</name>
+    </author>
+    <author>
+      <name>Chao Li</name>
+    </author>
+    <author>
+      <name>Minyi Guo</name>
+    </author>
+    <arxiv:doi>10.1109/LCA.2020.2988991</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/LCA.2020.2988991" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.06811v1</id>
+    <title>Phase Locking between Two All-Optical Quantum Memories</title>
+    <updated>2020-09-15T01:26:25Z</updated>
+    <link href="https://arxiv.org/abs/2009.06811v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.06811v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optical approaches to quantum computation require the creation of multi-mode photonic quantum states in a controlled fashion. Here we experimentally demonstrate phase locking of two all-optical quantum memories, based on a concatenated cavity system with phase reference beams, for the time-controlled release of two-mode entangled single-photon states. The release time for each mode can be independently determined. The generated states are characterized by two-mode optical homodyne tomography. Entanglement and nonclassicality are preserved for release-time differences up to 400 ns, confirmed by logarithmic negativities and Wigner-function negativities, respectively.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-15T01:26:25Z</published>
+    <arxiv:comment>15 pages, 15 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 125, 260508 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Fumiya Okamoto</name>
+    </author>
+    <author>
+      <name>Mamoru Endo</name>
+    </author>
+    <author>
+      <name>Mikihisa Matsuyama</name>
+    </author>
+    <author>
+      <name>Yuya Ishizuka</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+    <author>
+      <name>Rei Sakakibara</name>
+    </author>
+    <author>
+      <name>Yosuke Hashimoto</name>
+    </author>
+    <author>
+      <name>Jun-ichi Yoshikawa</name>
+    </author>
+    <author>
+      <name>Peter van Loock</name>
+    </author>
+    <author>
+      <name>Akira Furusawa</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.125.260508</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.125.260508" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.13219v4</id>
+    <title>Dalorex: A Data-Local Program Execution and Architecture for Memory-bound Applications</title>
+    <updated>2023-05-04T15:26:26Z</updated>
+    <link href="https://arxiv.org/abs/2207.13219v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.13219v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Applications with low data reuse and frequent irregular memory accesses, such as graph or sparse linear algebra workloads, fail to scale well due to memory bottlenecks and poor core utilization. While prior work with prefetching, decoupling, or pipelining can mitigate memory latency and improve core utilization, memory bottlenecks persist due to limited off-chip bandwidth. Approaches doing processing in-memory (PIM) with Hybrid Memory Cube (HMC) overcome bandwidth limitations but fail to achieve high core utilization due to poor task scheduling and synchronization overheads. Moreover, the high memory-per-core ratio available with HMC limits strong scaling.
+  We introduce Dalorex, a hardware-software co-design that achieves high parallelism and energy efficiency, demonstrating strong scaling with &gt;16,000 cores when processing graph and sparse linear algebra workloads. Over the prior work in PIM, both using 256 cores, Dalorex improves performance and energy consumption by two orders of magnitude through (1) a tile-based distributed-memory architecture where each processing tile holds an equal amount of data, and all memory operations are local; (2) a task-based parallel programming model where tasks are executed by the processing unit that is co-located with the target data; (3) a network design optimized for irregular traffic, where all communication is one-way, and messages do not contain routing metadata; (4) novel traffic-aware task scheduling hardware that maintains high core utilization; and (5) a data placement strategy that improves work balance.
+  This work proposes architectural and software innovations to provide the greatest scalability to date for running graph algorithms while still being programmable for other domains.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-26T23:59:41Z</published>
+    <arxiv:comment>In Proceedings of the 29th IEEE Symposium on High-Performance Computer Architecture (HPCA-29)</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <arxiv:journal_ref>2023 IEEE International Symposium on High-Performance Computer Architecture (HPCA)</arxiv:journal_ref>
+    <author>
+      <name>Marcelo Orenes-Vera</name>
+    </author>
+    <author>
+      <name>Esin Tureci</name>
+    </author>
+    <author>
+      <name>David Wentzlaff</name>
+    </author>
+    <author>
+      <name>Margaret Martonosi</name>
+    </author>
+    <arxiv:doi>10.1109/HPCA56546.2023.10071089</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/HPCA56546.2023.10071089" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1310.2861v1</id>
+    <title>Distributed firewalls and IDS interoperability checking based on a formal approach</title>
+    <updated>2013-10-10T15:47:16Z</updated>
+    <link href="https://arxiv.org/abs/1310.2861v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1310.2861v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To supervise and guarantee a network security, the administrator uses different security components, such as firewalls, IDS and IPS. For a perfect interoperability between these components, they must be configured properly to avoid misconfiguration between them. Nevertheless, the existence of a set of anomalies between filtering rules and alerting rules, particularly in distributed multi-component architectures is very likely to degrade the network security. The main objective of this paper is to check if a set of security components are interoperable. A case study using a firewall and an IDS as examples will illustrate the usefulness of our approach.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-10-10T15:47:16Z</published>
+    <arxiv:comment>Security component, relevancy, misconfigurations detection, interoperability cheking, formal correction,formal verification, projection, IDS, Firewall</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <arxiv:journal_ref>International Journal of Computer Networks &amp; Communications, September 2013, Volume 5. Number 5, pp 95-115</arxiv:journal_ref>
+    <author>
+      <name>Kamel Karoui</name>
+    </author>
+    <author>
+      <name>Fakher Ben Ftima</name>
+    </author>
+    <author>
+      <name>Henda Ben Ghezala</name>
+    </author>
+    <arxiv:doi>10.5121/ijcnc.2013.5508</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5121/ijcnc.2013.5508" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.12670v4</id>
+    <title>Fault-Tolerant Hybrid-Parallel Training at Scale with Reliable and Efficient In-memory Checkpointing</title>
+    <updated>2024-08-19T16:17:06Z</updated>
+    <link href="https://arxiv.org/abs/2310.12670v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.12670v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To efficiently scale large model (LM) training, researchers transition from data parallelism (DP) to hybrid parallelism (HP) on GPU clusters, which frequently experience hardware and software failures. Existing works introduce in-memory checkpointing optimizations that snapshot parameters to device memory for rapid failure recovery. However, these methods introduce severe resource competition between checkpointing and training, which can work under DP but can hardly scale under resource-intensive HP. To ensure low checkpointing overhead for hybrid-parallel training, this paper introduces a distributed in-memory checkpointing system with near-zero in-memory saving overhead. It strives from two aspects to mitigate the on-host resource competition caused by in-memory checkpointing: (1) It introduces Hierarchical Asynchronous Snapshotting Coordination in the checkpoint saving stage. This approach uses three-level asynchronous on-device scheduling to enhance parallelism between snapshotting and training, thereby minimizing snapshotting overhead. (2) It proposes Hybrid In-memory Checkpoint Protection to enhance checkpoint completeness during hardware failures. Unlike methods that require inter-node communications, which may block training under HP, it creates intra-node redundancy with efficient resource utilization, protecting training against hardware failures with minimal overhead. With these methods, this work enables fast restart for failed HP training with Distributed In-memory Checkpoint Loading, bypassing inefficiencies in NFS reads. In our evaluation, we achieve zero in-memory checkpoint saving overhead on Frontier while training Llama-2-34B on 256 MI250X devices (512 GPUs).</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-19T11:59:01Z</published>
+    <arxiv:comment>Fault Tolerance, Checkpoint Optimization, Large Language Model, Foundation Model, Hybrid parallelism</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Yuxin Wang</name>
+    </author>
+    <author>
+      <name>Xueze Kang</name>
+    </author>
+    <author>
+      <name>Shaohuai Shi</name>
+    </author>
+    <author>
+      <name>Xin He</name>
+    </author>
+    <author>
+      <name>Zhenheng Tang</name>
+    </author>
+    <author>
+      <name>Xinglin Pan</name>
+    </author>
+    <author>
+      <name>Yang Zheng</name>
+    </author>
+    <author>
+      <name>Xiaoyu Wu</name>
+    </author>
+    <author>
+      <name>Amelie Chi Zhou</name>
+    </author>
+    <author>
+      <name>Bingsheng He</name>
+    </author>
+    <author>
+      <name>Xiaowen Chu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.19171v1</id>
+    <title>Towards Assessing Spread in Sets of Software Architecture Designs</title>
+    <updated>2024-02-29T13:52:39Z</updated>
+    <link href="https://arxiv.org/abs/2402.19171v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.19171v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Several approaches have recently used automated techniques to generate architecture design alternatives by means of optimization techniques. These approaches aim at improving an initial architecture with respect to quality aspects, such as performance, reliability, or maintainability. In this context, each optimization experiment usually produces a different set of architecture alternatives that is characterized by specific settings. As a consequence, the designer is left with the task of comparing such sets to identify the settings that lead to better solution sets for the problem. To assess the quality of solution sets, multi-objective optimization commonly relies on quality indicators. Among these, the quality indicator for the maximum spread estimates the diversity of the generated alternatives, providing a measure of how much of the solution space has been explored. However, the maximum spread indicator is computed only on the objective space and does not consider architectural information (e.g., components structure, design decisions) from the architectural space. In this paper, we propose a quality indicator for the spread that assesses the diversity of alternatives by taking into account architectural features. To compute the spread, we rely on a notion of distance between alternatives according to the way they were generated during the optimization. We demonstrate how our architectural quality indicator can be applied to a dataset from the literature.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-29T13:52:39Z</published>
+    <arxiv:comment>17th European Conference on Software Architecture (ECSA 2023), 8 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <arxiv:journal_ref>European Conference on Software Architecture 2023</arxiv:journal_ref>
+    <author>
+      <name>Vittorio Cortellessa</name>
+    </author>
+    <author>
+      <name>J. Andres Diaz-Pace</name>
+    </author>
+    <author>
+      <name>Daniele Di Pompeo</name>
+    </author>
+    <author>
+      <name>Michele Tucci</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-031-42592-9_9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-031-42592-9_9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.20486v2</id>
+    <title>LSQCA: Resource-Efficient Load/Store Architecture for Limited-Scale Fault-Tolerant Quantum Computing</title>
+    <updated>2025-04-14T06:02:08Z</updated>
+    <link href="https://arxiv.org/abs/2412.20486v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.20486v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current fault-tolerant quantum computer (FTQC) architectures utilize several encoding techniques to enable reliable logical operations with restricted qubit connectivity. However, such logical operations demand additional memory overhead to ensure fault tolerance. Since the main obstacle to practical quantum computing is the limited qubit count, our primary mission is to design floorplans that can reduce memory overhead without compromising computational capability. Despite extensive efforts to explore FTQC architectures, even the current state-of-the-art floorplan strategy devotes 50% of memory space to this overhead, not to data storage, to ensure unit-time random access to all logical qubits.
+  In this paper, we propose an FTQC architecture based on a novel floorplan strategy, Load/Store Quantum Computer Architecture (LSQCA), which can achieve almost 100% memory density. The idea behind our architecture is to separate all memory regions into small computational space called Computational Registers (CR) and space-efficient memory space called Scan-Access Memory (SAM). We define an instruction set for these abstract structures and provide concrete designs named point-SAM and line-SAM architectures. With this design, we can improve the memory density by allowing variable-latency memory access while concealing the latency with other bottlenecks. We also propose optimization techniques to exploit properties of quantum programs observed in our static analysis, such as access locality in memory reference timestamps. Our numerical results indicate that LSQCA successfully leverages this idea. In a resource-restricted situation, a specific benchmark shows that we can achieve about 90% memory density with 5% increase in the execution time compared to a conventional floorplan, which achieves at most 50% memory density for unit-time random access. Our design ensures broad quantum applicability.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-29T14:58:23Z</published>
+    <arxiv:comment>17 pages, 15 figures, 2025 IEEE International Symposium on High Performance Computer Architecture (HPCA)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>2025 IEEE International Symposium on High Performance Computer Architecture (HPCA), Las Vegas, NV, USA, 2025, pp. 304-320</arxiv:journal_ref>
+    <author>
+      <name>Takumi Kobori</name>
+    </author>
+    <author>
+      <name>Yasunari Suzuki</name>
+    </author>
+    <author>
+      <name>Yosuke Ueno</name>
+    </author>
+    <author>
+      <name>Teruo Tanimoto</name>
+    </author>
+    <author>
+      <name>Synge Todo</name>
+    </author>
+    <author>
+      <name>Yuuki Tokunaga</name>
+    </author>
+    <arxiv:doi>10.1109/HPCA61900.2025.00033</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/HPCA61900.2025.00033" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0405084v1</id>
+    <title>A Framework for Interoperability</title>
+    <updated>2004-05-23T20:28:59Z</updated>
+    <link href="https://arxiv.org/abs/cs/0405084v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cs/0405084v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Practical implementations of high-level languages must provide access to libraries and system services that have APIs specified in a low-level language (usually C). An important characteristic of such mechanisms is the foreign-interface policy that defines how to bridge the semantic gap between the high-level language and C. For example, IDL-based tools generate code to marshal data into and out of the high-level representation according to user annotations. The design space of foreign-interface policies is large and there are pros and cons to each approach. Rather than commit to a particular policy, we choose to focus on the problem of supporting a gamut of interoperability policies. In this paper, we describe a framework for language interoperability that is expressive enough to support very efficient implementations of a wide range of different foreign-interface policies. We describe two tools that implement substantially different policies on top of our framework and present benchmarks that demonstrate their efficiency.</summary>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-05-23T20:28:59Z</published>
+    <arxiv:comment>16 pages; 1 figure; appeared in Proceedings of the 1st International Workshop on Multi-Language Infrastructure and Interoperability (BABEL'01), ENTCS 59(1), 2001</arxiv:comment>
+    <arxiv:primary_category term="cs.PL"/>
+    <author>
+      <name>Kathleen Fisher</name>
+    </author>
+    <author>
+      <name>Riccardo Pucella</name>
+    </author>
+    <author>
+      <name>John Reppy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1306.0089v1</id>
+    <title>A Novel Reconfigurable Architecture of a DSP Processor for Efficient Mapping of DSP Functions using Field Programmable DSP Arrays</title>
+    <updated>2013-06-01T09:04:40Z</updated>
+    <link href="https://arxiv.org/abs/1306.0089v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1306.0089v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Development of modern integrated circuit technologies makes it feasible to develop cheaper, faster and smaller special purpose signal processing function circuits. Digital Signal processing functions are generally implemented either on ASICs with inflexibility, or on FPGAs with bottlenecks of relatively smaller utilization factor or lower speed compared to ASIC. Field Programmable DSP Array (FPDA) is the proposed DSP dedicated device, redolent to FPGA, but with basic fixed common modules (CMs) (like adders, subtractors, multipliers, scaling units, shifters) instead of CLBs. This paper introduces the development of reconfigurable system architecture with a focus on FPDA that integrates different DSP functions like DFT, FFT, DCT, FIR, IIR, and DWT etc. The switching between DSP functions is occurred by reconfiguring the interconnection between CMs. Validation of the proposed architecture has been achieved on Virtex5 FPGA. The architecture provides sufficient amount of flexibility, parallelism and scalability.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-06-01T09:04:40Z</published>
+    <arxiv:comment>8 Pages, 12 Figures, ACM SIGARCH Computer Architecture News. arXiv admin note: substantial text overlap with arXiv:1305.3251</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <arxiv:journal_ref>ACM SIGARCH Computer Architecture News, Volume 41 Issue 2, May 2013, Pages 1-8</arxiv:journal_ref>
+    <author>
+      <name>Amitabha Sinha</name>
+    </author>
+    <author>
+      <name>Mitrava Sarkar</name>
+    </author>
+    <author>
+      <name>Soumojit Acharyya</name>
+    </author>
+    <author>
+      <name>Suranjan Chakraborty</name>
+    </author>
+    <arxiv:doi>10.1145/2490302.2490304</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/2490302.2490304" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.09636v1</id>
+    <title>Co-optimization of Energy and Reserve with Incentives to Wind Generation: Case Study</title>
+    <updated>2021-07-03T16:58:22Z</updated>
+    <link href="https://arxiv.org/abs/2107.09636v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.09636v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This case study presents an analysis and quantification of the impact of the lack of co-optimization of energy and reserve in the presence of high penetration of wind energy. The methodology is developed in a companion paper, Part I. Two models, with and without co-optimization are confronted. The modeling of reserve and the incentive to renewable as well as the calibration of the model are inspired by the Spanish market. A sensitivity analysis is performed on configurations that differ by generation capacity, ramping capability, and market parameters (available wind, Feed in Premium to wind, generators risk aversion, and reserve requirement). The models and the case study are purely illustrative but the methodology is general.</summary>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-03T16:58:22Z</published>
+    <arxiv:comment>8 pages, 4 tables, 5 figures. Supplementary material for article entitled: Co-optimization of Energy and Reserve with Incentives to Wind Generation</arxiv:comment>
+    <arxiv:primary_category term="q-fin.GN"/>
+    <author>
+      <name>Yves Smeers</name>
+    </author>
+    <author>
+      <name>Sebastian Martin</name>
+    </author>
+    <author>
+      <name>Jose A. Aguado</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.02838v1</id>
+    <title>HAPI-FHIR Server Implementation to Enhancing Interoperability among Primary Care Health Information Systems in Sri Lanka: Review of the Technical Use Case</title>
+    <updated>2024-02-05T09:48:46Z</updated>
+    <link href="https://arxiv.org/abs/2402.02838v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.02838v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This review underscores the vital role of interoperability in digital health, advocating for a standardized framework. It focuses on implementing a Fast Healthcare Interoperability Resources (FHIR) server, addressing technical, semantic, and process challenges. FHIR's adaptability ensures uniformity within Primary Care Health Information Systems, fostering interoperability. Patient data management complexities highlight the pivotal role of semantic interoperability in seamless patient care. FHIR standards enhance these efforts, offering multiple pathways for data search. The ADR-guided FHIR server implementation systematically addresses challenges related to patient identity, biometrics, and data security. The detailed development phases emphasize architecture, API integration, and security. The concluding stages incorporate forward-looking approaches, including HHIMS Synthetic Dataset testing. Envisioning FHIR integration as transformative, it anticipates a responsive healthcare environment aligned with the evolving digital health landscape, ensuring comprehensive, dynamic, and interconnected systems for efficient data exchange and access.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-05T09:48:46Z</published>
+    <arxiv:comment>HAPI-FHIR Server, Interoperability, Primary Care Health Information Systems, Health Information Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <arxiv:journal_ref>European Modern Studies Journal 2024</arxiv:journal_ref>
+    <author>
+      <name>Prabath Jayathissa</name>
+    </author>
+    <author>
+      <name>Roshan Hewapathirana</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.09343v2</id>
+    <title>Insights into DeepSeek-V3: Scaling Challenges and Reflections on Hardware for AI Architectures</title>
+    <updated>2025-12-23T03:00:00Z</updated>
+    <link href="https://arxiv.org/abs/2505.09343v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.09343v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid scaling of large language models (LLMs) has unveiled critical limitations in current hardware architectures, including constraints in memory capacity, computational efficiency, and interconnection bandwidth. DeepSeek-V3, trained on 2,048 NVIDIA H800 GPUs, demonstrates how hardware-aware model co-design can effectively address these challenges, enabling cost-efficient training and inference at scale. This paper presents an in-depth analysis of the DeepSeek-V3/R1 model architecture and its AI infrastructure, highlighting key innovations such as Multi-head Latent Attention (MLA) for enhanced memory efficiency, Mixture of Experts (MoE) architectures for optimized computation-communication trade-offs, FP8 mixed-precision training to unlock the full potential of hardware capabilities, and a Multi-Plane Network Topology to minimize cluster-level network overhead. Building on the hardware bottlenecks encountered during DeepSeek-V3's development, we engage in a broader discussion with academic and industry peers on potential future hardware directions, including precise low-precision computation units, scale-up and scale-out convergence, and innovations in low-latency communication fabrics. These insights underscore the critical role of hardware and model co-design in meeting the escalating demands of AI workloads, offering a practical blueprint for innovation in next-generation AI systems.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-14T12:39:03Z</published>
+    <arxiv:comment>This is the author's version of the work. It is posted here for your personal use. Not for redistribution. The definitive version appeared as part of the Industry Track in Proceedings of the 52nd Annual International Symposium on Computer Architecture (ISCA '25)</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <arxiv:journal_ref>Proceedings of the 52nd Annual International Symposium on Computer Architecture (ISCA '25), June 2025</arxiv:journal_ref>
+    <author>
+      <name>Chenggang Zhao</name>
+    </author>
+    <author>
+      <name>Chengqi Deng</name>
+    </author>
+    <author>
+      <name>Chong Ruan</name>
+    </author>
+    <author>
+      <name>Damai Dai</name>
+    </author>
+    <author>
+      <name>Huazuo Gao</name>
+    </author>
+    <author>
+      <name>Jiashi Li</name>
+    </author>
+    <author>
+      <name>Liyue Zhang</name>
+    </author>
+    <author>
+      <name>Panpan Huang</name>
+    </author>
+    <author>
+      <name>Shangyan Zhou</name>
+    </author>
+    <author>
+      <name>Shirong Ma</name>
+    </author>
+    <author>
+      <name>Wenfeng Liang</name>
+    </author>
+    <author>
+      <name>Ying He</name>
+    </author>
+    <author>
+      <name>Yuqing Wang</name>
+    </author>
+    <author>
+      <name>Yuxuan Liu</name>
+    </author>
+    <author>
+      <name>Y. X. Wei</name>
+    </author>
+    <arxiv:doi>10.1145/3695053.3731412</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3695053.3731412" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.4977v1</id>
+    <title>Semantic Gateway as a Service architecture for IoT Interoperability</title>
+    <updated>2014-10-18T16:23:51Z</updated>
+    <link href="https://arxiv.org/abs/1410.4977v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.4977v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Internet of Things (IoT) is set to occupy a substantial component of future Internet. The IoT connects sensors and devices that record physical observations to applications and services of the Internet. As a successor to technologies such as RFID and Wireless Sensor Networks (WSN), the IoT has stumbled into vertical silos of proprietary systems, providing little or no interoperability with similar systems. As the IoT represents future state of the Internet, an intelligent and scalable architecture is required to provide connectivity between these silos, enabling discovery of physical sensors and interpretation of messages between things. This paper proposes a gateway and Semantic Web enabled IoT architecture to provide interoperability between systems using established communication and data standards. The Semantic Gateway as Service (SGS) allows translation between messaging protocols such as XMPP, CoAP and MQTT via a multi-protocol proxy architecture. Utilization of broadly accepted specifications such as W3C's Semantic Sensor Network (SSN) ontology for semantic annotations of sensor data provide semantic interoperability between messages and support semantic reasoning to obtain higher-level actionable knowledge from low-level sensor data.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-18T16:23:51Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Pratikkumar Desai</name>
+    </author>
+    <author>
+      <name>Amit Sheth</name>
+    </author>
+    <author>
+      <name>Pramod Anantharam</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.07516v1</id>
+    <title>Quality Attributes Optimization of Software Architecture: Research Challenges and Directions</title>
+    <updated>2023-01-18T13:37:21Z</updated>
+    <link href="https://arxiv.org/abs/2301.07516v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.07516v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The estimation and improvement of quality attributes in software architectures is a challenging and time-consuming activity. On modern software applications, a model-based representation is crucial to face the complexity of such activity. One main challenge is that the improvement of distinctive quality attributes may require contrasting refactoring actions on the architecture, for instance when looking for trade-off between performance and reliability (or other non-functional quality attributes). In such cases, multi-objective optimization can provide the designer with a more complete view on these trade-offs and, consequently, can lead to identify suitable refactoring actions that take into account independent or even competing objectives.
+  In this paper, we present open challenges and research directions to fill current gaps in the context of multi-objective software architecture optimization.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-18T13:37:21Z</published>
+    <arxiv:comment>4 pages, 1 figure -- 3rd International Workshop on Model-Driven Engineering for Software Architecture (MDE4SA 2023)</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <arxiv:journal_ref>20th International Conference on Software Architecture, ICSA 2023 - Companion</arxiv:journal_ref>
+    <author>
+      <name>Daniele Di Pompeo</name>
+    </author>
+    <author>
+      <name>Michele Tucci</name>
+    </author>
+    <arxiv:doi>10.1109/ICSA-C57050.2023.00061</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ICSA-C57050.2023.00061" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.05900v1</id>
+    <title>Proceedings of the Third Workshop on Software Foundations for Data Interoperability (SFDI2019+), October 28, 2019, Fukuoka, Japan</title>
+    <updated>2019-11-14T02:32:16Z</updated>
+    <link href="https://arxiv.org/abs/1911.05900v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.05900v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This volume contains the papers presented at the Third Workshop on Software Foundations for Data Interoperability (SFDI2019+) held on October 28, 2019, in Fukuoka, co-located with the 11th Asia-Pasific Symposium on Internetware (Internetware 2019). One regular paper and six short papers have been accepted for presentation, each of which has its unique ideas and/or interesting results on interoperability of autonomic distributed data. Moreover, SFDI2019+ featured two keynote talks by Hiroyuki Seki (Nagoya University) and Zinovy Diskin (McMaster University), which introduce concepts and directions novel to the series of SFDI workshops so far.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-14T02:32:16Z</published>
+    <arxiv:comment>Proceedings of the Third Workshop on Software Foundations for Data Interoperability (SFDI2019+), October 28, 2019, Fukuoka, Japan</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Soichiro Hidaka</name>
+    </author>
+    <author>
+      <name>Yasunori Ishihara</name>
+    </author>
+    <author>
+      <name>Zachary G. Ives</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.12595v1</id>
+    <title>MANA for MPI: MPI-Agnostic Network-Agnostic Transparent Checkpointing</title>
+    <updated>2019-04-20T16:11:54Z</updated>
+    <link href="https://arxiv.org/abs/1904.12595v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.12595v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transparently checkpointing MPI for fault tolerance and load balancing is a long-standing problem in HPC. The problem has been complicated by the need to provide checkpoint-restart services for all combinations of an MPI implementation over all network interconnects. This work presents MANA (MPI-Agnostic Network-Agnostic transparent checkpointing), a single code base which supports all MPI implementation and interconnect combinations. The agnostic properties imply that one can checkpoint an MPI application under one MPI implementation and perhaps over TCP, and then restart under a second MPI implementation over InfiniBand on a cluster with a different number of CPU cores per node. This technique is based on a novel "split-process" approach, which enables two separate programs to co-exist within a single process with a single address space. This work overcomes the limitations of the two most widely adopted transparent checkpointing solutions, BLCR and DMTCP/InfiniBand, which require separate modifications to each MPI implementation and/or underlying network API. The runtime overhead is found to be insignificant both for checkpoint-restart within a single host, and when comparing a local MPI computation that was migrated to a remote cluster against an ordinary MPI computation running natively on that same remote cluster.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-20T16:11:54Z</published>
+    <arxiv:comment>24 pages; 9 figures; accepted at HPDC-2019</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Rohan Garg</name>
+    </author>
+    <author>
+      <name>Gregory Price</name>
+    </author>
+    <author>
+      <name>Gene Cooperman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.07500v1</id>
+    <title>Multi-objective Software Architecture Refactoring driven by Quality Attributes</title>
+    <updated>2023-01-18T13:17:16Z</updated>
+    <link href="https://arxiv.org/abs/2301.07500v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.07500v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Architecture optimization is the process of automatically generating design options, typically to enhance software's quantifiable quality attributes, such as performance and reliability. Multi-objective optimization approaches have been used in this situation to assist the designer in selecting appropriate trade-offs between a number of non-functional features. Through automated refactoring, design alternatives can be produced in this process, and assessed using non-functional models.
+  This type of optimization tasks are hard and time- and resource-intensive, which frequently hampers their use in software engineering procedures.
+  In this paper, we present our optimization framework where we examined the performance of various genetic algorithms. We also exercised our framework with two case studies with various levels of size, complexity, and domain served as our test subjects.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-18T13:17:16Z</published>
+    <arxiv:comment>4 pages, 1 figure, 20th -- IEEE International Conference on Software Architecture - poster track</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <arxiv:journal_ref>20th International Conference on Software Architecture, ICSA 2023 - Companion</arxiv:journal_ref>
+    <author>
+      <name>Daniele Di Pompeo</name>
+    </author>
+    <author>
+      <name>Michele Tucci</name>
+    </author>
+    <arxiv:doi>10.1109/ICSA-C57050.2023.00046</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ICSA-C57050.2023.00046" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.09953v1</id>
+    <title>Fast Processing of Large Graph Applications Using Asynchronous Architecture</title>
+    <updated>2017-06-29T21:07:14Z</updated>
+    <link href="https://arxiv.org/abs/1706.09953v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.09953v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph algorithms and techniques are increasingly being used in scientific and commercial applications to express relations and explore large data sets. Although conventional or commodity computer architectures, like CPU or GPU, can compute fairly well dense graph algorithms, they are often inadequate in processing large sparse graph applications. Memory access patterns, memory bandwidth requirements and on-chip network communications in these applications do not fit in the conventional program execution flow. In this work, we propose and design a new architecture for fast processing of large graph applications. To leverage the lack of the spatial and temporal localities in these applications and to support scalable computational models, we design the architecture around two key concepts. (1) The architecture is a multicore processor of independently clocked processing elements. These elements communicate in a self-timed manner and use handshaking to perform synchronization, communication, and sequencing of operations. By being asynchronous, the operating speed at each processing element is determined by actual local latencies rather than global worst-case latencies. We create a specialized ISA to support these operations. (2) The application compilation and mapping process uses a graph clustering algorithm to optimize parallel computing of graph operations and load balancing. Through the clustering process, we make scalability an inherent property of the architecture where task-to-element mapping can be done at the graph node level or at node cluster level. A prototyped version of the architecture outperforms a comparable CPU by 10~20x across all benchmarks and provides 2~5x better power efficiency when compared to a GPU.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-29T21:07:14Z</published>
+    <arxiv:comment>Boston Area Architecture 2017 Workshop (BARC17)</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Michel A. Kinsy</name>
+    </author>
+    <author>
+      <name>Rashmi S. Agrawal</name>
+    </author>
+    <author>
+      <name>Hien D. Nguyen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.05100v1</id>
+    <title>SAPA: Self-Aware Polymorphic Architecture</title>
+    <updated>2018-02-12T05:13:16Z</updated>
+    <link href="https://arxiv.org/abs/1802.05100v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.05100v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we introduce a Self-Aware Polymorphic Architecture (SAPA) design approach to support emerging context-aware applications and mitigate the programming challenges caused by the ever-increasing complexity and heterogeneity of high performance computing systems. Through the SAPA design, we examined the salient software-hardware features of adaptive computing systems that allow for (1) the dynamic allocation of computing resources depending on program needs (e.g., the amount of parallelism in the program) and (2) automatic approximation to meet program and system goals (e.g., execution time budget, power constraints and computation resiliency) without the programming complexity of current multicore and many-core systems. The proposed adaptive computer architecture framework applies machine learning algorithms and control theory techniques to the application execution based on information collected about the system runtime performance trade-offs. It has heterogeneous reconfigurable cores with fast hardware-level migration capability, self-organizing memory structures and hierarchies, an adaptive application-aware network-on-chip, and a built-in hardware layer for dynamic, autonomous resource management. Our prototyped architecture performs extremely well on a large pool of applications.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-12T05:13:16Z</published>
+    <arxiv:comment>Boston Area Architecture 2018 Workshop (BARC18)</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Michel A. Kinsy</name>
+    </author>
+    <author>
+      <name>Mihailo Isakov</name>
+    </author>
+    <author>
+      <name>Alan Ehret</name>
+    </author>
+    <author>
+      <name>Donato Kava</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.12999v2</id>
+    <title>General-Purpose Multicore Architectures</title>
+    <updated>2025-01-25T17:41:53Z</updated>
+    <link href="https://arxiv.org/abs/2408.12999v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.12999v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The first years of the 2000s led to an inflection point in computer architectures: while the number of available transistors on a chip continued to grow, crucial transistor scaling properties started to break down and result in increasing power consumption, while aggressive single-core performance optimizations were resulting in diminishing returns due to inherent limits in instruction-level parallelism. This led to the rise of multicore CPU architectures, which are now commonplace in modern computers at all scales. In this chapter, we discuss the evolution of multicore CPUs since their introduction. Starting with a historic overview of multiprocessing, we explore the basic microarchitecture of a multicore CPU, key challenges resulting from shared memory resources, operating system modifications to optimize multicore CPU support, popular metrics for multicore evaluation, and recent trends in multicore CPU design.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-23T11:40:47Z</published>
+    <arxiv:comment>preprint of book chapter in Handbook of Computer Architecture</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Saugata Ghose</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.02083v2</id>
+    <title>Energy-Proportional Data Center Network Architecture Through OS, Switch and Laser Co-design</title>
+    <updated>2021-12-20T18:08:17Z</updated>
+    <link href="https://arxiv.org/abs/2112.02083v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.02083v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optical interconnects are already the dominant technology in large-scale data center networks. However, the high optical loss of many optical components coupled with the low efficiency of laser sources result in high aggregate power requirements for the thousands of optical transceivers used by these networks. As optical interconnects stay always on even as traffic demands ebb and flow, most of this power is wasted. We present LC/DC, a data center network system architecture in which the operating system, the switch, and the optical components are co-designed to achieve energy proportionality.
+  LC/DC capitalizes on the path divergence of data center networks to turn on and off redundant paths according to traffic demand, while maintaining full connectivity. Turning off redundant paths allows the optical transceivers and their electronic drivers to power down and save energy. Maintaining full connectivity hides the laser turn-on delay. At the node layer, intercepting send requests within the OS allows for the NIC's laser turn-on delay to be fully overlapped with TCP/IP packet processing, and thus egress links can remain powered off until needed with zero performance penalty.
+  We demonstrate the feasibility of LC/DC by i) implementing the necessary modifications in the Linux kernel and device drivers, ii) implementing a 10Gbit/s FPGA switch, and iii) performing physical experiments with optical devices and circuit simulations. Our results on university data center traces and models of Facebook and Microsoft data center traffic show that LC/DC saves on average 60% of the optical transceivers power (68% max) at the cost of 6% higher packet delay.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-03T18:47:44Z</published>
+    <arxiv:comment>12 pages, 11 figures, submitted to The International Symposium on Computer Architecture (ISCA 2022)</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Haiyang Han</name>
+      <arxiv:affiliation>Northwestern University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nikos Terzenidis</name>
+      <arxiv:affiliation>Aristotle University of Thessaloniki, Greece</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dimitris Syrivelis</name>
+      <arxiv:affiliation>NVIDIA, Israel</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Arash F. Beldachi</name>
+      <arxiv:affiliation>University of Bristol, UK</arxiv:affiliation>
+    </author>
+    <author>
+      <name>George T. Kanellos</name>
+      <arxiv:affiliation>University of Bristol, UK</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yigit Demir</name>
+      <arxiv:affiliation>Google</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jie Gu</name>
+      <arxiv:affiliation>Northwestern University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Srikanth Kandula</name>
+      <arxiv:affiliation>Microsoft Research</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nikos Pleros</name>
+      <arxiv:affiliation>Aristotle University of Thessaloniki, Greece</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Fabián Bustamante</name>
+      <arxiv:affiliation>Northwestern University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nikos Hardavellas</name>
+      <arxiv:affiliation>Northwestern University</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.08888v1</id>
+    <title>ArchGym: An Open-Source Gymnasium for Machine Learning Assisted Architecture Design</title>
+    <updated>2023-06-15T06:41:23Z</updated>
+    <link href="https://arxiv.org/abs/2306.08888v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.08888v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning is a prevalent approach to tame the complexity of design space exploration for domain-specific architectures. Using ML for design space exploration poses challenges. First, it's not straightforward to identify the suitable algorithm from an increasing pool of ML methods. Second, assessing the trade-offs between performance and sample efficiency across these methods is inconclusive. Finally, lack of a holistic framework for fair, reproducible, and objective comparison across these methods hinders progress of adopting ML-aided architecture design space exploration and impedes creating repeatable artifacts. To mitigate these challenges, we introduce ArchGym, an open-source gym and easy-to-extend framework that connects diverse search algorithms to architecture simulators. To demonstrate utility, we evaluate ArchGym across multiple vanilla and domain-specific search algorithms in designing custom memory controller, deep neural network accelerators, and custom SoC for AR/VR workloads, encompassing over 21K experiments. Results suggest that with unlimited samples, ML algorithms are equally favorable to meet user-defined target specification if hyperparameters are tuned; no solution is necessarily better than another (e.g., reinforcement learning vs. Bayesian methods). We coin the term hyperparameter lottery to describe the chance for a search algorithm to find an optimal design provided meticulously selected hyperparameters. The ease of data collection and aggregation in ArchGym facilitates research in ML-aided architecture design space exploration. As a case study, we show this advantage by developing a proxy cost model with an RMSE of 0.61% that offers a 2,000-fold reduction in simulation time. Code and data for ArchGym is available at https://bit.ly/ArchGym.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-15T06:41:23Z</published>
+    <arxiv:comment>International Symposium on Computer Architecture (ISCA 2023)</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Srivatsan Krishnan</name>
+    </author>
+    <author>
+      <name>Amir Yazdanbaksh</name>
+    </author>
+    <author>
+      <name>Shvetank Prakash</name>
+    </author>
+    <author>
+      <name>Jason Jabbour</name>
+    </author>
+    <author>
+      <name>Ikechukwu Uchendu</name>
+    </author>
+    <author>
+      <name>Susobhan Ghosh</name>
+    </author>
+    <author>
+      <name>Behzad Boroujerdian</name>
+    </author>
+    <author>
+      <name>Daniel Richins</name>
+    </author>
+    <author>
+      <name>Devashree Tripathy</name>
+    </author>
+    <author>
+      <name>Aleksandra Faust</name>
+    </author>
+    <author>
+      <name>Vijay Janapa Reddi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.13398v1</id>
+    <title>FPGA-Accelerated Lock Management and Transaction Processing: Architecture, Optimization, and Design Space Exploration</title>
+    <updated>2026-05-13T11:53:59Z</updated>
+    <link href="https://arxiv.org/abs/2605.13398v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.13398v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Online Transaction Processing (OLTP) is a classic application with a growing business. CPU-based OLTP has low lock serving efficiency. The main reason is that most locks are cold, and the lock agent must issue frequent memory accesses to retrieve the lock details to determine whether to grant it. This motivates us to propose dedicated hardware-based lock agents with integrated lock tables to remove the DRAM access overhead.
+  In this paper, we propose hardware-accelerated lock management and transaction processing for database systems. First, we propose a low-latency lock agent optimized for both lock acquiring and releasing requests. Second, we design a scalable transaction agent that executes the full transaction lifecycle. We present the architecture, optimizations, and design-space exploration of the proposed lock management and transaction processing system. The experiment results show up to 51X higher transaction throughput over the CPU baseline on the TPC-C benchmark.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-13T11:53:59Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Shien Zhu</name>
+    </author>
+    <author>
+      <name>Gustavo Alonso</name>
+    </author>
+  </entry>
+</feed>

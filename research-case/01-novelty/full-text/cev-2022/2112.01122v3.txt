@@ -1,0 +1,1267 @@
+                                                                                                                                                                               1
+
+
+
+
+                                            CEV Framework: A Central Bank Digital Currency Evaluation and
+                                           Verification Framework With a Focus on Consensus Algorithms and
+                                                                Operating Architectures
+                                                                                             Si Yuan JIN, Yong Xia∗
+                                                                                    HSBC Laboratory, Guangzhou 510440, China
+
+
+
+                                            Abstract—We propose a Central Bank Digital Currency Eval-              algorithm to form data consistency. For example, China [10]
+                                         uation and Verification (CEV) Framework for recommending                  did not use blockchain to design its CBDC prototype, but
+                                         and verifying technical solutions in the central bank digital             we still consider the way to form data consistency as one
+
+
+
+
+arXiv:2112.01122v3 [cs.CE] 26 Jun 2022
+                                         currency (CBDC) system. We demonstrate two sub-frameworks:
+                                         an evaluation sub-framework that provides consensus algorithm             kind of consensus algorithm. Due to diverse national con-
+                                         and operating architecture solutions and a verification sub-              ditions, central banks need different consensus algorithms
+                                         framework that validates the proposed solutions. Our frame-               and operating architectures to satisfy their CBDC technical
+                                         work offers a universal CBDC solution that is compatible                  features.
+                                         with different national economic and regulatory regimes. The
+                                         evaluation sub-framework generates customized solutions by
+                                         splitting the consensus algorithms into several components and            A. Our Contribution
+                                         analyzing their impacts on CBDC systems. CBDC design involves
+                                         a trade-off between system features - the consensus algorithm
+                                                                                                                      Our paper reviewed previous CBDC solutions and pro-
+                                         cannot achieve all system features simultaneously. However, we            posed a framework that provides overall operating archi-
+                                         also improve the operating architectures to compensate for the            tecture and customized consensus algorithms to satisfy
+                                         weak system features. The verification sub-framework helps                different CBDC technical features. Section II shows three
+                                         verify our proposed solution through empirical experiments                CBDC technical features: performance, security and privacy.
+                                         and formal proof. Our framework offers CBDC designers the
+                                         flexibility to iteratively tune the trade-off between CBDC system
+                                                                                                                   Compared with previous works, we have the following
+                                         features for the desired solution. To the best of our knowledge,          contributions:
+                                         we are the first to propose a framework to recommend and                   1) We propose a framework to recommend and verify
+                                         verify CBDC technical solutions.                                              CBDC related technical solutions in consensus algo-
+                                                                                                                       rithms and operating architectures.
+                                                                                                                    2) We are the first to split consensus algorithms into
+                                                                 I. I NTRODUCTION
+                                                                                                                       different components, significantly improving the ef-
+                                            The recent development in cryptography and distributed                     ficiency to design customized consensus algorithms.
+                                         ledger technology (DLT) has seen a new form of cur-                        3) We improve the CBDC operating architecture to solve
+                                         rency known as Central Bank Digital Currency (CBDC) [1].                      the business secrecy issue.
+                                         More than 85% of central banks worldwide have already                        Specifically, we propose an evaluation sub-framework
+                                         started CBDC research [2], [3]. However, most current CBDC                that provides holistic CBDC solutions covering CBDC tech-
+                                         research works come from central banks, while only a                      nical features in Section III-A and build a verification sub-
+                                         few scientific papers discuss the CBDC-related research                   framework to verify the feasibility and rationality of pro-
+                                         problems. For example, the papers [4], [5] used blockchain                posed solutions in Section III-B. Finally, we integrate both
+                                         networks to provide CBDC services and propose a new                       sub-frameworks into one framework, called CEV Frame-
+                                         consensus algorithm to satisfy CBDC technical features.                   work.
+                                         However, these scientific papers only discuss some specific                  The evaluation sub-framework involves the consensus
+                                         scenarios and have limitations to extending to a different                algorithm and operating architecture. Consensus algorithm
+                                         scenario.                                                                 works for forming data consistency among participants
+                                            The overall operating architecture [7] and consensus                   [14]. It impacts many CBDC technical features directly,
+                                         algorithms are core parts of CBDC technical solutions.                    including performance, privacy and security. For example,
+                                         The overall operating architecture defines different CBDC                 the paper [30] studied how blockchain empowers CBDC
+                                         networks. Consensus algorithms define how the specific                    and proposed a new consensus algorithm to improve CBDC
+                                         CBDC network functions and impacts many CBDC tech-                        performance. However, consensus algorithms have a highly
+                                         nical features. CBDC technical features [6] measure the                   complex impact on CBDC technical features. In order to
+                                         technical focuses from different central banks. Here the                  better analyze consensus algorithms, we split them into
+                                         consensus algorithm does not have to be applied in a                      different components so that we can derive the impacts
+                                         blockchain network. Any network can apply a consensus                     of each component on CBDC technical features.
+                                                                                                                      A trade-off [6] between CBDC technical features exists in
+                                           *Corresponding Author: Yong Xia (yong.xia@hsbc.com)
+                                         This work has been accepted by the IEEE Access on 14 June 2022. Digital   implementing consensus algorithms, which means we can
+                                         Object Identifier 10.1109/ACCESS.2022.3183092.                            not achieve all simultaneously. However, we can improve
+the operating architecture to compensate for weak CBDC              E-CNY [13], Sweden’s E-Krona [40]. Figure 1 shows a typical
+technical features. Our paper uses a new operating architec-        tiered CBDC architecture. We define a consensus network
+ture to solve the business secrecy issue (details in Section        as the network which consensus algorithms run.
+II-B).
+   The verification sub-framework can guide CBDC design-
+ers to verify proposed solutions. CBDC designers need to
+build a mathematical model for the solution and verify
+whether it can meet initial expectations on diverse CBDC
+technical features, like high performance. If they need fur-
+ther adjusting preference on three CBDC technical features,
+they can go back to the evaluation sub-framework to adjust                                        Tier-1                  Tier-2 Household
+the previous solution again.                                                                   institutions                  & Business
+   We then introduce a CBDC scenario to demonstrate the
+CEV framework in Section IV. We used the evaluation sub-
+                                                                     Central Bank
+framework to propose customized consensus algorithms                 & Regulators
+and followed the verification sub-framework to build a
+model and verify related CBDC technical features. We used
+empirical experiments to test performance and leveraged
+                                                                                        Deferred                              Real Time
+formal proofs to verify security and privacy. Our framework
+can give a clear guide to satisfy CBDC technical features for                 Wholesale Consensus Network
+CBDC designers despite different national economic and
+regulatory conditions (details in Section III.A.1).                           Retail Consensus Network One
+
+                                                                              Retail Consensus Network Two
+B. Paper Structure
+                                                                    Fig. 1. A two-tier architecture that consensus algorithms run separately
+  The remainder of this paper is organized as follows.
+                                                                    in different consensus networks. The wholesale consensus network
+In Section II, we present the background of the research            involves central banks and tier-1 institutions and handles wholesale
+and three CBDC technical features. Section III introduces           transactions between tier-1 institutions and central banks; the retail
+                                                                    consensus networks involve retail clients and tier-1 institutions and
+the CEV framework, including an evaluation sub-framework
+                                                                    handle retail transactions between tier-2 households & business and
+and a verification sub-framework. Section IV gives an ex-           tier-1 institutions.
+ample of leveraging the framework to develop a solution
+and verify it. Finally, we conclude the paper in Section V.            In a two-tier CBDC architecture, tier-1 institutions di-
+                                                                    rectly connect to the central bank (tier-0), and tier-2
+                     II. B ACKGROUND                                institutions directly connect to tier-1 institutions. Tier-1
+                                                                    institutions take the responsibility of distribution1 in a two-
+A. Blockchain and Consensus Algorithm
+                                                                    tier CBDC architecture. In most CBDC projects, commercial
+   Blockchain has shown many benefits among current                 banks become tier-1 institutions. However, it is impossible
+CBDC projects worldwide [4], [11], [12], [16], [17]. For            to let all commercial institutions become tier-1 and respon-
+example, in cross-border business, peer-to-peer payment             sible for CBDC distribution and circulation2 because the
+could save liquidity and improve efficiency [18]. Research          central bank can not afford too many banks to connect
+topics about blockchain appear one after another, especially        simultaneously. At the same time, it has a potential single
+in the performance part [35]–[38], since the performance of         point (central bank) failure risk and performance bottle-
+blockchain, for example, bitcoin [33], cannot meet today’s          neck. Therefore, in most countries, the most influential
+commercial needs. Besides performance, other CBDC tech-             banks usually became tier-1 institutions.
+nical features are also undergoing research, like resilience,          The more commercial institutions circulate CBDC, the
+security and privacy.                                               more areas CBDC services cover. Tier-2 institutions have
+   Consensus algorithms play roles in many blockchains.             to connect to tier-1 institutions to provide CBDC services.
+Fabric [35] used Practical Byzantine Fault Tolerance (PBFT)         The two-tier model can mitigate business secrecy-related
+[34] which provides fault tolerance while sacrificing part          concerns if tier-2 institutions and tier-1 institutions are
+of performance. Corda blockchain protocol aims to satisfy           non-competitors. However, tier-2 institutions and tier-1
+finance and regulatory requirements [36]. Transactions in           institutions are mostly competitors, and they are reluctant
+the Corda platform are recorded only by participants rather         to provide transaction and customer information to their
+than the entire network, which provides high performance            competitors. For example, if all tier-1 institutions are banks,
+and protects privacy while sacrificing part of security.            tier-2 banks are worried that tier-1 banks monopolize their
+
+                                                                      1 Distribution means that an institution helps the central bank issue
+B. Tiered Architecture and Business Secrecy Issue
+                                                                    CBDC and manage CBDC authentication work.
+  Most CBDC pilots have shown a tiered architecture [7]               2 Circulation means that an institution provides CBDC-related transfer
+which plays roles in many CBDC projects, including China’s          services.
+
+
+                                                                2
+customer data. The business secrecy issue makes two-tier              3) Privacy: We divide privacy into two aspects, customer
+architecture hard to implement in a CBDC system.                    privacy and business secrecy [28].
+   Current technical solutions to keep business secrecy, such        1) Customer privacy protects customer data against oth-
+as homomorphic encryption [15], however, could not satisfy              ers.
+CBDC technical features because it influences performance            2) Business secrecy prevents business data from leaking
+a lot. Therefore, we propose new operating architectures to             to business competitors. second(TPS).
+improve CBDC business secrecy (details in Section III-A.2).
+                                                                    Our evaluation sub-framework improved the current op-
+                                                                    erating architecture to protect business secrecy in Section
+C. CBDC technical features                                          III-A.2 since the consensus algorithm can not simultane-
+                                                                    ously achieve all CBDC technical features. We used formal
+   CBDC technical features [6] measure CBDC-related con-            proof to verify privacy protection in the verification sub-
+siderations for designers and regulators. CBDC white papers         framework and gave an example of Section IV-B.3.
+presented many differences between jurisdictions regarding             4) Others: Other CBDC technical features do not conflict
+national conditions, and central banks focus on different           with the above ones. Examples include governance [28],
+CBDC technical features. For example, Singapore’s Ubin [8],         functionality, interoperability and offline payments. We be-
+and Canada’s Jasper [9] focuses on transaction settlement           lieve these requirements can be met or solved indepen-
+between different countries; China’s E-CNY [13] emphasizes          dently in the current financial system. For example, offline
+the volume of transactions per second in retail transactions.       payment does not conflict with the above CBDC technical
+CBDC designers across different jurisdictions have varying          features. So we ignored them in the following parts. In
+approaches to satisfy CBDC technical features.                      future, we can involve more CBDC technical features in the
+   We rest on the previous research [8], [9], [20]–[29] and         CEV framework if needed.
+extracted following CBDC technical features. To avoid ambi-
+guity, we use specific sub-categories to define the following
+categories.                                                                            III. CEV F RAMEWORK
+   1) Performance: Blockchain has many benefits and has
+been widely used in the wholesale CBDC, but it seldom                  The CEV (CBDC Evaluation and Verification) frame-
+appears in retail CBDC projects [39]. One key factor is             work includes two sub-frameworks: an evaluation sub-
+that its weak scalability cannot meet high performance. In          framework that provides CBDC solutions and a verification
+CBDC scenarios, millions, even billions of customers may            sub-framework that proves the feasibility and rationality of
+use CBDC, which requires a high performance to handle               recommended solutions.
+billions of requests. Therefore, we consider the following             Figure 2 shows the working procedures of the CEV
+features to measure performance.                                    framework. First, CBDC designers determine preferable
+                                                                    CBDC technical features according to their economic and
+ 1) User Scalability: the cost of adding a new customer to
+                                                                    regulatory conditions. Then the evaluation sub-framework
+    a CBDC system.
+                                                                    firstly determine the operating architecture to ensure how
+ 2) Network Scalability: the capability to handle larger
+                                                                    many consensus networks and the relationship between
+    transaction volumes per second(TPS).
+                                                                    them. Secondly, the evaluation sub-framework recommends
+ 3) Latency: the time to complete one transaction.
+                                                                    consensus algorithms in different consensus networks. Af-
+We used empirical experiments to examine performance                terwards, The verification sub-framework can guide CBDC
+in the verification sub-framework and gave an example in            designers to build a theoretical model for the solution and
+Section IV-B.2.                                                     carry out experiments and proofs to verify whether the
+   2) Security: Security in a distributed system involves           solution meets the original CBDC technical features. Finally,
+various aspects, including cryptography, secure channels,           suppose they are not satisfied with the solution. In that
+key management, prevention of double-spending attacks               case, they can go back to adjust their preference on CBDC
+[32]. The prevention of double-spending is one of the basic         technical features, leverage the evaluation sub-framework
+requirements in a CBDC system and maintains financial               to update their solutions, and use the verification sub-
+stability and reliability. Central banks usually put security       framework to check the proposed solutions again.
+as the priority. As one kind of new form currency, CBDC
+has many security risks.
+ 1) Cyber-Security: capability of protecting against outside        A. Evaluation Sub-framework
+    attacks, especially double-spending attacks.                       The evaluation sub-framework includes two parts: the
+ 2) Resilience: capability of protecting against hardware           consensus algorithm part splits consensus algorithms into
+    issues, power or network outages, or cloud service              different components, and the operating architecture part
+    interruption [28].                                              introduces the overall architecture that consensus algo-
+We used formal proof to verify potential security threats           rithms run. Next, we introduce how we recommend con-
+in the verification sub-framework and gave an example in            sensus algorithms and improve the overall operating archi-
+Section IV-B.4.                                                     tecture.
+
+                                                                3
+           Performance
+                                                  Evaluation sub-Framework                               Verification sub-Framework
+
+                                                                                                                  Empirical
+                                           Determine Operating                                                   Experiment
+                                               Architecture
+Security                    Privacy                                  Recommend                                                                        Customized CBDC
+                                                                                              Modeling                          Satisfication   Yes
+                                                                 Consensus algorithms                                                                      Solution
+
+
+                                           Confirm Consensus                                                     Formal Proof
+                                                 Network
+
+
+
+
+                   Update the balance                                                                                                 No
+                   point in the triangle
+
+
+
+Fig. 2. A closed-loop workflow of CEV Framework for CBDC designers.
+
+
+
+   1) Consensus algorithm: Consensus networks have di-                                            some public blockchain systems, a proposer collects
+verse implementations of the consensus algorithm. For                                             transactions from users and proposes them to the
+example, in the operating architecture (figure 1), the central                                    network via Proof of Work [33], Proof of Stake [45].
+bank can control the wholesale balance of issued CBDC                                       2) Client - Request: a client submits its payment request
+rather than recording every retail transaction to avoid                                        to the network.
+double-spending [32]. The central bank is only responsible                                    a) To one: a client sends the request to only one node.
+for issuance and redemption transactions. If any issue                                           A node is a connection point in a communication
+exists in retail transactions, corresponding tier-1 institutions                                 network. For example, in RAFT, the client sends the
+should be accountable. On the other side, the central bank                                       request to another node if they receive no response.
+records every wholesale transaction to keep it safe. Then                                        Furthermore, the "To one" option can leverage
+both the wholesale and retail transactions are safe from                                         sharding [41], [42] to improve system performance.
+double-spending from the perspective of central banks.                                           Sharding means multiple nodes process transactions
+   Consensus algorithms can satisfy different CBDC tech-                                         in parallel and interacts with each other in a specific
+nical features at different levels with a trade-off [6]. As a                                    manner, which we discuss in the example of Section
+result, they have direct but complex impacts on the CBDC                                         IV.
+technical features in Section II.                                                             b) To all: a client sends the request to all nodes to
+   We reviewed many consensus algorithms [14], [33], [34],                                       ensure one node accepts the request in time.
+[36], [44], [45] and found that only part of the difference
+                                                                                            3) Leader / Proposer - Pre-prepare: the leader node or
+leads to different consensus algorithms and applications.
+                                                                                               proposer processes the request locally after receiving
+For example, IBFT [44] adopts dynamic set of validators
+                                                                                               it.
+compared with fixed set of validators in PBFT [34]. We base
+on the differences to split the consensus process into dif-                                   a) Proof of X: the leader node or proposer leverages
+ferent modules. Then we can better analyze the individual                                        one of Proof of X, such as Proof of Work [33], to
+impacts on CBDC technical features. Then we combined                                             publish transactions.
+different components into one algorithm, resulting in its                                     b) Verification: the leader verifies proposed transac-
+overall impact.                                                                                  tions in a specific manner, like checking the input
+   Figure 3 introduces consensus algorithm components.                                           equals the output.
+The following steps describe details about the process:                                       c) Inter-communication & Verification: the leader com-
+                                                                                                 municates with other nodes and filters transactions.
+  1) Network - Election: a network requires one representa-
+                                                                                                 Filtration can reduce the illegal transactions.
+     tive to lead the consensus process before a client sends
+     a transaction request.                                                                 4) Validators - Prepare: validators vote and communicate
+                                                                                               with others to verify the request from the leader node.
+     a) Voting: the system votes for the leaders. Extensive
+        voting mechanisms involve defining the percentage                                     a) Voting: validators vote for the request.
+        of votes to become a leader and other requirements.                                   b) Inter-communication & Voting: validators commu-
+        RAFT [14] adopts an election timeout in the voting                                       nicate with each other and vote for the request.
+        mechanism to determine the network’s leader.                                             PBFT [34] adopts this method to prevent malicious
+     b) Predetermination: the system predetermines the                                           behaviors.
+        leaders. For example, the notary node in Corda plat-                                  c) No action: validators do nothing. For example, val-
+        form [36] is determined before network deployment.                                       idators (called followers) in RAFT [14] do nothing.
+     c) Round-robin: A group of nodes take turns as lead-                                   5) Validators - Commit: validators record transactions in
+        ers in a certain order. PBFT [34] uses round-robin                                     their database. They could directly undertake data
+        approach to choose the primary (leader).                                               backup, like RAFT [14], or communicate with each
+     d) Proposer: the system has no leader. For example, in                                    other and then determine whether to record the pro-
+
+                                                                                        4
+                                                               Consensus Process
+
+
+      Network                  Client             Leader / Proposer                   Fixed / Dynamic Validators             Leader / Proposer
+
+     1 Election              2 Request              3 Pre-prepare                4 Prepare                 5 Commit               6 Decide
+
+
+
+       Voting                  To one                 Proof of X                   Voting                 Data backup        >x% backup replies
+
+
+
+                                                                            Inter-communication &    Inter-communication &
+  Predetermination              To all               Verification                                                             >x% vote replies
+                                                                                    Voting                 Data backup
+
+
+                                                Inter-communication &
+    Round-robin                                                                   No action                No action            Self-decision
+                                                      Verification
+
+
+
+      Proposer                                        No action                                                                  No leader
+
+
+
+
+     Encryption              Encryption              Encryption                  Encryption                Encryption            Encryption
+
+
+
+
+Fig. 3. Consensus Algorithm Process Map. A CBDC client sends a request to the CBDC system, and the system processes the request until reaching
+an agreement inside the network. We split the process into several parts to better analyze each one.
+
+
+
+     posed request, like PBFT [34].                                               options. In most algorithms, consensus algorithms are
+    a) Data backup: validators make a backup in their local                       more associated with achieving consistency and ignore
+       databases.                                                                 encryption. However, in the CBDC scenario, encryption
+    b) Inter-communication & Data backup: validators                              plays a role, so we include it in the consensus process.
+       communicate before backup.                                              Each component has many extensions, and components
+ 6) Leader / Proposer - Decide: the leader finalizes the                    have constraints between each other. For example, "proof
+    request.                                                                of X" in the third step is possibly connected with "proposer"
+    a) x% backup replies: the leader node receives more                     in the first step.
+       than x% backup replies. For example, in RAFT [14],                      Table I shows how the above components influence
+       the leader node needs to receive 50% replies before                  the mentioned CBDC technical features in Section II. We
+       responding to its client.                                            measure the impact through categories of High3 , Medium4
+    b) x% vote replies: the leader node receives more than                  and Low5 . TBA indicates to be further analyzed. Every
+       x% vote replies then finalizes the transaction.                      component has its impact on every CBDC dimension.
+    c) Self-decision: the leader node decides the transac-                  We measure these impacts by empirical experiments and
+       tion by itself. For example, the notary node in Corda                formal proofs. Different components together can build one
+       [36] verifies proposed transactions by itself.                       consensus algorithm with the same weight. If needed, they
+  Besides consensus process options, we include another                     could have different weights of impacts on different CBDC
+two options to improve the overall algorithm:                               technical features.
+                                                                               We have referenced RAFT several times. Here we use the
+ 1) Fixed / Dynamic Validators: validators are non-leader                   Consensus Process map to describe the RAFT consensus
+    nodes that can participate in consensus. Some consen-                   algorithm as seen in figure 4. Then we leverage Table II
+    sus algorithms require all nodes to participate in con-                 to show that the RAFT consensus algorithm can provide
+    sensus, while others need selected or random dynamic                    CBDC systems good fault-tolerance and performance while
+    nodes. For example, RAFT [14] and PBFT [34] need                        it takes no privacy protection measurements.
+    all nodes to participate data backup, while IBFT [44]                      Overall, the evaluation sub-framework can guide CBDC
+    adopts a dynamic set of validators. A dynamic set of                    designers to consider related factors, analyze different com-
+    validators can provide a higher performance because of                  binations, and find a suitable consensus algorithm. How-
+    more flexible participants. In contrast, fixed validators               ever, we need a method to judge whether the combination
+    are easier to implement and more secure.                                  3 High means the module positively impacts the dimension
+ 2) Encryption: CBDC designers can use encryption in                          4 Medium means the module has no impact or relative medium impact
+    every step to secure transmitted information but de-                      5 Low means the module has a relatively harmful impact on the dimen-
+    crease performance. It is independent of previous                       sion
+
+
+                                                                        5
+                                                                    TABLE I
+I MPACT OF I NDIVIDUAL C ONSENSUS C OMPONENTS . T HE FIRST COLUMN IS CONSENSUS COMPONENTS . T HE FIRST ROW IS CBDC- RELATED CBDC TECHNICAL
+                                                                   FEATURES .
+
+                                                               Performance                                Security                    Privacy
+                      Modules
+                                                    User          Network                                                      Customer     Business
+                                                                                  Latency    Resilience       Cyber-Security
+                                                 Scalability     Scalability                                                    Privacy     Secrecy
+                                 Voting                           Medium          Medium                             High                     TBA
+                                                                                                                                 TBA
+                           Predetermination         TBA             High           High                                                       High
+    1 Leader Election
+                             Round-robin                            High           High                                          Low        Medium
+       / Proposer
+                                Proposer            High            High           Low
+                                                                                                                                 TBA
+                               Encryption           TBA             TBA            Low
+                                                                                                                     TBA
+                                 To one             High            High           Low             TBA                         Medium
+        2 Request                 To all            Low           Medium           High                                         Low          TBA
+                               Encryption                                          Low
+                                                    TBA              TBA
+                               Proof of X                                          TBA                                           TBA
+                               Verification         High             High          High                              High
+      3 Pre-Prepare      Inter-communication
+                                                    Low              Low            Low                              High        Low         Low
+                             & Verification
+                                No action           High             High          High          Medium              Low       Medium      Medium
+                               Encryption                    TBA                   Low                                          High        High
+                                 Voting           Medium            Medium        Medium                                        Low         TBA
+                         Inter-communication                                                       TBA
+        4 Prepare                                   Low              Low            Low                                          Low         Low
+                             & Verification
+                                No action                                          TBA                               TBA                     TBA
+                                                    TBA              TBA
+                               Encryption                                          Low                                                       High
+                             Data Backup          Medium            Medium        Medium          High
+                         Inter-communication
+        5 Commit                                    Low              Low            Low           High                                       TBA
+                             & Verification
+                                No action                                           TBA           TBA
+                                                    TBA                                                                          TBA
+                               Encryption                                           Low           TBA
+                                                                     TBA
+                                >1/x Vote         Medium                                          High               High                   Low
+                              >1/x Backup         Meidum                                          High              Medium                 Medium
+         6 Decide                                                                   TBA
+                              Self-decision        High              High                         Low                Low                    High
+                                No leader          High              Low                          High               High                  Medium
+                                  Fixed                              Low            Low           High               High
+        Validators                                  TBA                                                                                      TBA
+                                Dynamic                              High           High         Medium             Medium
+
+
+
+                                                               Raft Consensus Process
+
+
+      Network                     Client                   Leader                                Fixed Validators                        Leader
+
+
+     1 Election                 2 Request            3 Pre-prepare                   4 Prepare                      5 Commit             6 Decide
+
+
+
+       Voting                    To one               Verification                   No action                  Data backup        >50% backup replies
+
+
+
+Fig. 4. Consensus Process of RAFT starts from voting and election timeout mechanism in the leader election. Then a client sends a request to
+the leader in the network. After the leader’s verification, validators make a backup and respond to the leader node. Then this transaction will be
+regarded as valid when receiving more than half of the notices.
+
+
+
+meets the expectations. Therefore, we need the verification                      to provide CBDC services. The model describes how tier-
+sub-framework to ensure proposed consensus algorithms                            1.5 institutions provide CBDC services to their customers
+are valid and satisfactory.                                                      in the current situation.
+   2) Operating Architecture: We propose two new operating                          Tier-1.5 institutions have to provide transaction informa-
+architectures based on current CBDC architectures (figure                        tion to tier-1 ones for bookkeeping because tier-1 institu-
+1). The operating architecture determines how the network                        tions operate the ledgers. Once tier-1 institution records the
+functions at a high level. As mentioned before, a trade-off                      transaction in the ledger, the transaction becomes valid.
+[6] between CBDC technical features exists that we can not                       However, tier-1.5 institutions will refuse to provide the
+leverage consensus algorithms to provide excellent perfor-                       customer data to tier-1 ones because they are competitors
+mance, security, and privacy at the same time. However,                          with interest conflict. Some commercial institutions even
+we can update the operating architecture to compensate for                       give up providing CBDC-related services.
+weak CBDC technical features. In this part, we use business
+                                                                                   To safeguard tier-1.5 institutions from data monopoly, we
+secrecy as an example.
+                                                                                 propose two operating architectures:
+   We concluded a three-tier CBDC architecture (Figure 5)
+to describe institutions that do not become tier-1 but want                       1) Use dynamic virtual addresses to keep the identities of
+
+                                                                             6
+                                                                 TABLE II
+       I MPACT OF RAFT ON CBDC TECHNICAL FEATURES . T OTAL ADDS ALL VALUES IN THE TABLE WITH H IGH (+1), M EDIUM OR TBA (0), L OW (-1).
+
+                                                                 Performance                                      Security                     Privacy
+               Modules
+                                                                                                                                        Customer     Business
+                                           User Scalability      Network Scalability      Latency    Resilience      Cyber-Security
+                                                                                                                                         Privacy     Secrecy
+ 1 Leader Election        Voting                 TBA                  Medium              Medium        TBA                High           TBA          TBA
+     2 Request           To one                  High                   High               Low          TBA                TBA           Medium        TBA
+   3 Pre-Prepare       Verification              High                   High               High         TBA                TBA            TBA          TBA
+     4 Prepare          No action                TBA                     TBA               TBA          TBA                TBA            TBA          TBA
+     5 Commit          Data Backup              Medium                Medium              Medium        High               TBA            TBA          TBA
+      6 Decide        >50% Backup               Meidum                   TBA               TBA          High              Medium          TBA        Medium
+     Validators           Fixed                  TBA                     Low               Low          High               High           TBA          TBA
+                Total                              2                      1                 1            3                  2               0           0
+               Average                                               4/3                                            2.5                           0
+
+
+
+                             Customer Identity &                                     includes identity and transaction information. Virtual ad-
+                                Transaction
+                                                                                     dresses ensure that tier-1 institutions have no access to
+                                                                                     the identity information of the payee and payer. Tier-1.5
+                                                                                     institutions provide regulators with a mapping table be-
+                                                                                     tween virtual addresses and real identities. Only regulators
+                       Privileged               Non-privileged       Household       and tier-1.5 institutions can know the mapping relation of
+                      Institutions               Institutions        & Business      virtual addresses to real identities. Tier-1.5 institutions only
+                             Customer Identity &                                     need to inform the central bank of the identity information.
+                                Transaction                                          Then the central bank could get transaction information
+Central Bank
+& Regulators                                                                         from tier-1 institutions by combining identity mapping and
+                                                                                     ledger transaction information.
+                                                                                        However, tier-1 institutions can infer identity information
+                                                                                     by analyzing enough token flows and real-world events even
+                                Deferred                             Real Time
+                                                                                     though they only know transaction information. To further
+                                                                                     protect the business secrecy of tier-1.5 institutions, we can
+Fig. 5. Three-tier CBDC architecture
+                                                                                     make virtual addresses dynamic that tier-1.5 institutions
+                                                                                     create new virtual addresses to collect changes in transac-
+    participants secret from tier-1 institutions;                                    tions. This technical solution can prevent tier-1 institutions
+ 2) Use an independently operating organization that has                             from accessing tier-1.5 institutions’ customer data further.
+    no conflict of interest;                                                            There are other methods to improve the operating ar-
+                                                                                     chitecture. For example, figure 7 presents a third-party
+          Mapping Identity                                                           organization in tier-1 to ensure no competition with tier-
+                                                                                     1s and tier-2s. However, the operating organization needs a
+                              Dynamic Virtual                                        feasible business model to ensure enough money to support
+                                 Address
+                                                                                     its stable operation.
+
+
+
+                                                                                                           Customer Identity &
+                         Tier-1                    Tier-1.5      Tier-2 Household                             Transaction
+                      institutions               institutions       & Business
+
+
+Central Bank                                                                                                                  Tier-1.5 operating       Tier-2
+& Regulators                                                                                                                     Institutions       Household
+                                                                                                                                                    & Business
+
+                               Dynamic Virtual
+                                  Address                                            Central Bank    Operating Organization
+           Mapping Identity                                                          & Regulators    (Optional: orginized by
+                                                                                                     relevant participants)
+
+                                                                                                                   Deferred                         Real Time
+                              Deferred                           Real Time
+
+                                                                                     Fig. 7. Operating Architecture two builds an operating organization
+Fig. 6. Operating Architecture one leverages dynamic virtual address to              rather than tier-1 institutions to operate the CBDC system without
+avoid tier-1 institutions from knowing the real identities of customers.             interest conflict. The operating organization can know the transaction
+                                                                                     data of tier-1.5 institutions without business secrecy issues.
+  Figure 6 shows tier-1.5 institutions create virtual ad-
+dresses for their customers in the tier-1 ledger. Privacy
+
+                                                                                 7
+B. Verification Sub-Framework                                       further verify the proposed solution in the verification sub-
+   By the evaluation sub-framework, CBDC designers can              framework and make sure proposed solutions are objective
+develop a customized solution. Then the verification sub-           and reasonable.
+framework works to ensure the proposed solution’s feasibil-            Specifically, encryption in the third step protects business
+ity and rationality.                                                secrecy from validators because validators only backup
+   The verification sub-framework contains diverse methods          encrypted data for tampering with proof in the algorithm.
+to verify proposed solutions. We divide these methods into          Additionally, "To one / Sharding" in the "client-request"
+two categories: empirical experiments and formal proofs.            step can improve the system’s performance in a token-
+For empirical experiments, we can simulate a real scenario          based sharding method. Besides, "Data backup" can in-
+and test parameters in the full load environment. For               crease the resilience of CBDC systems. These impacts on
+formal proofs, we can build a mathematical model and                CBDC technical features are derived from the verification
+infer related theories and find whether they meet initial           sub-framework rather than our subjective idea. Next, we use
+expectations.                                                       the verification sub-framework to see whether the proposed
+   The verification sub-framework works in the following            solution meets the initial expectations.
+procedures:
+                                                                    B. Verification
+ 1) Model proposed solutions for further verification. The
+    verification sub-framework can guide CBDC designers                Then we use the verification sub-framework to verify the
+    to describe the proposed solution mathematically.               above-proposed solution by building a theoretical model for
+ 2) Follow the built model to conduct empirical experi-             the solution and following the model to carry out empirical
+    ments to examine performance.                                   experiments and formal proofs.
+ 3) Follow the built model to conduct formal proofs,                   We first introduce the sharding method in our experi-
+    mainly for security and privacy.                                ment. The previous work [41]–[43] discusses account-based
+                                                                    sharding and token-based sharding. We here introduce
+                                                                    them in a CBDC scenario with two types of transactions
+                IV. CBDC S CENARIO E XAMPLE
+                                                                    involved (shown in figure 10).
+   Next, we present an example of using the CEV frame-                 Account-based sharding divide users by accounts. In the
+work. We assume a country with a large population and               two-tier CBDC architecture, tier-1 institutions have different
+well-developed technology and communication. The CBDC               wallets and divide users by their accounts. For example,
+designers focus on privacy and performance, especially net-         Tier-2 A comes to Tier-1 A6 when using CBDC because
+work scalability, latency, business secrecy. Then we leverage       Tier-2 A created its account from Tier-1 A. A cross-shard
+the CEV framework to propose a suitable solution for this           transaction happens if Tier-2 A transfers its money to Tier-
+virtual country.                                                    1 B’s customers. The cross-shard transaction needs the
+                                                                    currency issuer (the central bank) to redeem a token in
+A. Evaluation                                                       one ledger and issue a new token in another ledger, which
+                                                                    decreases the system’s performance a lot compared with
+   We leverage the evaluation sub-framework to choose the
+                                                                    single-shard transactions [43]. We use token-based sharding
+operating architecture and propose several consensus al-
+                                                                    as an example.
+gorithms. In this example, both operating architectures are
+                                                                       Token-based sharding divides users by tokens. If Tier-1
+feasible to improve business secrecy. So we choose figure
+                                                                    A issues a token to Tier-2 A, Tier-2 A comes to Tier-1 A to
+6 as the operating architecture. Then the evaluation sub-
+                                                                    initiate CBDC related services because of the token (figure
+framework can propose consensus algorithms for different
+                                                                    11) that Tier-1 A operates. Users only need to contact their
+consensus networks.
+                                                                    token service provider and transfer the token to everyone
+   Since the example emphasizes performance among the
+                                                                    without a cross-shard transaction in a token-based shard
+three CBDC technical features. We leverage table 1 to find
+                                                                    mode. However, token-based sharding needs the central
+the combinations with relatively high scores in performance
+                                                                    bank and operating institutions to provide a uniform inter-
+for both wholesale and retail consensus networks.
+                                                                    face to distribute transactions. Because if a customer who
+   The recommended consensus algorithm in the wholesale             use Tier-1 A’s token come to Tier-1 B’s interface, the uniform
+consensus network works, and retail consensus networks              interface should distribute the transaction to Tier-1 A.
+work in figure 8 and figure 9, respectively. Table 3 and               1) Model: Next, we built a CBDC state machine for the
+Table 4 are derived from table 1. Table 3 shows that the            recommended algorithms to see how the proposed solution
+recommended consensus algorithm in the wholesale con-               functions.
+sensus network has a good performance, especially network              Figure 12 shows ledger state machine. The model pro-
+scalability, but the algorithm may bring a potential security       vides a formal description of finite state machine M = (S, V,
+issue. Similarly, table 4 shows that the consensus algorithm        t). The state machine can describe any state s ∈ S for every
+in the retail consensus network has a good performance              moment. It can read input token τ ∈ V and proceed to the
+and a potential security issue. Both tables present that the        next state by different transitions t(s, τ).
+system has relative good privacy. The impact table only
+provides a rough analysis to CBDC designers, so we need to           6 Tier-1 A is an example tier-1 institution.
+
+
+
+                                                                8
+                                         Recommended Consensus Algorithm in Wholesale Consensus Network
+
+
+      Network                   Client                   Leader                               No Validators                         Leader
+
+
+     1 Election               2 Request               3 Pre-prepare              4 Prepare                     5 Commit            6 Decide
+
+
+
+  Predetermination              To one                 Verification              No action                     No action         Self-decision
+
+
+
+
+     Encryption               Encryption                Encryption               Encryption                    Encryption         Encryption
+
+
+
+Fig. 8. Recommended Consensus Algorithm in the Wholesale Consensus Network with following steps: 1. The network predetermines the leader
+nodes that the central bank operates. 2. The client sends a cross-shard transaction request to its sharded leader (tier-1 institution), and then the
+tier-1 institution forward it to the leader node (central bank) in the wholesale network. 3. The leader node (central bank) verifies the transaction
+and finishes the related issuance and redemption transactions in different retail networks. Afterwards, the transaction is successful.
+
+
+
+                                           Recommended Consensus Algorithm in Retail Consensus Networks
+
+
+      Network                   Client                   Leader                          Dynamic Validators                         Leader
+
+
+     1 Election               2 Request               3 Pre-prepare              4 Prepare                     5 Commit            6 Decide
+
+
+
+  Predetermination         To one / Sharding            No action                No action                    Data backup    >50% backup replies
+
+
+
+
+     Encryption               Encryption               Encryption                Encryption                    Encryption         Encryption
+
+
+
+Fig. 9. Recommended Consensus Algorithm in the Retail Consensus Networks with the following steps: 1. The network predetermines the leader
+nodes that tier-1 institutions run. 2. The client sends transactions to its sharded leader. 3. The leader node encrypts transactions before sending
+them to validators in the network (possible competitors). 4. The network leverages a dynamic set of validators to encrypt backup data. 5. The
+leader node sends a success notice to the client after receiving 50 per cent of notices from validators.
+
+
+
+   Figure 12 shows how the state machine ensures the leader                  a directed graph TD=<V(TD), E(TD), ϕ>. The in-degree of
+node records the token in the ledger before noticing clients.                an input token and the out-degree of an output token are
+However, it only covers operations from the leader node                      both 0 in any transaction graph. The leader node updates
+rather than validator nodes. The validators in the consensus                 the ledger when the state machine finishes a transaction (∀x.
+algorithm do a data backup, which can help to reduce                         ∀ τ.(Tx(τ,x) ⇒ D = D + TD)).
+malicious behaviours. We discuss it in Section IV 4 Security.
+                                                                                Figure 14 shows all types of transaction graph. Only cur-
+                                                                             rency issuer (Central Bank) can initiate the Initial Issuance
+   Figure 13 shows data model of leaders’ ledgers. Trans-
+                                                                             Transaction, generating a new token from the genesis point.
+actions are subject to the leader’s ledger. Once a leader
+                                                                             It also needs to check the Final Redemption Transaction as
+updates its ledger successfully, the transaction becomes
+                                                                             the transaction receiver. Both types of transactions need the
+legal and immutable.
+                                                                             central bank to carry out real-time operations.
+Definition 1. (Ledger State) The ledger state of the CBDC                       The following mathematical expressions present the to-
+is defined as a directed graph D=<V(D), E(D), ϕ> that the                    ken flows rather than transactions. Here we add an assump-
+elements of V(D) are vertices (tokens) and the elements of                   tion that the leader nodes are non-faulty (H) and follow
+E(D) are edges (token flow). ϕ is ordered mapping from token                 the model procedures. Faulty nodes may behave arbitrarily
+set V to token flow set E.                                                   and be vulnerable to inside and outside attacks. With non-
+                                                                             faulty nodes, we can ensure leader nodes record tokens in
+Definition 2. (UTXO) U T X O = {τ|τ ∈ V (D) ∧ dG+ (τ) = 0}.                  the ledger in every transaction:
+UTXO is an unspent transaction output set. An unspent                         1) ∀τ. (H ∧p(τ) ⇒ p(r (τ))∧p(c(τ)))
+token means no edge coming from it (the out-degree of it                      2) ∀τ. (H ∧p(τ) ⇒ p( f (τ)))
+is 0).
+                                                                               ∀τ. (H ∧p(τ) ⇒ p(r (τ)) represents that if the ledger has
+Definition 3. (Transaction Graph) A transaction graph is                     recorded input τ, a non-faulty leader(H) always adds a valid
+
+                                                                         9
+                                                               TABLE III
+ I MPACT OF THE R ECOMMENDED C ONSENSUS A LGORITHM IN THE W HOLESALE C ONSENSUS N ETWORK . T OTAL ADDS ALL VALUES IN THE TABLE WITH H IGH
+                                                  (+1), M EDIUM OR TBA (0), L OW (-1).
+
+                                                            Performance                                    Security                     Privacy
+                  Modules
+                                                                  Network                                                        Customer     Business
+                                            User Scalability                      Latency     Resilience       Cyber-Security
+                                                                 Scalability                                                      Privacy     Secrecy
+   1 Leader Election   Predetermination           TBA               High           High          TBA                  TBA          TBA          High
+       2 Request             To one               High              High           Low           TBA                  TBA         Medium        TBA
+     3 Pre-Prepare         Verification           High              High           High          TBA                  TBA          TBA          TBA
+       4 Prepare            No action             TBA               TBA            TBA           TBA                  TBA          TBA          TBA
+       5 Commit             No action             TBA               TBA            TBA           TBA                  TBA          TBA          TBA
+        6 Decide          Self-decision           High              High           TBA           Low                  Low          TBA          High
+       Validators             Fixed               TBA               Low            Low           High                 High         TBA          TBA
+                   Total                           3                  3             0             0                    0             0           2
+                  Average                                         2                                            0                           1
+
+
+                                                                TABLE IV
+ I MPACT OF THE R ECOMMENDED C ONSENSUS A LGORITHM IN THE R ETAIL C ONSENSUS N ETWORK . T OTAL ADDS ALL VALUES IN THE TABLE WITH H IGH (+1),
+                                                     M EDIUM OR TBA (0), L OW (-1).
+
+                                                           Performance                                 Security                     Privacy
+                       Modules
+                                                User          Network                                                        Customer     Business
+                                                                            Latency       Resilience      Cyber-Security
+                                             Scalability     Scalability                                                      Privacy     Secrecy
+          1 Election    Predetermination        TBA             High        High             TBA                TBA            TBA          High
+          2 Request           To one            High            High        Low              TBA                TBA           Medium        TBA
+                            No action           High            High        High            Medium              Low           Medium      Medium
+        3 Pre-prepare
+                            Encryption          TBA             TBA         Low              TBA                TBA            High         High
+          4 Prepare         No action           TBA             TBA         TBA              TBA                TBA            TBA          TBA
+          5 Commit        Data Backup         Medium          Medium       Medium            High               TBA            TBA          TBA
+           6 Decide        Self-decision        High            High        TBA              Low                Low            TBA          High
+          Validators         Dynamic            TBA             High        High            Medium             Medium          TBA          TBA
+                      Total                       3               5          1                0                  -2              1           3
+                     Average                                     3                                        -1                           2
+
+
+
+                               TABLE V                                          record the output tokens in a cross-shard transaction (figure
+                          TABLE OF N OTATIONS                                   15).
+                                                                                   Cross-shard transactions will not happen if we split one
+   Notation     Definition
+                                                                                into several concurrent sub-transactions. However, cross-
+   x, y, z      time
+   xR y         x before y
+                                                                                shard transactions match some business scenarios and
+   τ            Token                                                           possibly happen. For example, CBDC users may pay tokens
+   V            Token Set                                                       in different ledgers in an atomic transaction. Alternatively,
+   p(τ)         The leader has recorded τ
+   T x(τ, x)    Transaction with input τ at time x
+                                                                                CBDC designers want to control the number of tokens
+   H (τ, x)     τ has been spent before x                                       and consolidate tokens from different ledgers to one new
+   F (τ, x)     τ can be spent after x                                          token. In a CBDC system, the central bank is responsible for
+   r (τ)        Received token in a transaction using τ
+   c(τ)         Change token in a transaction using τ
+                                                                                issuing and redeeming tokens, regulating both transactions
+   f (τ)        Received token in a cross-shard transaction using τ             and ensuring that the new shard records output tokens.
+   dG+ (τ)      The out-degree of vertex v                                         2) Performance: Empirical experiments test user scalabil-
+   dG+ (τ, x)   The out-degree of vertex v at time x
+                                                                                ity, network scalability, and latency. To ensure experiments
+   H            Leaders execute transactions by state machine flow
+   EE           Existential Elimination                                         are close to reality, we randomly initiate user transactions
+   AE           And Elimination                                                 by different payment methods, including face-to-face trans-
+   AI           And Introduction
+                                                                                fer, collecting, etc.
+   UE           Universal Elimination
+   UI           Universal Introduction                                             We leverage AWS EC2 to deploy CBDC networks and
+   IE           Implication Elimination                                         carry out the empirical experiments shown in figure 16.
+   II           Implication Introduction
+                                                                                Unfortunately, since the Corda open-source version has
+   BE           Biconditional Elimination
+   Ind          Induction                                                       limitations on transaction volume, we could not demon-
+   AS           Assumption                                                      strate an extremely large TPS (transaction per second) in
+                                                                                the experiment due to cost control. However, the experi-
+                                                                                ment demonstrates performance improvement in a CBDC
+transaction graph to the ledger with inputs of τ and outputs                    system.
+of received token r (τ) and change token c(τ). If the change                       Sharding improves network scalability and user scala-
+is 0 (c(τ) = nul l ), p(c(τ)) means no token recorded.                          bility. Commercial institutions, including tier-1 and tier-
+   ∀τ. (H ∧p(τ) ⇒ p( f (τ))) represents central banks and                       1.5 ones, could become leader nodes or validator nodes
+non-faulty leaders(H) ensure that the receiving ledger                          and undertake customer due diligence in retail networks.
+
+                                                                           10
+            Central Bank redeem spent token in Tier-1 A and
+          3   issue a new token in the ledger of Tier-1 B.                                                                       Token-based sharding system s0
+
+
+                                                                                                                                                                         1
+                                                4      Tier-1 B                                                        1            τ0                    Tx/Signature
+                                 Tier-1 B           sends notice                                    Locked s1
+                                                                                                                                                    Response
+                                                                                                                                                                             Locked s1
+                                                                      Tier-2 B                                                           τoutput
+                                                     to Tier-2 B.                              2                                     4
+                          2                                                                                                                                                                2
+                              Tier-1 A sends the request                                            τlocked                                               4                      Verify
+                                  to Tier-0 institutions                                                                     Ledger State
+     Central Bank                                                                                                             Updated s3
+                                                                                                                                                         Ledger State
+     & Regulators                                                                               Verified s2                                               Updated s3             Verified s2
+                                                                                                                   3                                                     3
+         Tier-0                                                                                                  τverified                                               Write
+                                            1    Tier-2 A sends its
+                                Tier-1 A        request to Tier-1 A. Tier-2 A                                 Leader Node n                                      Leader Node m
+
+                         Cross-shard Transaction
+                                                                                             Fig. 12. State Machine describes how a transaction is being executed,
+                                                                                             including token’s state on the left side and operations on the right
+                                                                                             side: In the initial machine state s 0 , a token-based sharding CBDC
+                                                                                             system distributes transactions to different leaders (tier-1 institutions).
+                                                                                             The leader checks transaction signatures and input tokens τ0 . After the
+                                Tier-1 B                             Tier-2 B
+                                                                                             shard leader verifies the signature, the tokens become locked. If no
+                                                                                             leader has previously locked the tokens, the output becomes τl ocked
+                                                            2
+                                                                Tier-1 A sends               and the machine moves to the locked state s 1 . Otherwise, it would exit
+                         Deferred regulatory
+                                                                notice to Tier-2 B.          (a rolled-back transaction to the initial state). Next, the leader verifies
+                            information
+                                                                                             whether τl ocked is available. If so, the output token becomes τver i f i ed ,
+    Central Bank
+                                                                                             and the machine moves to the verified state s 2 . Otherwise, it would
+    & Regulators          3
+                                                                                             exit. Finally, the leader writes the transaction with inputs and outputs.
+         Tier-0                                                                              If successful, the output would be τout put , and the machine moves into
+                                            1    Tier-2 A sends its                          the state s 3 and soon back to s 0 again.
+                               Tier-1 A         request to Tier-1 A. Tier-2 A
+
+                         Single-shard Transaction                                                     Genesis                       End                                          Token
+                                                                                               O                             E                                Token
+                                                                                                       Point                        Point                                         Flow
+                                                                                                                                                                v4               v6
+Fig. 10. Cross-shard transaction describes a transaction with two ledgers
+involved; single-shard transaction describes a transaction within one                                                                          v2
+ledger.
+                                                                                               O                     v1                                         v5               v7       UTXO
+
+  ····            PI A                100             asdadc3423sdad...          ····                                                          v3
+
+                                                                                                                                                                                 v8
+              Operator              Amount                  Holder                                                                                  v9               E
+
+
+Fig. 11. Holder is the identifier to determine which tier-1 institutions                     Fig. 13. Ledger State. v are vertices (tokens), belonging to V, edge
+that tier-2 customers belong to.                                                             represents token flow. On the right side, some tokens without edge
+                                                                                             coming from form UTXO.
+
+
+Sharding provides horizontal scalability to a CBDC network.
+   If CBDC is non-fungible, token-based sharding can map                                     makes one tier-1 institution decide transactions by itself, in
+every non-fungible token to one leader node when the                                         which more shards do not bring worse performance.
+issuer creates the token. Then tokens can be circulated                                         Overall, we prove that the proposed algorithms can
+efficiently in different ledgers in parallel, increasing the                                 increase the system’s TPS while not sacrificing latency.
+performance. However, CBDC is more like a fungible token,                                       3) Privacy: We provide two updated operating archi-
+and every transaction produces a change. As a result, the                                    tectures to protect business secrecy. For option two, we
+token owner has to use several small tokens, which causes                                    designate one operating organization to distribute CBDC
+additional concurrent transactions. Moreover, if the token                                   because it is not a competitor with other operating institu-
+owner pays two tokens that circulate in different ledgers si-                                tions such that their data are safe from monopoly.
+multaneously, it must first initiate a cross-shard transaction                                  For option one, the dynamic virtual addresses can pre-
+and follow a single-shard transaction. The recommended                                       vent tier-1 institutions from knowing tier-1.5 institutions’
+consensus algorithm use sharding to improve performance                                      customer identity. The method is similar to the bitcoin
+by parallel running ledgers because cross-shard transac-                                     schema. In the bitcoin [33] system, essential facts exist: 1)
+tions are less frequent in the token-based sharding method                                   transactions generate new addresses to collect change; 2)
+than the account-based one. However, more shards may                                         users could have many addresses. Bitcoin uses this method
+cause worse performance if each transaction in the retail                                    to protect customer privacy from leaking to the public,
+consensus network needs verification from all parties in the                                 while our model protects tier-1.5 institutions’ data from
+wholesale networks. Therefore, the recommended algorithm                                     leaking to tier-1 institutions.
+
+                                                                                        11
+       O                                           ···        ···
+
+
+
+                                                                            E
+Initial Issuance                                                    Final Redemption
+                   SISO           SIDO            MIDO    MISO
+  Transaction                                                          Transaction
+
+
+Fig. 14. Different types of transaction graphs. SI refers to single-input.
+MI refers to multi-input. SO refers to single-output. DO refers to double-
+output.
+
+
+                          Central Bank Involved           Information Flow
+                                                                                        Fig. 16. The result on the left figure shows a linearly increasing TPS
+                               Token Flow                      Token Flow               (Transaction per second), which presents excellent user scalability and
+ Client
+                                                                                        network scalability. The right figure shows an acceptable level of latency
+                                                     O   τ4                             for most of the transactions.
+
+Shard 0                   τ1                                          τ6
+                                                         τ5                             CBDC technical features, including performance, security
+Shard 1                   τ2          E                                                 and privacy. In this example, one institution decides all
+                                                                                        transactions by itself, ensuring a high performance but
+Shard 2                   τ3          E                                                 sacrificing security.
+                                                                                           Although we can not avoid double-spending in real-
+Fig. 15. Cross-shard Transaction: a client has allocated different tokens
+                                                                                        time in the recommended consensus algorithms, we can
+in three different shards and used them to initiate a transaction. The                  increase the cost of malicious behaviours. For example,
+transaction first turns the input tokens to the endpoint via the Final                  the recommended consensus algorithm in the retail con-
+Redemption Transaction and issues new tokens in the new shard via
+the Initial Issuance Transaction.
+                                                                                        sensus network chooses data backup from validators and
+                                                                                        the leader sends encrypted transactions to validators. The
+                                                                                        validators will undertake data backup. Once the leader node
+   However, like the bitcoin schema [47], tier-1 institutions                           changes the original data, we can use the same encryption
+can still obtain secret information, depending on trans-                                method to encrypt data and check data consistency. If the
+action types. We proved potential information leaking for                               leader node performs malicious behaviour, they will be
+different transactions types in Appendix A-B. Besides SISO                              punished. Therefore, the leader nodes are reluctant to do
+transactions, SIDO, MIDO, MISO transactions may expose                                  malicious behaviours because the validators can find them
+relationships between inputs and outputs.                                               easily. Besides, encryption can prevent the validators from
+   Therefore, a more aggressive method to protect user                                  accessing customer data, ensuring business secrecy in the
+privacy is to create virtual entities. In the CBDC operating                            CBDC system. In some cases, third-party auditors can run
+architecture, tier-1.5 institutions process transaction data                            validator nodes, and it is not necessary to encrypt the data.
+before sending it to tier-1 institutions. tier-1.5 institutions                            On the other side, we can ensure extra verification
+can create virtual entities with virtual addresses in the                               will not overly influence latency because validators in the
+network and use these virtual entities to create SISO trans-                            network are dynamic, so not all validators need to join
+actions for customers. For example, in a SIDO transaction,                              the consensus process. Moreover, since the central bank
+tier-1.5 institutions can use virtual entities as the receiver                          controls issuance and redemption transactions, it knows the
+to avoid the connection between payer and payee and then                                balance of money on each ledger so that no extra money
+send it to the actual receiver via a SISO transaction. Other                            comes from retail networks.
+types of transactions can also apply virtual entities. Enough
+virtual entities can help tier-1.5 institutions to hide the                             C. Framework Iterations
+direct relationship between the payees and payers.                                         Figure 17 shows how we iterated the CEV framework.
+   4) Security: We followed the built model and proved that                             CBDC design involves many trade-offs [6] between different
+double-spending is possible in single-shard transactions                                CBDC technical features. We start from a country with
+and impossible in cross-shard transactions in Appendix A.                               a large population, focusing on performance and privacy.
+   By our proof, we can get that a non-faulty leader pre-                               Then we use the evaluation sub-framework to propose
+vents double-spending. However, the assumption is the                                   solutions. Finally, we leverage the verification framework to
+weakest point in the system. The central bank usually                                   measure performance, privacy, and security. The proposed
+does not perform malicious behaviour. So in the wholesale                               solution presents an excellent performance and privacy, but
+consensus network, the central bank can ensure no fault.                                double-spending is possible.
+However, in the retail consensus network, tier-1 institutions                              After verification, CBDC designers can return to CBDC
+are responsible for their ledger and decide each transaction                            technical features to adjust expectations to improve system
+on its own without validation. No mechanism ensures them                                security. For example, if they need a more secure system,
+non-fault. As a result, double-spending may happen in                                   they could continually use the evaluation sub-framework
+single-shard transactions.                                                              to propose new solutions and use the verification sub-
+   The design of CBDC is a trade-off [6] between different                              framework to verify them. In the experiment, if CBDC
+
+                                                                                   12
+  Iteration                                                 Iteration
+                 Performance
+                                                                              Performance
+
+                                                                                                                                             Customized CBDC
+                                    CEV Framework                                                       CEV Framework                             Solution
+
+                         Privacy
+                                                                                       Privacy
+      Security                                                  Security
+
+
+Fig. 17. Iterations of the CEV Framework until an acceptable balance point
+
+
+
+designers want a real-time check for fault, they can make                    consensus algorithms and operating architectures for dif-
+validators vote for each transaction. Then double-spending                   ferent CBDC designers. This platform can satisfy different
+will not happen even though the leader node is faulty. The                   national economic and regulatory conditions. The authors
+newly proposed solution can also involve more participants                   wish to acknowledge the other two teammates, Mark Liu
+voting for single-shard transactions, ensuring no fault in                   and Bing Qu. They also gratefully acknowledge the help of
+the retail consensus networks. However, it may potentially                   Bo Tong Xu in fruitful discussions. This paper is reviewed by
+influence the system’s performance. Afterwards, the CBDC                     Dr. Philip Intallura, Dr. Bing Zhu, and Dr. Ziyuan Li. They
+designer can return to CBDC technical features again until                   also wish to express great appreciation for their valuable
+finding a balance point. The framework presents potential                    input.
+trade-offs in CBDC designs and helps CBDC designers find
+a balanced solution and meet expectations.                                                     A PPENDIX A F ORMAL L OGIC P ROOF
+                                                                               Here are some temporal logic proofs in the paper. Please
+                         V. C ONCLUSION                                      see notations in Section IV-B.1.
+
+   Our paper proposes a CBDC framework (CEV Frame-                           A. Double-spending Proof
+work), including an evaluation sub-framework and a ver-
+                                                                               The premises below come from lemmas or definitions in
+ification sub-framework to design solutions for CBDC sys-
+                                                                             Section IV. The logic proofs [46] have been checked by the
+tems. Our work proposes an original approach and po-
+                                                                             proof-editor from Stanford University [48].
+tentially promotes the evolution of CBDC. Furthermore, to
+the best of our knowledge, we are the first to propose a                     Lemma 1. A non-issuance transaction makes the out-degrees
+framework to provide a holistic solution for CBDC designers                  of the input tokens become non-zero in the ledger state.
+according to their jurisdictions’ economic and regulatory                              ∀x.∀τ.(T x(τ, x) ⇒ ∀y.(xR y ⇒ dG+ (τ, y)! = 0).
+conditions.
+   Our paper analyzes CBDC technical solutions by split-                     Proof. Since (∀x. ∀ τ.(Tx(τ,x) ⇒ D = D + TD)), the ledger
+ting consensus algorithms into different components and                      operator adds a new transaction graph into the ledger
+improving operating architectures to solve CBDC related                      where the out-degrees of input tokens keep same. A suc-
+issues. Most importantly, we build a verification sub-                       cessful non-issuance transaction in definition 3 makes the
+framework to prove the feasibility of the recommended                        out-degrees of input tokens become non-zero.
+algorithms and operating architectures with rigorous and                     Lemma 2. ∀x. ∀ τ.(Tx(τ,x) ⇒ ∀y.(xRy ⇒ H(τ, y)))
+professional empirical experiments and formal proofs. By
+using the CEV framework, diverse central bank digital cur-                   Proof. Lemma 1 shows ∀x. ∀ τ.(Tx(τ,x) ⇒ ∀y.(xRy ⇒
+rency projects can better design the consensus algorithms                    dG+ (τ, y)! = 0).
+                                                                                                                           + (τ, y)! = 0))
+and adopt reasonable operating architectures.                                     1.        ∀x.∀τ.(T x(τ, x) ⇒ ∀y.(xR y ⇒ dG                   Premise
+   The framework could be continuously updated and im-                            2.        ∀y.∀τ.(H (τ, y)⇔dG + (τ, y)!=0)                    Premise
+proved by iterating with the workflow. The main future work                       3.        T x(τ, x)⇒∀y.(xR y⇒dG   + (τ, y)!=0)               UE: 1
+is to include more CBDC technical features and solutions                          4.                  +
+                                                                                            H (τ, y)⇔dG (τ, y)!=0                              UE: 2
+into the framework and update the impact table to make                            5.        T x(τ, x)                                          AS
+it more accurate to propose solutions. Besides, the CEV                           6.                  + (τ, y)!=0)
+                                                                                            ∀y.(xR y⇒dG                                        IE: 3,5
+framework needs a more efficient way to verify proposed                                           + (τ, y)!=0
+                                                                                  7.        xR y⇒dG                                            UE: 6
+solutions. Additionally, the CEV framework can also be used
+                                                                                  8.        xR y                                               AS
+to propose stablecoin solutions.                                                             + (τ, y)!=0
+                                                                                  9.        dG                                                 IE: 7,8
+                                                                                 10.         + (τ, y)!=0⇒H (τ, y)
+                                                                                            dG                                                 BE: 4
+                       A CKNOWLEDGMENT
+                                                                                 11.        H (τ, y)                                           IE: 9,10
+   This article is partially based on their work in the Global                   12.        xR y⇒H (τ, y)                                      II: 8,11
+CBDC Challenge [19], in which they were shortlisted as                           13.        ∀y.(xR y⇒H (τ, y))                                 UI: 12
+finalists. Based on the framework in this paper, they built                      14.        T x(τ, x)⇒∀y.(xR y⇒H (τ, y))                       II: 5,13
+an evaluation and recommendation platform that advocates                         15.        ∀x.∀τ.(T x(τ, x)⇒∀y.(xR y⇒H (τ, y)))               UI: 14
+
+
+                                                                        13
+                                                                                 Lemma 5.
+
+Lemma 3.
+                                                                                          ∀x.∀y.(T x(τ1 , x) ∧ T x(τ2 , y) ∧ xR y ⇒ τ1 6= τ2 )
+            ∀x.∀τ.(Tx(τ, x)) ⇒ ∀z.(zR x ⇒ F (τ, z)))
+
+Proof. In the model, one token τ keeps unspent status
+when it has not been involved in any transaction. For any                        Proof. Time is continuous that one timestamp always ex-
+τ ∈ V, F (τ, y) ⇔ (τ ∈ UTXO at time y) ⇔ dG+ (τ, y) = 0. From                    ists between any two timestamps. we assume a double
+the definition in transaction, we get ∀x. ∀ τ.(Tx(τ,x) ⇒                         spending transaction possible as one premise and find a
+∀y.(yRx ⇒ dG+ (τ, y) = 0).                                                       contradiction.
+
+     1.                                  + (τ, y) = 0))
+           ∀x.∀τ.(T x(τ, x) ⇒ ∀y.(yRx ⇒ dG                       Premise
+     2.                     + (τ, y)=0)
+           ∀y.∀τ.(F (τ, y)⇔dG                                    Premise
+                              + (τ, y)=0)                                                 1.    ∀x.∀τ.(Tx(τ, x) ⇒ ∀y.(xR y⇒H (τ, y)))     Premise
+     3.    T x(τ, x)⇒∀y.(yRx⇒dG                                  UE: 1
+                     + (τ, y)=0
+                                                                                          2.    ∀x.∀τ.(Tx(τ, x)) ⇒ ∀z.(zRx⇒F (τ, z)))     Premise
+     4.    F (τ, y)⇔dG                                           UE: 2
+                                                                                          3.    ∀x.∀τ.(F (τ, x)⇔¬H (τ, x))                Premise
+     5.    T x(τ, x)                                             AS
+                                                                                          4.    ∀x∀y.(xR y⇒(∃z.(xRz∧zR y)))               Premise
+     6.             + (τ, y)=0)
+           ∀y.(yRx⇒dG                                            IE: 3,5
+                                                                                          5.    ∃x.∃y.(xR y∧T x(τ, x), T x(τ, y))         goal
+     7.         + (τ, y)=0
+           yRx⇒dG                                                UE: 6
+                                                                                          6.    ∃y.([x]R y∧T x(τ, [x]), T x(τ, y))        EE: 5
+     8.    yRx                                                   AS                       7.    [x]R[y]∧T x(τ, [x]), T x(τ, [y])          EE: 6
+     9.     + (τ, y)=0
+           dG                                                    IE: 7,8                  8.    [x]R[y]                                   AE: 7
+    10.     + (τ, y)=0⇒F (τ, y)
+           dG                                                    BE: 4                    9.    T x(τ, [x])                               AE: 7
+    11.    F (τ, y)                                              IE: 9,10                10.    T x(τ, [y])                               AE: 7
+    12.    yRx⇒F (τ, y)                                          II: 8,11                11.    ∀y.([x]R y⇒(∃z.([x]Rz∧zR y))              UE: 4
+    13.    ∀y.(yRx⇒F (τ, y))                                     UI: 12                  12.    [x]R[y]⇒(∃z.([x]Rz∧zR[y]))                UE: 11
+    14.    T x(τ, x)⇒∀y.(yRx⇒F (τ, y))                           II: 5,13                13.    ∃z.([x]Rz∧zR[y])                          IE: 8,12
+    15.    ∀x.∀τ.(T x(τ, x)⇒∀y.(yRx⇒F (τ, y)))                   UI: 14                  14.    [x]R[z]∧[z]R[y]                           EE: 13
+                                                                                         15.    [x]R[z]                                   AE: 14
+                                                                                         16.    [z]R[y]                                   AE: 14
+Lemma 4.                                                                                 17.    ∀τ.(Tx(τ, [x]) ⇒ ∀y.([x]R y⇒H (τ, y)))    UE: 1
+                       ∀x.∀τ.(F (τ, x) ⇔ ¬H (τ, x))                                      18.    ∀τ.(Tx(τ, [y]) ⇒ ∀z.(zR[y] ⇒ F (τ, z)))   UE: 2
+                                                                                         19.    Tx(τ, [x])⇒∀y.([x]R y⇒H (τ, y))           UE: 17
+Proof. ¬H (τ, x) means τ has not been spent before x.                                    20.    Tx(τ, [y])⇒∀z.(zR[y]⇒F (τ, z))            UE: 18
+Therefore, F(τ,x) ⇔ dG+ (τ, x)! = 0 ⇔ ¬H (τ, x).                                         21.    ∀y.([x]R y⇒H (τ, y))                      IE: 9,19
+
+           1.     ∀x.∀τ.(F (τ, x)⇔dG   + (τ, x)!=0)   Premise                            22.    ∀z.(zR[y]⇒F (τ, z))                       IE: 10,20
+
+           2.     ∀x.∀τ.(H (τ, x)⇔dG   + (τ, x)!=0)   Premise                            23.    [x]R[z]⇒H (τ, [z])                        UE: 21
+                                  +                                                      24.    [z]R[y]⇒F (τ, [z])                        UE: 22
+           3.     ∀τ.(F (τ, x)⇔dG (τ, x)!=0)          UE:1
+                             + (τ, x)!=0                                                 25.     H (τ, [z]))                              IE: 15,23
+           4.     F (τ, x)⇔dG                         UE:3
+                                   + (τ, x)!=0)                                          26.    F (τ, [z]))                               IE: 16,24
+           5.     ∀τ.(H (τ, x)⇔dG                     UE:2
+                              +
+                                                                                         27.    ∀τ.(F (τ, [z])⇔¬H (τ, [z])                UE: 3
+           6.     H (τ, x)⇔dG (τ, x)!=0               UE:5
+                                                                                         28.    F (τ, [z])⇔¬H (τ, [z])                    UE: 27
+           7.     F (τ, x)⇒dG+ (τ, x)!=0              BE:4
+                                                                                         29.    F (τ, [z])⇒¬H (τ, [z])                    BE: 28
+           8.       +
+                  dG (τ, x)!=0⇒F (τ, x)               BE:4
+                                                                                         30.    ¬H (τ, [z])                               IE: 26,29
+           9.     H (τ, x)⇒dG + (τ, x)!=0             BE:6                               31.    C ont r ad i ct i on                      25,30
+          10.       +
+                  dG (τ, x)!=0⇒H (τ, x)               BE:6
+          11.     F (τ, x)                            AS
+          12.      + (τ, x)!=0
+                  dG                                  IE:7,11
+                                                                                 With proof by contradiction, we get that a recorded token in the validator’s
+          13.     H (τ, x)                            IE: 10, 12                 ledger can not be spent twice in different transactions.
+          14.     F (τ, x)⇒H (τ, x)                   II:11,13
+          15.     H (τ, x)                            AS
+          16.      + (τ, x)!=0
+                  dG                                  IE:9,15
+          17.     F (τ, x)                            IE:8,16                    Lemma 6. Assume a leader is non-faulty(H), double-
+          18.     H (τ, x)⇒F (τ, x)                   II:15,17
+                                                                                 spending will not happen in its shard.
+          19.     F (τ, x)⇔H (τ, x)                   BI:14,18
+                                                                                 Proof. In a token chain, the issuer creates and issues tokens
+          20.     ∀τ.(F (τ, x)⇔H (τ, x))              UI:19
+                                                                                 (a) with the in-degree of 0. For a valid payment transaction,
+          21.     ∀x.∀τ.(F (τ, x)⇔H (τ, x))           UI:20
+                                                                                 a non-faulty leader ensures itself record the received token
+                                                                                 and change token in a valid transaction.
+
+                                                                            14
+        1.   p(a)                             Premise
+        2.   ∀τ. (H ∧p(τ)⇒p(r (τ))∧p(c(τ)))   Premise                  ····           PI A                30          as3sdf324d32e32...        ····
+        3.   H ∧p(τ)⇒p(r (τ))∧p(c(τ))         UE: 2
+        4.   H                                AS                                                                     v6
+        5.   p(τ)                             AS
+                                                                                                           v4
+        6.   H ∧p(τ)                          AI: 4,5
+                                                                                                                     v9
+        7.   p(r (τ))∧p(c(τ))                 IE: 3,6
+        8.   p(r (τ))                         AE: 7                    ····           PI A               100          dasdadc3423sdad...        ····
+        9.   p(τ)⇒p(r (τ))                    II: 5,8
+       10.   ∀τ. (p(τ)⇒p(r (τ))               UI: 9
+                                                                       ····           PI A                70          sadf3452sd23ed2...        ····
+       11.   H ⇒(∀τ. (p(τ)⇒p(r (τ))))         II: 4,10
+       12.   H                                AS
+       13.   p(τ)                             AS                     Fig. 18. One of v 6 and v 9 is the change money back to the owner of
+                                                                     v 4 . The relationship between payees and payers could be inferred when
+       14.   H ∧p(τ)                          AI: 12,13
+                                                                     collecting enough extra data, like goods, transaction places.
+       15.   p(r (τ))∧p(c(τ))                 IE: 3,12
+       16.   p(c(τ))                          AE: 15
+       17.   p(τ)⇒p(c(τ))                     II: 13,16                2) MISO transaction: the payers pays several tokens from
+       18.   ∀τ. (p(τ)⇒p(c(τ))                UI: 17                      different virtual addresses. Then these virtual addresses
+       19.   H ⇒(∀τ. (p(τ)⇒p(c(τ))))          II: 12,18                   possibly belong to one person.
+       20.   H                                AS                       3) MIDO transaction: the payers are usually the same
+       21.   ∀τ. (p(τ)⇒p(r (τ)))              IE: 11,20                   person.
+       22.   ∀τ. (p(τ)⇒p(c(τ)))               IE: 19,20                4) SISO transaction: the payees and payers usually are not
+       23.   ∀τ. (p(τ))                       Ind: 1, 21, 22              the same people.
+       24.   H ⇒(∀τ. p(τ))                    II: 20,23
+                                                                     Overall, we concluded that SISO transaction can protect
+                                                                     identity privacy.
+
+Lemma 7. If leaders are non-faulty(H), double-spending will
+not happen in cross-shard transactions.                                                             R EFERENCES
+
+Proof. The model shows that a non-faulty leader with the              [1] T. Adrian and T. M. Griffoli, The Rise of Digital
+central bank ensures that the leader records new tokens                   Money.      Washington,       DC,     USA:      IMF,    2019.     [Online].
+                                                                          Available:               https://www.imf.org/en/Publications/fintech-
+in the ledger. Lemma 5 proves a recorded token has no                     notes/Issues/2019/07/12/The-Rise-of-DigitalMoney-47097
+double-spending problems. Since the leader node records               [2] E. A. Opare and K. Kim, "A Compendium of Practices for Central
+the tokens in the ledger successfully, no double-spending                 Bank Digital Currencies for Multinational Financial Infrastructures,"
+                                                                          in IEEE Access, vol. 8, pp. 110810-110847, 2020, doi: 10.1109/AC-
+exist in a cross-shard transaction. In our model, the cur-                CESS.2020.3001970.
+rency issuer (Central Bank) secures the Initial Issuance              [3] R. Auer, G. Cornelli, and J. Frost, “Rise of the Central Bank Digital Cur-
+Transaction and the Final Redemption Transaction and                      rencies: Drivers, Approaches and Technologies,” Social Science Re-
+                                                                          search Network, Rochester, NY, SSRN Scholarly Paper ID 3723552, Oct.
+makes sure the token recorded.                                            2020. [Online]. Available: https://papers.ssrn.com/abstract=3723552
+                                                                      [4] Bhawana and S. Kumar, "Permission Blockchain Network based Cen-
+Lemma 8. If leaders are non-faulty(H), double-spending will               tral Bank Digital Currency," 2021 IEEE 4th International Conference
+not happen in all transactions.                                           on Computing, Power and Communication Technologies (GUCON),
+                                                                          2021, pp. 1-6, doi: 10.1109/GUCON50781.2021.9574020.
+Proof. There are two kinds of transactions in the net-                [5] N. Dashkevich, S. Counsell and G. Destefanis, "Blockchain Applica-
+                                                                          tion for Central Banks: A Systematic Mapping Study," in IEEE Access,
+work: single-shard transactions and cross-shard transac-                  vol. 8, pp. 139918-139952, 2020, doi: 10.1109/ACCESS.2020.3012295.
+tions. Lemma 6 and 7 prove no double-spending with non-               [6] Group of Central Banks (2020): “Central bank digital currencies:
+faulty leaders in these two kinds of transactions. Therefore,             foundational principles and core features”, Joint Report, no 1, Oct.
+                                                                          2020, [Online]. Available: https://www.bis.org/publ/othp33.htm
+we conclude no double-spending problem in the network
+                                                                      [7] R. Auer and R. Boehme, “Central bank digital currency: the quest
+if leaders are non-faulty.                                                for minimally invasive technology,” Jun. 2021, [Online]. Available:
+                                                                          https://www.bis.org/publ/work948.htm
+                                                                      [8] Monetary Authority of Singapore. "Project Ubin: Central Bank digital
+B. Privacy Proof                                                          money using distributed ledger technology." (2017). [Online]. Avail-
+                                                                          able:     https://www.mas.gov.sg/-/media/MAS/ProjectUbin/Project-
+Lemma 9. SISO transaction protects the identity relationship              Ubin–SGD-on-Distributed-Ledger.pdf
+between payers and payees the most.                                   [9] Chapman, James, et al. "Project Jasper: Are distributed wholesale
+                                                                          payment systems feasible yet." Financial System 59 (2017).
+Proof. Here are all types of transactions and their privacy          [10] Y. Qian, “Experimental study on prototype system of central bank
+                                                                          digital currency,” (in Chinese), J. Softw., vol. 29, no. 9, pp. 2716–2732,
+protection capability.                                                    2018.
+ 1) SIDO transaction: figure 18 shows a SIDO transaction,            [11] R. Belchior, A. Vasconcelos, S. Guerreiro, and M. Correia, “A Survey
+                                                                          on Blockchain Interoperability: Past, Present, and Future Trends,”
+    in which one of the output tokens should be the                       ACM Comput. Surv., vol. 54, no. 8, p. 168:1-168:41, 2021, doi:
+    change token back to the payer.                                       10.1145/3471140.
+
+
+                                                                15
+[12] X. Han, Y. Yuan, and F.-Y. Wang, “A Blockchain-based Framework for        [35] Cachin, Christian. "Architecture of the hyperledger blockchain fab-
+     Central Bank Digital Currency,” in 2019 IEEE International Conference          ric." Workshop on distributed cryptocurrencies and consensus
+     on Service Operations and Logistics, and Informatics (SOLI), 2019, pp.         ledgers. Vol. 310. No. 4. 2016.
+     263–268. doi: 10.1109/SOLI48380.2019.8955032.                             [36] Brown, Richard Gendal, et al. "Corda: an introduction." R3 CEV,
+[13] S. Allen et al., “Design Choices for Central Bank Digital Currency:            August 1 (2016): 15.
+     Policy and Technical Considerations,” National Bureau of Economic         [37] Eyal, Ittay, et al. "Bitcoin-ng: A scalable blockchain protocol." 13th
+     Research, Working Paper 27634, Aug. 2020. doi: 10.3386/w27634.                 USENIX symposium on networked systems design and implementa-
+[14] [1]D. Ongaro and J. Ousterhout, “In Search of an Under-                        tion (NSDI 16). 2016.
+     standable Consensus Algorithm,” 2014, pp. 305–319. [Online].              [38] Poon, Joseph, and Thaddeus Dryja. "The bitcoin lightning network:
+     Available:        https://www.usenix.org/conference/atc14/technical-           Scalable off-chain instant payments." (2016).
+     sessions/presentation/ongaro                                              [39] Auer, Raphael, Philipp Haene, and Henry Holden. "Multi-CBDC
+[15] S. Darbha and R. Arora, “Privacy in CBDC technology,” Jun.                     arrangements and the future of cross-border payments." (2021).
+     19, 2020. Available: https://www.bankofcanada.ca/2020/06/staff-           [40] Sveriges Riksbank, The Riksbank to test technical solution for the
+     analytical-note-2020-9/                                                        e-krona, Riksbank press release, 20 Feb. 2020.
+[16] Group of Thirty, Digital currencies and stablecoins: risks, op-           [41] E. Kokoris-Kogias, P. Jovanovic, L. Gasser, N. Gailly, E. Syta and B.
+     portunities, and challenges ahead. 2020. [Online]. Available:                  Ford, "OmniLedger: A Secure, Scale-Out, Decentralized Ledger via
+     https://group30.org/publications/detail/4761                                   Sharding," 2018 IEEE Symposium on Security and Privacy (SP), 2018,
+[17] V. Sethaput and S. Innet, "Blockchain Application for Central Bank             pp. 583-598, doi: 10.1109/SP.2018.000-5.
+     Digital Currencies (CBDC)," 2021 Third International Conference on        [42] M. Zamani, M. Movahedi, and M. Raykova, “RapidChain: Scaling
+     Blockchain Computing and Applications (BCCA), 2021, pp. 3-10, doi:             Blockchain via Full Sharding,” in Proceedings of the 2018
+     10.1109/BCCA53669.2021.9657012.                                                ACM SIGSAC Conference on Computer and Communications
+[18] Bank of Thailand (BoT) and Hong Kong Monetary Authority(HKMA).                 Security, Toronto Canada, Oct. 2018, pp. 931–948. doi:
+     "Inthanon-lionrock leveraging distributed ledger technology to in-             10.1145/3243734.3243853.
+     crease efficiency in cross-border payments," January 2020.                [43] M. Król, O. Ascigil, S. Rene, A. Sonnino, M. Al-Bassam, and E.
+[19] Monetary Authority of Singapore, “Global CBDC Chal-                            Rivière, “Shard scheduler: object placement and migration in sharded
+     lenge     Problem      Statements,”     2021,    [Online]      Available:      account-based blockchains,” in Proceedings of the 3rd ACM Confer-
+     https://hackolosseum.apixplatform.com/hackathon/globalcbdcchallenge.           ence on Advances in Financial Technologies, New York, NY, USA:
+[20] C. Boar and A. Wehrli, “Ready, steady, go? - Results of the third BIS          Association for Computing Machinery, 2021, pp. 43–56. [Online].
+     survey on central bank digital currency,” Jan. 2021, [Online]. Available:      Available: https://doi.org/10.1145/3479722.3480989
+     https://www.bis.org/publ/bppdf/bispap114.htm                              [44] Y.-T. Lin, Istanbul byzantine fault tolerance (08 2017). URL
+                                                                                    https://github.com/ethereum/EIPs/issues/650
+[21] T. M. G. Rochon Maria Soledad Martinez Peria,Itai Agur,Anil
+                                                                               [45] Wood, Gavin. "Ethereum: A secure decentralized generalized trans-
+     Ari,John Kiff,Adina Popescu,Celine, “Casting Light on Central Bank
+                                                                                    action ledger." Ethereum project yellow paper 151.2014 (2014): 1-32.
+     Digital Currencies,” IMF. https://www.imf.org/en/Publications/Staff-
+                                                                               [46] Rescher, Nicholas, and Alasdair Urquhart. Temporal logic. Vol. 3.
+     Discussion-Notes/Issues/2018/11/13/Casting-Light-on-Central-Bank-
+                                                                                    Springer Science & Business Media, 2012.
+     Digital-Currencies-46233 (accessed Feb. 18, 2022).
+                                                                               [47] Androulaki, Elli, et al. "Evaluating user privacy in bitcoin." Inter-
+[22] C. Boar, H. Holden, and A. Wadsworth, “Impending arrival - a sequel
+                                                                                    national conference on financial cryptography and data security.
+     to the survey on central bank digital currency,” Jan. 2020, [Online].
+                                                                                    Springer, Berlin, Heidelberg, 2013.
+     Available: https://www.bis.org/publ/bppdf/bispap107.htm
+                                                                               [48] Standford University. "Logica Formal Logic Proof", 2021, [Online]
+[23] Deloitte, Monetary Authority of Singapore and Singapore Exchange
+                                                                                    Available: http://logica.stanford.edu/logica/homepage/index.php
+     (2018): Delivery versus payment on distributed ledger technologies:
+     Project Ubin, August.
+[24] J. Fernández-Villaverde, D. Sanches, L. Schilling, and H. Uh-
+     lig, “Central bank digital currency: Central banking for all?,” Re-
+     view of Economic Dynamics, vol. 41, pp. 225–242, 2021, doi:
+     10.1016/j.red.2020.12.004.
+[25] P. Wierts, H. Boven, and I. van de Wiel, Central bank digital cur-
+     rency: objectives, preconditions and design choices, Draft April 2020.
+     Amsterdam: De Nederlandsche Bank N.V., 2020.
+[26] I. Agur, A. Ari, and G. Dell’Ariccia, “Designing central bank digital
+     currencies,” Journal of Monetary Economics, vol. 125, pp. 62–79, 2022,
+     doi: 10.1016/j.jmoneco.2021.05.002.
+[27] [1]R. Auer and R. Boehme, “The technology of retail
+     central bank digital currency,” Mar. 2020, [Online]. Available:
+     https://www.bis.org/publ/qtrpdf/r_qt2003j.htm
+[28] J. K. Zhou Jihad Alwazir,Sonja Davidovic,Aquiles Farias,Ashraf
+     Khan,Tanai      Khiaonarong,Majid       Malaika,Hunter      K.     Mon-
+     roe,Nobu      Sugimoto,Hervé      Tourpe,Peter,      “A    Survey      of
+     Research on Retail Central Bank Digital Currency,” IMF.
+     https://www.imf.org/en/Publications/WP/Issues/2020/06/26/A-
+     Survey-of-Research-on-Retail-Central-Bank-Digital-Currency-49517.
+[29] Lannquist, Ashley, S. Warren, and R. Samans. "Central bank digital
+     currency policy-maker toolkit." Insight Report, World Economic Fo-
+     rum, Geneva. 2020.
+[30] J. Zhang et al., "A Hybrid Model for Central Bank Digital Currency
+     Based on Blockchain," in IEEE Access, vol. 9, pp. 53589-53601, 2021,
+     doi: 10.1109/ACCESS.2021.3071033.
+[31] Calle, George, and Daniel Eidan. "Central Bank Dig-
+     ital Currency: an innovation in payments." R3 White
+     Paper,     April     (2020).    Available:    https://www.r3.com/wp-
+     content/uploads/2020/04/r3_CBDC_report.pdf
+[32] A. D. Kshemkalyani and M. Singhal, Distributed Computing: Princi-
+     ples, Algorithms, and Systems. Cambridge University Press, 2011.
+[33] S. Nakamoto, “Bitcoin: A Peer-to-Peer Electronic Cash System,” De-
+     centralized Business Review, p. 21260, Oct. 2008.
+[34] Castro, Miguel, and Barbara Liskov. "Practical byzantine fault toler-
+     ance." OSDI. Vol. 99. No. 1999. 1999.
+
+
+                                                                           16
+

@@ -1,0 +1,16 @@
+query_id,surface,query,reported_total,screening_cap,retrieved,coverage_status,cutoff
+Q1_joint_assurance,OpenAlex,central bank digital currency composable assurance privacy AML interoperability operational resilience,61,25,25,BOUNDED_TOP_RESULTS_ONLY,2026-08-29
+Q1_joint_assurance,Crossref,central bank digital currency composable assurance privacy AML interoperability operational resilience,45179,25,25,BOUNDED_TOP_RESULTS_ONLY,2026-08-29
+Q2_cross_border_atomicity,OpenAlex,cross-border CBDC atomic settlement independent ledgers compliance certificate,43,25,25,BOUNDED_TOP_RESULTS_ONLY,2026-08-29
+Q2_cross_border_atomicity,Crossref,cross-border CBDC atomic settlement independent ledgers compliance certificate,1714672,25,25,BOUNDED_TOP_RESULTS_ONLY,2026-08-29
+Q3_privacy_integrity,OpenAlex,central bank digital currency privacy AML compliance by design selective disclosure,219,25,25,BOUNDED_TOP_RESULTS_ONLY,2026-08-29
+Q3_privacy_integrity,Crossref,central bank digital currency privacy AML compliance by design selective disclosure,122476,25,25,BOUNDED_TOP_RESULTS_ONLY,2026-08-29
+Q4_policy_scale,OpenAlex,CBDC holding limits scalability operational resilience qualification pilot,24,25,24,BOUNDED_TOP_RESULTS_ONLY,2026-08-29
+Q4_policy_scale,Crossref,CBDC holding limits scalability operational resilience qualification pilot,806661,25,25,BOUNDED_TOP_RESULTS_ONLY,2026-08-29
+Q5_evidence_maturity,OpenAlex,CBDC evidence qualification framework prototype deployment validation,5,25,5,BOUNDED_TOP_RESULTS_ONLY,2026-08-29
+Q5_evidence_maturity,Crossref,CBDC evidence qualification framework prototype deployment validation,2412252,25,25,BOUNDED_TOP_RESULTS_ONLY,2026-08-29
+Q6_architecture_agnostic,OpenAlex,CBDC architecture agnostic interoperability checkpoint reserve lock finalize,2,25,2,BOUNDED_TOP_RESULTS_ONLY,2026-08-29
+Q6_architecture_agnostic,Crossref,CBDC architecture agnostic interoperability checkpoint reserve lock finalize,669983,25,25,BOUNDED_TOP_RESULTS_ONLY,2026-08-29
+Q1_joint_assurance,arXiv,"all:""central bank digital currency composable assurance privacy AML interoperability operational resilience""",,20,0,BOUNDED_TOP_RESULTS_ONLY,2026-08-29
+Q2_cross_border_atomicity,arXiv,"all:""cross-border CBDC atomic settlement independent ledgers compliance certificate""",,20,0,BOUNDED_TOP_RESULTS_ONLY,2026-08-29
+Q3_privacy_integrity,arXiv,"all:""central bank digital currency privacy AML compliance by design selective disclosure""",,20,0,BOUNDED_TOP_RESULTS_ONLY,2026-08-29

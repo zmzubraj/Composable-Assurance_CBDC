@@ -1,0 +1,12 @@
+flowchart LR
+  A[Isolated CBDC design claims] --> B[Cross-property conflicts]
+  B --> C[Unsupported system-level assurance]
+  C --> D[Premature deployment or policy claims]
+  E[Claim specification] --> F[Evidence origin and maturity]
+  G[Negative controls and failure envelope] --> F
+  H[Reproducible model prototype and analysis] --> F
+  F --> I{Non-compensating gate}
+  I -->|evidence sufficient| J[Advance only the bounded claim]
+  I -->|missing failed or contradictory| K[Narrow redesign or stop]
+  J --> L[Physical and governed field evidence when required]
+  K --> E

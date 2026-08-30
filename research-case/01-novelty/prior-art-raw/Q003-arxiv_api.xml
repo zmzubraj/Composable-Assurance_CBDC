@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zToR75bWuLNpsyiQOodRK/bvakU</id>
+  <title>arXiv Query: search_query=all:"central bank digital currency" AND (all:privacy OR all:"differential privacy") AND (all:AML OR all:sanctions OR all:compliance OR all:"financial integrity")&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-08-28T23:23:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22central+bank+digital+currency%22+AND+((all:privacy+OR+all:%22differential+privacy%22)+AND+(all:AML+OR+(all:sanctions+OR+(all:compliance+OR+all:%22financial+integrity%22))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.23659v2</id>
+    <title>Central Bank Digital Currencies: Where is the Privacy, Technology, and Anonymity?</title>
+    <updated>2026-07-17T04:20:35Z</updated>
+    <link href="https://arxiv.org/abs/2602.23659v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.23659v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In an age of financial system digitisation and the increasing adoption of digital currencies, Central Bank Digital Currencies (CBDCs) have emerged as a focal point for technological innovation. Privacy compliance has become a key factor in the successful design of CBDCs, extending beyond technical requirements to influence legal requirements, user trust, and security considerations. Implementing Privacy-Enhancing Technologies (PETs) in CBDCs requires an interdisciplinary approach, however, the lack of a common understanding of privacy and the essential technological characteristics restricts progress. This work investigates: (1) How privacy can be defined within the framework of CBDCs and what implications does this definition have for CBDCs design? and (2) Which PETs can be employed to enhance privacy in CBDC design? We propose a comprehensive definition for privacy that is mapped to the cryptographic landscape for feature implementation. The research is validated against case studies from 20 current CBDCs. The study shows that comprehensive privacy can be designed in the proposal stage, but that privacy does not reach the launched version of the CBDC. A failure analysis of abandoned privacy pilots identifies four root causes of this research-to-launch gap: regulatory visibility requirements, computational overhead, liability allocation, and institutional incentives.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-27T03:56:40Z</published>
+    <arxiv:comment>22 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jeff Nijsse</name>
+    </author>
+    <author>
+      <name>Andrea Pinto</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.25469v1</id>
+    <title>Balancing Compliance and Privacy in Offline CBDC Transactions Using a Secure Element-based System</title>
+    <updated>2025-09-29T20:19:31Z</updated>
+    <link href="https://arxiv.org/abs/2509.25469v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.25469v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Blockchain technology has spawned a vast ecosystem of digital currencies with Central Bank Digital Currencies (CBDCs) -- digital forms of fiat currency -- being one of them. An important feature of digital currencies is facilitating transactions without network connectivity, which can enhance the scalability of cryptocurrencies and the privacy of CBDC users. However, in the case of CBDCs, this characteristic also introduces new regulatory challenges, particularly when it comes to applying established Anti-Money Laundering and Countering the Financing of Terrorism (AML/CFT) frameworks. This paper introduces a prototype for offline digital currency payments, equally applicable to cryptocurrencies and CBDCs, that leverages Secure Elements and digital credentials to address the tension of offline payment support with regulatory compliance. Performance evaluation results suggest that the prototype can be flexibly adapted to different regulatory environments, with a transaction latency comparable to real-life commercial payment systems. Furthermore, we conceptualize how the integration of Zero-Knowledge Proofs into our design could accommodate various tiers of enhanced privacy protection.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-29T20:19:31Z</published>
+    <arxiv:comment>9 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Panagiotis Michalopoulos</name>
+    </author>
+    <author>
+      <name>Anthony Mack</name>
+    </author>
+    <author>
+      <name>Cameron Clark</name>
+    </author>
+    <author>
+      <name>Linus Chen</name>
+    </author>
+    <author>
+      <name>Johannes Sedlmeir</name>
+    </author>
+    <author>
+      <name>Andreas Veneris</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.21008v3</id>
+    <title>A Hitchhiker's Guide to Privacy-Preserving Digital Payment Systems: A Survey on Anonymity, Confidentiality, and Auditability</title>
+    <updated>2026-04-01T13:35:01Z</updated>
+    <link href="https://arxiv.org/abs/2505.21008v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.21008v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Crypto-assets and central bank digital currencies (CBDCs) are reshaping how value is exchanged in distributed computing environments. These systems combine cryptographic primitives, protocol design, and system architectures to provide transparency and efficiency while raising critical challenges around privacy and regulatory compliance. This survey offers a comprehensive overview of privacy-preserving digital payment systems, covering both decentralized ledger systems and CBDCs. We present a taxonomy of privacy goals -- including anonymity, confidentiality, unlinkability, and auditability -- and map them to the cryptographic primitives, protocols, and system architectures that implement them. Our work adopts a design-oriented perspective, linking high-level privacy objectives to concrete implementations. We also trace the evolution of privacy-preserving digital payment systems through three generations, highlighting shifts from basic anonymity guarantees toward more nuanced privacy-accountability trade-offs. Finally, we identify open challenges, motivating further research into architectures and solutions that balance strong privacy with real-world auditability needs.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-27T10:42:28Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Matteo Nardelli</name>
+    </author>
+    <author>
+      <name>Francesco De Sclavis</name>
+    </author>
+    <author>
+      <name>Michela Iezzi</name>
+    </author>
+    <arxiv:doi>10.1145/3801555</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3801555" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.03804v2</id>
+    <title>Zero-Knowledge Proof (ZKP) Authentication for Offline CBDC Payment System Using IoT Devices</title>
+    <updated>2026-03-05T13:51:30Z</updated>
+    <link href="https://arxiv.org/abs/2603.03804v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.03804v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Central Bank Digital Currency (CBDCs) are becoming a new digital financial tool aimed at financial inclusion, increased monetary stability, and improved efficiency of payment systems, as they are issued by central banks. One of the most important aspects is that the CBDC must offer secure offline payment methods to users, allowing them to retain cash-like access without violating Anti-Money Laundering and Counter-terrorism Financing (AML/CFT) rules. The offline CBDC ecosystems will provide financial inclusion, empower underserved communities, and ensure equitable access to digital payments, even in connectivity-poor remote locations. With the rapid growth of Internet of Things (IoT) devices in our everyday lives, they are capable of performing secure digital transactions. Integrating offline CBDC payment with IoT devices enables seamless, automated payment without internet connectivity. However, IoT devices face special challenges due to their resource-constrained nature. This makes it difficult to include features such as double-spending prevention, privacy preservation, low-computation operation, and digital identity management. The work proposes a privacy-preserving offline CBDC model with integrated secure elements (SEs), zero-knowledge proofs (ZKPs), and intermittent synchronisation to conduct offline payments on IoT hardware. The proposed model is based on recent improvements in offline CBDC prototypes, regulations and cryptographic design choices such as hybrid architecture that involves using combination of online and offline payment in IoT devices using secure hardware with lightweight zero-knowledge proof cryptographic algorithm.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-04T07:29:53Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Santanu Mondal</name>
+    </author>
+    <author>
+      <name>T. Chithralekha</name>
+    </author>
+  </entry>
+</feed>

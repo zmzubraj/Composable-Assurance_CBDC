@@ -1,0 +1,6 @@
+domain,parameters,minimum evidence,update cadence
+Household demand,"wallet choice, desired balances, payment substitution, run-state conversion",representative panel + pilot telemetry,quarterly and stress-triggered
+Bank stability,"LCR/NSFR, uninsured deposits, replacement funding, collateral and facility access",supervisory bank microdata,"monthly in pilot, quarterly in steady state"
+Distribution,"income, age, disability, region, cash dependence and merchant acceptance",linked survey/service-quality data,semiannual
+Operations,"sweep failures, rejected conversions, fraud loss and support burden",production observability and complaint data,continuous
+Macroeconomy,"policy rates, deposit rates, funding spreads, credit response and confidence",central-bank macrofinancial models,policy cycle

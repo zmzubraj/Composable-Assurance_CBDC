@@ -1,0 +1,3675 @@
+{
+  "generated_at": "2026-08-28T23:09:45Z",
+  "run_id": "composable-assurance-for-sovereign-digital-currency-20260828T215947Z-1b00c7ec-7b6613",
+  "adapter_id": "simulation_methods_v1",
+  "fixture_set": "LIVE_SNAPSHOT",
+  "offline_only": false,
+  "may_assert_novelty": false,
+  "raw_snapshot_schema": {
+    "version": 1,
+    "required_keys": [
+      "record_id",
+      "query_id",
+      "source",
+      "title",
+      "published_at",
+      "url"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "http://arxiv.org/abs/2101.05259v6",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "A Digital Currency Architecture for Privacy and Owner-Custodianship",
+      "published_at": "2021-01-13T18:44:10Z",
+      "url": "http://arxiv.org/abs/2101.05259v6",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2311.16105v1",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "A Privacy-preserving Central Bank Ledger for Central Bank Digital Currency",
+      "published_at": "2023-08-16T12:33:08Z",
+      "url": "http://arxiv.org/abs/2311.16105v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2401.06457v1",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Analysis of the Impact of Central bank Digital Currency on the Demand for Transactional Currency",
+      "published_at": "2024-01-12T09:07:59Z",
+      "url": "http://arxiv.org/abs/2401.06457v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2507.08880v1",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Central Bank Digital Currencies: A Survey",
+      "published_at": "2025-07-10T08:51:48Z",
+      "url": "http://arxiv.org/abs/2507.08880v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2602.23659v2",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Central Bank Digital Currencies: Where is the Privacy, Technology, and Anonymity?",
+      "published_at": "2026-02-27T03:56:40Z",
+      "url": "http://arxiv.org/abs/2602.23659v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2308.10359v7",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Central Bank Digital Currency with Collateral-constrained Banks",
+      "published_at": "2023-08-20T20:24:49Z",
+      "url": "http://arxiv.org/abs/2308.10359v7",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2510.21071v2",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Central Bank Digital Currency, Flight-to-Quality, and Bank-Runs in an Agent-Based Model",
+      "published_at": "2025-10-24T01:00:52Z",
+      "url": "http://arxiv.org/abs/2510.21071v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2507.15048v2",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Central Bank Digital Currency: Demand Shocks and Optimal Monetary Policy",
+      "published_at": "2025-07-20T17:05:43Z",
+      "url": "http://arxiv.org/abs/2507.15048v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2407.07898v1",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Central Bank Digital Currency: The Advent of its IT Governance in the financial markets",
+      "published_at": "2024-05-17T09:55:07Z",
+      "url": "http://arxiv.org/abs/2407.07898v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2112.01122v3",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures",
+      "published_at": "2021-12-02T10:56:31Z",
+      "url": "http://arxiv.org/abs/2112.01122v3",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2503.11947v4",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Ethical AI for Young Digital Citizens: A Call to Action on Privacy Governance",
+      "published_at": "2025-03-15T01:35:56Z",
+      "url": "http://arxiv.org/abs/2503.11947v4",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2308.08362v2",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Functional Consistency across Retail Central Bank Digital Currency and Commercial Bank Money",
+      "published_at": "2023-08-16T13:38:56Z",
+      "url": "http://arxiv.org/abs/2308.08362v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2308.15787v2",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "How does post-quantum cryptography affect Central Bank Digital Currency?",
+      "published_at": "2023-08-30T06:44:20Z",
+      "url": "http://arxiv.org/abs/2308.15787v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2412.04051v2",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "How to design a Public Key Infrastructure for a Central Bank Digital Currency",
+      "published_at": "2024-12-05T10:41:38Z",
+      "url": "http://arxiv.org/abs/2412.04051v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2103.00254v1",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "How to Issue a Central Bank Digital Currency",
+      "published_at": "2021-02-27T15:46:51Z",
+      "url": "http://arxiv.org/abs/2103.00254v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2203.17018v2",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Illustrative Industry Architecture to Mitigate Potential Fragmentation across a Central Bank Digital Currency and Commercial Bank Money",
+      "published_at": "2022-03-31T13:20:47Z",
+      "url": "http://arxiv.org/abs/2203.17018v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2512.10636v1",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Objectives and Design Principles in Offline Payments with Central Bank Digital Currency (CBDC)",
+      "published_at": "2025-12-11T13:39:50Z",
+      "url": "http://arxiv.org/abs/2512.10636v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2605.27827v1",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Operational AI Deployment Assurance: Governance-State Orchestration Under Threshold-Sensitive Deployment Conditions -- A Governance Framework for High-Stakes AI Systems",
+      "published_at": "2026-05-27T01:33:40Z",
+      "url": "http://arxiv.org/abs/2605.27827v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2408.06956v1",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "PayOff: A Regulated Central Bank Digital Currency with Private Offline Payments",
+      "published_at": "2024-08-13T15:15:06Z",
+      "url": "http://arxiv.org/abs/2408.06956v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2507.09067v2",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Quantum-Resilient Privacy Ledger (QRPL): A Sovereign Digital Currency for the Post-Quantum Era",
+      "published_at": "2025-07-11T23:02:45Z",
+      "url": "http://arxiv.org/abs/2507.09067v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2403.07070v3",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Retail Central Bank Digital Currency: Motivations, Opportunities, and Mistakes",
+      "published_at": "2024-03-11T18:02:06Z",
+      "url": "http://arxiv.org/abs/2403.07070v3",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2202.07564v1",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Stablecoins and Central Bank Digital Currencies: Policy and Regulatory Challenges",
+      "published_at": "2022-02-15T16:47:47Z",
+      "url": "http://arxiv.org/abs/2202.07564v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2108.05946v3",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "The Development of Central Bank Digital Currency in China: An Analysis",
+      "published_at": "2021-08-12T19:54:32Z",
+      "url": "http://arxiv.org/abs/2108.05946v3",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2312.17708v1",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "The six ways to build trust and reduce privacy concern in a Central Bank Digital Currency (CBDC)",
+      "published_at": "2023-12-29T17:52:13Z",
+      "url": "http://arxiv.org/abs/2312.17708v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2012.08003v1",
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Towards a Two-Tier Hierarchical Infrastructure: An Offline Payment System for Central Bank Digital Currencies",
+      "published_at": "2020-12-14T23:22:56Z",
+      "url": "http://arxiv.org/abs/2012.08003v1",
+      "doi": ""
+    },
+    {
+      "record_id": "10.38105/spr.j0hildxtyi",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "AML by design: Designing a central bank digital currency to stifle money laundering",
+      "published_at": "2022-8-29",
+      "url": "https://doi.org/10.38105/spr.j0hildxtyi",
+      "doi": "10.38105/spr.j0hildxtyi"
+    },
+    {
+      "record_id": "10.1007/978-3-031-80957-6_9",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Anti-Money Laundering (AML) Implications of Central Bank Digital Currencies (CBDC)",
+      "published_at": "2025",
+      "url": "https://doi.org/10.1007/978-3-031-80957-6_9",
+      "doi": "10.1007/978-3-031-80957-6_9"
+    },
+    {
+      "record_id": "10.2139/ssrn.4493875",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Bank Profitability and Central Bank Digital Currency",
+      "published_at": "2023",
+      "url": "https://doi.org/10.2139/ssrn.4493875",
+      "doi": "10.2139/ssrn.4493875"
+    },
+    {
+      "record_id": "10.2139/ssrn.4761233",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Bank Profitability and Central Bank Digital Currency",
+      "published_at": "2024",
+      "url": "https://doi.org/10.2139/ssrn.4761233",
+      "doi": "10.2139/ssrn.4761233"
+    },
+    {
+      "record_id": "10.1596/36765",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Central Bank Digital Currency",
+      "published_at": "2021-11",
+      "url": "https://doi.org/10.1596/36765",
+      "doi": "10.1596/36765"
+    },
+    {
+      "record_id": "10.1596/36766",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Central Bank Digital Currency",
+      "published_at": "2021-11",
+      "url": "https://doi.org/10.1596/36766",
+      "doi": "10.1596/36766"
+    },
+    {
+      "record_id": "10.5089/9798400238277.001.a001",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Central Bank Digital Currency and Financial Inclusion",
+      "published_at": "None",
+      "url": "https://doi.org/10.5089/9798400238277.001.a001",
+      "doi": "10.5089/9798400238277.001.a001"
+    },
+    {
+      "record_id": "10.2139/ssrn.4686662",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Central Bank Digital Currency in Azerbaijan",
+      "published_at": "2024",
+      "url": "https://doi.org/10.2139/ssrn.4686662",
+      "doi": "10.2139/ssrn.4686662"
+    },
+    {
+      "record_id": "10.2139/ssrn.4251613",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Central Bank Digital Currency Towards A Composable Standards-Based Implementation",
+      "published_at": "2022",
+      "url": "https://doi.org/10.2139/ssrn.4251613",
+      "doi": "10.2139/ssrn.4251613"
+    },
+    {
+      "record_id": "10.2139/ssrn.3787088",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Central Bank Digital Currency with Asymmetric Privacy",
+      "published_at": "2021",
+      "url": "https://doi.org/10.2139/ssrn.3787088",
+      "doi": "10.2139/ssrn.3787088"
+    },
+    {
+      "record_id": "10.2139/ssrn.4792946",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Central Bank Digital Currency, Privacy, and Welfare",
+      "published_at": "2024",
+      "url": "https://doi.org/10.2139/ssrn.4792946",
+      "doi": "10.2139/ssrn.4792946"
+    },
+    {
+      "record_id": "10.5089/9798400286995.063",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Cyber Resilience of the Central Bank Digital Currency Ecosystem",
+      "published_at": "2024-8",
+      "url": "https://doi.org/10.5089/9798400286995.063",
+      "doi": "10.5089/9798400286995.063"
+    },
+    {
+      "record_id": "10.1007/978-3-031-44738-9_8",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Economic Implications of Central Bank Digital Currency",
+      "published_at": "2023",
+      "url": "https://doi.org/10.1007/978-3-031-44738-9_8",
+      "doi": "10.1007/978-3-031-44738-9_8"
+    },
+    {
+      "record_id": "10.2139/ssrn.3965050",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "How to issue a privacy-preserving central bank digital currency",
+      "published_at": "2021",
+      "url": "https://doi.org/10.2139/ssrn.3965050",
+      "doi": "10.2139/ssrn.3965050"
+    },
+    {
+      "record_id": "10.2139/ssrn.5016148",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Information, Consumer Privacy, and Central Bank Digital Currency",
+      "published_at": "2024",
+      "url": "https://doi.org/10.2139/ssrn.5016148",
+      "doi": "10.2139/ssrn.5016148"
+    },
+    {
+      "record_id": "10.69554/mbdj6710",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Interoperability aspects of central bank digital currency across ecosystems and borders",
+      "published_at": "2023-12-1",
+      "url": "https://doi.org/10.69554/mbdj6710",
+      "doi": "10.69554/mbdj6710"
+    },
+    {
+      "record_id": "10.1596/41812",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Interoperability Between Central Bank Digital Currency Systems and Fast Payment Systems: A Technical Perspective",
+      "published_at": "2024-7-2",
+      "url": "https://doi.org/10.1596/41812",
+      "doi": "10.1596/41812"
+    },
+    {
+      "record_id": "10.5220/0012308600003648",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "KAIME: Central Bank Digital Currency with Realistic and Modular Privacy",
+      "published_at": "2024",
+      "url": "https://doi.org/10.5220/0012308600003648",
+      "doi": "10.5220/0012308600003648"
+    },
+    {
+      "record_id": "10.2139/ssrn.4394190",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Money Laundering and the Privacy Design of Central Bank Digital Currency",
+      "published_at": "2023",
+      "url": "https://doi.org/10.2139/ssrn.4394190",
+      "doi": "10.2139/ssrn.4394190"
+    },
+    {
+      "record_id": "10.2139/ssrn.5566398",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Optimal Privacy Protection in Central Bank Digital Currency",
+      "published_at": "2025",
+      "url": "https://doi.org/10.2139/ssrn.5566398",
+      "doi": "10.2139/ssrn.5566398"
+    },
+    {
+      "record_id": "10.5089/9798229030977.063.a001",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Payment Resilience in Fragile and Conflict-Affected States: Lessons for Central Bank Digital Currency (CBDC)",
+      "published_at": "None",
+      "url": "https://doi.org/10.5089/9798229030977.063.a001",
+      "doi": "10.5089/9798229030977.063.a001"
+    },
+    {
+      "record_id": "10.3917/rfe.238.0187",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Privacy and Retail Central Bank Digital Currency",
+      "published_at": "2024-5-2",
+      "url": "https://doi.org/10.3917/rfe.238.0187",
+      "doi": "10.3917/rfe.238.0187"
+    },
+    {
+      "record_id": "10.4324/9781003340454-10",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Sustainability, Public Security, and Privacy Concerns Regarding Central Bank Digital Currency (CBDC)",
+      "published_at": "2023-9-27",
+      "url": "https://doi.org/10.4324/9781003340454-10",
+      "doi": "10.4324/9781003340454-10"
+    },
+    {
+      "record_id": "10.1007/978-3-031-44738-9_1",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Terminology and Motives for Central Bank Digital Currency",
+      "published_at": "2023",
+      "url": "https://doi.org/10.1007/978-3-031-44738-9_1",
+      "doi": "10.1007/978-3-031-44738-9_1"
+    },
+    {
+      "record_id": "10.1108/s1569-37592023000111c008",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Using Central Bank Digital Currency to Achieve the Sustainable Development Goals",
+      "published_at": "2023-9-28",
+      "url": "https://doi.org/10.1108/s1569-37592023000111c008",
+      "doi": "10.1108/s1569-37592023000111c008"
+    },
+    {
+      "record_id": "https://openalex.org/W4410915794",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "A Conceptual Framework for AI-Enhanced Investment Decision-Making in Venture Capital: Unlocking Opportunities in Emerging Markets",
+      "published_at": "2024-06-26",
+      "url": "https://doi.org/10.32628/ijsrset241482",
+      "doi": "10.32628/ijsrset241482"
+    },
+    {
+      "record_id": "https://openalex.org/W4409364352",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "A Digital Resilience Model for Enhancing Operational Stability in Financial and Compliance-Driven Sectors",
+      "published_at": "2024-01-01",
+      "url": "https://doi.org/10.54660/ijsser.2024.3.1.365-386",
+      "doi": "10.54660/ijsser.2024.3.1.365-386"
+    },
+    {
+      "record_id": "https://openalex.org/W4414396465",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "A Systematic Review of Security Innovations in Decentralized Finance (DeFi) Using Blockchain Technology",
+      "published_at": "2025-08-26",
+      "url": "https://doi.org/10.31449/inf.v49i33.7990",
+      "doi": "10.31449/inf.v49i33.7990"
+    },
+    {
+      "record_id": "https://openalex.org/W4409694962",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Advances in Public-Private Partnerships for Strengthening National Financial Governance and Crisis Response Systems",
+      "published_at": "2024-12-31",
+      "url": "https://doi.org/10.62225/2583049x.2024.4.6.4101",
+      "doi": "10.62225/2583049x.2024.4.6.4101"
+    },
+    {
+      "record_id": "https://openalex.org/W4400154793",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Artificial Intelligence, Machine Learning and Big Data in Finance",
+      "published_at": "2021-08-11",
+      "url": "https://doi.org/10.1787/98e761e7-en",
+      "doi": "10.1787/98e761e7-en"
+    },
+    {
+      "record_id": "https://openalex.org/W4413018996",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain Based Compliance Auditing For GRC Integration in Hybrid Cloud IT Governance Frameworks",
+      "published_at": "2024-10-30",
+      "url": "https://doi.org/10.32628/cseit24113368",
+      "doi": "10.32628/cseit24113368"
+    },
+    {
+      "record_id": "https://openalex.org/W7116343522",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain Technology: A Comprehensive Review of Architecture, Consensus Mechanisms, Security, Scalability Solutions, and Real-World Applications for Distributed Systems",
+      "published_at": "2025-12-19",
+      "url": "https://doi.org/10.36227/techrxiv.176617589.93522339/v1",
+      "doi": "10.36227/techrxiv.176617589.93522339/v1"
+    },
+    {
+      "record_id": "https://openalex.org/W4410047170",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Building Scalable Blockchain Applications: A Framework for Leveraging Solidity and AWS Lambda in Real-World Asset Tokenization",
+      "published_at": "2024-12-31",
+      "url": "https://doi.org/10.62225/2583049x.2024.4.6.4157",
+      "doi": "10.62225/2583049x.2024.4.6.4157"
+    },
+    {
+      "record_id": "https://openalex.org/W7115402716",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Central bank digital currencies and their implications for monetary policy and financial stability",
+      "published_at": "2025-02-03",
+      "url": "https://repozitorij.upr.si/IzpisGradiva.php?id=21074",
+      "doi": ""
+    },
+    {
+      "record_id": "https://openalex.org/W4412516669",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Digital Currencies and Monetary Policy: Implications for Central Banks in Africa",
+      "published_at": "2021-01-01",
+      "url": "https://doi.org/10.54660/.ijfmr.2021.2.1.346-358",
+      "doi": "10.54660/.ijfmr.2021.2.1.346-358"
+    },
+    {
+      "record_id": "https://openalex.org/W4319348721",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Disciplinary Sanctions against Judges: Punitive but not Criminal for the Strasbourg Court - Pragmatism or another Twist towards Further Confusion in Applying the Engel Criteria?",
+      "published_at": "2022-01-01",
+      "url": "https://doi.org/10.30709/eucrim-2022-018",
+      "doi": "10.30709/eucrim-2022-018"
+    },
+    {
+      "record_id": "https://openalex.org/W4385423083",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Features and Scope of Regulatory Technologies: Challenges and Opportunities with Industrial Internet of Things",
+      "published_at": "2023-07-30",
+      "url": "https://doi.org/10.3390/fi15080256",
+      "doi": "10.3390/fi15080256"
+    },
+    {
+      "record_id": "https://openalex.org/W4246701070",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Fintech and Financial Inclusion in Latin America and the Caribbean",
+      "published_at": "2021-08-01",
+      "url": "https://doi.org/10.5089/9781513592237.001",
+      "doi": "10.5089/9781513592237.001"
+    },
+    {
+      "record_id": "https://openalex.org/W7115185199",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Integrating digital asset platforms into AML frameworks: Balancing innovation, inclusion, and financial integrity",
+      "published_at": "2025-07-01",
+      "url": "https://doi.org/10.33545/26175754.2025.v8.i2k.637",
+      "doi": "10.33545/26175754.2025.v8.i2k.637"
+    },
+    {
+      "record_id": "https://openalex.org/W4411730532",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Multi-Agent AI Systems for Secure, Transparent, and Compliant Fraud Surveillance in Cross-Border FinTech Operations",
+      "published_at": "2025-06-01",
+      "url": "https://doi.org/10.55248/gengpi.6.0625.22103",
+      "doi": "10.55248/gengpi.6.0625.22103"
+    },
+    {
+      "record_id": "https://openalex.org/W4416645893",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "On the Operational Resilience of CBDC: Threats and Prospects of Formal Validation for Offline Payments",
+      "published_at": "2025-08-11",
+      "url": "https://arxiv.org/abs/2508.08064",
+      "doi": "10.48550/arxiv.2508.08064"
+    },
+    {
+      "record_id": "https://openalex.org/W4388093245",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Open Problems in DAOs",
+      "published_at": "2023-10-29",
+      "url": "http://arxiv.org/abs/2310.19201",
+      "doi": "10.48550/arxiv.2310.19201"
+    },
+    {
+      "record_id": "https://openalex.org/W4413296275",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Operationalizing Analytics to Improve Strategic Planning: A Business Intelligence Case Study in Digital Finance",
+      "published_at": "2022-01-01",
+      "url": "https://doi.org/10.54660/.jfmr.2022.3.1.567-578",
+      "doi": "10.54660/.jfmr.2022.3.1.567-578"
+    },
+    {
+      "record_id": "https://openalex.org/W4416570530",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Project Management at the Intersection of Technology and Business: Lessons from Large-Scale IT Solution Deployments",
+      "published_at": "2024-01-29",
+      "url": "https://doi.org/10.38124/ijsrmt.v3i1.1010",
+      "doi": "10.38124/ijsrmt.v3i1.1010"
+    },
+    {
+      "record_id": "https://openalex.org/W3003033094",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Self-Sovereign Identity in a Globalized World: Credentials-Based Identity Systems as a Driver for Economic Inclusion",
+      "published_at": "2020-01-22",
+      "url": "https://doi.org/10.3389/fbloc.2019.00028",
+      "doi": "10.3389/fbloc.2019.00028"
+    },
+    {
+      "record_id": "https://openalex.org/W4409600038",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Strategic Financial Intelligence: Using Machine Learning to Inform Partnership Driven Growth in Global Payment Networks",
+      "published_at": "2022-12-28",
+      "url": "https://doi.org/10.38124/ijsrmt.v1i12.436",
+      "doi": "10.38124/ijsrmt.v1i12.436"
+    },
+    {
+      "record_id": "https://openalex.org/W4214691052",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "The Future of Financial Systems in the Digital Age",
+      "published_at": "2022-01-01",
+      "url": "https://doi.org/10.1007/978-981-16-7830-1",
+      "doi": "10.1007/978-981-16-7830-1"
+    },
+    {
+      "record_id": "https://openalex.org/W3013756342",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "The GNU Taler system : practical and provably secure electronic payments",
+      "published_at": "2019-02-25",
+      "url": "https://theses.hal.science/tel-02138082",
+      "doi": ""
+    },
+    {
+      "record_id": "https://openalex.org/W4411976657",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Toward the Mass Adoption of Blockchain: Cross-Industry Insights from DeFi, Gaming, and Data Analytics",
+      "published_at": "2025-07-03",
+      "url": "https://doi.org/10.3390/bdcc9070178",
+      "doi": "10.3390/bdcc9070178"
+    },
+    {
+      "record_id": "https://openalex.org/W4312435350",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Use of Administrative Evidence in Criminal Proceedings in Austria",
+      "published_at": "2022-01-01",
+      "url": "https://doi.org/10.30709/eucrim-2022-017",
+      "doi": "10.30709/eucrim-2022-017"
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1305.2313v2",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Accelerated Thermalisation of 39K atoms in a Magnetic Trap with Superimposed Optical Potential",
+      "published_at": "2013-05-10T11:31:28Z",
+      "url": "http://arxiv.org/abs/1305.2313v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2103.07297v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Automating the GDPR Compliance Assessment for Cross-border Personal Data Transfers in Android Applications",
+      "published_at": "2021-03-12T14:13:26Z",
+      "url": "http://arxiv.org/abs/2103.07297v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2509.25469v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Balancing Compliance and Privacy in Offline CBDC Transactions Using a Secure Element-based System",
+      "published_at": "2025-09-29T20:19:31Z",
+      "url": "http://arxiv.org/abs/2509.25469v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2412.08993v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "CBCMS: A Compliance Management System for Cross-Border Data Transfer",
+      "published_at": "2024-12-12T06:48:00Z",
+      "url": "http://arxiv.org/abs/2412.08993v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2305.16893v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "CBDC-AquaSphere: Interoperable Central Bank Digital Currency Built on Trusted Computing and Blockchain",
+      "published_at": "2023-05-26T12:54:00Z",
+      "url": "http://arxiv.org/abs/2305.16893v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2211.03396v3",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Certificate Games and Consequences for the Classical Adversary Bound",
+      "published_at": "2022-11-07T09:55:52Z",
+      "url": "http://arxiv.org/abs/2211.03396v3",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2012.12718v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Compliance Generation for Privacy Documents under GDPR: A Roadmap for Implementing Automation and Machine Learning",
+      "published_at": "2020-12-23T14:46:51Z",
+      "url": "http://arxiv.org/abs/2012.12718v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2312.16193v2",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Cross-border Exchange of CBDCs using Layer-2 Blockchain",
+      "published_at": "2023-12-22T15:10:57Z",
+      "url": "http://arxiv.org/abs/2312.16193v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1807.00649v2",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Distributed Ledger Technology, Cyber-Physical Systems, and Social Compliance",
+      "published_at": "2018-07-02T13:23:58Z",
+      "url": "http://arxiv.org/abs/1807.00649v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2206.03270v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "DLT Compliance Reporting",
+      "published_at": "2022-05-31T11:19:15Z",
+      "url": "http://arxiv.org/abs/2206.03270v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/cond-mat/0609259v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Dual-species quantum degeneracy of potassium-40 and rubidium-87 on an atom chip",
+      "published_at": "2006-09-11T19:04:22Z",
+      "url": "http://arxiv.org/abs/cond-mat/0609259v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/physics/0512061v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Electronic excitations in atomic clusters: beyond dipole plasmon",
+      "published_at": "2005-12-07T19:24:36Z",
+      "url": "http://arxiv.org/abs/physics/0512061v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2004.07063v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Hardening X.509 Certificate Issuance using Distributed Ledger Technology",
+      "published_at": "2020-04-15T12:48:27Z",
+      "url": "http://arxiv.org/abs/2004.07063v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2604.13767v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Making AI Compliance Evidence Machine-Readable",
+      "published_at": "2026-04-15T11:51:54Z",
+      "url": "http://arxiv.org/abs/2604.13767v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2603.00913v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Minimalist Compliance Control",
+      "published_at": "2026-03-01T04:25:54Z",
+      "url": "http://arxiv.org/abs/2603.00913v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1806.09808v3",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Natural illumination solution for rotating space settlements",
+      "published_at": "2018-06-26T06:40:56Z",
+      "url": "http://arxiv.org/abs/1806.09808v3",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/physics/9902072v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Optical dipole traps for neutral atoms",
+      "published_at": "1999-02-24T17:34:15Z",
+      "url": "http://arxiv.org/abs/physics/9902072v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2606.20760v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Privacy-Preserving Compliance on Public Ledgers via Selective Disclosure Authorization Schemes",
+      "published_at": "2026-06-18T09:38:13Z",
+      "url": "http://arxiv.org/abs/2606.20760v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2607.10620v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Sequential compliance decisions of firms on cross-border data flows: An institutionally anchored decision support system",
+      "published_at": "2026-07-12T07:36:12Z",
+      "url": "http://arxiv.org/abs/2607.10620v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2004.02241v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Shielded dumbbell L5 settlement",
+      "published_at": "2020-04-05T16:01:14Z",
+      "url": "http://arxiv.org/abs/2004.02241v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2507.11553v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Stochastic Dynamics of Ripple XRP for Cross-Border Settlement Optimization",
+      "published_at": "2025-07-13T20:00:25Z",
+      "url": "http://arxiv.org/abs/2507.11553v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2008.03775v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Tactics for Internal Compliance: A Literature Review",
+      "published_at": "2020-08-09T17:56:17Z",
+      "url": "http://arxiv.org/abs/2008.03775v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1107.4218v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "The settlement of Madagascar: what dialects and languages can tell",
+      "published_at": "2011-07-21T10:02:31Z",
+      "url": "http://arxiv.org/abs/1107.4218v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/astro-ph/0006286v1",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Theoretical Calculations of Atomic Data for Spectroscopy",
+      "published_at": "2000-06-20T21:26:56Z",
+      "url": "http://arxiv.org/abs/astro-ph/0006286v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1310.3829v2",
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Three interacting atoms in a one-dimensional trap: A benchmark system for computational approaches",
+      "published_at": "2013-10-14T20:00:05Z",
+      "url": "http://arxiv.org/abs/1310.3829v2",
+      "doi": ""
+    },
+    {
+      "record_id": "10.2307/jj.4688123.11",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "APPENDIX 2:",
+      "published_at": "2023-6-8",
+      "url": "https://doi.org/10.2307/jj.4688123.11",
+      "doi": "10.2307/jj.4688123.11"
+    },
+    {
+      "record_id": "10.4324/9781003266921-23",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Application of Multi-CBDC Bridge in Cross-Border Payments",
+      "published_at": "2022-1-20",
+      "url": "https://doi.org/10.4324/9781003266921-23",
+      "doi": "10.4324/9781003266921-23"
+    },
+    {
+      "record_id": "10.2139/ssrn.5394110",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "CBDC Cross-Border Settlement Prototype: Programmable Compliance for Cross-Border CBDC Settlement Using ISO 20022 and FATF Travel Rule Automation",
+      "published_at": "2025",
+      "url": "https://doi.org/10.2139/ssrn.5394110",
+      "doi": "10.2139/ssrn.5394110"
+    },
+    {
+      "record_id": "10.2139/ssrn.5116512",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "CBDC Settlement: Implications for Money Creation and Maturity Transformation",
+      "published_at": "2025",
+      "url": "https://doi.org/10.2139/ssrn.5116512",
+      "doi": "10.2139/ssrn.5116512"
+    },
+    {
+      "record_id": "10.1108/978-1-83797-130-520241014",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Central Bank Digital Currency (CBDC): Concepts, Wholesale and Cross-Border CBDC",
+      "published_at": "2024-9-27",
+      "url": "https://doi.org/10.1108/978-1-83797-130-520241014",
+      "doi": "10.1108/978-1-83797-130-520241014"
+    },
+    {
+      "record_id": "10.58532/nbennurampo7",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "CROSS-BORDER CBDC &amp; INTEROPERABILITY: CROSS-BORDER PAYMENTS &amp; MULTIPLE CBDC SYSTEMS (MCBDC)",
+      "published_at": "2025-3-1",
+      "url": "https://doi.org/10.58532/nbennurampo7",
+      "doi": "10.58532/nbennurampo7"
+    },
+    {
+      "record_id": "10.2307/j.ctv9hvqz9",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Cross-Border Commemorations",
+      "published_at": "2019-6-30",
+      "url": "https://doi.org/10.2307/j.ctv9hvqz9",
+      "doi": "10.2307/j.ctv9hvqz9"
+    },
+    {
+      "record_id": "10.2139/ssrn.2335449",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Cross-Border Trade Settlement in Renminbi  - Risks, Implications and Prospects",
+      "published_at": "2013",
+      "url": "https://doi.org/10.2139/ssrn.2335449",
+      "doi": "10.2139/ssrn.2335449"
+    },
+    {
+      "record_id": "10.2139/ssrn.6676567",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Digital Co-Governance: A Multi-CBDC and AI Architecture for Cross‑Border Payments Beyond Dollar Dominance",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6676567",
+      "doi": "10.2139/ssrn.6676567"
+    },
+    {
+      "record_id": "10.22541/au.175873362.28991390/v1",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Digital Gold-Backed Regional/Trading Bloc Settlement Framework: An Alternative Cross-Border Settlement for Developing and Underdeveloped Economies",
+      "published_at": "2025-9-24",
+      "url": "https://doi.org/10.22541/au.175873362.28991390/v1",
+      "doi": "10.22541/au.175873362.28991390/v1"
+    },
+    {
+      "record_id": "10.22541/au.175873362.28991390/v2",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Digital Gold-Backed Regional/Trading Bloc Settlement Framework: An Alternative Cross-Border Settlement for Developing and Underdeveloped Economies",
+      "published_at": "2025-9-29",
+      "url": "https://doi.org/10.22541/au.175873362.28991390/v2",
+      "doi": "10.22541/au.175873362.28991390/v2"
+    },
+    {
+      "record_id": "10.1007/978-981-19-3242-7_9",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Digital Platforms for Cross-Border Settlement of CBDC",
+      "published_at": "2022",
+      "url": "https://doi.org/10.1007/978-981-19-3242-7_9",
+      "doi": "10.1007/978-981-19-3242-7_9"
+    },
+    {
+      "record_id": "10.36227/techrxiv.175022064.47828583/v1",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Digital Yuan Cross-Border Pilot: Blockchain and AI Integration in China's CBDC Infrastructure (2021-2024)",
+      "published_at": "2025-6-18",
+      "url": "https://doi.org/10.36227/techrxiv.175022064.47828583/v1",
+      "doi": "10.36227/techrxiv.175022064.47828583/v1"
+    },
+    {
+      "record_id": "10.2139/ssrn.3951322",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "International Law Settlement of Territorial and Cross-border Disputes",
+      "published_at": "2021",
+      "url": "https://doi.org/10.2139/ssrn.3951322",
+      "doi": "10.2139/ssrn.3951322"
+    },
+    {
+      "record_id": "10.22617/tcs220357-2",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Local Currency Collateral for Cross-Border Financial Transactions",
+      "published_at": "2022-9",
+      "url": "https://doi.org/10.22617/tcs220357-2",
+      "doi": "10.22617/tcs220357-2"
+    },
+    {
+      "record_id": "10.2139/ssrn.5318801",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Reducing Cross-Border Settlement Frictions Through Grmtmaos",
+      "published_at": "2025",
+      "url": "https://doi.org/10.2139/ssrn.5318801",
+      "doi": "10.2139/ssrn.5318801"
+    },
+    {
+      "record_id": "10.2139/ssrn.7061098",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Shifting Paradigms in Cross-Border Service Exports: Legal Compliance and GST Registration Thresholds for Independent Consultants in India",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.7061098",
+      "doi": "10.2139/ssrn.7061098"
+    },
+    {
+      "record_id": "10.2139/ssrn.7057658",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Sovereign Asset Tokenization and Federated Cross-Border Securities Settlement",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.7057658",
+      "doi": "10.2139/ssrn.7057658"
+    },
+    {
+      "record_id": "10.1093/tandt/ttw239",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Step Advanced Certificate in Cross-Border Estates",
+      "published_at": "2017-4",
+      "url": "https://doi.org/10.1093/tandt/ttw239",
+      "doi": "10.1093/tandt/ttw239"
+    },
+    {
+      "record_id": "10.4337/9781785365300.00034",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "THE EUROPEAN CERTIFICATE OF SUCCESSION: REDRESS PROCEDURE AND SUSPENSION OF THE EFFECTS OF THE CERTIFICATE",
+      "published_at": "2022-6-10",
+      "url": "https://doi.org/10.4337/9781785365300.00034",
+      "doi": "10.4337/9781785365300.00034"
+    },
+    {
+      "record_id": "10.2139/ssrn.6029594",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "The Glass Border: Behavioral Risk and Forensic Realities in U.S.-Mexico Cross-Border Compliance",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6029594",
+      "doi": "10.2139/ssrn.6029594"
+    },
+    {
+      "record_id": "10.2139/ssrn.6232900",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "The Gold Bridge Protocol: Neutral Cross-Border CBDC Settlement via Tokenised Gold",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6232900",
+      "doi": "10.2139/ssrn.6232900"
+    },
+    {
+      "record_id": "10.1017/9781788216333.009",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Wholesale CBDC: cross-border examples",
+      "published_at": "2023-6-8",
+      "url": "https://doi.org/10.1017/9781788216333.009",
+      "doi": "10.1017/9781788216333.009"
+    },
+    {
+      "record_id": "10.47576/2949-1916.2026.5.5.011",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Сравнительный анализ мульти-платформ CBDC и их влияние на трансграничные платежные системы",
+      "published_at": "2026-5-31",
+      "url": "https://doi.org/10.47576/2949-1916.2026.5.5.011",
+      "doi": "10.47576/2949-1916.2026.5.5.011"
+    },
+    {
+      "record_id": "10.33516/maj.v58i1.55-57p",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "“CBDC-Cross Border Payments”",
+      "published_at": "2023-1-1",
+      "url": "https://doi.org/10.33516/maj.v58i1.55-57p",
+      "doi": "10.33516/maj.v58i1.55-57p"
+    },
+    {
+      "record_id": "https://openalex.org/W4396555568",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "A method for classifying blockchains and crypto-assets using 'switching circuits’",
+      "published_at": "2024-04-01",
+      "url": "http://doi.org/10.47473/2020rmm0136",
+      "doi": "10.47473/2020rmm0136"
+    },
+    {
+      "record_id": "https://openalex.org/W4309715781",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "A Multi-Currency Exchange and Contracting Platform",
+      "published_at": "2022-11-01",
+      "url": "https://doi.org/10.5089/9798400224188.001",
+      "doi": "10.5089/9798400224188.001"
+    },
+    {
+      "record_id": "https://openalex.org/W4412813095",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "A Policy-Driven Ecosystem for an Indonesian Rupiah Stablecoin",
+      "published_at": "2025-07-31",
+      "url": "https://doi.org/10.36227/techrxiv.175393423.36882276/v1",
+      "doi": "10.36227/techrxiv.175393423.36882276/v1"
+    },
+    {
+      "record_id": "https://openalex.org/W4412796128",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "A Quantum-Safe, Interoperable, and Decentralized Payment Infrastructure for the Post-Classical Era as a Strategic Framework for Secure Global Transactions",
+      "published_at": "2025-07-31",
+      "url": "https://doi.org/10.19044/esj.2025.v21n19p17",
+      "doi": "10.19044/esj.2025.v21n19p17"
+    },
+    {
+      "record_id": "https://openalex.org/W7128681996",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "A Survey on Securing Smart Finance using Artificial Intelligence and Blockchain",
+      "published_at": "2026-01-10",
+      "url": "https://doi.org/10.70470/shifra/2026/001",
+      "doi": "10.70470/shifra/2026/001"
+    },
+    {
+      "record_id": "https://openalex.org/W3096676007",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain networks :",
+      "published_at": "2021-02-08",
+      "url": "https://doi.org/10.6028/nist.ir.8301",
+      "doi": "10.6028/nist.ir.8301"
+    },
+    {
+      "record_id": "https://openalex.org/W4255533925",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain Networks:",
+      "published_at": "2020-09-29",
+      "url": "https://doi.org/10.6028/nist.ir.8301-draft",
+      "doi": "10.6028/nist.ir.8301-draft"
+    },
+    {
+      "record_id": "https://openalex.org/W4406695548",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain Technology in Project Finance",
+      "published_at": "2025-01-22",
+      "url": "https://doi.org/10.4324/9781003568797",
+      "doi": "10.4324/9781003568797"
+    },
+    {
+      "record_id": "https://openalex.org/W4313892677",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "CBDC bridging between Hyperledger Fabric and permissioned EVM-based blockchains",
+      "published_at": "2023-01-09",
+      "url": "http://dx.doi.org/10.36227/techrxiv.21809430.v1",
+      "doi": "10.36227/techrxiv.21809430.v1"
+    },
+    {
+      "record_id": "https://openalex.org/W4360985261",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "CBDC bridging between Hyperledger Fabric and permissioned EVM-based blockchains",
+      "published_at": "2023-03-26",
+      "url": "https://doi.org/10.36227/techrxiv.21809430.v2",
+      "doi": "10.36227/techrxiv.21809430.v2"
+    },
+    {
+      "record_id": "https://openalex.org/W4396692413",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Compliance Design Options for Offline CBDCs: Balancing Privacy and AML/CFT",
+      "published_at": "2024-01-01",
+      "url": "https://doi.org/10.2139/ssrn.4770513",
+      "doi": "10.2139/ssrn.4770513"
+    },
+    {
+      "record_id": "https://openalex.org/W3047794938",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Design Choices for Central Bank Digital Currency: Policy and Technical Considerations",
+      "published_at": "2020-08-01",
+      "url": "https://doi.org/10.3386/w27634",
+      "doi": "10.3386/w27634"
+    },
+    {
+      "record_id": "https://openalex.org/W7128361419",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Digital assets: risks, regulations, mitigation",
+      "published_at": "2026-02-09",
+      "url": "https://doi.org/10.1186/s40854-025-00848-y",
+      "doi": "10.1186/s40854-025-00848-y"
+    },
+    {
+      "record_id": "https://openalex.org/W4400155312",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Digitalisation and Finance in Asia",
+      "published_at": "2021-12-17",
+      "url": "https://doi.org/10.1787/dad32d34-en",
+      "doi": "10.1787/dad32d34-en"
+    },
+    {
+      "record_id": "https://openalex.org/W4313328444",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Digitalization, Emerging Technologies, and Financial Stability: Challenges and Opportunities for the Indonesian Banking Industry and Beyond",
+      "published_at": "2022-12-29",
+      "url": "https://doi.org/10.32388/csttyq.2",
+      "doi": "10.32388/csttyq.2"
+    },
+    {
+      "record_id": "https://openalex.org/W4318824278",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Digitalization, Emerging Technologies, and Financial Stability: Challenges and Opportunities for the Indonesian Banking Sector and Beyond. Muyanja Ssenyonga Jameaba",
+      "published_at": "2023-02-01",
+      "url": "https://doi.org/10.32388/csttyq.3",
+      "doi": "10.32388/csttyq.3"
+    },
+    {
+      "record_id": "https://openalex.org/W4400154113",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Financial markets, insurance and pensions 2020",
+      "published_at": "2020-01-01",
+      "url": "https://doi.org/10.1787/82237955-en",
+      "doi": "10.1787/82237955-en"
+    },
+    {
+      "record_id": "https://openalex.org/W4406975702",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Gateways for Institutional-Grade Commerce and Interoperability of Digital Assets",
+      "published_at": "2025-01-29",
+      "url": "http://arxiv.org/abs/2501.17732",
+      "doi": "10.48550/arxiv.2501.17732"
+    },
+    {
+      "record_id": "https://openalex.org/W7133130606",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Global Adoption and Impact of Blockchain Technology in Government: Enhancing Transparency, Efficiency, and Trust in Public Services",
+      "published_at": "2026-03-01",
+      "url": "https://doi.org/10.3390/info17030235",
+      "doi": "10.3390/info17030235"
+    },
+    {
+      "record_id": "https://openalex.org/W4416910163",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Global Standardization Model for Next-Generation Blockchain Interoperability in Payment Systems",
+      "published_at": "2025-01-01",
+      "url": "https://doi.org/10.54660/.ijmrge.2025.6.6.820-834",
+      "doi": "10.54660/.ijmrge.2025.6.6.820-834"
+    },
+    {
+      "record_id": "https://openalex.org/W4410886881",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Privacy and Compliance Design Options in Offline Central Bank Digital Currencies",
+      "published_at": "2025-05-30",
+      "url": "https://doi.org/10.1109/tnsm.2025.3575367",
+      "doi": "10.1109/tnsm.2025.3575367"
+    },
+    {
+      "record_id": "https://openalex.org/W4362503210",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Swiss National Bank and Swiss Franc’s Role in Global Financial Markets",
+      "published_at": "2023-01-01",
+      "url": "https://doi.org/10.1007/978-3-031-23194-0_7",
+      "doi": "10.1007/978-3-031-23194-0_7"
+    },
+    {
+      "record_id": "https://openalex.org/W4400597344",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "The Inclusive Innovation of Blockchain in Securities Issuance: Reduced Inequalities of Investors",
+      "published_at": "2024-06-10",
+      "url": "https://doi.org/10.37934/araset.46.2.188212",
+      "doi": "10.37934/araset.46.2.188212"
+    },
+    {
+      "record_id": "https://openalex.org/W3202305173",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Universal Payment Channels: An Interoperability Platform for Digital Currencies",
+      "published_at": "2021-09-24",
+      "url": "http://arxiv.org/abs/2109.12194",
+      "doi": "10.48550/arxiv.2109.12194"
+    },
+    {
+      "record_id": "https://openalex.org/W4286963136",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Universal Payment Channels: An Interoperability Platform for Digital\\n Currencies",
+      "published_at": "2021-09-24",
+      "url": "http://arxiv.org/abs/2109.12194",
+      "doi": "10.48550/arxiv.2109.12194"
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2101.05259v6",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "A Digital Currency Architecture for Privacy and Owner-Custodianship",
+      "published_at": "2021-01-13T18:44:10Z",
+      "url": "http://arxiv.org/abs/2101.05259v6",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2311.16105v1",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "A Privacy-preserving Central Bank Ledger for Central Bank Digital Currency",
+      "published_at": "2023-08-16T12:33:08Z",
+      "url": "http://arxiv.org/abs/2311.16105v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2401.06457v1",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Analysis of the Impact of Central bank Digital Currency on the Demand for Transactional Currency",
+      "published_at": "2024-01-12T09:07:59Z",
+      "url": "http://arxiv.org/abs/2401.06457v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2507.08880v1",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Central Bank Digital Currencies: A Survey",
+      "published_at": "2025-07-10T08:51:48Z",
+      "url": "http://arxiv.org/abs/2507.08880v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2602.23659v2",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Central Bank Digital Currencies: Where is the Privacy, Technology, and Anonymity?",
+      "published_at": "2026-02-27T03:56:40Z",
+      "url": "http://arxiv.org/abs/2602.23659v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2308.10359v7",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Central Bank Digital Currency with Collateral-constrained Banks",
+      "published_at": "2023-08-20T20:24:49Z",
+      "url": "http://arxiv.org/abs/2308.10359v7",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2510.21071v2",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Central Bank Digital Currency, Flight-to-Quality, and Bank-Runs in an Agent-Based Model",
+      "published_at": "2025-10-24T01:00:52Z",
+      "url": "http://arxiv.org/abs/2510.21071v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2507.15048v2",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Central Bank Digital Currency: Demand Shocks and Optimal Monetary Policy",
+      "published_at": "2025-07-20T17:05:43Z",
+      "url": "http://arxiv.org/abs/2507.15048v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2407.07898v1",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Central Bank Digital Currency: The Advent of its IT Governance in the financial markets",
+      "published_at": "2024-05-17T09:55:07Z",
+      "url": "http://arxiv.org/abs/2407.07898v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2112.01122v3",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures",
+      "published_at": "2021-12-02T10:56:31Z",
+      "url": "http://arxiv.org/abs/2112.01122v3",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2503.11947v4",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Ethical AI for Young Digital Citizens: A Call to Action on Privacy Governance",
+      "published_at": "2025-03-15T01:35:56Z",
+      "url": "http://arxiv.org/abs/2503.11947v4",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2308.08362v2",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Functional Consistency across Retail Central Bank Digital Currency and Commercial Bank Money",
+      "published_at": "2023-08-16T13:38:56Z",
+      "url": "http://arxiv.org/abs/2308.08362v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2308.15787v2",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "How does post-quantum cryptography affect Central Bank Digital Currency?",
+      "published_at": "2023-08-30T06:44:20Z",
+      "url": "http://arxiv.org/abs/2308.15787v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2412.04051v2",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "How to design a Public Key Infrastructure for a Central Bank Digital Currency",
+      "published_at": "2024-12-05T10:41:38Z",
+      "url": "http://arxiv.org/abs/2412.04051v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2103.00254v1",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "How to Issue a Central Bank Digital Currency",
+      "published_at": "2021-02-27T15:46:51Z",
+      "url": "http://arxiv.org/abs/2103.00254v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2203.17018v2",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Illustrative Industry Architecture to Mitigate Potential Fragmentation across a Central Bank Digital Currency and Commercial Bank Money",
+      "published_at": "2022-03-31T13:20:47Z",
+      "url": "http://arxiv.org/abs/2203.17018v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2512.10636v1",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Objectives and Design Principles in Offline Payments with Central Bank Digital Currency (CBDC)",
+      "published_at": "2025-12-11T13:39:50Z",
+      "url": "http://arxiv.org/abs/2512.10636v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2408.06956v1",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "PayOff: A Regulated Central Bank Digital Currency with Private Offline Payments",
+      "published_at": "2024-08-13T15:15:06Z",
+      "url": "http://arxiv.org/abs/2408.06956v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2602.18539v1",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Poster: Privacy-Preserving Compliance Checks on Ethereum via Selective Disclosure",
+      "published_at": "2026-02-20T14:54:22Z",
+      "url": "http://arxiv.org/abs/2602.18539v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2507.09067v2",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Quantum-Resilient Privacy Ledger (QRPL): A Sovereign Digital Currency for the Post-Quantum Era",
+      "published_at": "2025-07-11T23:02:45Z",
+      "url": "http://arxiv.org/abs/2507.09067v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2403.07070v3",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Retail Central Bank Digital Currency: Motivations, Opportunities, and Mistakes",
+      "published_at": "2024-03-11T18:02:06Z",
+      "url": "http://arxiv.org/abs/2403.07070v3",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2202.07564v1",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Stablecoins and Central Bank Digital Currencies: Policy and Regulatory Challenges",
+      "published_at": "2022-02-15T16:47:47Z",
+      "url": "http://arxiv.org/abs/2202.07564v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2108.05946v3",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "The Development of Central Bank Digital Currency in China: An Analysis",
+      "published_at": "2021-08-12T19:54:32Z",
+      "url": "http://arxiv.org/abs/2108.05946v3",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2312.17708v1",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "The six ways to build trust and reduce privacy concern in a Central Bank Digital Currency (CBDC)",
+      "published_at": "2023-12-29T17:52:13Z",
+      "url": "http://arxiv.org/abs/2312.17708v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2012.08003v1",
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Towards a Two-Tier Hierarchical Infrastructure: An Offline Payment System for Central Bank Digital Currencies",
+      "published_at": "2020-12-14T23:22:56Z",
+      "url": "http://arxiv.org/abs/2012.08003v1",
+      "doi": ""
+    },
+    {
+      "record_id": "10.38105/spr.j0hildxtyi",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "AML by design: Designing a central bank digital currency to stifle money laundering",
+      "published_at": "2022-8-29",
+      "url": "https://doi.org/10.38105/spr.j0hildxtyi",
+      "doi": "10.38105/spr.j0hildxtyi"
+    },
+    {
+      "record_id": "10.1007/978-3-031-80957-6_9",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Anti-Money Laundering (AML) Implications of Central Bank Digital Currencies (CBDC)",
+      "published_at": "2025",
+      "url": "https://doi.org/10.1007/978-3-031-80957-6_9",
+      "doi": "10.1007/978-3-031-80957-6_9"
+    },
+    {
+      "record_id": "10.3390/blockchains4030012",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain-Enabled Central Bank Digital Currency: Technological Architecture, Privacy, and Institutional Design",
+      "published_at": "2026-8-10",
+      "url": "https://doi.org/10.3390/blockchains4030012",
+      "doi": "10.3390/blockchains4030012"
+    },
+    {
+      "record_id": "10.1596/36765",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Central Bank Digital Currency",
+      "published_at": "2021-11",
+      "url": "https://doi.org/10.1596/36765",
+      "doi": "10.1596/36765"
+    },
+    {
+      "record_id": "10.1596/36766",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Central Bank Digital Currency",
+      "published_at": "2021-11",
+      "url": "https://doi.org/10.1596/36766",
+      "doi": "10.1596/36766"
+    },
+    {
+      "record_id": "10.5204/thesis.eprints.246083",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Central Bank Digital Currency (CBDC) in Australia: Motivations, design, implementation challenges, and public adoption",
+      "published_at": "None",
+      "url": "https://doi.org/10.5204/thesis.eprints.246083",
+      "doi": "10.5204/thesis.eprints.246083"
+    },
+    {
+      "record_id": "10.7249/rra2952-1",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Central Bank Digital Currency Design Choices and Effect on Law Enforcement",
+      "published_at": "2025",
+      "url": "https://doi.org/10.7249/rra2952-1",
+      "doi": "10.7249/rra2952-1"
+    },
+    {
+      "record_id": "10.7249/pea2952-1",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Central Bank Digital Currency Design Choices and Effect on Law Enforcement: Key Insights",
+      "published_at": "2025",
+      "url": "https://doi.org/10.7249/pea2952-1",
+      "doi": "10.7249/pea2952-1"
+    },
+    {
+      "record_id": "10.2139/ssrn.3787088",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Central Bank Digital Currency with Asymmetric Privacy",
+      "published_at": "2021",
+      "url": "https://doi.org/10.2139/ssrn.3787088",
+      "doi": "10.2139/ssrn.3787088"
+    },
+    {
+      "record_id": "10.2139/ssrn.4792946",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Central Bank Digital Currency, Privacy, and Welfare",
+      "published_at": "2024",
+      "url": "https://doi.org/10.2139/ssrn.4792946",
+      "doi": "10.2139/ssrn.4792946"
+    },
+    {
+      "record_id": "10.17485/ijst/v17i14.3193",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Database Privacy: Design of User Privacy Preserving Central Bank Digital Currency: A Case of Tanzania",
+      "published_at": "2024-4-3",
+      "url": "https://doi.org/10.17485/ijst/v17i14.3193",
+      "doi": "10.17485/ijst/v17i14.3193"
+    },
+    {
+      "record_id": "10.1007/978-3-031-44738-9_8",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Economic Implications of Central Bank Digital Currency",
+      "published_at": "2023",
+      "url": "https://doi.org/10.1007/978-3-031-44738-9_8",
+      "doi": "10.1007/978-3-031-44738-9_8"
+    },
+    {
+      "record_id": "10.5220/0013562300003979",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "How to Design a Public Key Infrastructure for a Central Bank Digital Currency",
+      "published_at": "2025",
+      "url": "https://doi.org/10.5220/0013562300003979",
+      "doi": "10.5220/0013562300003979"
+    },
+    {
+      "record_id": "10.2139/ssrn.3965050",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "How to issue a privacy-preserving central bank digital currency",
+      "published_at": "2021",
+      "url": "https://doi.org/10.2139/ssrn.3965050",
+      "doi": "10.2139/ssrn.3965050"
+    },
+    {
+      "record_id": "10.2139/ssrn.5016148",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Information, Consumer Privacy, and Central Bank Digital Currency",
+      "published_at": "2024",
+      "url": "https://doi.org/10.2139/ssrn.5016148",
+      "doi": "10.2139/ssrn.5016148"
+    },
+    {
+      "record_id": "10.5220/0012308600003648",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "KAIME: Central Bank Digital Currency with Realistic and Modular Privacy",
+      "published_at": "2024",
+      "url": "https://doi.org/10.5220/0012308600003648",
+      "doi": "10.5220/0012308600003648"
+    },
+    {
+      "record_id": "10.1016/j.red.2023.06.004",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Money laundering and the privacy design of central bank digital currency",
+      "published_at": "2023-12",
+      "url": "https://doi.org/10.1016/j.red.2023.06.004",
+      "doi": "10.1016/j.red.2023.06.004"
+    },
+    {
+      "record_id": "10.2139/ssrn.4394190",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Money Laundering and the Privacy Design of Central Bank Digital Currency",
+      "published_at": "2023",
+      "url": "https://doi.org/10.2139/ssrn.4394190",
+      "doi": "10.2139/ssrn.4394190"
+    },
+    {
+      "record_id": "10.2139/ssrn.4321306",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Optimal Central Bank Digital Currency (CBDC) Design for Emerging Economies",
+      "published_at": "2023",
+      "url": "https://doi.org/10.2139/ssrn.4321306",
+      "doi": "10.2139/ssrn.4321306"
+    },
+    {
+      "record_id": "10.2139/ssrn.4793196",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Optimal Design of Central Bank Digital Currency",
+      "published_at": "2024",
+      "url": "https://doi.org/10.2139/ssrn.4793196",
+      "doi": "10.2139/ssrn.4793196"
+    },
+    {
+      "record_id": "10.2139/ssrn.5566398",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Optimal Privacy Protection in Central Bank Digital Currency",
+      "published_at": "2025",
+      "url": "https://doi.org/10.2139/ssrn.5566398",
+      "doi": "10.2139/ssrn.5566398"
+    },
+    {
+      "record_id": "10.2139/ssrn.4366778",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Policy Design of Retail Central Bank Digital Currencies: Embedding AML/CFT Compliance",
+      "published_at": "2023",
+      "url": "https://doi.org/10.2139/ssrn.4366778",
+      "doi": "10.2139/ssrn.4366778"
+    },
+    {
+      "record_id": "10.5220/0015159500004103",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Privacy-Preserving Compliance on Public Ledgers via Selective Disclosure Authorization Schemes",
+      "published_at": "2026",
+      "url": "https://doi.org/10.5220/0015159500004103",
+      "doi": "10.5220/0015159500004103"
+    },
+    {
+      "record_id": "10.2139/ssrn.3755573",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Tax Compliance, Payment Choice, and Central Bank Digital Currency",
+      "published_at": "2021",
+      "url": "https://doi.org/10.2139/ssrn.3755573",
+      "doi": "10.2139/ssrn.3755573"
+    },
+    {
+      "record_id": "10.1007/978-3-031-44738-9_1",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Terminology and Motives for Central Bank Digital Currency",
+      "published_at": "2023",
+      "url": "https://doi.org/10.1007/978-3-031-44738-9_1",
+      "doi": "10.1007/978-3-031-44738-9_1"
+    },
+    {
+      "record_id": "https://openalex.org/W2897433711",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain Technology the Identity Management and Authentication Service Disruptor: A Survey",
+      "published_at": "2018-09-30",
+      "url": "https://doi.org/10.18517/ijaseit.8.4-2.6838",
+      "doi": "10.18517/ijaseit.8.4-2.6838"
+    },
+    {
+      "record_id": "https://openalex.org/W4383225110",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Central Bank Digital Currencies (CBDCs) and democratic values",
+      "published_at": "2023-07-05",
+      "url": "https://doi.org/10.1787/f3e70f1f-en",
+      "doi": "10.1787/f3e70f1f-en"
+    },
+    {
+      "record_id": "https://openalex.org/W4210414016",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Central Bank Risk Management, Fintech, and Cybersecurity",
+      "published_at": "2021-01-01",
+      "url": "https://doi.org/10.2139/ssrn.4026279",
+      "doi": "10.2139/ssrn.4026279"
+    },
+    {
+      "record_id": "https://openalex.org/W4254161028",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Central Bank Risk Management, Fintech, and Cybersecurity",
+      "published_at": "2021-04-01",
+      "url": "https://doi.org/10.5089/9781513582344.001",
+      "doi": "10.5089/9781513582344.001"
+    },
+    {
+      "record_id": "https://openalex.org/W4413959781",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Comparative Analysis Of Global Central Bank Digital Currency (CBDC) Projects",
+      "published_at": "2025-07-07",
+      "url": "https://doi.org/10.64252/8y2mm374",
+      "doi": "10.64252/8y2mm374"
+    },
+    {
+      "record_id": "https://openalex.org/W2408435428",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Corporate Governance in an Era of Compliance",
+      "published_at": "2016-04-18",
+      "url": "https://scholarship.law.wm.edu/wmlr/vol57/iss6/4",
+      "doi": ""
+    },
+    {
+      "record_id": "https://openalex.org/W4225302210",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Cryptocurrencies and Decentralized Finance (DeFi)",
+      "published_at": "2022-04-01",
+      "url": "https://doi.org/10.3386/w30006",
+      "doi": "10.3386/w30006"
+    },
+    {
+      "record_id": "https://openalex.org/W4386590040",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Data Privacy for Digital Asset Systems",
+      "published_at": "2023-09-01",
+      "url": "https://doi.org/10.17016/feds.2023.059",
+      "doi": "10.17016/feds.2023.059"
+    },
+    {
+      "record_id": "https://openalex.org/W3047794938",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Design Choices for Central Bank Digital Currency: Policy and Technical Considerations",
+      "published_at": "2020-08-01",
+      "url": "https://doi.org/10.3386/w27634",
+      "doi": "10.3386/w27634"
+    },
+    {
+      "record_id": "https://openalex.org/W4416226677",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Digital Regulatory Governance: The Role of RegTech and SupTech in Transforming Financial Oversight and Administrative Capacity",
+      "published_at": "2025-11-14",
+      "url": "https://doi.org/10.3390/ijfs13040217",
+      "doi": "10.3390/ijfs13040217"
+    },
+    {
+      "record_id": "https://openalex.org/W4409834520",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Exploring Cross-Border Digital Assets Flows and Central Bank Digital Currency Risks to Capital Markets Financial Stability",
+      "published_at": "2023-11-28",
+      "url": "https://doi.org/10.38124/ijsrmt.v2i11.447",
+      "doi": "10.38124/ijsrmt.v2i11.447"
+    },
+    {
+      "record_id": "https://openalex.org/W4367321497",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Leveraging Anti-money Laundering Measures to Improve Tax Compliance and Help Mobilize Domestic Revenues",
+      "published_at": "2023-04-01",
+      "url": "https://doi.org/10.5089/9798400240409.001",
+      "doi": "10.5089/9798400240409.001"
+    },
+    {
+      "record_id": "https://openalex.org/W4308642090",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "PEReDi",
+      "published_at": "2022-11-07",
+      "url": "https://doi.org/10.1145/3548606.3560707",
+      "doi": "10.1145/3548606.3560707"
+    },
+    {
+      "record_id": "https://openalex.org/W4410886881",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Privacy and Compliance Design Options in Offline Central Bank Digital Currencies",
+      "published_at": "2025-05-30",
+      "url": "https://doi.org/10.1109/tnsm.2025.3575367",
+      "doi": "10.1109/tnsm.2025.3575367"
+    },
+    {
+      "record_id": "https://openalex.org/W3161610010",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Privacy and Transparency in CBDCs: A Regulation-by-Design AML/CFT Scheme",
+      "published_at": "2021-01-01",
+      "url": "https://doi.org/10.2139/ssrn.3759144",
+      "doi": "10.2139/ssrn.3759144"
+    },
+    {
+      "record_id": "https://openalex.org/W3177297672",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Privacy and Transparency in CBDCs: A Regulation-by-Design AML/CFT Scheme",
+      "published_at": "2021-05-03",
+      "url": "https://doi.org/10.1109/icbc51069.2021.9461090",
+      "doi": "10.1109/icbc51069.2021.9461090"
+    },
+    {
+      "record_id": "https://openalex.org/W4251241846",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Privacy and Transparency in CBDCs: A Regulation-by-Design AML/CFT Scheme",
+      "published_at": "2021-12-21",
+      "url": "https://doi.org/10.1109/tnsm.2021.3136984",
+      "doi": "10.1109/tnsm.2021.3136984"
+    },
+    {
+      "record_id": "https://openalex.org/W3005127326",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Privacy-preserving analytics for the securitization market: a zero-knowledge distributed ledger technology application",
+      "published_at": "2020-01-25",
+      "url": "https://doi.org/10.1186/s40854-020-0172-y",
+      "doi": "10.1186/s40854-020-0172-y"
+    },
+    {
+      "record_id": "https://openalex.org/W4413895026",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Reshaping state-finance-tech nexus through central bank digital currencies: the case of the mBridge project",
+      "published_at": "2025-09-01",
+      "url": "https://doi.org/10.1080/2833115x.2025.2539714",
+      "doi": "10.1080/2833115x.2025.2539714"
+    },
+    {
+      "record_id": "https://openalex.org/W3003033094",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Self-Sovereign Identity in a Globalized World: Credentials-Based Identity Systems as a Driver for Economic Inclusion",
+      "published_at": "2020-01-22",
+      "url": "https://doi.org/10.3389/fbloc.2019.00028",
+      "doi": "10.3389/fbloc.2019.00028"
+    },
+    {
+      "record_id": "https://openalex.org/W4381687235",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Some Lessons from Asian E-Money Schemes for the Adoption of Central Bank Digital Currency",
+      "published_at": "2023-06-01",
+      "url": "https://doi.org/10.5089/9798400245046.001",
+      "doi": "10.5089/9798400245046.001"
+    },
+    {
+      "record_id": "https://openalex.org/W4394924531",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Systematic review: Comparing zk‐SNARK, zk‐STARK, and bulletproof protocols for privacy‐preserving authentication",
+      "published_at": "2024-04-18",
+      "url": "https://doi.org/10.1002/spy2.401",
+      "doi": "10.1002/spy2.401"
+    },
+    {
+      "record_id": "https://openalex.org/W4400396808",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "The democratization of digital currency in Nigeria: A sentiment analysis of eNaira app usability",
+      "published_at": "2024-07-07",
+      "url": "https://doi.org/10.1080/20421338.2024.2353934",
+      "doi": "10.1080/20421338.2024.2353934"
+    },
+    {
+      "record_id": "https://openalex.org/W4364355576",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "The future of the international financial system: The emerging CBDC network and its impact on regulation",
+      "published_at": "2023-04-11",
+      "url": "https://doi.org/10.1111/rego.12520",
+      "doi": "10.1111/rego.12520"
+    },
+    {
+      "record_id": "https://openalex.org/W4300164163",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Tokenization and Regulatory Compliance for Art and Collectibles Markets: From Regulators’ Demands for Transparency to Investors’ Demands for Privacy",
+      "published_at": "2022-01-01",
+      "url": "https://doi.org/10.1007/978-3-030-95108-5_8",
+      "doi": "10.1007/978-3-030-95108-5_8"
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2503.17371v2",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "A Review of Urban Resilience Frameworks: Transferring Knowledge to Enhance Pandemic Resilience",
+      "published_at": "2025-03-11T21:59:42Z",
+      "url": "http://arxiv.org/abs/2503.17371v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2409.20219v1",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Advanced Resilience Planning for Distribution Systems",
+      "published_at": "2024-09-30T11:56:33Z",
+      "url": "http://arxiv.org/abs/2409.20219v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2511.13384v4",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "CBDC Stress Test in a Dual-Currency Setting",
+      "published_at": "2025-11-17T13:55:02Z",
+      "url": "http://arxiv.org/abs/2511.13384v4",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2305.16893v1",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "CBDC-AquaSphere: Interoperable Central Bank Digital Currency Built on Trusted Computing and Blockchain",
+      "published_at": "2023-05-26T12:54:00Z",
+      "url": "http://arxiv.org/abs/2305.16893v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2106.14962v2",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Chaos Engineering for Enhanced Resilience of Cyber-Physical Systems",
+      "published_at": "2021-06-28T20:02:10Z",
+      "url": "http://arxiv.org/abs/2106.14962v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1404.0103v1",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Comparative Resilience Notions and Vertex Attack Tolerance of Scale-Free Networks",
+      "published_at": "2014-04-01T01:55:33Z",
+      "url": "http://arxiv.org/abs/1404.0103v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2409.13187v2",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Cooperative Resilience in Artificial Intelligence Multiagent Systems",
+      "published_at": "2024-09-20T03:28:48Z",
+      "url": "http://arxiv.org/abs/2409.13187v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1607.08508v1",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Economics of Resilient Cloud Services",
+      "published_at": "2016-07-28T15:47:43Z",
+      "url": "http://arxiv.org/abs/1607.08508v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2305.08335v1",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Enhancing Cyber-Resilience in Self-Healing Cyber-Physical Systems with Implicit Guarantees",
+      "published_at": "2023-05-15T04:02:03Z",
+      "url": "http://arxiv.org/abs/2305.08335v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2406.10298v1",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Enhancing Resilience of Power Systems against Typhoon Threats: A Hybrid Data-Model Driven Approach",
+      "published_at": "2024-06-13T14:18:45Z",
+      "url": "http://arxiv.org/abs/2406.10298v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1009.1977v2",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Fixpoint & Proof-theoretic Semantics for CLP with Qualification and Proximity",
+      "published_at": "2010-09-10T10:42:09Z",
+      "url": "http://arxiv.org/abs/1009.1977v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1806.02852v1",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Fundamental Concepts of Cyber Resilience: Introduction and Overview",
+      "published_at": "2018-06-07T18:21:07Z",
+      "url": "http://arxiv.org/abs/1806.02852v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2007.10964v1",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Graph Signal Processing for Infrastructure Resilience: Suitability and Future Directions",
+      "published_at": "2020-07-21T17:31:18Z",
+      "url": "http://arxiv.org/abs/2007.10964v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2207.08146v1",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Mapping Disruption Sources in the Power Grid and Implications for Resilience",
+      "published_at": "2022-07-17T11:42:34Z",
+      "url": "http://arxiv.org/abs/2207.08146v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1808.07731v1",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Measuring network resilience through connection patterns",
+      "published_at": "2018-08-23T12:58:04Z",
+      "url": "http://arxiv.org/abs/1808.07731v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2508.08064v7",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "On the Operational Resilience of CBDC: Threats and Prospects of Formal Validation for Offline Payments",
+      "published_at": "2025-08-11T15:08:35Z",
+      "url": "http://arxiv.org/abs/2508.08064v7",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2107.03979v1",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "On the Selection of Loss Severity Distributions to Model Operational Risk",
+      "published_at": "2021-07-08T17:15:41Z",
+      "url": "http://arxiv.org/abs/2107.03979v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2309.07117v3",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "PILOT: A Pre-Trained Model-Based Continual Learning Toolbox",
+      "published_at": "2023-09-13T17:55:11Z",
+      "url": "http://arxiv.org/abs/2309.07117v3",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1608.02877v2",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Propagation of chaos for Hölder continuous interaction kernels via Glivenko-Cantelli",
+      "published_at": "2016-08-09T17:25:22Z",
+      "url": "http://arxiv.org/abs/1608.02877v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1903.06291v3",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Resilience Analysis for Competing Populations",
+      "published_at": "2019-03-14T22:50:21Z",
+      "url": "http://arxiv.org/abs/1903.06291v3",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2510.21587v1",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Resilient Radio Access Networks: AI and the Unknown Unknowns",
+      "published_at": "2025-10-24T15:54:14Z",
+      "url": "http://arxiv.org/abs/2510.21587v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2112.03789v2",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Self-exciting price impact via negative resilience in stochastic order books",
+      "published_at": "2021-12-07T16:04:13Z",
+      "url": "http://arxiv.org/abs/2112.03789v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2408.05403v1",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "The trouble with pilot-wave theory: a critical evaluation",
+      "published_at": "2024-08-10T01:45:59Z",
+      "url": "http://arxiv.org/abs/2408.05403v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2011.14231v1",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "The Vaccine Supply Chain: A Call for Resilience Analytics to Support COVID-19 Vaccine Production and Distribution",
+      "published_at": "2020-11-28T23:22:01Z",
+      "url": "http://arxiv.org/abs/2011.14231v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1703.03046v1",
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Uniqueness and stability for the Vlasov-Poisson system with spatial density in Orlicz spaces",
+      "published_at": "2017-03-08T21:49:39Z",
+      "url": "http://arxiv.org/abs/1703.03046v1",
+      "doi": ""
+    },
+    {
+      "record_id": "10.1201/9781003344575-18",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Automation Management Techniques",
+      "published_at": "2023-3-28",
+      "url": "https://doi.org/10.1201/9781003344575-18",
+      "doi": "10.1201/9781003344575-18"
+    },
+    {
+      "record_id": "10.2139/ssrn.7117550",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Bounding a Digital Run: Realized Stablecoin Runs and CBDC Holding Limits for the Digital Euro",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.7117550",
+      "doi": "10.2139/ssrn.7117550"
+    },
+    {
+      "record_id": "10.2139/ssrn.6882704",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Bridging the Scalability Gap in Digital Servitization: Asset Decoupling, Operational Integration, and the Limits of Service-Led Growth",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6882704",
+      "doi": "10.2139/ssrn.6882704"
+    },
+    {
+      "record_id": "10.1016/j.intfin.2025.102161",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Cash or Cache? Distributional and business cycle implications of CBDC holding limits",
+      "published_at": "2025-6",
+      "url": "https://doi.org/10.1016/j.intfin.2025.102161",
+      "doi": "10.1016/j.intfin.2025.102161"
+    },
+    {
+      "record_id": "10.2139/ssrn.4914202",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Cash or Cache? Distributional and Business Cycle Implications of Cbdc Holding Limits",
+      "published_at": "2024",
+      "url": "https://doi.org/10.2139/ssrn.4914202",
+      "doi": "10.2139/ssrn.4914202"
+    },
+    {
+      "record_id": "10.2139/ssrn.4721913",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "CBDC and the Operational Framework of Monetary Policy",
+      "published_at": "2024",
+      "url": "https://doi.org/10.2139/ssrn.4721913",
+      "doi": "10.2139/ssrn.4721913"
+    },
+    {
+      "record_id": "10.2139/ssrn.6867444",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "CBDC Pilot and Banks' Non-Performing Loans: Evidence from China",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6867444",
+      "doi": "10.2139/ssrn.6867444"
+    },
+    {
+      "record_id": "10.1201/9781003344575-19",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Communications Techniques",
+      "published_at": "2023-3-28",
+      "url": "https://doi.org/10.1201/9781003344575-19",
+      "doi": "10.1201/9781003344575-19"
+    },
+    {
+      "record_id": "10.1201/9781003344575-4",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Complexity",
+      "published_at": "2023-3-28",
+      "url": "https://doi.org/10.1201/9781003344575-4",
+      "doi": "10.1201/9781003344575-4"
+    },
+    {
+      "record_id": "10.1201/9781003344575-20",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "CRM Techniques",
+      "published_at": "2023-3-28",
+      "url": "https://doi.org/10.1201/9781003344575-20",
+      "doi": "10.1201/9781003344575-20"
+    },
+    {
+      "record_id": "10.1201/9781003344575-5",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Decision Making",
+      "published_at": "2023-3-28",
+      "url": "https://doi.org/10.1201/9781003344575-5",
+      "doi": "10.1201/9781003344575-5"
+    },
+    {
+      "record_id": "10.1201/9781003344575-13",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Decision-Making Techniques",
+      "published_at": "2023-3-28",
+      "url": "https://doi.org/10.1201/9781003344575-13",
+      "doi": "10.1201/9781003344575-13"
+    },
+    {
+      "record_id": "10.1201/9781003344575-8",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Distraction",
+      "published_at": "2023-3-28",
+      "url": "https://doi.org/10.1201/9781003344575-8",
+      "doi": "10.1201/9781003344575-8"
+    },
+    {
+      "record_id": "10.1201/9781003344575-7",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Error",
+      "published_at": "2023-3-28",
+      "url": "https://doi.org/10.1201/9781003344575-7",
+      "doi": "10.1201/9781003344575-7"
+    },
+    {
+      "record_id": "10.2139/ssrn.4394322",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Know Your (Holding) Limits: CBDC, Financial Stability and Central Bank Reliance",
+      "published_at": "2023",
+      "url": "https://doi.org/10.2139/ssrn.4394322",
+      "doi": "10.2139/ssrn.4394322"
+    },
+    {
+      "record_id": "10.2139/ssrn.4543369",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Know Your (Holding) Limits: CBDC, Financial Stability and Central Bank Reliance",
+      "published_at": "2023",
+      "url": "https://doi.org/10.2139/ssrn.4543369",
+      "doi": "10.2139/ssrn.4543369"
+    },
+    {
+      "record_id": "10.2139/ssrn.4984785",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Know Your (Holding) Limits: Cbdc, Financial Stability and Central Bank Reliance",
+      "published_at": "2024",
+      "url": "https://doi.org/10.2139/ssrn.4984785",
+      "doi": "10.2139/ssrn.4984785"
+    },
+    {
+      "record_id": "10.1201/9781003344575",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Master Airline Pilot",
+      "published_at": "2023-3-28",
+      "url": "https://doi.org/10.1201/9781003344575",
+      "doi": "10.1201/9781003344575"
+    },
+    {
+      "record_id": "10.1201/9781003344575-30",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Professional Attributes",
+      "published_at": "2023-3-28",
+      "url": "https://doi.org/10.1201/9781003344575-30",
+      "doi": "10.1201/9781003344575-30"
+    },
+    {
+      "record_id": "10.1201/9781003344575-3",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Risk Management",
+      "published_at": "2023-3-28",
+      "url": "https://doi.org/10.1201/9781003344575-3",
+      "doi": "10.1201/9781003344575-3"
+    },
+    {
+      "record_id": "10.1201/9781003344575-9",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Safety",
+      "published_at": "2023-3-28",
+      "url": "https://doi.org/10.1201/9781003344575-9",
+      "doi": "10.1201/9781003344575-9"
+    },
+    {
+      "record_id": "10.1007/s007690050156",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Selecting parameters and limits for equipment operational qualification",
+      "published_at": "1997-10-16",
+      "url": "https://doi.org/10.1007/s007690050156",
+      "doi": "10.1007/s007690050156"
+    },
+    {
+      "record_id": "10.1201/9781003344575-6",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Situational Awareness",
+      "published_at": "2023-3-28",
+      "url": "https://doi.org/10.1201/9781003344575-6",
+      "doi": "10.1201/9781003344575-6"
+    },
+    {
+      "record_id": "10.1201/9781003344575-10",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Time",
+      "published_at": "2023-3-28",
+      "url": "https://doi.org/10.1201/9781003344575-10",
+      "doi": "10.1201/9781003344575-10"
+    },
+    {
+      "record_id": "10.1201/9781003344575-15",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Time Management Techniques",
+      "published_at": "2023-3-28",
+      "url": "https://doi.org/10.1201/9781003344575-15",
+      "doi": "10.1201/9781003344575-15"
+    },
+    {
+      "record_id": "https://openalex.org/W4396562859",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "",
+      "published_at": "2024-04-01",
+      "url": "http://doi.org/10.47473/2020rmm0135",
+      "doi": "10.47473/2020rmm0135"
+    },
+    {
+      "record_id": "https://openalex.org/W4396555568",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "A method for classifying blockchains and crypto-assets using 'switching circuits’",
+      "published_at": "2024-04-01",
+      "url": "http://doi.org/10.47473/2020rmm0136",
+      "doi": "10.47473/2020rmm0136"
+    },
+    {
+      "record_id": "https://openalex.org/W7160705139",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Architecting Trust: An Analytical Overview of Blockchain Fundamentals and Real-World Applications",
+      "published_at": "2026-05-09",
+      "url": "https://doi.org/10.51583/ijltemas.2026.150400076",
+      "doi": "10.51583/ijltemas.2026.150400076"
+    },
+    {
+      "record_id": "https://openalex.org/W4385463828",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Brazil",
+      "published_at": "2023-07-01",
+      "url": "https://doi.org/10.5089/9798400249020.002",
+      "doi": "10.5089/9798400249020.002"
+    },
+    {
+      "record_id": "https://openalex.org/W4388225947",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Central Bank Digital Currencies (CBDCs) - Proceedings of a Colloquium",
+      "published_at": "2023-10-24",
+      "url": "https://doi.org/10.36862/eiz-619",
+      "doi": "10.36862/eiz-619"
+    },
+    {
+      "record_id": "https://openalex.org/W7197992844",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "European dimensions of sustainablе development",
+      "published_at": "2023-01-01",
+      "url": "https://dspace.nuft.edu.ua/handle/123456789/41868",
+      "doi": ""
+    },
+    {
+      "record_id": "https://openalex.org/W4400154113",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Financial markets, insurance and pensions 2020",
+      "published_at": "2020-01-01",
+      "url": "https://doi.org/10.1787/82237955-en",
+      "doi": "10.1787/82237955-en"
+    },
+    {
+      "record_id": "https://openalex.org/W4200284128",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Georgia: 2021 Article IV Consultation-Press Release; Staff Report; and Statement by the Executive Director for Georgia",
+      "published_at": "2021-09-01",
+      "url": "https://doi.org/10.5089/9781513597751.002",
+      "doi": "10.5089/9781513597751.002"
+    },
+    {
+      "record_id": "https://openalex.org/W4406239667",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Governance and Control of Data and Digital Economy in the European Single Market",
+      "published_at": "2025-01-01",
+      "url": "https://doi.org/10.1007/978-3-031-74889-9",
+      "doi": "10.1007/978-3-031-74889-9"
+    },
+    {
+      "record_id": "https://openalex.org/W4312394183",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Handbook on Blockchain",
+      "published_at": "2022-01-01",
+      "url": "https://doi.org/10.1007/978-3-031-07535-3",
+      "doi": "10.1007/978-3-031-07535-3"
+    },
+    {
+      "record_id": "https://openalex.org/W7124990010",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Il valore del dissenso. Riflessioni con Vincenzo Zeno-Zencovich. Vol I",
+      "published_at": "2026-01-20",
+      "url": "https://hdl.handle.net/11590/532138",
+      "doi": "10.13134/979-12-5977-542-9"
+    },
+    {
+      "record_id": "https://openalex.org/W4406391444",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Mapping Ukraine’s Financial Markets and Corporate Governance Framework for a Sustainable Recovery",
+      "published_at": "2025-01-15",
+      "url": "https://doi.org/10.1787/866c5c44-en",
+      "doi": "10.1787/866c5c44-en"
+    },
+    {
+      "record_id": "https://openalex.org/W4389678480",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Namibia",
+      "published_at": "2023-12-01",
+      "url": "https://doi.org/10.5089/9798400262012.002",
+      "doi": "10.5089/9798400262012.002"
+    },
+    {
+      "record_id": "https://openalex.org/W4406300771",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "NAVIGATING THE FUTURE OF EU’S DIGITAL FINANCE AND OPEN FINANCIAL STRATEGIC AUTONOMY THROUGH STRATEGIC REGULATORY MANAGEMENT",
+      "published_at": "2024-01-01",
+      "url": "https://doi.org/10.46763/bssr24242407b",
+      "doi": "10.46763/bssr24242407b"
+    },
+    {
+      "record_id": "https://openalex.org/W4205445873",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "People’s Republic of China",
+      "published_at": "2021-01-01",
+      "url": "https://doi.org/10.5089/9781513566184.002",
+      "doi": "10.5089/9781513566184.002"
+    },
+    {
+      "record_id": "https://openalex.org/W4380537028",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "People’s Republic of China—Hong Kong Special Administrative Region",
+      "published_at": "2023-05-01",
+      "url": "https://doi.org/10.5089/9798400243905.002",
+      "doi": "10.5089/9798400243905.002"
+    },
+    {
+      "record_id": "https://openalex.org/W4281567872",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Peru: 2022 Article IV Consultation-Press Release; Staff Report; and Statement by the Executive Director for Peru",
+      "published_at": "2022-05-01",
+      "url": "https://doi.org/10.5089/9798400208232.002",
+      "doi": "10.5089/9798400208232.002"
+    },
+    {
+      "record_id": "https://openalex.org/W7140105092",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Principle 2 Definitions",
+      "published_at": "2026-01-01",
+      "url": "https://doi.org/10.1007/978-3-032-11001-5_8",
+      "doi": "10.1007/978-3-032-11001-5_8"
+    },
+    {
+      "record_id": "https://openalex.org/W4297513587",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Thailand",
+      "published_at": "2022-09-01",
+      "url": "https://doi.org/10.5089/9798400218583.002",
+      "doi": "10.5089/9798400218583.002"
+    },
+    {
+      "record_id": "https://openalex.org/W4406239639",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "The Digital Euro Package: From Legal Tender to Payment Services Providers",
+      "published_at": "2025-01-01",
+      "url": "https://doi.org/10.1007/978-3-031-74889-9_15",
+      "doi": "10.1007/978-3-031-74889-9_15"
+    },
+    {
+      "record_id": "https://openalex.org/W4416206471",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "The Paradox of Decentralization: NFTs, Platform Capitalism and the Tokenized Knowledge Economy",
+      "published_at": "2025-11-01",
+      "url": "https://doi.org/10.59324/stss.2025.2(11).13",
+      "doi": "10.59324/stss.2025.2(11).13"
+    },
+    {
+      "record_id": "https://openalex.org/W4379135257",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "The role of private and public regulation in the case study of crypto-assets: The Italian move towards participatory regulation",
+      "published_at": "2023-06-02",
+      "url": "https://doi.org/10.1016/j.clsr.2023.105831",
+      "doi": "10.1016/j.clsr.2023.105831"
+    },
+    {
+      "record_id": "https://openalex.org/W2999044884",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Tiered CBDC and the Financial System",
+      "published_at": "2020-01-01",
+      "url": "https://doi.org/10.2139/ssrn.3513422",
+      "doi": "10.2139/ssrn.3513422"
+    },
+    {
+      "record_id": "https://openalex.org/W4288791756",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Understanding the tokenisation of assets in financial markets",
+      "published_at": "2021-11-03",
+      "url": "https://doi.org/10.1787/c033401a-en",
+      "doi": "10.1787/c033401a-en"
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1006.4549v1",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "A Flexible and Secure Deployment Framework for Distributed Applications",
+      "published_at": "2010-06-23T15:07:26Z",
+      "url": "http://arxiv.org/abs/1006.4549v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2607.16218v1",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "A Fuzzy Logic Framework for Community-Aware Crime Hotspot Detection: Prototype Application Architecture and Exploratory Validation for an Urban Computing Platform",
+      "published_at": "2026-06-12T01:31:19Z",
+      "url": "http://arxiv.org/abs/2607.16218v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2510.18571v1",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "A Multi-Evidence Framework Rescues Low-Power Prognostic Signals and Rejects Statistical Artifacts in Cancer Genomics",
+      "published_at": "2025-10-21T12:27:18Z",
+      "url": "http://arxiv.org/abs/2510.18571v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2603.29981v3",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Aligning Validation with Deployment in Spatial Prediction: Target-Weighted Cross-Validation",
+      "published_at": "2026-03-31T16:44:07Z",
+      "url": "http://arxiv.org/abs/2603.29981v3",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2509.25469v1",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Balancing Compliance and Privacy in Offline CBDC Transactions Using a Secure Element-based System",
+      "published_at": "2025-09-29T20:19:31Z",
+      "url": "http://arxiv.org/abs/2509.25469v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2605.27720v1",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Bayesian Deployment Approval for Learned Landing Controllers under Finite Rollout Validation",
+      "published_at": "2026-05-26T21:45:17Z",
+      "url": "http://arxiv.org/abs/2605.27720v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2511.13384v4",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "CBDC Stress Test in a Dual-Currency Setting",
+      "published_at": "2025-11-17T13:55:02Z",
+      "url": "http://arxiv.org/abs/2511.13384v4",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2305.16893v1",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "CBDC-AquaSphere: Interoperable Central Bank Digital Currency Built on Trusted Computing and Blockchain",
+      "published_at": "2023-05-26T12:54:00Z",
+      "url": "http://arxiv.org/abs/2305.16893v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1404.7763v2",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Deployment Calculation and Analysis for a Fail-Operational Automotive Platform",
+      "published_at": "2014-04-30T15:35:15Z",
+      "url": "http://arxiv.org/abs/1404.7763v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2606.14966v2",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Deployment-Aware Controller and Control Architecture Co-Design via Mixed-Integer Output-Feedback SLS",
+      "published_at": "2026-06-12T21:33:50Z",
+      "url": "http://arxiv.org/abs/2606.14966v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2608.21559v1",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Evidence-State Reliability Under Controlled Degradation: Parser-Validity Divergence in a Multi-Stage LLM Pipeline",
+      "published_at": "2026-08-21T18:50:13Z",
+      "url": "http://arxiv.org/abs/2608.21559v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2410.07692v3",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Extending the European Competence Framework for Quantum Technologies: new proficiency triangle and qualification profiles",
+      "published_at": "2024-10-10T08:02:54Z",
+      "url": "http://arxiv.org/abs/2410.07692v3",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1009.1977v2",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Fixpoint & Proof-theoretic Semantics for CLP with Qualification and Proximity",
+      "published_at": "2010-09-10T10:42:09Z",
+      "url": "http://arxiv.org/abs/1009.1977v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2103.01006v4",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "GaNDLF: A Generally Nuanced Deep Learning Framework for Scalable End-to-End Clinical Workflows in Medical Imaging",
+      "published_at": "2021-02-26T02:24:52Z",
+      "url": "http://arxiv.org/abs/2103.01006v4",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1007.5435v1",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Generalized Qualification and Qualification Levels for Spectral Regularization Methods",
+      "published_at": "2010-07-25T22:10:18Z",
+      "url": "http://arxiv.org/abs/1007.5435v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2508.08064v7",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "On the Operational Resilience of CBDC: Threats and Prospects of Formal Validation for Offline Payments",
+      "published_at": "2025-08-11T15:08:35Z",
+      "url": "http://arxiv.org/abs/2508.08064v7",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2605.27827v1",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Operational AI Deployment Assurance: Governance-State Orchestration Under Threshold-Sensitive Deployment Conditions -- A Governance Framework for High-Stakes AI Systems",
+      "published_at": "2026-05-27T01:33:40Z",
+      "url": "http://arxiv.org/abs/2605.27827v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2108.05010v1",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Prototype Completion for Few-Shot Learning",
+      "published_at": "2021-08-11T03:44:00Z",
+      "url": "http://arxiv.org/abs/2108.05010v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2411.12259v1",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Prototype Optimization with Neural ODE for Few-Shot Learning",
+      "published_at": "2024-11-19T06:17:25Z",
+      "url": "http://arxiv.org/abs/2411.12259v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2608.15820v1",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "QuantumPhaseNet: A Gauge-Covariant Geometric and Quantum-Spectral Theory of Semantic Concept Hierarchies with Prototype Validation of a Classical Quantum-Inspired Model",
+      "published_at": "2026-08-16T15:52:50Z",
+      "url": "http://arxiv.org/abs/2608.15820v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2511.05505v1",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Rewiring Human Brain Networks via Lightweight Dynamic Connectivity Framework: An EEG-Based Stress Validation",
+      "published_at": "2025-10-17T13:21:48Z",
+      "url": "http://arxiv.org/abs/2511.05505v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2607.29089v1",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "The Deployment Wall: A Diagnostic Framework and Instrument for Enterprise AI in the Deployment Era",
+      "published_at": "2026-07-31T07:16:38Z",
+      "url": "http://arxiv.org/abs/2607.29089v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2603.15674v2",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Theoretical Foundations of Latent Posterior Factors: Formal Guarantees for Multi-Evidence Reasoning",
+      "published_at": "2026-03-13T17:44:14Z",
+      "url": "http://arxiv.org/abs/2603.15674v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2605.11886v1",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Towards Virtual Qualification in Nuclear Fusion: Demonstrating Probabilistic Model Validation on a High Heat Flux Component",
+      "published_at": "2026-05-12T10:01:06Z",
+      "url": "http://arxiv.org/abs/2605.11886v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/cs/0609119v2",
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Verification, Validation and Integrity of Distributed and Interchanged Rule Based Policies and Contracts in the Semantic Web",
+      "published_at": "2006-09-21T11:50:24Z",
+      "url": "http://arxiv.org/abs/cs/0609119v2",
+      "doi": ""
+    },
+    {
+      "record_id": "10.2139/ssrn.6816418",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "A Machine Learning Framework for Human Capital-Based Mortgage Qualification: Evidence from U.S. Immigrant Borrower Cohorts",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6816418",
+      "doi": "10.2139/ssrn.6816418"
+    },
+    {
+      "record_id": "10.3109/9780849382680-22",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Appendix D",
+      "published_at": "2007-7-23",
+      "url": "https://doi.org/10.3109/9780849382680-22",
+      "doi": "10.3109/9780849382680-22"
+    },
+    {
+      "record_id": "10.2139/ssrn.4721913",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "CBDC and the Operational Framework of Monetary Policy",
+      "published_at": "2024",
+      "url": "https://doi.org/10.2139/ssrn.4721913",
+      "doi": "10.2139/ssrn.4721913"
+    },
+    {
+      "record_id": "10.2139/ssrn.5394110",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "CBDC Cross-Border Settlement Prototype: Programmable Compliance for Cross-Border CBDC Settlement Using ISO 20022 and FATF Travel Rule Automation",
+      "published_at": "2025",
+      "url": "https://doi.org/10.2139/ssrn.5394110",
+      "doi": "10.2139/ssrn.5394110"
+    },
+    {
+      "record_id": "10.2139/ssrn.6867444",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "CBDC Pilot and Banks' Non-Performing Loans: Evidence from China",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6867444",
+      "doi": "10.2139/ssrn.6867444"
+    },
+    {
+      "record_id": "10.2139/ssrn.4779520",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Central Bank Digital Currency (CBDC), Bank Deposits, and Digital Payments: First Evidence from a Live Retail CBDC",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.4779520",
+      "doi": "10.2139/ssrn.4779520"
+    },
+    {
+      "record_id": "10.2139/ssrn.4833933",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Central Bank Digital Currency (CBDC), Bank Deposits, and Digital Payments: First Evidence from a Live Retail CBDC",
+      "published_at": "2024",
+      "url": "https://doi.org/10.2139/ssrn.4833933",
+      "doi": "10.2139/ssrn.4833933"
+    },
+    {
+      "record_id": "10.2139/ssrn.7301398",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Central Bank Digital Currency (CBDC), Bank Deposits, and Digital Payments: First Evidence from a Live Retail CBDC",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.7301398",
+      "doi": "10.2139/ssrn.7301398"
+    },
+    {
+      "record_id": "10.5220/0012577900003693",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Facilitating Competence-Oriented Qualification in New Work: Evaluation of a Platform Prototype",
+      "published_at": "2024",
+      "url": "https://doi.org/10.5220/0012577900003693",
+      "doi": "10.5220/0012577900003693"
+    },
+    {
+      "record_id": "10.7717/peerj-cs.578/fig-3",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Figure 3: (A) Prototype model (B) Model deployment inside paddy field.",
+      "published_at": "None",
+      "url": "https://doi.org/10.7717/peerj-cs.578/fig-3",
+      "doi": "10.7717/peerj-cs.578/fig-3"
+    },
+    {
+      "record_id": "10.7717/peerj-cs.3833/fig-5",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Figure 5: Multi-phase development, security validation, and FPGA deployment workflow of the proposed 4D-HCR-AES framework.",
+      "published_at": "None",
+      "url": "https://doi.org/10.7717/peerj-cs.3833/fig-5",
+      "doi": "10.7717/peerj-cs.3833/fig-5"
+    },
+    {
+      "record_id": "10.2139/ssrn.5592771",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Integrating MLOps Lifecycle into CI/CD Pipelines for Enhanced AI Model Deployment: An Empirical Validation Framework",
+      "published_at": "2025",
+      "url": "https://doi.org/10.2139/ssrn.5592771",
+      "doi": "10.2139/ssrn.5592771"
+    },
+    {
+      "record_id": "10.1115/detc2019-97952",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Modeling, Validation and Prototype Development of Electric Sail Tether Deployment Systems for CubeSats",
+      "published_at": "2019-8-18",
+      "url": "https://doi.org/10.1115/detc2019-97952",
+      "doi": "10.1115/detc2019-97952"
+    },
+    {
+      "record_id": "10.21203/rs.3.rs-10813996/v1",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "OmniGuard V2X: A Hybrid-Security Prototype Framework with Assumption-Aware Validation for Smart Vehicle Systems",
+      "published_at": "2026-8-26",
+      "url": "https://doi.org/10.21203/rs.3.rs-10813996/v1",
+      "doi": "10.21203/rs.3.rs-10813996/v1"
+    },
+    {
+      "record_id": "10.21956/openreseurope.23646.r74140",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Peer Review Report For: From prototype to deployment: An EU-centric lifecycle framework for law enforcement AI [version 1; peer review: 1 approved]",
+      "published_at": "2026-5-14",
+      "url": "https://doi.org/10.21956/openreseurope.23646.r74140",
+      "doi": "10.21956/openreseurope.23646.r74140"
+    },
+    {
+      "record_id": "10.21956/openreseurope.23646.r73556",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Peer Review Report For: From prototype to deployment: An EU-centric lifecycle framework for law enforcement AI [version 1; peer review: 2 approved]",
+      "published_at": "2026-6-2",
+      "url": "https://doi.org/10.21956/openreseurope.23646.r73556",
+      "doi": "10.21956/openreseurope.23646.r73556"
+    },
+    {
+      "record_id": "10.1007/978-3-030-90202-5_10",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Performance Validation of the Silicon-Based Calorimeter Prototype",
+      "published_at": "2021",
+      "url": "https://doi.org/10.1007/978-3-030-90202-5_10",
+      "doi": "10.1007/978-3-030-90202-5_10"
+    },
+    {
+      "record_id": "10.4018/978-1-4666-9845-1.ch020",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Research and Design of Geospatial Metadata Deployment Prototype System Based on PHP Framework",
+      "published_at": "2016",
+      "url": "https://doi.org/10.4018/978-1-4666-9845-1.ch020",
+      "doi": "10.4018/978-1-4666-9845-1.ch020"
+    },
+    {
+      "record_id": "10.2172/1825310",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "STATUS OF PIP-II 650 MHZ PROTOTYPE DRESSED CAVITY QUALIFICATION",
+      "published_at": "2021-1-1",
+      "url": "https://doi.org/10.2172/1825310",
+      "doi": "10.2172/1825310"
+    },
+    {
+      "record_id": "10.7717/peerj-cs.3996/table-2",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Table 2: Experts and their influence in the CBDC blockchain evaluation MCGDM framework.",
+      "published_at": "None",
+      "url": "https://doi.org/10.7717/peerj-cs.3996/table-2",
+      "doi": "10.7717/peerj-cs.3996/table-2"
+    },
+    {
+      "record_id": "10.3109/9780849382680-5",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Terminology and Validation Overview",
+      "published_at": "2007-7-23",
+      "url": "https://doi.org/10.3109/9780849382680-5",
+      "doi": "10.3109/9780849382680-5"
+    },
+    {
+      "record_id": "10.2139/ssrn.7190878",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "The Home Making Paradigm: A Conceptual Framework with Prototype Validation",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.7190878",
+      "doi": "10.2139/ssrn.7190878"
+    },
+    {
+      "record_id": "10.2139/ssrn.4375091",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "The Interpretation of CBDC within an Endogenous Money Framework",
+      "published_at": "2023",
+      "url": "https://doi.org/10.2139/ssrn.4375091",
+      "doi": "10.2139/ssrn.4375091"
+    },
+    {
+      "record_id": "10.3109/9780849382680-13",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Validation of Analytical Methods",
+      "published_at": "2007-7-23",
+      "url": "https://doi.org/10.3109/9780849382680-13",
+      "doi": "10.3109/9780849382680-13"
+    },
+    {
+      "record_id": "10.2139/ssrn.6163688",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "When Do Interbank Market Asymmetries Disappear? Evidence from CBDC Models",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6163688",
+      "doi": "10.2139/ssrn.6163688"
+    },
+    {
+      "record_id": "https://openalex.org/W7147681122",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "",
+      "published_at": "2026-01-01",
+      "url": "https://doi.org/10.32842/2078-3736/2026.1.2",
+      "doi": "10.32842/2078-3736/2026.1.2"
+    },
+    {
+      "record_id": "https://openalex.org/W7167703468",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "FINANCIAL PERFORMANCE OF COLOMBIA'S LARGEST CABLE TV COMPANY",
+      "published_at": "2026-01-01",
+      "url": "https://doi.org/10.54033/stebook.978-65-83309-69-3_10",
+      "doi": "10.54033/stebook.978-65-83309-69-3_10"
+    },
+    {
+      "record_id": "https://openalex.org/W7167705020",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "Privacy-Preserving Transaction Admission with Warrant-Based Trace Recovery for Regulated Cryptocurrency Transactions",
+      "published_at": "2026-07-08",
+      "url": "https://doi.org/10.3390/electronics15142990",
+      "doi": "10.3390/electronics15142990"
+    },
+    {
+      "record_id": "https://openalex.org/W4379135257",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "The role of private and public regulation in the case study of crypto-assets: The Italian move towards participatory regulation",
+      "published_at": "2023-06-02",
+      "url": "https://doi.org/10.1016/j.clsr.2023.105831",
+      "doi": "10.1016/j.clsr.2023.105831"
+    },
+    {
+      "record_id": "https://openalex.org/W4288791756",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "Understanding the tokenisation of assets in financial markets",
+      "published_at": "2021-11-03",
+      "url": "https://doi.org/10.1787/c033401a-en",
+      "doi": "10.1787/c033401a-en"
+    },
+    {
+      "record_id": "http://arxiv.org/abs/cs/0405084v1",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "A Framework for Interoperability",
+      "published_at": "2004-05-23T20:28:59Z",
+      "url": "http://arxiv.org/abs/cs/0405084v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1306.0089v1",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "A Novel Reconfigurable Architecture of a DSP Processor for Efficient Mapping of DSP Functions using Field Programmable DSP Arrays",
+      "published_at": "2013-06-01T09:04:40Z",
+      "url": "http://arxiv.org/abs/1306.0089v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2306.08888v1",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "ArchGym: An Open-Source Gymnasium for Machine Learning Assisted Architecture Design",
+      "published_at": "2023-06-15T06:41:23Z",
+      "url": "http://arxiv.org/abs/2306.08888v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2009.00804v2",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Architectural Implications of Graph Neural Networks",
+      "published_at": "2020-09-02T03:36:24Z",
+      "url": "http://arxiv.org/abs/2009.00804v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2305.16893v1",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "CBDC-AquaSphere: Interoperable Central Bank Digital Currency Built on Trusted Computing and Blockchain",
+      "published_at": "2023-05-26T12:54:00Z",
+      "url": "http://arxiv.org/abs/2305.16893v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2107.09636v1",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Co-optimization of Energy and Reserve with Incentives to Wind Generation: Case Study",
+      "published_at": "2021-07-03T16:58:22Z",
+      "url": "http://arxiv.org/abs/2107.09636v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2207.13219v4",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Dalorex: A Data-Local Program Execution and Architecture for Memory-bound Applications",
+      "published_at": "2022-07-26T23:59:41Z",
+      "url": "http://arxiv.org/abs/2207.13219v4",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1310.2861v1",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Distributed firewalls and IDS interoperability checking based on a formal approach",
+      "published_at": "2013-10-10T15:47:16Z",
+      "url": "http://arxiv.org/abs/1310.2861v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2112.02083v2",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Energy-Proportional Data Center Network Architecture Through OS, Switch and Laser Co-design",
+      "published_at": "2021-12-03T18:47:44Z",
+      "url": "http://arxiv.org/abs/2112.02083v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1706.09953v1",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Fast Processing of Large Graph Applications Using Asynchronous Architecture",
+      "published_at": "2017-06-29T21:07:14Z",
+      "url": "http://arxiv.org/abs/1706.09953v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2310.12670v4",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Fault-Tolerant Hybrid-Parallel Training at Scale with Reliable and Efficient In-memory Checkpointing",
+      "published_at": "2023-10-19T11:59:01Z",
+      "url": "http://arxiv.org/abs/2310.12670v4",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2605.13398v1",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "FPGA-Accelerated Lock Management and Transaction Processing: Architecture, Optimization, and Design Space Exploration",
+      "published_at": "2026-05-13T11:53:59Z",
+      "url": "http://arxiv.org/abs/2605.13398v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2408.12999v2",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "General-Purpose Multicore Architectures",
+      "published_at": "2024-08-23T11:40:47Z",
+      "url": "http://arxiv.org/abs/2408.12999v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2402.02838v1",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "HAPI-FHIR Server Implementation to Enhancing Interoperability among Primary Care Health Information Systems in Sri Lanka: Review of the Technical Use Case",
+      "published_at": "2024-02-05T09:48:46Z",
+      "url": "http://arxiv.org/abs/2402.02838v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2505.09343v2",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Insights into DeepSeek-V3: Scaling Challenges and Reflections on Hardware for AI Architectures",
+      "published_at": "2025-05-14T12:39:03Z",
+      "url": "http://arxiv.org/abs/2505.09343v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2412.20486v2",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "LSQCA: Resource-Efficient Load/Store Architecture for Limited-Scale Fault-Tolerant Quantum Computing",
+      "published_at": "2024-12-29T14:58:23Z",
+      "url": "http://arxiv.org/abs/2412.20486v2",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1904.12595v1",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "MANA for MPI: MPI-Agnostic Network-Agnostic Transparent Checkpointing",
+      "published_at": "2019-04-20T16:11:54Z",
+      "url": "http://arxiv.org/abs/1904.12595v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2301.07500v1",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Multi-objective Software Architecture Refactoring driven by Quality Attributes",
+      "published_at": "2023-01-18T13:17:16Z",
+      "url": "http://arxiv.org/abs/2301.07500v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2009.06811v1",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Phase Locking between Two All-Optical Quantum Memories",
+      "published_at": "2020-09-15T01:26:25Z",
+      "url": "http://arxiv.org/abs/2009.06811v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1510.00670v1",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Phase-locking at low-level of quanta",
+      "published_at": "2015-10-02T18:13:08Z",
+      "url": "http://arxiv.org/abs/1510.00670v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1911.05900v1",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Proceedings of the Third Workshop on Software Foundations for Data Interoperability (SFDI2019+), October 28, 2019, Fukuoka, Japan",
+      "published_at": "2019-11-14T02:32:16Z",
+      "url": "http://arxiv.org/abs/1911.05900v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2301.07516v1",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Quality Attributes Optimization of Software Architecture: Research Challenges and Directions",
+      "published_at": "2023-01-18T13:37:21Z",
+      "url": "http://arxiv.org/abs/2301.07516v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1802.05100v1",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "SAPA: Self-Aware Polymorphic Architecture",
+      "published_at": "2018-02-12T05:13:16Z",
+      "url": "http://arxiv.org/abs/1802.05100v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/1410.4977v1",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Semantic Gateway as a Service architecture for IoT Interoperability",
+      "published_at": "2014-10-18T16:23:51Z",
+      "url": "http://arxiv.org/abs/1410.4977v1",
+      "doi": ""
+    },
+    {
+      "record_id": "http://arxiv.org/abs/2402.19171v1",
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "title": "Towards Assessing Spread in Sets of Software Architecture Designs",
+      "published_at": "2024-02-29T13:52:39Z",
+      "url": "http://arxiv.org/abs/2402.19171v1",
+      "doi": ""
+    },
+    {
+      "record_id": "10.2139/ssrn.6462678",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Asymmetric Resilience and the Transition to Multipolar Security Architecture: Focus on CBDC Interoperability for BRICS 2026",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6462678",
+      "doi": "10.2139/ssrn.6462678"
+    },
+    {
+      "record_id": "10.58532/nbennurampo3",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "CBDC DESIGN &amp; ARCHITECTURE",
+      "published_at": "2025-3-1",
+      "url": "https://doi.org/10.58532/nbennurampo3",
+      "doi": "10.58532/nbennurampo3"
+    },
+    {
+      "record_id": "10.58532/nbennurampo6",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "CBDC INTEROPERABILITY WITH EXISTING FINANCIAL INFRASTRUCTURE",
+      "published_at": "2025-3-1",
+      "url": "https://doi.org/10.58532/nbennurampo6",
+      "doi": "10.58532/nbennurampo6"
+    },
+    {
+      "record_id": "10.58532/nbennurampo7",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "CROSS-BORDER CBDC &amp; INTEROPERABILITY: CROSS-BORDER PAYMENTS &amp; MULTIPLE CBDC SYSTEMS (MCBDC)",
+      "published_at": "2025-3-1",
+      "url": "https://doi.org/10.58532/nbennurampo7",
+      "doi": "10.58532/nbennurampo7"
+    },
+    {
+      "record_id": "10.1007/978-1-84800-221-0_48",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Enterprise Architecture: A Service Interoperability Analysis Framework",
+      "published_at": "None",
+      "url": "https://doi.org/10.1007/978-1-84800-221-0_48",
+      "doi": "10.1007/978-1-84800-221-0_48"
+    },
+    {
+      "record_id": "10.2139/ssrn.6817840",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Entity Continuous Awareness (ECA): A Model-Agnostic, Sector-Agnostic Operational Context Architecture for Long-Running Autonomous Agents",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6817840",
+      "doi": "10.2139/ssrn.6817840"
+    },
+    {
+      "record_id": "10.2139/ssrn.6246658",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Essentialist Architecture for Domain-Agnostic Legal Reasoning",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6246658",
+      "doi": "10.2139/ssrn.6246658"
+    },
+    {
+      "record_id": "10.21799/frbp.wp.2022.12",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Fintech, Cryptocurrencies, and CBDC: Financial Structural Transformation in China",
+      "published_at": "2022-4",
+      "url": "https://doi.org/10.21799/frbp.wp.2022.12",
+      "doi": "10.21799/frbp.wp.2022.12"
+    },
+    {
+      "record_id": "10.3403/30402112",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Health Informatics - Interoperability and integration reference architecture - Model and framework",
+      "published_at": "None",
+      "url": "https://doi.org/10.3403/30402112",
+      "doi": "10.3403/30402112"
+    },
+    {
+      "record_id": "10.3403/30402112u",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Health Informatics - Interoperability and integration reference architecture - Model and framework",
+      "published_at": "None",
+      "url": "https://doi.org/10.3403/30402112u",
+      "doi": "10.3403/30402112u"
+    },
+    {
+      "record_id": "10.1080/07366981.2025.2588946",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "How does India’s digital rupee project stack up against international efforts? Assessing on the basis of CBDC interoperability",
+      "published_at": "2025-11-24",
+      "url": "https://doi.org/10.1080/07366981.2025.2588946",
+      "doi": "10.1080/07366981.2025.2588946"
+    },
+    {
+      "record_id": "10.1109/tc.2026.3699633",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Hybrid Relay Architecture: A Decentralized and Semantically-Agnostic Interoperability Framework for Blockchain",
+      "published_at": "2026-8",
+      "url": "https://doi.org/10.1109/tc.2026.3699633",
+      "doi": "10.1109/tc.2026.3699633"
+    },
+    {
+      "record_id": "10.1109/tc.2026.3699633/mm1",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Hybrid Relay Architecture: A Decentralized and Semantically-agnostic Interoperability Framework for Blockchain_supp1-3699633.pdf",
+      "published_at": "None",
+      "url": "https://doi.org/10.1109/tc.2026.3699633/mm1",
+      "doi": "10.1109/tc.2026.3699633/mm1"
+    },
+    {
+      "record_id": "10.55277/researchhub.tvhs7h13",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Interoperability between public blockchains and the digital real (Brazil´s CBDC)",
+      "published_at": "2023-6-20",
+      "url": "https://doi.org/10.55277/researchhub.tvhs7h13",
+      "doi": "10.55277/researchhub.tvhs7h13"
+    },
+    {
+      "record_id": "10.23939/tt2025.02.001",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Justification of architecture for intelligent agnostic multimodal transportation",
+      "published_at": "2025-12-9",
+      "url": "https://doi.org/10.23939/tt2025.02.001",
+      "doi": "10.23939/tt2025.02.001"
+    },
+    {
+      "record_id": "10.2139/ssrn.6707038",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Luxembourg and the Wholesale Digital Euro: Mapping the Gaps, Assessing the Opportunities, and a Proposed Framework for Cross-Border CBDC Interoperability Use Cases.",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6707038",
+      "doi": "10.2139/ssrn.6707038"
+    },
+    {
+      "record_id": "10.2139/ssrn.6501398",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Project Dunbar and the Future of Multi-CBDC Architecture",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6501398",
+      "doi": "10.2139/ssrn.6501398"
+    },
+    {
+      "record_id": "10.2139/ssrn.5711402",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Protecting Digital Sovereignty: Protocol-Level GDPR Enforcement as Foundation for Secure CBDC Architecture",
+      "published_at": "2025",
+      "url": "https://doi.org/10.2139/ssrn.5711402",
+      "doi": "10.2139/ssrn.5711402"
+    },
+    {
+      "record_id": "10.69554/rszj2071",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Settlement of digital assets and wholesale CBDC : Solutions and interoperability approaches explored by the ECB",
+      "published_at": "2024-12-1",
+      "url": "https://doi.org/10.69554/rszj2071",
+      "doi": "10.69554/rszj2071"
+    },
+    {
+      "record_id": "10.2172/974884",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Telemedicine system interoperability architecture: concept description and architecture overview.",
+      "published_at": "2004-5-1",
+      "url": "https://doi.org/10.2172/974884",
+      "doi": "10.2172/974884"
+    },
+    {
+      "record_id": "10.1109/cloudcontinuum57429.2022.00003",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "The IEEE 2302–2021 Standard on Intercloud Interoperability and Federation: Seamless Cloud-agnostic Interoperability Management for Resource Discovery, Access and Trust",
+      "published_at": "2022-12-5",
+      "url": "https://doi.org/10.1109/cloudcontinuum57429.2022.00003",
+      "doi": "10.1109/cloudcontinuum57429.2022.00003"
+    },
+    {
+      "record_id": "10.31235/osf.io/qcuvm_v2",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "The Logic of Interoperability: Anticipatory Alignment, Infrastructural Lock-in and New Zealand’s Integration with Palantir",
+      "published_at": "2026-7-4",
+      "url": "https://doi.org/10.31235/osf.io/qcuvm_v2",
+      "doi": "10.31235/osf.io/qcuvm_v2"
+    },
+    {
+      "record_id": "10.21236/ada467957",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Toward an Interoperability Architecture",
+      "published_at": "2001-6-1",
+      "url": "https://doi.org/10.21236/ada467957",
+      "doi": "10.21236/ada467957"
+    },
+    {
+      "record_id": "10.1049/gtd2.13298",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Towards HVDC interoperability—Vendor agnostic control architecture and quantifying domain of operating point",
+      "published_at": "2025-1",
+      "url": "https://doi.org/10.1049/gtd2.13298",
+      "doi": "10.1049/gtd2.13298"
+    },
+    {
+      "record_id": "10.59490/abe.2019.13.4159",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Using focus groups data to finalize the Archetypes",
+      "published_at": "2019",
+      "url": "https://doi.org/10.59490/abe.2019.13.4159",
+      "doi": "10.59490/abe.2019.13.4159"
+    },
+    {
+      "record_id": "https://openalex.org/W3029616339",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "A Survey on Blockchain Interoperability: Past, Present, and Future Trends",
+      "published_at": "2021-10-04",
+      "url": "https://doi.org/10.1145/3471140",
+      "doi": "10.1145/3471140"
+    },
+    {
+      "record_id": "https://openalex.org/W4287774586",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "A Survey on Blockchain Interoperability: Past, Present, and Future\\n Trends",
+      "published_at": "2020-05-28",
+      "url": "http://arxiv.org/abs/2005.14282",
+      "doi": "10.48550/arxiv.2005.14282"
+    }
+  ]
+}

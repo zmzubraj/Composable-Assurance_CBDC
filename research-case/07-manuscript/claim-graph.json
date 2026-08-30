@@ -1,0 +1,515 @@
+{
+  "schema_version": 4,
+  "allowed_relation_types": [
+    "SUPPORTS",
+    "REFUTES",
+    "QUALIFIES",
+    "REQUIRES",
+    "REPLICATES",
+    "CONTRADICTS",
+    "LIMITS_SCOPE",
+    "DERIVED_FROM"
+  ],
+  "claims": {
+    "C001": {
+      "claim_id": "C001",
+      "exact_claim": "The claimed contribution is not a new consensus primitive or first implementation of any isolated CBDC component; it is a joint claim-to-evidence qualification methodology that connects monetary invariants, settlement safety, privacy leakage and differential privacy, AML/sanctions evaluation, adaptive holding limits, and falsifiable scale gates under one maturity boundary.",
+      "claim_type": "novelty hypothesis",
+      "required_maturity": "V0 ASSERTED",
+      "current_maturity": "V0 ASSERTED",
+      "status": "UNRESOLVED",
+      "excluded_generality": "",
+      "evidence_ids": [],
+      "artifact_paths": [],
+      "claim_scope": "ASSERTED",
+      "central": false,
+      "refuted": true,
+      "maturity_ceiling_rank": 0,
+      "maturity_ceiling": "V0 ASSERTED",
+      "scope_ceiling_rank": 0,
+      "scope_ceiling": "ASSERTED",
+      "required_maturity_rank": 0,
+      "supports_claim": false,
+      "external_validation_required": false
+    },
+    "C002": {
+      "claim_id": "C002",
+      "exact_claim": "Existing v8 prototype, formal model, synthetic experiments, OFAC snapshot, queueing digital twin, tests, locked Python environment, source figures/tables, and manuscript are available locally; physical multi-region, HSM-certified, governed institutional data, field validation, repository DOI, author metadata, target-venue confirmation, and final submission require external or accountable human action.",
+      "claim_type": "feasibility hypothesis",
+      "required_maturity": "V0 ASSERTED",
+      "current_maturity": "V0 ASSERTED",
+      "status": "UNRESOLVED",
+      "excluded_generality": "",
+      "evidence_ids": [],
+      "artifact_paths": [],
+      "claim_scope": "ASSERTED",
+      "central": false,
+      "refuted": false,
+      "maturity_ceiling_rank": 0,
+      "maturity_ceiling": "V0 ASSERTED",
+      "scope_ceiling_rank": 0,
+      "scope_ceiling": "ASSERTED",
+      "required_maturity_rank": 0,
+      "supports_claim": false,
+      "external_validation_required": true
+    },
+    "C003": {
+      "claim_id": "C003",
+      "exact_claim": "A reproducible system architecture, local research prototype, formal/synthetic/queueing evidence package, claim-evidence matrix, and publication-ready manuscript that defines how claims advance from analytical models to controlled prototype, physical qualification, and governed field evidence.",
+      "claim_type": "solution-viability hypothesis",
+      "required_maturity": "V0 ASSERTED",
+      "current_maturity": "V0 ASSERTED",
+      "status": "UNRESOLVED",
+      "excluded_generality": "",
+      "evidence_ids": [],
+      "artifact_paths": [],
+      "claim_scope": "ASSERTED",
+      "central": true,
+      "refuted": false,
+      "maturity_ceiling_rank": 0,
+      "maturity_ceiling": "V0 ASSERTED",
+      "scope_ceiling_rank": 0,
+      "scope_ceiling": "ASSERTED",
+      "required_maturity_rank": 0,
+      "supports_claim": false,
+      "external_validation_required": true
+    }
+  },
+  "evidence": {},
+  "artifact_to_claims": {},
+  "evidence_to_claims": {},
+  "edges": [
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:N007",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:N007",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "Broad composability priority is defeated by N007"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:N007",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "Broad composability priority is defeated by N007"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:N009",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:N009",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "Broad architecture-agnostic checkpoint and finalization priority is defeated by N009"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:N009",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "Broad architecture-agnostic checkpoint and finalization priority is defeated by N009"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:N001",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:N001",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "N001 defeats any first-atomic-settlement claim"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:N001",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "N001 defeats any first-atomic-settlement claim"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:N002",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:N002",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "N002 defeats novelty claims based only on independent-ledger interoperability"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:N002",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "N002 defeats novelty claims based only on independent-ledger interoperability"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:N006",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:N006",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "N006 has stronger narrow real-value maturity than v8"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:N006",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "N006 has stronger narrow real-value maturity than v8"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:N003",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:N003",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "N003 defeats priority for combining access communication FX compliance and settlement"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:N003",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "N003 defeats priority for combining access communication FX compliance and settlement"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:N004",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:N004",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "N004 defeats priority for spanning these requirement categories"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:N004",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "N004 defeats priority for spanning these requirement categories"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:N005",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:N005",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "N005 defeats first privacy AML compliance-by-design claims"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:N005",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "N005 defeats first privacy AML compliance-by-design claims"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:N008",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:N008",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "N008 narrows privacy and compliance differentiation"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:N008",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "N008 narrows privacy and compliance differentiation"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:N010",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:N010",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "N010 defeats broad novelty based on formal validation advocacy"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:N010",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "N010 defeats broad novelty based on formal validation advocacy"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:N011",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:N011",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "N011 defeats broad claims to first combine privacy compliance holding limits prototype and measured performance"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:N011",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "N011 defeats broad claims to first combine privacy compliance holding limits prototype and measured performance"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:N012",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:N012",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "N012 may substantially overlap settlement compliance evidence and prototype claims"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:N012",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "N012 may substantially overlap settlement compliance evidence and prototype claims"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:N013",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:N013",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "N013 narrows cross-border programmable-compliance simulation and governance differentiation"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:N013",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "N013 narrows cross-border programmable-compliance simulation and governance differentiation"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:N014",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:N014",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "N014 narrows atomic settlement compliance governance and simulation claims"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:N014",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "N014 narrows atomic settlement compliance governance and simulation claims"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:N015",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:N015",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "N015 narrows joint architecture policy-limit and analytical-framework differentiation"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:N015",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "N015 narrows joint architecture policy-limit and analytical-framework differentiation"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:N016",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:N016",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "N016 narrows privacy provenance verification and performance claims"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:N016",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "N016 narrows privacy provenance verification and performance claims"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:N017",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:N017",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": true,
+      "basis": "N017 defeats any broad first CBDC evaluation verification or universal qualification claim; narrower decision-rule materiality remains unresolved"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:N017",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": true,
+      "basis": "N017 defeats any broad first CBDC evaluation verification or universal qualification claim; narrower decision-rule materiality remains unresolved"
+    },
+    {
+      "edge_id": "EDGE-limits-scope-C001",
+      "source": "claim:C001",
+      "target": "claim:C001",
+      "relation_type": "LIMITS_SCOPE",
+      "active": false,
+      "basis": "Scope ceiling recorded."
+    },
+    {
+      "edge_id": "EDGE-limits-scope-C002",
+      "source": "claim:C002",
+      "target": "claim:C002",
+      "relation_type": "LIMITS_SCOPE",
+      "active": false,
+      "basis": "Scope ceiling recorded."
+    },
+    {
+      "edge_id": "EDGE-limits-scope-C003",
+      "source": "claim:C003",
+      "target": "claim:C003",
+      "relation_type": "LIMITS_SCOPE",
+      "active": false,
+      "basis": "Scope ceiling recorded."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[project]
+name = "composable-assurance-cbdc-research-artifact"
+version = "8.0.0"
+description = "Reproducibility artifact for Composable Assurance for Sovereign Digital Currency"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "numpy==2.3.5",
+  "pandas==2.2.3",
+  "scipy==1.16.3",
+  "scikit-learn==1.7.2",
+  "networkx==3.5",
+  "matplotlib==3.10.7",
+  "python-docx==1.2.0",
+  "rapidfuzz==3.14.3",
+  "Unidecode==1.4.0",
+  "Faker==37.12.0",
+  "cryptography==46.0.3",
+]
+
+[dependency-groups]
+dev = ["pytest==9.0.1"]
+
+[tool.pytest.ini_options]
+addopts = "-q --strict-markers --disable-warnings"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+
+[tool.uv]
+package = false

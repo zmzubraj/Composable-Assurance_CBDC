@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xht+vMkzo4MVDVUciK0y+hA3XXI</id>
+  <title>arXiv Query: search_query=all:"central bank digital currency" AND (all:evidence OR all:qualification OR all:validation OR all:prototype OR all:benchmark)&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-08-28T23:23:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22central+bank+digital+currency%22+AND+(all:evidence+OR+(all:qualification+OR+(all:validation+OR+(all:prototype+OR+all:benchmark))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>19</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2112.01122v3</id>
+    <title>CEV Framework: A Central Bank Digital Currency Evaluation and Verification Framework With a Focus on Consensus Algorithms and Operating Architectures</title>
+    <updated>2022-06-26T08:20:14Z</updated>
+    <link href="https://arxiv.org/abs/2112.01122v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.01122v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a Central Bank Digital Currency Evaluation and Verification (CEV) Framework for recommending and verifying technical solutions in the central bank digital currency (CBDC) system. We demonstrate two sub-frameworks: an evaluation sub-framework that provides consensus algorithm and operating architecture solutions and a verification sub-framework that validates the proposed solutions. Our framework offers a universal CBDC solution that is compatible with different national economic and regulatory regimes. The evaluation sub-framework generates customized solutions by splitting the consensus algorithms into several components and analyzing their impacts on CBDC systems. CBDC design involves a trade-off between system features - the consensus algorithm cannot achieve all system features simultaneously. However, we also improve the operating architectures to compensate for the weak system features. The verification sub-framework helps verify our proposed solution through empirical experiments and formal proof. Our framework offers CBDC designers the flexibility to iteratively tune the trade-off between CBDC system features for the desired solution. To the best of our knowledge, we are the first to propose a framework to recommend and verify CBDC technical solutions.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-02T10:56:31Z</published>
+    <arxiv:comment>This paper is accepted on June 8, 2022, and published on June 14, 2022 by IEEE Access. Digital Object Identifier 10.1109/ACCESS.2022.3183092</arxiv:comment>
+    <arxiv:primary_category term="cs.CE"/>
+    <arxiv:journal_ref>IEEE Vol 10, 2022</arxiv:journal_ref>
+    <author>
+      <name>Si Yuan Jin</name>
+    </author>
+    <author>
+      <name>Yong Xia</name>
+    </author>
+    <arxiv:doi>10.1109/ACCESS.2022.3183092</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ACCESS.2022.3183092" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.17512v1</id>
+    <title>Making Tax Smart: Feasibility of Distributed Ledger Technology for building tax compliance functionality to Central Bank Digital Currency</title>
+    <updated>2024-06-25T12:50:44Z</updated>
+    <link href="https://arxiv.org/abs/2406.17512v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.17512v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The latest advancements in Distributed Ledger Technology (DLT), and payment architectures such as the UK's New Payments Architecture, present opportunities for leveraging the hidden informational value and intelligence within payments. In this paper, we present Smart Money, an infrastructure capability for a Central Bank Digital Currency (CBDC) which enables real-time Value Added Tax split payments, oversight, controlled access and smart policy implementation. This capability is implemented as a prototype, called Making Tax Smart (MTS), which is based on the open source R3 Corda framework. The results presented herein confirm that it is feasible to build a MTS capability which is scalable and co-exists with the current payment systems. Smart Money CBDC has the potential to mobilise payments data in order to transform the role of money from a blunt instrument to a government policy sensor and actuator without disrupting the existing money system. DLT, smart contracts and programmable money have a crucial role to play with benefits for government departments, the economy and society as a whole.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-25T12:50:44Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Panos Louvieris</name>
+    </author>
+    <author>
+      <name>Georgios Ioannou</name>
+    </author>
+    <author>
+      <name>Gareth White</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.23659v2</id>
+    <title>Central Bank Digital Currencies: Where is the Privacy, Technology, and Anonymity?</title>
+    <updated>2026-07-17T04:20:35Z</updated>
+    <link href="https://arxiv.org/abs/2602.23659v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.23659v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In an age of financial system digitisation and the increasing adoption of digital currencies, Central Bank Digital Currencies (CBDCs) have emerged as a focal point for technological innovation. Privacy compliance has become a key factor in the successful design of CBDCs, extending beyond technical requirements to influence legal requirements, user trust, and security considerations. Implementing Privacy-Enhancing Technologies (PETs) in CBDCs requires an interdisciplinary approach, however, the lack of a common understanding of privacy and the essential technological characteristics restricts progress. This work investigates: (1) How privacy can be defined within the framework of CBDCs and what implications does this definition have for CBDCs design? and (2) Which PETs can be employed to enhance privacy in CBDC design? We propose a comprehensive definition for privacy that is mapped to the cryptographic landscape for feature implementation. The research is validated against case studies from 20 current CBDCs. The study shows that comprehensive privacy can be designed in the proposal stage, but that privacy does not reach the launched version of the CBDC. A failure analysis of abandoned privacy pilots identifies four root causes of this research-to-launch gap: regulatory visibility requirements, computational overhead, liability allocation, and institutional incentives.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-27T03:56:40Z</published>
+    <arxiv:comment>22 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jeff Nijsse</name>
+    </author>
+    <author>
+      <name>Andrea Pinto</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.06362v1</id>
+    <title>Will Central Bank Digital Currencies (CBDC) and Blockchain Cryptocurrencies Coexist in the Post Quantum Era?</title>
+    <updated>2024-11-10T05:05:55Z</updated>
+    <link href="https://arxiv.org/abs/2411.06362v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.06362v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper explores the coexistence possibilities of Central Bank Digital Currencies (CBDCs) and blockchain-based cryptocurrencies within a post-quantum computing landscape. It examines the implications of emerging quantum algorithms and cryptographic techniques such as Multi-Party Computation (MPC) and Oblivious Transfer (OT). While exploring how CBDCs and cryptocurrencies might integrate defenses like post-quantum cryptography, it highlights the substantial hurdles in transitioning legacy systems and fostering widespread adoption of new standards. The paper includes comprehensive evaluations of CBDCs in a quantum context. It also features comparisons to alternative cryptocurrency models. Additionally, the paper provides insightful analyses of pertinent quantum methodologies. Examinations of interfaces between these methods and blockchain architectures are also included. The paper carries out considered appraisals of quantum threats and their relevance for cryptocurrency schemes. Furthermore, it features discussions of the influence of anticipated advances in quantum computing on algorithms and their applications. The paper renders the judicious conclusion that long-term coexistence is viable provided challenges are constructively addressed through ongoing collaborative efforts to validate solutions and guide evolving policies.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-10T05:05:55Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Abraham Itzhak Weinberg</name>
+    </author>
+    <author>
+      <name>Pythagoras Petratos</name>
+    </author>
+    <author>
+      <name>Alessio Faccia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.08064v7</id>
+    <title>On the Operational Resilience of CBDC: Threats and Prospects of Formal Validation for Offline Payments</title>
+    <updated>2026-06-30T14:16:07Z</updated>
+    <link href="https://arxiv.org/abs/2508.08064v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.08064v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Information and communication technologies are by now employed in most human activities, including economics and finance. Modern computers have reached an extraordinary power in terms of information processing, storage, retrieval, and transmission. However, several results of theoretical computer science imply the impossibility of certifying software quality in general. With the exception of safety-critical systems, this has primarily concerned information processed by confined systems, with limited socio-economic consequences. In the emerging era of technologies for exchanging tokenized assets and digital money over the Internet, such as in particular central bank digital currency (CBDC), even a minor bug could trigger a financial collapse. Although the aforementioned impossibility results cannot be overcome in an absolute sense, there exist formal methods that can provide correctness assertions for software system models under suitable conditions. We advocate their use to validate the operational resilience of software infrastructures for CBDC by framing the offline payment problem, organizing its threat landscape, and outlining a formal methods methodology, illustrated by a minimal proof of concept, that we argue should underpin CBDC design and deployment.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-11T15:08:35Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Marco Bernardo</name>
+    </author>
+    <author>
+      <name>Federico Calandra</name>
+    </author>
+    <author>
+      <name>Andrea Esposito</name>
+    </author>
+    <author>
+      <name>Francesco Fabris</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.12821v1</id>
+    <title>Benchmarking the performance of a self-custody, non-ledger-based, obliviously managed digital payment system</title>
+    <updated>2024-04-19T11:57:32Z</updated>
+    <link href="https://arxiv.org/abs/2404.12821v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.12821v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As global governments intensify efforts to operationalize retail central bank digital currencies (CBDCs), the imperative for architectures that preserve user privacy has never been more pronounced. This paper advances an existing retail CBDC framework developed at University College London. Utilizing the capabilities of the Comet research framework, our proposed design allows users to retain direct custody of their assets without the need for intermediary service providers, all while preserving transactional anonymity. The study unveils a novel technique to expedite the retrieval of Proof of Provenance, significantly accelerating the verification of transaction legitimacy through the refinement of Merkle Trie structures. In parallel, we introduce a streamlined Digital Ledger designed to offer fast, immutable, and decentralized transaction validation within a permissioned ecosystem. The ultimate objective of this research is to benchmark the performance of the legacy system formulated by the original Comet research team against the newly devised system elucidated in this paper. Our endeavour is to establish a foundational design for a scalable national infrastructure proficient in seamlessly processing thousands of transactions in real-time, without compromising consumer privacy or data integrity.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-19T11:57:32Z</published>
+    <arxiv:comment>23 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>William Macpherson</name>
+    </author>
+    <author>
+      <name>Geoffrey Goodell</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.05167v4</id>
+    <title>A non-custodial wallet for digital currency: design challenges and opportunities</title>
+    <updated>2024-05-03T17:18:06Z</updated>
+    <link href="https://arxiv.org/abs/2307.05167v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.05167v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Central Bank Digital Currency (CBDC) is a novel form of money that could be issued and regulated by central banks, offering benefits such as programmability, security, and privacy. However, the design of a CBDC system presents numerous technical and social challenges. This paper presents the design and prototype of a non-custodial wallet, a device that enables users to store and spend CBDC in various contexts. To address the challenges of designing a CBDC system, we conducted a series of workshops with internal and external stakeholders, using methods such as storytelling, metaphors, and provotypes to communicate CBDC concepts, elicit user feedback and critique, and incorporate normative values into the technical design. We derived basic guidelines for designing CBDC systems that balance technical and social aspects, and reflect user needs and values. Our paper contributes to the CBDC discourse by demonstrating a practical example of how CBDC could be used in everyday life and by highlighting the importance of a user-centred approach.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-11T10:53:45Z</published>
+    <arxiv:comment>29 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Ryan Bowler</name>
+    </author>
+    <author>
+      <name>Geoffrey Goodell</name>
+    </author>
+    <author>
+      <name>Joe Revans</name>
+    </author>
+    <author>
+      <name>Gabriel Bizama</name>
+    </author>
+    <author>
+      <name>Chris Speed</name>
+    </author>
+    <arxiv:doi>10.69554/KRMP9840</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.69554/KRMP9840" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.14562v1</id>
+    <title>Global AI Regulations for FAIR and Ethics in High-Risk Use Cases: A Comparative Review</title>
+    <updated>2026-05-26T09:58:27Z</updated>
+    <link href="https://arxiv.org/abs/2608.14562v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.14562v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI governance is shifting from voluntary ethics to enforceable, risk-based regulation, yet cross-jurisdictional divergence creates compliance uncertainty for operators of high-stakes AI. We present a comparative matrix for the EU, US, and China that maps (i) risk classification triggers, (ii) binding obligations, (iii) enforcement and accountability mechanisms, and (iv) the degree to which FAIR principles are operationalised in practice. We stress-test the matrix on three high-impact domains: Electroencephalography (EEG)-guided rehabilitation robotics, AI-enabled debt collection in prospective Central Bank Digital Currency (CBDC) ecosystems, and AI-driven allocation of scarce Graphics Processing Unit (GPU) resources in emerging AI Factory infrastructures. Using primary legal texts and implementation evidence, we identify three recurring gaps: weak interoperability mandates, difficult operationalisation of cross-regime obligations (AI + sector regulation + data protection), and under-specified governance for critical digital infrastructure use cases. To bridge the implementation gap, we outline Knowledge Blocks, a machine-checkable compliance artefact pattern based on Resource Description Framework/Web Ontology Language (RDF/OWL), Shapes Constraint Language (SHACL), and Provenance Ontology (PROV-O), enabling audit-ready compliance-by-design across multiple regimes.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-26T09:58:27Z</published>
+    <arxiv:comment>6 pages. Accepted at the 50th IEEE Computers, Software, and Applications Conference (COMPSAC 2026), Madrid, Spain, July 7-10, 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Aasish Kumar Sharma</name>
+    </author>
+    <author>
+      <name>Dimitar Koysev</name>
+    </author>
+    <author>
+      <name>Christopher Anich</name>
+    </author>
+    <author>
+      <name>Roshni Kumari Ojha</name>
+    </author>
+    <author>
+      <name>Julian Kunkel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.16461v1</id>
+    <title>A Human-LLM Teaming Framework for Privacy Risk Analysis: An Illustration with CBDC-Based Welfare Schemes</title>
+    <updated>2026-08-17T11:59:03Z</updated>
+    <link href="https://arxiv.org/abs/2608.16461v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.16461v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Central Bank Digital Currency (CBDC)-based welfare schemes may be potentially privacy invasive as they process significant volumes of beneficiary personal data and lead to privacy harms such as surveillance, discrimination and stigmatization. Such welfare delivery schemes involve complex digital ecosystems and large number of stakeholders. Consequently, to examine their privacy risks, privacy risk assessments require extensive information gathering and synthesis, complex reasoning, scenario explorations, contextual evaluation and human judgement. Thus, they present ideal scenarios for human-LLM teaming, where effective integration of complementary human and LLM capabilities can yield an outcome far superior to either human-only or LLM-only assessments. In this paper, we propose a first human-LLM teaming framework for the systematic privacy risk analysis methodology called PRIAM. The framework specifies an iterative collaborative process in which the LLM processes large-scale documentary evidence to produce initial outputs, which are then interpreted and evaluated by human experts who direct their further refinement by the LLM and exercise their judgement to finalize the output. We illustrate the framework on the data characterization activity of PRIAM using a CBDC-based welfare scheme use case. The illustration demonstrates that while LLMs generate the initial data categories and assign initial values to data attributes, human experts evaluate and provide feedback to refine them, distinguishing documented evidence from inferences, identifying information gaps, and flagging unsupported or ambiguous outputs. This framework serves as a foundational contribution towards human-AI teaming for privacy risk assessments.</summary>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-17T11:59:03Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.ET"/>
+    <author>
+      <name>Sourya Joyee De</name>
+    </author>
+    <author>
+      <name>Abdessamad Imine</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.18644v2</id>
+    <title>Digital Euro: Frequently Asked Questions Revisited</title>
+    <updated>2026-07-08T13:25:46Z</updated>
+    <link href="https://arxiv.org/abs/2601.18644v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.18644v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The European Central Bank (ECB) is working on the "digital euro", an envisioned retail central bank digital currency for the Euro area. In this article, we take a closer look at the "digital euro FAQ", which provides answers to 26 frequently asked questions about the digital euro, and other published documents by the ECB on the topic. We question the provided answers based on our analysis of the current design in terms of privacy, technical feasibility, risks, costs and utility. In particular, we discuss the following key findings:
+  (KF1) Central monitoring of all online digital euro transactions by the ECB threatens privacy even more than contemporary digital payment methods with segregated account databases.
+  (KF2) The ECB's envisioned concept of a secure offline version of the digital euro offering full anonymity is in strong conflict with the actual history of hardware security breaches and mathematical evidence against it.
+  (KF3) The legal and financial liabilities for the various parties involved remain unclear.
+  (KF4) The design lacks well-specified economic incentives for operators as well as a discussion of its economic impact on merchants.
+  (KF5) The ECB fails to identify tangible benefits the digital euro would create for society, in particular given that the online component of the proposed infrastructure mainly duplicates existing payment systems.
+  (KF6) The design process has been exclusionary, with critical decisions being set in stone before public consultations. Alternative and open design ideas have not even been discussed by the ECB.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T16:14:26Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Joe Cannataci</name>
+    </author>
+    <author>
+      <name>Benjamin Fehrensen</name>
+    </author>
+    <author>
+      <name>Mikolai Gütschow</name>
+    </author>
+    <author>
+      <name>Özgür Kesim</name>
+    </author>
+    <author>
+      <name>Bernd Lucke</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.03804v2</id>
+    <title>Zero-Knowledge Proof (ZKP) Authentication for Offline CBDC Payment System Using IoT Devices</title>
+    <updated>2026-03-05T13:51:30Z</updated>
+    <link href="https://arxiv.org/abs/2603.03804v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.03804v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Central Bank Digital Currency (CBDCs) are becoming a new digital financial tool aimed at financial inclusion, increased monetary stability, and improved efficiency of payment systems, as they are issued by central banks. One of the most important aspects is that the CBDC must offer secure offline payment methods to users, allowing them to retain cash-like access without violating Anti-Money Laundering and Counter-terrorism Financing (AML/CFT) rules. The offline CBDC ecosystems will provide financial inclusion, empower underserved communities, and ensure equitable access to digital payments, even in connectivity-poor remote locations. With the rapid growth of Internet of Things (IoT) devices in our everyday lives, they are capable of performing secure digital transactions. Integrating offline CBDC payment with IoT devices enables seamless, automated payment without internet connectivity. However, IoT devices face special challenges due to their resource-constrained nature. This makes it difficult to include features such as double-spending prevention, privacy preservation, low-computation operation, and digital identity management. The work proposes a privacy-preserving offline CBDC model with integrated secure elements (SEs), zero-knowledge proofs (ZKPs), and intermittent synchronisation to conduct offline payments on IoT hardware. The proposed model is based on recent improvements in offline CBDC prototypes, regulations and cryptographic design choices such as hybrid architecture that involves using combination of online and offline payment in IoT devices using secure hardware with lightweight zero-knowledge proof cryptographic algorithm.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-04T07:29:53Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Santanu Mondal</name>
+    </author>
+    <author>
+      <name>T. Chithralekha</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.09067v2</id>
+    <title>Quantum-Resilient Privacy Ledger (QRPL): A Sovereign Digital Currency for the Post-Quantum Era</title>
+    <updated>2025-07-18T16:51:19Z</updated>
+    <link href="https://arxiv.org/abs/2507.09067v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.09067v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The emergence of quantum computing presents profound challenges to existing cryptographic infrastructures, whilst the development of central bank digital currencies (CBDCs) has raised concerns regarding privacy preservation and excessive centralisation in digital payment systems. This paper proposes the Quantum-Resilient Privacy Ledger (QRPL) as an innovative token-based digital currency architecture that incorporates National Institute of Standards and Technology (NIST)-standardised post-quantum cryptography (PQC) with hash-based zero-knowledge proofs to ensure user sovereignty, scalability, and transaction confidentiality. Key contributions include adaptations of ephemeral proof chains for unlinkable transactions, a privacy-weighted Proof-of-Stake (PoS) consensus to promote equitable participation, and a novel zero-knowledge proof-based mechanism for privacy-preserving selective disclosure. QRPL aims to address critical shortcomings in prevailing CBDC designs, including risks of pervasive surveillance, with a 10-20 second block time to balance security and throughput in future monetary systems. While conceptual, empirical prototypes are planned. Future work includes prototype development to validate these models empirically.</summary>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-11T23:02:45Z</published>
+    <arxiv:primary_category term="cs.ET"/>
+    <author>
+      <name>Serhan W. Bahar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.13776v1</id>
+    <title>Offline Digital Euro: a Minimum Viable CBDC using Groth-Sahai proofs</title>
+    <updated>2024-07-01T09:55:14Z</updated>
+    <link href="https://arxiv.org/abs/2407.13776v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.13776v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current digital payment solutions are fragile and offer less privacy than traditional cash.
+  Their critical dependency on an online service used to perform and validate transactions makes them void if this service is unreachable.
+  Moreover, no transaction can be executed during server malfunctions or power outages.
+  Due to climate change, the likelihood of extreme weather increases. As extreme weather is a major cause of power outages, the frequency of power outages is expected to increase.
+  The lack of privacy is an inherent result of their account-based design or the use of a public ledger.
+  The critical dependency and lack of privacy can be resolved with a Central Bank Digital Currency that can be used offline.
+  This thesis proposes a design and a first implementation for an offline-first digital euro.
+  The protocol offers complete privacy during transactions using zero-knowledge proofs.
+  Furthermore, transactions can be executed offline without third parties and retroactive double-spending detection is facilitated.
+  To protect the users' privacy, but also guard against money laundering, we have added the following privacy-guarding mechanism.
+  The bank and trusted third parties for law enforcement must collaborate to decrypt transactions, revealing the digital pseudonym used in the transaction.
+  Importantly, the transaction can be decrypted without decrypting prior transactions attached to the digital euro.
+  The protocol has a working initial implementation showcasing its usability and demonstrating functionality.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-01T09:55:14Z</published>
+    <arxiv:comment>13 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Leon Kempen</name>
+    </author>
+    <author>
+      <name>Johan Pouwelse</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.25469v1</id>
+    <title>Balancing Compliance and Privacy in Offline CBDC Transactions Using a Secure Element-based System</title>
+    <updated>2025-09-29T20:19:31Z</updated>
+    <link href="https://arxiv.org/abs/2509.25469v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.25469v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Blockchain technology has spawned a vast ecosystem of digital currencies with Central Bank Digital Currencies (CBDCs) -- digital forms of fiat currency -- being one of them. An important feature of digital currencies is facilitating transactions without network connectivity, which can enhance the scalability of cryptocurrencies and the privacy of CBDC users. However, in the case of CBDCs, this characteristic also introduces new regulatory challenges, particularly when it comes to applying established Anti-Money Laundering and Countering the Financing of Terrorism (AML/CFT) frameworks. This paper introduces a prototype for offline digital currency payments, equally applicable to cryptocurrencies and CBDCs, that leverages Secure Elements and digital credentials to address the tension of offline payment support with regulatory compliance. Performance evaluation results suggest that the prototype can be flexibly adapted to different regulatory environments, with a transaction latency comparable to real-life commercial payment systems. Furthermore, we conceptualize how the integration of Zero-Knowledge Proofs into our design could accommodate various tiers of enhanced privacy protection.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-29T20:19:31Z</published>
+    <arxiv:comment>9 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Panagiotis Michalopoulos</name>
+    </author>
+    <author>
+      <name>Anthony Mack</name>
+    </author>
+    <author>
+      <name>Cameron Clark</name>
+    </author>
+    <author>
+      <name>Linus Chen</name>
+    </author>
+    <author>
+      <name>Johannes Sedlmeir</name>
+    </author>
+    <author>
+      <name>Andreas Veneris</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.06870v2</id>
+    <title>A PoW-less Bitcoin with Certified Byzantine Consensus</title>
+    <updated>2023-05-09T14:06:33Z</updated>
+    <link href="https://arxiv.org/abs/2207.06870v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.06870v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Distributed Ledger Technologies (DLTs), when managed by a few trusted validators, require most but not all of the machinery available in public DLTs. In this work, we explore one possible way to profit from this state of affairs. We devise a combination of a modified Practical Byzantine Fault Tolerant (PBFT) protocol and a revised Flexible Round-Optimized Schnorr Threshold Signatures (FROST) scheme, and then we inject the resulting proof-of-authority consensus algorithm into Bitcoin (chosen for the reliability, openness, and liveliness it brings in), replacing its PoW machinery. The combined protocol may operate as a modern, safe foundation for digital payment systems and Central Bank Digital Currencies (CBDC).</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-14T12:47:37Z</published>
+    <arxiv:comment>This version adds the evaluation section</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Marco Benedetti</name>
+    </author>
+    <author>
+      <name>Francesco De Sclavis</name>
+    </author>
+    <author>
+      <name>Marco Favorito</name>
+    </author>
+    <author>
+      <name>Giuseppe Galano</name>
+    </author>
+    <author>
+      <name>Sara Giammusso</name>
+    </author>
+    <author>
+      <name>Antonio Muci</name>
+    </author>
+    <author>
+      <name>Matteo Nardelli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.07909v1</id>
+    <title>On the Normality of Negative Interest Rates</title>
+    <updated>2018-08-23T19:13:42Z</updated>
+    <link href="https://arxiv.org/abs/1808.07909v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.07909v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We argue that a negative interest rate policy (NIRP) can be an effect tool for macroeconomic stabilization. We first discuss how implementing negative rates on reserves held at a central bank does not pose any theoretical difficulty, with a reduction in rates operating in exactly the same way when rates are positive or negative, and show that this is compatible with an endogenous money point of view. We then propose a simplified stock-flow consistent macroeconomic model where rates are allowed to become arbitrarily negative and present simulation evidence for their stabilizing effects. In practice, the existence of physical cash imposes a lower bound for interest rates, which in our view is the main reason for the lack of effectiveness of negative interest rates in the countries that adopted them as part of their monetary policy. We conclude by discussing alternative ways to overcome this lower bound , in particular the use of central bank digital currencies.</summary>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-23T19:13:42Z</published>
+    <arxiv:primary_category term="econ.GN"/>
+    <author>
+      <name>Matheus R. Grasselli</name>
+    </author>
+    <author>
+      <name>Alexander Lipton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.13213v1</id>
+    <title>Towards Secure Decentralized Applications and Consensus Protocols in Blockchains (on Selfish Mining, Undercutting Attacks, DAG-Based Blockchains, E-Voting, Cryptocurrency Wallets, Secure-Logging, and CBDC)</title>
+    <updated>2025-12-15T11:26:43Z</updated>
+    <link href="https://arxiv.org/abs/2512.13213v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.13213v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rise of cryptocurrencies, many new applications built on decentralized blockchains have emerged. Blockchains are full-stack distributed systems where multiple sub-systems interact. While many deployed blockchains and decentralized applications need better scalability and performance, security is also critical. Due to their complexity, assessing blockchain and DAPP security requires a more holistic view than for traditional distributed or centralized systems.
+  In this thesis, we summarize our contributions to blockchain and decentralized application security. We propose a security reference architecture to support standardized vulnerability and threat analysis. We study consensus security in single-chain Proof-of-Work blockchains, including resistance to selfish mining, undercutting, and greedy transaction selection, as well as related issues in DAG-based systems. We contribute to wallet security with a new classification of authentication schemes and a two-factor method based on One-Time Passwords. We advance e-voting with a practical boardroom voting protocol, extend it to a scalable version for millions of participants while preserving security and privacy, and introduce a repetitive voting framework that enables vote changes between elections while avoiding peak-end effects. Finally, we improve secure logging using blockchains and trusted computing through a centralized ledger that guarantees non-equivocation, integrity, and censorship evidence, then build on it to propose an interoperability protocol for central bank digital currencies that ensures atomic transfers.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T11:26:43Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ivan Homoliak</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.09249v1</id>
+    <title>Track me if you can: Ephemeral coin tracing</title>
+    <updated>2026-08-10T08:09:28Z</updated>
+    <link href="https://arxiv.org/abs/2608.09249v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.09249v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Privacy-preserving payment systems are well understood, yet their adoption in regulated settings, such as central bank digital currencies (CBDCs), institutional stablecoins, and other compliant payment infrastructures, has been limited by concerns over their potential misuse for illicit activities. Regulators counter financial crime with a toolbox of complementary measures to identify, trace, and stop criminal actors. Tracing is one key tool: acting on outside evidence that a user is implicated in a crime such as money laundering, law enforcement follows the suspect's funds through the ledger to uncover laundering routes and accomplices. The tracing schemes proposed in the literature, however, grant authorities unbounded capabilities: once initiated, tracing propagates through the transaction graph or persists across all future transactions of a user, and may eventually deanonymize the entire ledger. Only the goodwill of the authority, or the honesty of a committee, keeps surveillance targeted and temporary.
+  We introduce ephemeral coin tracing (ECT), a primitive whose tracing capacity is bounded by construction, both in the number of simultaneously traced users and in the number of hops each trace survives. The authority issues tracing tags that degrade at each hop; after a protocol-defined number of hops, a tag collapses into a value indistinguishable from that of an untagged coin. Within a tracing period the bound is absolute: no authority, however motivated, can follow a tag past its budget. We formalize ECT, define its security and privacy guarantees, and give two constructions, one over exponential ElGamal and one over Damgård--Jurik encryption.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-10T08:09:28Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ignacio Amores-Sesar</name>
+    </author>
+    <author>
+      <name>Christian Cachin</name>
+    </author>
+    <author>
+      <name>Rohit Chatterjee</name>
+    </author>
+    <author>
+      <name>Luiza Soezima</name>
+    </author>
+    <author>
+      <name>François-Xavier Wicht</name>
+    </author>
+    <author>
+      <name>Michelle Yeo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.10200v1</id>
+    <title>Privacy-Enhancing Technologies for Financial Data Sharing</title>
+    <updated>2023-06-16T22:35:08Z</updated>
+    <link href="https://arxiv.org/abs/2306.10200v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.10200v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Today, financial institutions (FIs) store and share consumers' financial data for various reasons such as offering loans, processing payments, and protecting against fraud and financial crime. Such sharing of sensitive data have been subject to data breaches in the past decade.
+  While some regulations (e.g., GDPR, FCRA, and CCPA) help to prevent institutions from freely sharing clients' sensitive information, some regulations (e.g., BSA 1970) require FIs to share certain financial data with government agencies to combat financial crime. This creates an inherent tension between the privacy and the integrity of financial transactions. In the past decade, significant progress has been made in building efficient privacy-enhancing technologies that allow computer systems and networks to validate encrypted data automatically.
+  In this paper, we investigate some of these technologies to identify the benefits and limitations of each, in particular, for use in data sharing among FIs. As a case study, we look into the emerging area of Central Bank Digital Currencies (CBDCs) and how privacy-enhancing technologies can be integrated into the CBDC architecture. Our study, however, is not limited to CBDCs and can be applied to other financial scenarios with tokenized bank deposits such as cross-border payments, real-time settlements, and card payments.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-16T22:35:08Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Panagiotis Chatzigiannis</name>
+    </author>
+    <author>
+      <name>Wanyun Catherine Gu</name>
+    </author>
+    <author>
+      <name>Srinivasan Raghuraman</name>
+    </author>
+    <author>
+      <name>Peter Rindal</name>
+    </author>
+    <author>
+      <name>Mahdi Zamani</name>
+    </author>
+  </entry>
+</feed>

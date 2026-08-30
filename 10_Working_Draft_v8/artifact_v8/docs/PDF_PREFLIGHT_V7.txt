@@ -1,0 +1,6 @@
+PDF: /mnt/data/cbdc_v7/release_v7/output/Composable_Assurance_CBDC_National_Qualification_Manuscript_v7.pdf
+Pages: 16
+Encrypted: False
+Openable (PyMuPDF): True
+Likely scanned: False
+XFA present: False

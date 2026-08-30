@@ -1,0 +1,19 @@
+{
+  "policy_version": 1,
+  "external_processing": "allow-approved",
+  "allowed_channels": [
+    "public_web"
+  ],
+  "approved_content": [
+    "public bibliographic metadata",
+    "official journal instructions and scope pages",
+    "public standards, regulator publications, patents, preprints, and research abstracts"
+  ],
+  "prohibited_content": [
+    "unpublished manuscript text or figures",
+    "local source code or research artifacts",
+    "credentials, personal data, or non-public institutional data"
+  ],
+  "authority_basis": "The user authorized completion of the publication work; this policy narrowly permits public-source research needed for novelty, citation, and venue checks while keeping unpublished local materials private.",
+  "notes": "No external upload, submission, manuscript sharing, image generation, or non-public data processing is authorized by this policy."
+}

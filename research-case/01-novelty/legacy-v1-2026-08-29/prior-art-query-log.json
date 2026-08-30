@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "cutoff": "2026-08-29",
+  "started_at_utc": "2026-08-28T22:56:36.792161+00:00",
+  "completed_at_utc": "2026-08-28T22:57:08.596183+00:00",
+  "queries": [
+    {
+      "query_id": "Q1_joint_assurance",
+      "database": "OpenAlex",
+      "query": "central bank digital currency composable assurance privacy AML interoperability operational resilience",
+      "url": "https://api.openalex.org/works?search=central+bank+digital+currency+composable+assurance+privacy+AML+interoperability+operational+resilience&per-page=25&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cauthorships%2Cprimary_location%2Ctype%2Ccited_by_count",
+      "fetched_at_utc": "2026-08-28T22:56:36.792290+00:00",
+      "reported_total": 61,
+      "bounded_records": 25,
+      "status": "SUCCESS"
+    },
+    {
+      "query_id": "Q1_joint_assurance",
+      "database": "Crossref",
+      "query": "central bank digital currency composable assurance privacy AML interoperability operational resilience",
+      "url": "https://api.crossref.org/works?query.bibliographic=central+bank+digital+currency+composable+assurance+privacy+AML+interoperability+operational+resilience&rows=25&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2CURL%2Cis-referenced-by-count%2Ccontainer-title",
+      "fetched_at_utc": "2026-08-28T22:56:39.416030+00:00",
+      "reported_total": 45179,
+      "bounded_records": 25,
+      "status": "SUCCESS"
+    },
+    {
+      "query_id": "Q2_cross_border_atomicity",
+      "database": "OpenAlex",
+      "query": "cross-border CBDC atomic settlement independent ledgers compliance certificate",
+      "url": "https://api.openalex.org/works?search=cross-border+CBDC+atomic+settlement+independent+ledgers+compliance+certificate&per-page=25&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cauthorships%2Cprimary_location%2Ctype%2Ccited_by_count",
+      "fetched_at_utc": "2026-08-28T22:56:40.557883+00:00",
+      "reported_total": 43,
+      "bounded_records": 25,
+      "status": "SUCCESS"
+    },
+    {
+      "query_id": "Q2_cross_border_atomicity",
+      "database": "Crossref",
+      "query": "cross-border CBDC atomic settlement independent ledgers compliance certificate",
+      "url": "https://api.crossref.org/works?query.bibliographic=cross-border+CBDC+atomic+settlement+independent+ledgers+compliance+certificate&rows=25&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2CURL%2Cis-referenced-by-count%2Ccontainer-title",
+      "fetched_at_utc": "2026-08-28T22:56:42.953480+00:00",
+      "reported_total": 1714672,
+      "bounded_records": 25,
+      "status": "SUCCESS"
+    },
+    {
+      "query_id": "Q3_privacy_integrity",
+      "database": "OpenAlex",
+      "query": "central bank digital currency privacy AML compliance by design selective disclosure",
+      "url": "https://api.openalex.org/works?search=central+bank+digital+currency+privacy+AML+compliance+by+design+selective+disclosure&per-page=25&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cauthorships%2Cprimary_location%2Ctype%2Ccited_by_count",
+      "fetched_at_utc": "2026-08-28T22:56:44.295225+00:00",
+      "reported_total": 219,
+      "bounded_records": 25,
+      "status": "SUCCESS"
+    },
+    {
+      "query_id": "Q3_privacy_integrity",
+      "database": "Crossref",
+      "query": "central bank digital currency privacy AML compliance by design selective disclosure",
+      "url": "https://api.crossref.org/works?query.bibliographic=central+bank+digital+currency+privacy+AML+compliance+by+design+selective+disclosure&rows=25&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2CURL%2Cis-referenced-by-count%2Ccontainer-title",
+      "fetched_at_utc": "2026-08-28T22:56:46.579370+00:00",
+      "reported_total": 122476,
+      "bounded_records": 25,
+      "status": "SUCCESS"
+    },
+    {
+      "query_id": "Q4_policy_scale",
+      "database": "OpenAlex",
+      "query": "CBDC holding limits scalability operational resilience qualification pilot",
+      "url": "https://api.openalex.org/works?search=CBDC+holding+limits+scalability+operational+resilience+qualification+pilot&per-page=25&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cauthorships%2Cprimary_location%2Ctype%2Ccited_by_count",
+      "fetched_at_utc": "2026-08-28T22:56:47.828794+00:00",
+      "reported_total": 24,
+      "bounded_records": 24,
+      "status": "SUCCESS"
+    },
+    {
+      "query_id": "Q4_policy_scale",
+      "database": "Crossref",
+      "query": "CBDC holding limits scalability operational resilience qualification pilot",
+      "url": "https://api.crossref.org/works?query.bibliographic=CBDC+holding+limits+scalability+operational+resilience+qualification+pilot&rows=25&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2CURL%2Cis-referenced-by-count%2Ccontainer-title",
+      "fetched_at_utc": "2026-08-28T22:56:50.029400+00:00",
+      "reported_total": 806661,
+      "bounded_records": 25,
+      "status": "SUCCESS"
+    },
+    {
+      "query_id": "Q5_evidence_maturity",
+      "database": "OpenAlex",
+      "query": "CBDC evidence qualification framework prototype deployment validation",
+      "url": "https://api.openalex.org/works?search=CBDC+evidence+qualification+framework+prototype+deployment+validation&per-page=25&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cauthorships%2Cprimary_location%2Ctype%2Ccited_by_count",
+      "fetched_at_utc": "2026-08-28T22:56:51.086992+00:00",
+      "reported_total": 5,
+      "bounded_records": 5,
+      "status": "SUCCESS"
+    },
+    {
+      "query_id": "Q5_evidence_maturity",
+      "database": "Crossref",
+      "query": "CBDC evidence qualification framework prototype deployment validation",
+      "url": "https://api.crossref.org/works?query.bibliographic=CBDC+evidence+qualification+framework+prototype+deployment+validation&rows=25&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2CURL%2Cis-referenced-by-count%2Ccontainer-title",
+      "fetched_at_utc": "2026-08-28T22:56:51.840285+00:00",
+      "reported_total": 2412252,
+      "bounded_records": 25,
+      "status": "SUCCESS"
+    },
+    {
+      "query_id": "Q6_architecture_agnostic",
+      "database": "OpenAlex",
+      "query": "CBDC architecture agnostic interoperability checkpoint reserve lock finalize",
+      "url": "https://api.openalex.org/works?search=CBDC+architecture+agnostic+interoperability+checkpoint+reserve+lock+finalize&per-page=25&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cauthorships%2Cprimary_location%2Ctype%2Ccited_by_count",
+      "fetched_at_utc": "2026-08-28T22:56:53.041596+00:00",
+      "reported_total": 2,
+      "bounded_records": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "query_id": "Q6_architecture_agnostic",
+      "database": "Crossref",
+      "query": "CBDC architecture agnostic interoperability checkpoint reserve lock finalize",
+      "url": "https://api.crossref.org/works?query.bibliographic=CBDC+architecture+agnostic+interoperability+checkpoint+reserve+lock+finalize&rows=25&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2CURL%2Cis-referenced-by-count%2Ccontainer-title",
+      "fetched_at_utc": "2026-08-28T22:56:53.766147+00:00",
+      "reported_total": 669983,
+      "bounded_records": 25,
+      "status": "SUCCESS"
+    },
+    {
+      "query_id": "Q1_joint_assurance",
+      "database": "arXiv",
+      "query": "all:\"central bank digital currency composable assurance privacy AML interoperability operational resilience\"",
+      "url": "https://export.arxiv.org/api/query?search_query=all%3A%22central+bank+digital+currency+composable+assurance+privacy+AML+interoperability+operational+resilience%22&start=0&max_results=20&sortBy=relevance&sortOrder=descending",
+      "fetched_at_utc": "2026-08-28T22:56:54.988648+00:00",
+      "reported_total": null,
+      "bounded_records": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "query_id": "Q2_cross_border_atomicity",
+      "database": "arXiv",
+      "query": "all:\"cross-border CBDC atomic settlement independent ledgers compliance certificate\"",
+      "url": "https://export.arxiv.org/api/query?search_query=all%3A%22cross-border+CBDC+atomic+settlement+independent+ledgers+compliance+certificate%22&start=0&max_results=20&sortBy=relevance&sortOrder=descending",
+      "fetched_at_utc": "2026-08-28T22:57:06.070383+00:00",
+      "reported_total": null,
+      "bounded_records": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "query_id": "Q3_privacy_integrity",
+      "database": "arXiv",
+      "query": "all:\"central bank digital currency privacy AML compliance by design selective disclosure\"",
+      "url": "https://export.arxiv.org/api/query?search_query=all%3A%22central+bank+digital+currency+privacy+AML+compliance+by+design+selective+disclosure%22&start=0&max_results=20&sortBy=relevance&sortOrder=descending",
+      "fetched_at_utc": "2026-08-28T22:57:07.148840+00:00",
+      "reported_total": null,
+      "bounded_records": 0,
+      "status": "SUCCESS"
+    }
+  ]
+}

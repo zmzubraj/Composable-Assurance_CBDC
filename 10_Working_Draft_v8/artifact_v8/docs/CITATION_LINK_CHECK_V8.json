@@ -1,0 +1,792 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-08-28T23:43:25.850593Z",
+  "source": "docs/CITATION_AUDIT_V8.md",
+  "user_agent": "CBDC-publication-reproducibility-check/8.0 (+local research QA)",
+  "timeout_seconds": 20,
+  "reference_count": 44,
+  "summary": {
+    "REACHABLE": 37,
+    "ACCESS_RESTRICTED": 6,
+    "UNREACHABLE": 1
+  },
+  "interpretation_boundary": "HTTP reachability is a maintenance signal only. It does not verify bibliographic metadata, claim support, novelty, scientific validity, or unrestricted full-text access.",
+  "results": [
+    {
+      "reference": 1,
+      "requested_url": "https://www.bis.org/publ/bppdf/bispap159.pdf",
+      "final_url": "https://www.bis.org/publ/bppdf/bispap159.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 2,
+      "requested_url": "https://www.bis.org/publ/othp61.htm",
+      "final_url": "https://www.bis.org/publ/othp61.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 3,
+      "requested_url": "https://www.bis.org/publ/othp87.htm",
+      "final_url": "https://www.bis.org/publ/othp87.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 4,
+      "requested_url": "https://www.bis.org/about/bisih/topics/fmis/agora.htm",
+      "final_url": "https://www.bis.org/about/bisih/topics/fmis/agora.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 5,
+      "requested_url": "https://www.bis.org/publ/othp108.htm",
+      "final_url": "https://www.bis.org/publ/othp108.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 6,
+      "requested_url": "https://doi.org/10.1145/1132863.1132867",
+      "final_url": null,
+      "http_status": 403,
+      "content_type": null,
+      "method": null,
+      "disposition": "ACCESS_RESTRICTED",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403,
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "status": 403,
+          "error": "Forbidden"
+        },
+        {
+          "method": "CURL_RANGE_GET",
+          "status": 403,
+          "returncode": 0,
+          "stderr": null
+        }
+      ]
+    },
+    {
+      "reference": 7,
+      "requested_url": "https://www.usenix.org/conference/osdi-99/presentation/practical-byzantine-fault-tolerance",
+      "final_url": "https://www.usenix.org/conference/osdi-99/presentation/practical-byzantine-fault-tolerance",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 8,
+      "requested_url": "https://doi.org/10.1145/3293611.3331591",
+      "final_url": null,
+      "http_status": 403,
+      "content_type": null,
+      "method": null,
+      "disposition": "ACCESS_RESTRICTED",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403,
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "status": 403,
+          "error": "Forbidden"
+        },
+        {
+          "method": "CURL_RANGE_GET",
+          "status": 403,
+          "returncode": 0,
+          "stderr": null
+        }
+      ]
+    },
+    {
+      "reference": 9,
+      "requested_url": "https://csrc.nist.gov/pubs/sp/800/226/final",
+      "final_url": "https://csrc.nist.gov/pubs/sp/800/226/final",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 10,
+      "requested_url": "https://www.fatf-gafi.org/en/publications/Mutualevaluations/Fatf-methodology.html",
+      "final_url": "https://www.fatf-gafi.org/en/publications/Mutualevaluations/Fatf-methodology.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 11,
+      "requested_url": "https://ofac.treasury.gov/sdn-list-data-formats-data-schemas/frequently-asked-questions-on-advanced-sanctions-list-standard",
+      "final_url": "https://ofac.treasury.gov/sdn-list-data-formats-data-schemas/frequently-asked-questions-on-advanced-sanctions-list-standard",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 12,
+      "requested_url": "https://ofac.treasury.gov/faqs/246",
+      "final_url": "https://ofac.treasury.gov/faqs/246",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 13,
+      "requested_url": "https://ofac.treasury.gov/faqs/398",
+      "final_url": "https://ofac.treasury.gov/faqs/398",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 14,
+      "requested_url": "https://www.bis.org/publ/work1280.htm",
+      "final_url": "https://www.bis.org/publ/work1280.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 15,
+      "requested_url": "https://www.ecb.europa.eu/euro/digital_euro/timeline/profuse/html/index.en.html",
+      "final_url": "https://www.ecb.europa.eu/euro/digital_euro/timeline/profuse/html/index.en.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "method": "CURL_RANGE_GET",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        },
+        {
+          "method": "GET",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        },
+        {
+          "method": "CURL_RANGE_GET",
+          "status": 200,
+          "returncode": 0,
+          "stderr": null
+        }
+      ]
+    },
+    {
+      "reference": 16,
+      "requested_url": "https://www.ecb.europa.eu/euro/digital_euro/progress/shared/pdf/ecb.deprp202510.en.pdf",
+      "final_url": "https://www.ecb.europa.eu/euro/digital_euro/progress/shared/pdf/ecb.deprp202510.en.pdf",
+      "http_status": 206,
+      "content_type": "application/pdf",
+      "method": "CURL_RANGE_GET",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        },
+        {
+          "method": "GET",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        },
+        {
+          "method": "CURL_RANGE_GET",
+          "status": 206,
+          "returncode": 0,
+          "stderr": null
+        }
+      ]
+    },
+    {
+      "reference": 17,
+      "requested_url": "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/tips/shared/pdf/tipsmeetdoc/ecb.tipsmeetdoc240214_TIPS-CG_TIPS_Capacity.en.pdf",
+      "final_url": "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/tips/shared/pdf/tipsmeetdoc/ecb.tipsmeetdoc240214_TIPS-CG_TIPS_Capacity.en.pdf",
+      "http_status": 206,
+      "content_type": "application/pdf",
+      "method": "CURL_RANGE_GET",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        },
+        {
+          "method": "GET",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        },
+        {
+          "method": "CURL_RANGE_GET",
+          "status": 206,
+          "returncode": 0,
+          "stderr": null
+        }
+      ]
+    },
+    {
+      "reference": 18,
+      "requested_url": "https://aprendervalor.bcb.gov.br/content/financialstability/spi_annual_reports/SPI_2024.pdf",
+      "final_url": "https://aprendervalor.bcb.gov.br/content/financialstability/spi_annual_reports/SPI_2024.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 19,
+      "requested_url": "https://www.bis.org/publ/othp66.htm",
+      "final_url": "https://www.bis.org/publ/othp66.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 20,
+      "requested_url": "https://www.bis.org/publ/othp96.htm",
+      "final_url": "https://www.bis.org/publ/othp96.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 21,
+      "requested_url": "https://www.bis.org/publ/othp70.htm",
+      "final_url": "https://www.bis.org/publ/othp70.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 22,
+      "requested_url": "https://www.bis.org/publ/othp80.htm",
+      "final_url": "https://www.bis.org/publ/othp80.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 23,
+      "requested_url": "https://www.w3.org/TR/vc-di-bbs/",
+      "final_url": "https://www.w3.org/TR/vc-di-bbs/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 24,
+      "requested_url": "https://csrc.nist.gov/pubs/fips/203/final",
+      "final_url": "https://csrc.nist.gov/pubs/fips/203/final",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 25,
+      "requested_url": "https://csrc.nist.gov/pubs/fips/204/final",
+      "final_url": "https://csrc.nist.gov/pubs/fips/204/final",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 26,
+      "requested_url": "https://www.fatf-gafi.org/content/dam/fatf-gafi/guidance/Guidance-on-Digital-Identity.pdf.coredownload.pdf",
+      "final_url": "https://www.fatf-gafi.org/content/dam/fatf-gafi/guidance/Guidance-on-Digital-Identity.pdf.coredownload.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 27,
+      "requested_url": "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-Beneficial-Ownership-Legal-Persons.html",
+      "final_url": "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-Beneficial-Ownership-Legal-Persons.html",
+      "http_status": 206,
+      "content_type": "text/html",
+      "method": "GET",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403,
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "reference": 28,
+      "requested_url": "https://www.bis.org/cpmi/pietf/fps_feb_2026.pdf",
+      "final_url": "https://www.bis.org/cpmi/pietf/fps_feb_2026.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 29,
+      "requested_url": "https://www.iso20022.org/catalogue-messages",
+      "final_url": null,
+      "http_status": null,
+      "content_type": null,
+      "method": null,
+      "disposition": "UNREACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError: The read operation timed out"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError: The read operation timed out"
+        },
+        {
+          "method": "CURL_RANGE_GET",
+          "returncode": 28,
+          "error": "curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received"
+        }
+      ]
+    },
+    {
+      "reference": 30,
+      "requested_url": "https://www.bis.org/cpmi/publ/d101.htm",
+      "final_url": "https://www.bis.org/cpmi/publ/d101.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 31,
+      "requested_url": "https://www.bis.org/bcbs/publ/d516.htm",
+      "final_url": "https://www.bis.org/bcbs/publ/d516.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 32,
+      "requested_url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "final_url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 33,
+      "requested_url": "https://www.elibrary.imf.org/view/journals/063/2024/004/article-A001-en.xml",
+      "final_url": null,
+      "http_status": 403,
+      "content_type": null,
+      "method": null,
+      "disposition": "ACCESS_RESTRICTED",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403,
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "status": 403,
+          "error": "Forbidden"
+        },
+        {
+          "method": "CURL_RANGE_GET",
+          "status": 403,
+          "returncode": 0,
+          "stderr": null
+        }
+      ]
+    },
+    {
+      "reference": 34,
+      "requested_url": "https://www.imf.org/en/publications/fintech-notes/issues/2025/11/14/financial-integrity-implications-of-retail-central-bank-digital-currencies-rcbdcs-571769",
+      "final_url": null,
+      "http_status": 403,
+      "content_type": null,
+      "method": null,
+      "disposition": "ACCESS_RESTRICTED",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403,
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "status": 403,
+          "error": "Forbidden"
+        },
+        {
+          "method": "CURL_RANGE_GET",
+          "status": 403,
+          "returncode": 0,
+          "stderr": null
+        }
+      ]
+    },
+    {
+      "reference": 35,
+      "requested_url": "https://doi.org/10.1016/j.ins.2021.09.040",
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0020025521009713",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 36,
+      "requested_url": "https://arxiv.org/abs/2305.16893",
+      "final_url": "https://arxiv.org/abs/2305.16893",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 37,
+      "requested_url": "https://www.elibrary.imf.org/view/journals/063/2024/002/article-A001-en.xml",
+      "final_url": null,
+      "http_status": 403,
+      "content_type": null,
+      "method": null,
+      "disposition": "ACCESS_RESTRICTED",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403,
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "status": 403,
+          "error": "Forbidden"
+        },
+        {
+          "method": "CURL_RANGE_GET",
+          "status": 403,
+          "returncode": 0,
+          "stderr": null
+        }
+      ]
+    },
+    {
+      "reference": 38,
+      "requested_url": "https://www.bis.org/publ/othp82.htm",
+      "final_url": "https://www.bis.org/publ/othp82.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 39,
+      "requested_url": "https://doi.org/10.1109/TNSM.2021.3136984",
+      "final_url": "https://ieeexplore.ieee.org/document/9657055/",
+      "http_status": 202,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 202
+        }
+      ]
+    },
+    {
+      "reference": 40,
+      "requested_url": "https://doi.org/10.2139/ssrn.4251613",
+      "final_url": null,
+      "http_status": 403,
+      "content_type": null,
+      "method": null,
+      "disposition": "ACCESS_RESTRICTED",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403,
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "status": 403,
+          "error": "Forbidden"
+        },
+        {
+          "method": "CURL_RANGE_GET",
+          "status": 403,
+          "returncode": 0,
+          "stderr": null
+        }
+      ]
+    },
+    {
+      "reference": 41,
+      "requested_url": "https://doi.org/10.1109/TNSM.2025.3575367",
+      "final_url": "https://ieeexplore.ieee.org/document/11018658/",
+      "http_status": 202,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 202
+        }
+      ]
+    },
+    {
+      "reference": 42,
+      "requested_url": "https://patents.google.com/patent/WO2025085074A1/en",
+      "final_url": "https://patents.google.com/patent/WO2025085074A1/en",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 43,
+      "requested_url": "https://arxiv.org/abs/2508.08064",
+      "final_url": "https://arxiv.org/abs/2508.08064",
+      "http_status": 200,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "reference": 44,
+      "requested_url": "https://doi.org/10.1109/ACCESS.2022.3183092",
+      "final_url": "https://ieeexplore.ieee.org/document/9795279/",
+      "http_status": 202,
+      "content_type": "text/html",
+      "method": "HEAD",
+      "disposition": "REACHABLE",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 202
+        }
+      ]
+    }
+  ]
+}

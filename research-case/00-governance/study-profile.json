@@ -1,0 +1,20 @@
+{
+  "schema_version": 4,
+  "adapter_id": "simulation_methods_v1",
+  "field": "Financial market infrastructure, central bank digital currency systems, and computational assurance methods",
+  "study_type": "simulation_methods",
+  "jurisdiction": "Multi-jurisdictional and non-country-specific",
+  "jurisdiction_basis": "The present study makes no country-specific legal determination and uses no recruited participants or institution-restricted transaction data. It evaluates a general CBDC assurance architecture with formal models, a local prototype, synthetic data, a public OFAC sanctions-list snapshot, and queueing simulation. Any future governed institutional or field study must resolve its own jurisdiction, data authority, and ethics basis before execution.",
+  "ethics_category": "non_human_computational_public_and_synthetic_data",
+  "reporting_guidelines": [
+    "Domain-appropriate simulation, model-validation, and reproducibility reporting",
+    "Journal of Financial Market Infrastructures research-paper submission checklist (provisional trial target; rules checked 2026-08-29)",
+    "No EQUATOR human-participant or clinical reporting guideline is directly applicable to the current study design"
+  ],
+  "evidence_standard": "Claim-matched formal verification, deterministic local prototype tests, synthetic simulation, public-list benchmarking, and queueing digital-twin evidence. Current claims are capped at V2 SIMULATED or V3 INTERNAL as applicable; production, institutional, national-scale, and field-effectiveness claims are excluded until matching external or field evidence exists.",
+  "article_type": "Research paper",
+  "manuscript_source": "docx",
+  "status": "RESOLVED_PENDING_INDEPENDENT_VERIFICATION",
+  "resolved_from": "User-confirmed canonical six-field intake on 2026-08-29 and inspected v8 artifact scope",
+  "notes": "JFMI is a provisional trial target, not a final venue commitment. The profile is substantively resolved but remains a DRAFT governance artifact until an independently authorized verification event is recorded."
+}

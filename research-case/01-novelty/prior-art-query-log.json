@@ -1,0 +1,365 @@
+{
+  "generated_at": "2026-08-28T23:23:12Z",
+  "run_id": "composable-assurance-for-sovereign-digital-currency-20260828T215947Z-1b00c7ec-7b6613",
+  "adapter_id": "simulation_methods_v1",
+  "fixture_set": "LIVE_SNAPSHOT",
+  "offline_only": false,
+  "live_network_permitted": true,
+  "may_assert_novelty": false,
+  "query_metadata_schema": {
+    "version": 1,
+    "required_keys": [
+      "query_id",
+      "source",
+      "endpoint",
+      "params",
+      "checked_date"
+    ]
+  },
+  "live_sources": [
+    {
+      "source_id": "crossref_rest_v1",
+      "endpoint": "https://api.crossref.org/works",
+      "documentation_url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+      "checked_date": "2026-08-01",
+      "network_policy": "explicit_egress_authorized_only",
+      "offline_test_mode": "fixture_only",
+      "cache_required": true,
+      "user_agent_required": true,
+      "mailto_required": true,
+      "status_backoff_policy": "respect_http_status_retry_after_and_exponential_backoff"
+    },
+    {
+      "source_id": "openalex_works",
+      "endpoint": "https://api.openalex.org/works",
+      "documentation_url": "https://developers.openalex.org/",
+      "checked_date": "2026-08-01",
+      "network_policy": "explicit_egress_authorized_only",
+      "offline_test_mode": "fixture_only"
+    },
+    {
+      "source_id": "ncbi_eutils",
+      "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
+      "documentation_url": "https://www.ncbi.nlm.nih.gov/books/NBK25501/",
+      "checked_date": "2026-08-01",
+      "network_policy": "explicit_egress_authorized_only",
+      "offline_test_mode": "fixture_only"
+    },
+    {
+      "source_id": "arxiv_api",
+      "endpoint": "https://export.arxiv.org/api/query",
+      "documentation_url": "https://info.arxiv.org/help/api/index.html",
+      "checked_date": "2026-08-01",
+      "network_policy": "explicit_egress_authorized_only",
+      "offline_test_mode": "fixture_only"
+    }
+  ],
+  "queries": [
+    {
+      "query_id": "Q001-arxiv_api",
+      "source": "arxiv_api",
+      "endpoint": "https://export.arxiv.org/api/query",
+      "params": {
+        "search_query": "all:\"central bank digital currency\" AND (all:composable OR all:assurance OR all:interoperability OR all:privacy OR all:AML OR all:\"anti-money laundering\" OR all:\"operational resilience\")",
+        "start": 0,
+        "max_results": 25
+      },
+      "request_url": "https://export.arxiv.org/api/query?search_query=all%3A%22central+bank+digital+currency%22+AND+%28all%3Acomposable+OR+all%3Aassurance+OR+all%3Ainteroperability+OR+all%3Aprivacy+OR+all%3AAML+OR+all%3A%22anti-money+laundering%22+OR+all%3A%22operational+resilience%22%29&start=0&max_results=25",
+      "checked_date": "2026-08-28T23:23:07Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "ebf471b27f150d0c5be60d9497f4f2838654ddca5b6ca71b034609f53f18b58f",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/prior-art-raw/Q001-arxiv_api.xml",
+      "query_semantics": "EXACT_CBDC_PHRASE_WITH_EXPLICIT_BOOLEAN_SCOPING",
+      "legacy_query_replaced": true
+    },
+    {
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "endpoint": "https://api.crossref.org/works",
+      "params": {
+        "query.bibliographic": "central bank digital currency composable assurance privacy AML interoperability operational resilience",
+        "rows": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.crossref.org/works?query.bibliographic=central+bank+digital+currency+composable+assurance+privacy+AML+interoperability+operational+resilience&rows=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-28T23:09:17Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "3c729ed2f3a799b329677ff23c7346a865eb1972c4d5cd86c1f9f5f0efc9606c",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/prior-art-raw/Q001-crossref_rest_v1.json"
+    },
+    {
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "endpoint": "https://api.openalex.org/works",
+      "params": {
+        "search": "central bank digital currency composable assurance privacy AML interoperability operational resilience",
+        "per-page": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.openalex.org/works?search=central+bank+digital+currency+composable+assurance+privacy+AML+interoperability+operational+resilience&per-page=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-28T23:09:20Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "2d0981f701cd41098ca4f8ca4a07faa8b4fb8b045c7299ba48a413373c21eaf6",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/prior-art-raw/Q001-openalex_works.json"
+    },
+    {
+      "query_id": "Q002-arxiv_api",
+      "source": "arxiv_api",
+      "endpoint": "https://export.arxiv.org/api/query",
+      "params": {
+        "search_query": "all:\"central bank digital currency\" AND (all:\"cross-border\" OR all:interoperability) AND (all:atomic OR all:settlement OR all:certificate OR all:ledger)",
+        "start": 0,
+        "max_results": 25
+      },
+      "request_url": "https://export.arxiv.org/api/query?search_query=all%3A%22central+bank+digital+currency%22+AND+%28all%3A%22cross-border%22+OR+all%3Ainteroperability%29+AND+%28all%3Aatomic+OR+all%3Asettlement+OR+all%3Acertificate+OR+all%3Aledger%29&start=0&max_results=25",
+      "checked_date": "2026-08-28T23:23:08Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "c4c1eab98aeaa41e15c08d8310ccc11f28ae1dde8dcfb8d4278f46b961d2a947",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/prior-art-raw/Q002-arxiv_api.xml",
+      "query_semantics": "EXACT_CBDC_PHRASE_WITH_EXPLICIT_BOOLEAN_SCOPING",
+      "legacy_query_replaced": true
+    },
+    {
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "endpoint": "https://api.crossref.org/works",
+      "params": {
+        "query.bibliographic": "cross-border CBDC atomic settlement independent ledgers compliance certificate",
+        "rows": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.crossref.org/works?query.bibliographic=cross-border+CBDC+atomic+settlement+independent+ledgers+compliance+certificate&rows=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-28T23:09:22Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "c30f88d10ad697fd5796fb58c1f3bdf5e1e89b7c425b8efc87cb0d990a2d12b2",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/prior-art-raw/Q002-crossref_rest_v1.json"
+    },
+    {
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "endpoint": "https://api.openalex.org/works",
+      "params": {
+        "search": "cross-border CBDC atomic settlement independent ledgers compliance certificate",
+        "per-page": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.openalex.org/works?search=cross-border+CBDC+atomic+settlement+independent+ledgers+compliance+certificate&per-page=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-28T23:09:25Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "48cbe92de64a66a264b6b3e40bb1f2f53dbcd2a5ee7a59b8adf0eb66fd4015c8",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/prior-art-raw/Q002-openalex_works.json"
+    },
+    {
+      "query_id": "Q003-arxiv_api",
+      "source": "arxiv_api",
+      "endpoint": "https://export.arxiv.org/api/query",
+      "params": {
+        "search_query": "all:\"central bank digital currency\" AND (all:privacy OR all:\"differential privacy\") AND (all:AML OR all:sanctions OR all:compliance OR all:\"financial integrity\")",
+        "start": 0,
+        "max_results": 25
+      },
+      "request_url": "https://export.arxiv.org/api/query?search_query=all%3A%22central+bank+digital+currency%22+AND+%28all%3Aprivacy+OR+all%3A%22differential+privacy%22%29+AND+%28all%3AAML+OR+all%3Asanctions+OR+all%3Acompliance+OR+all%3A%22financial+integrity%22%29&start=0&max_results=25",
+      "checked_date": "2026-08-28T23:23:08Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "a3d0968ae8e0734125efb5027dfdde38b2b4cd6d64898d04f0ecf12195822579",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/prior-art-raw/Q003-arxiv_api.xml",
+      "query_semantics": "EXACT_CBDC_PHRASE_WITH_EXPLICIT_BOOLEAN_SCOPING",
+      "legacy_query_replaced": true
+    },
+    {
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "endpoint": "https://api.crossref.org/works",
+      "params": {
+        "query.bibliographic": "central bank digital currency privacy AML compliance by design selective disclosure",
+        "rows": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.crossref.org/works?query.bibliographic=central+bank+digital+currency+privacy+AML+compliance+by+design+selective+disclosure&rows=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-28T23:09:29Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "bdade61ed60598f30ff0bfdb51d11e994de4100f3a3733c11fcdea7f82ba0521",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/prior-art-raw/Q003-crossref_rest_v1.json"
+    },
+    {
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "endpoint": "https://api.openalex.org/works",
+      "params": {
+        "search": "central bank digital currency privacy AML compliance by design selective disclosure",
+        "per-page": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.openalex.org/works?search=central+bank+digital+currency+privacy+AML+compliance+by+design+selective+disclosure&per-page=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-28T23:09:32Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "b8dd6f75940edccad20c8cd2671636e2b526d79fcb87836fd7a9c02bed270782",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/prior-art-raw/Q003-openalex_works.json"
+    },
+    {
+      "query_id": "Q004-arxiv_api",
+      "source": "arxiv_api",
+      "endpoint": "https://export.arxiv.org/api/query",
+      "params": {
+        "search_query": "all:\"central bank digital currency\" AND (all:\"holding limit\" OR all:policy OR all:resilience OR all:scalability OR all:performance)",
+        "start": 0,
+        "max_results": 25
+      },
+      "request_url": "https://export.arxiv.org/api/query?search_query=all%3A%22central+bank+digital+currency%22+AND+%28all%3A%22holding+limit%22+OR+all%3Apolicy+OR+all%3Aresilience+OR+all%3Ascalability+OR+all%3Aperformance%29&start=0&max_results=25",
+      "checked_date": "2026-08-28T23:23:09Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "8d949b3343bdfc75a8786c006553e79aedd6e5207b7d5388c06938508198b1ba",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/prior-art-raw/Q004-arxiv_api.xml",
+      "query_semantics": "EXACT_CBDC_PHRASE_WITH_EXPLICIT_BOOLEAN_SCOPING",
+      "legacy_query_replaced": true
+    },
+    {
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "endpoint": "https://api.crossref.org/works",
+      "params": {
+        "query.bibliographic": "CBDC holding limits scalability operational resilience qualification pilot",
+        "rows": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.crossref.org/works?query.bibliographic=CBDC+holding+limits+scalability+operational+resilience+qualification+pilot&rows=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-28T23:09:34Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "c47d29a25fa682b9ee27fa22e46a84b4b2941bcdbe432d305af569ebf52ef60f",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/prior-art-raw/Q004-crossref_rest_v1.json"
+    },
+    {
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "endpoint": "https://api.openalex.org/works",
+      "params": {
+        "search": "CBDC holding limits scalability operational resilience qualification pilot",
+        "per-page": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.openalex.org/works?search=CBDC+holding+limits+scalability+operational+resilience+qualification+pilot&per-page=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-28T23:09:36Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "6f832bbba4ac9fbe800cbc7e5793d91efcce037d6628b4c3e27ffd6f7c99dbbc",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/prior-art-raw/Q004-openalex_works.json"
+    },
+    {
+      "query_id": "Q005-arxiv_api",
+      "source": "arxiv_api",
+      "endpoint": "https://export.arxiv.org/api/query",
+      "params": {
+        "search_query": "all:\"central bank digital currency\" AND (all:evidence OR all:qualification OR all:validation OR all:prototype OR all:benchmark)",
+        "start": 0,
+        "max_results": 25
+      },
+      "request_url": "https://export.arxiv.org/api/query?search_query=all%3A%22central+bank+digital+currency%22+AND+%28all%3Aevidence+OR+all%3Aqualification+OR+all%3Avalidation+OR+all%3Aprototype+OR+all%3Abenchmark%29&start=0&max_results=25",
+      "checked_date": "2026-08-28T23:23:10Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "7925b01e7eb5d0c7e3c49733d48a440af522bf089ef32a75de0733724bd5d05b",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/prior-art-raw/Q005-arxiv_api.xml",
+      "query_semantics": "EXACT_CBDC_PHRASE_WITH_EXPLICIT_BOOLEAN_SCOPING",
+      "legacy_query_replaced": true
+    },
+    {
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "endpoint": "https://api.crossref.org/works",
+      "params": {
+        "query.bibliographic": "CBDC evidence qualification framework prototype deployment validation",
+        "rows": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.crossref.org/works?query.bibliographic=CBDC+evidence+qualification+framework+prototype+deployment+validation&rows=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-28T23:09:39Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "5b98dbc44cb6b2b15160af7641a24accaef3208487ccf5b2aae457f0f2f54eb7",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/prior-art-raw/Q005-crossref_rest_v1.json"
+    },
+    {
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "endpoint": "https://api.openalex.org/works",
+      "params": {
+        "search": "CBDC evidence qualification framework prototype deployment validation",
+        "per-page": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.openalex.org/works?search=CBDC+evidence+qualification+framework+prototype+deployment+validation&per-page=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-28T23:09:40Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "6472f27d3fed758c922257101aacf9ebffac855d35ea98a58b5b22d805411afe",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/prior-art-raw/Q005-openalex_works.json"
+    },
+    {
+      "query_id": "Q006-arxiv_api",
+      "source": "arxiv_api",
+      "endpoint": "https://export.arxiv.org/api/query",
+      "params": {
+        "search_query": "all:\"central bank digital currency\" AND (all:\"architecture agnostic\" OR all:interoperability OR all:checkpoint OR all:finalization OR all:finality)",
+        "start": 0,
+        "max_results": 25
+      },
+      "request_url": "https://export.arxiv.org/api/query?search_query=all%3A%22central+bank+digital+currency%22+AND+%28all%3A%22architecture+agnostic%22+OR+all%3Ainteroperability+OR+all%3Acheckpoint+OR+all%3Afinalization+OR+all%3Afinality%29&start=0&max_results=25",
+      "checked_date": "2026-08-28T23:23:12Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "224f52d493e4796da7f680acfb97430e76dcd014b77947e130b827900de2b27f",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/prior-art-raw/Q006-arxiv_api.xml",
+      "query_semantics": "EXACT_CBDC_PHRASE_WITH_EXPLICIT_BOOLEAN_SCOPING",
+      "legacy_query_replaced": true
+    },
+    {
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "endpoint": "https://api.crossref.org/works",
+      "params": {
+        "query.bibliographic": "CBDC architecture agnostic interoperability checkpoint reserve lock finalize",
+        "rows": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.crossref.org/works?query.bibliographic=CBDC+architecture+agnostic+interoperability+checkpoint+reserve+lock+finalize&rows=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-28T23:09:43Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "69595146037ef9097ae7a1635ed9a5c3246ce883afaa070484a5ea59a97742ec",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/prior-art-raw/Q006-crossref_rest_v1.json"
+    },
+    {
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "endpoint": "https://api.openalex.org/works",
+      "params": {
+        "search": "CBDC architecture agnostic interoperability checkpoint reserve lock finalize",
+        "per-page": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.openalex.org/works?search=CBDC+architecture+agnostic+interoperability+checkpoint+reserve+lock+finalize&per-page=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-28T23:09:44Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "1e657a5b63cb9637da8a66f21a15b136bd3b36ae78f162d9c0e6737dcae286ca",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/prior-art-raw/Q006-openalex_works.json"
+    }
+  ],
+  "arxiv_query_repair": {
+    "status": "APPLIED",
+    "reason": "legacy ungrouped arXiv strings were parsed as broad OR expressions",
+    "backup_path": "/Users/rainbow/Documents/ZTech/Research/CBDC_Journal_Submission/research-case/01-novelty/pre-arxiv-query-repair-2026-08-29",
+    "scientific_verification_performed": false
+  }
+}
