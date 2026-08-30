@@ -46,7 +46,7 @@
 3. Corresponding author কে।
 4. Conflict-of-interest statement।
 5. সত্যনিষ্ঠ AI-use acknowledgement অনুমোদন বা সংশোধন। ব্যবহারকারী বর্তমান wording-এ `No` বলেছেন; actual AI use গোপন করা হবে না।
-6. GitHub private staging repository: `https://github.com/zmzubraj/composable-assurance-cbdc`; public visibility এবং DOI/Zenodo deposit এখনও author gate।
+6. GitHub public owner-authorized research repository: `https://github.com/zmzubraj/composable-assurance-cbdc`; DOI/Zenodo deposit এবং final content licence এখনও author gate।
 7. JFMI final target হিসেবে confirm করবেন কি না।
 
 ## Evidence boundary
