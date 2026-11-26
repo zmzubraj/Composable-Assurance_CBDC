@@ -4,8 +4,6 @@ Generated: 6 August 2026
 01_Manuscript/Blinded_Manuscript.pdf
 01_Manuscript/Main_Manuscript.docx
 01_Manuscript/Main_Manuscript.pdf
-02_Title_Page/Title_Page_and_Author_Information.docx
-03_Cover_Letter/Cover_Letter.pdf
 04_Figures/Figure_01_Composable_Assurance.pdf
 04_Figures/Figure_02_Architecture.pdf
 04_Figures/Figure_03_Cross_Border_Protocol.pdf
@@ -35,11 +33,5 @@ Generated: 6 August 2026
 08_Editorial_Materials/Graphical_Abstract.png
 08_Editorial_Materials/Novelty_and_Related_Work_Statement.pdf
 08_Editorial_Materials/Research_Highlights.txt
-08_Editorial_Materials/Suggested_Reviewers.xlsx
-09_Internal_Validation_Not_Submitted/Citation_Audit.xlsx
-09_Internal_Validation_Not_Submitted/Claim_Evidence_Matrix.xlsx
-09_Internal_Validation_Not_Submitted/Figure_Preflight_Report.pdf
-09_Internal_Validation_Not_Submitted/Plagiarism_Check.pdf
-09_Internal_Validation_Not_Submitted/Submission_Checklist.xlsx
 README.md
 SHA256SUMS.txt
